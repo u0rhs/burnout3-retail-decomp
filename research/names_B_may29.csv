@@ -1,0 +1,2578 @@
+elf_addr,name,source,from_map
+00100710,std::terminate(),MSLGCC_PS2.LIB nmwexception.o,DNAT
+00100740,std::duhandler(),MSLGCC_PS2.LIB nmwexception.o,DNAT
+00100770,std::dthandler(),MSLGCC_PS2.LIB nmwexception.o,DNAT
+00100790,__destroy_global_chain,MSLGCC_PS2.LIB staticinitializ,DNAT
+001007f0,__register_global_object,MSLGCC_PS2.LIB staticinitializ,DNAT
+00100810,__initialize_cpp_rts,MSLGCC_PS2.LIB staticinitializ,DNAT
+00100870,"__DecodeUnsignedNumber(char*,unsigned int*)",MSLGCC_PS2.LIB compressednumbe,DNAT
+00100910,"__DecodeSignedNumber(char*,int*)",MSLGCC_PS2.LIB compressednumbe,DNAT
+001009b0,__end__catch,MSLGCC_PS2.LIB exceptionhandle,DNAT
+001009f0,__ThrowHandler(ThrowContext*),MSLGCC_PS2.LIB exceptionhandle,DNAT
+00100b90,"FindExceptionHandler(ThrowContext*,ExceptionInfo*,long*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00100ea0,__unexpected,MSLGCC_PS2.LIB exceptionhandle,DNAT
+001010a0,std::bad_exception::~bad_exception(),MSLGCC_PS2.LIB exceptionhandle,DNAT
+00101100,"FindMostRecentException(ThrowContext*,ExceptionInfo*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00101270,"UnwindStack(ThrowContext*,ExceptionInfo*,char*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00101ad0,NextAction(ActionIterator*),MSLGCC_PS2.LIB exceptionhandle,DNAT
+00101e00,"FindExceptionRecord(char*,ExceptionInfo*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00101fc0,std::bad_exception::what() const,MSLGCC_PS2.LIB exceptionhandle,DNAT
+00101fd0,"__TransferControl(ThrowContext*,ExceptionInfo*,char*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00102040,__throw,MSLGCC_PS2.LIB exceptionhandle,DNAT
+001020c0,__SkipUnwindInfo(char*),MSLGCC_PS2.LIB exceptionhandle,DNAT
+00102120,"__FindExceptionTable(ExceptionInfo*,char*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00102140,"__SetupFrameInfo(ThrowContext*,ExceptionInfo*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00102200,"__PopStackFrame(ThrowContext*,ExceptionInfo*)",MSLGCC_PS2.LIB exceptionhandle,DNAT
+00102380,sceGsResetGraph,LIBGRAPH.A graph001.o/,DNAT
+00102510,sceGsGetGParam,LIBGRAPH.A graph001.o/,DNAT
+00102520,sceGsResetPath,LIBGRAPH.A graph002.o/,DNAT
+00102588,checkModelVersion,LIBGRAPH.A graph003.o/,DNAT
+00102628,_GetGsDxDyOffset,LIBGRAPH.A graph003.o/,DNAT
+00102638,sceGsSetDefDispEnv,LIBGRAPH.A graph003.o/,DNAT
+001029b0,sceGsPutDispEnv,LIBGRAPH.A graph004.o/,DNAT
+00102a70,sceGszbufaddr,LIBGRAPH.A graph005.o/,DNAT
+00102b38,sceGsSetDefDrawEnv,LIBGRAPH.A graph006.o/,DNAT
+00102d20,sceGsPutDrawEnv,LIBGRAPH.A graph008.o/,DNAT
+00102e08,sceGsSyncV,LIBGRAPH.A graph011.o/,DNAT
+00102e28,sceGsPutDrawEnv,LIBGRAPH.A graph008.o/,B3INTERN
+00102ea0,sceGsSyncPath,LIBGRAPH.A graph012.o/,DNAT
+00102f10,sceGsSetDefDBuff,LIBGRAPH.A graph009.o/,B3INTERN
+001031b8,sceGsSetDefStoreImage,LIBGRAPH.A graph016.o/,DNAT
+001032f8,sceGsExecStoreImage,LIBGRAPH.A graph018.o/,DNAT
+00103988,sceGsSetDefDrawEnv2,LIBGRAPH.A graph022.o/,DNAT
+00103b68,sceGsSwapDBuffDc,LIBGRAPH.A graph028.o/,DNAT
+00103bc8,WaitDma,LIBDMA.A libdma.o/,DNAT
+00103c38,WatchDma,LIBDMA.A libdma.o/,DNAT
+00103cc0,CheckAddress,LIBDMA.A libdma.o/,DNAT
+00103ce8,memclr,LIBDMA.A libdma.o/,DNAT
+00103d20,sceDmaGetChan,LIBDMA.A libdma.o/,DNAT
+00103d48,sceDmaReset,LIBDMA.A libdma.o/,DNAT
+00103e28,sceDmaPutEnv,LIBDMA.A libdma.o/,DNAT
+00104000,sceDmaGetEnv,LIBDMA.A libdma.o/,DNAT
+00104038,sceDmaPutStallAddr,LIBDMA.A libdma.o/,DNAT
+00104050,sceDmaSend,LIBDMA.A libdma.o/,DNAT
+001040b8,sceDmaSendN,LIBDMA.A libdma.o/,DNAT
+00104130,sceDmaSendI,LIBDMA.A libdma.o/,DNAT
+001041a8,sceDmaRecv,LIBDMA.A libdma.o/,DNAT
+001041f0,sceDmaRecvN,LIBDMA.A libdma.o/,DNAT
+00104270,sceDmaRecvI,LIBDMA.A libdma.o/,DNAT
+001042f0,sceDmaSync,LIBDMA.A libdma.o/,DNAT
+00104328,sceDmaWatch,LIBDMA.A libdma.o/,DNAT
+00104360,sceDmaPause,LIBDMA.A libdma.o/,DNAT
+001043f8,sceDmaRestart,LIBDMA.A libdma.o/,DNAT
+00104410,_motionComp0,LIBMPEG.A mpc.o/,DNAT
+00104660,_getAllRefs,LIBMPEG.A mpc.o/,DNAT
+00104d68,_getRef0,LIBMPEG.A mpc.o/,DNAT
+00105188,_doMC,LIBMPEG.A mpc.o/,DNAT
+001053a8,_rix_000,LIBMPEG.A mpc.o/,DNAT
+00105420,_ri0_000,LIBMPEG.A mpc.o/,DNAT
+001054b8,_rix_001,LIBMPEG.A mpc.o/,DNAT
+00105570,_ri0_001,LIBMPEG.A mpc.o/,DNAT
+00105640,_rix_010,LIBMPEG.A mpc.o/,DNAT
+001056f0,_ri0_010,LIBMPEG.A mpc.o/,DNAT
+001057a8,_rix_011,LIBMPEG.A mpc.o/,DNAT
+001058a0,_ri0_011,LIBMPEG.A mpc.o/,DNAT
+001059a0,_rix_100,LIBMPEG.A mpc.o/,DNAT
+00105a40,_ri0_100,LIBMPEG.A mpc.o/,DNAT
+00105af0,_rix_101,LIBMPEG.A mpc.o/,DNAT
+00105bd0,_ri0_101,LIBMPEG.A mpc.o/,DNAT
+00105cb8,_rix_110,LIBMPEG.A mpc.o/,DNAT
+00105d90,_ri0_110,LIBMPEG.A mpc.o/,DNAT
+00105e60,_rix_111,LIBMPEG.A mpc.o/,DNAT
+00105f80,_ri0_111,LIBMPEG.A mpc.o/,DNAT
+00106098,_copyAddRefImage,LIBMPEG.A mpc.o/,DNAT
+001060f8,_copyRefImage,LIBMPEG.A mpc.o/,DNAT
+00106158,_ipuSetMPEG1,LIBMPEG.A mpc.o/,DNAT
+00106180,_waitBdecOut,LIBMPEG.A mpc.o/,DNAT
+00106418,_dmVector,LIBMPEG.A mpc.o/,DNAT
+00106438,_dualPrimeVector,LIBMPEG.A mpc.o/,DNAT
+001065c0,_mbAddressIncrement,LIBMPEG.A mpc.o/,DNAT
+001066d0,_pictureData0,LIBMPEG.A mpc.o/,DNAT
+001067e8,_sliceA0,LIBMPEG.A mpc.o/,DNAT
+00106918,_slice0,LIBMPEG.A mpc.o/,DNAT
+00106b18,_skipMB0,LIBMPEG.A mpc.o/,DNAT
+00106bd8,_decMB0,LIBMPEG.A mpc.o/,DNAT
+00107080,_decode_motion_vector,LIBMPEG.A mpc.o/,DNAT
+00107108,_motionVectors,LIBMPEG.A mpc.o/,DNAT
+001072a8,_motionVector,LIBMPEG.A mpc.o/,DNAT
+001073f8,_sendIpuCommand,LIBMPEG.A mpc.o/,DNAT
+00107428,_waitIpuIdle,LIBMPEG.A mpc.o/,DNAT
+00107590,_waitIpuIdle64,LIBMPEG.A mpc.o/,DNAT
+00107718,_ipuVdec,LIBMPEG.A mpc.o/,DNAT
+00107988,_peepBit,LIBMPEG.A mpc.o/,DNAT
+00107aa8,_flushBuf,LIBMPEG.A mpc.o/,DNAT
+00107bb8,_nextBit,LIBMPEG.A mpc.o/,DNAT
+00107d28,_nextStartCode,LIBMPEG.A mpc.o/,DNAT
+00107da8,_sliceB,LIBMPEG.A mpc.o/,DNAT
+00107e10,_nextHeader,LIBMPEG.A mpc.o/,DNAT
+00107f30,_pictureHeader,LIBMPEG.A mpc.o/,DNAT
+00107ff8,_extensionAndUserData,LIBMPEG.A mpc.o/,DNAT
+00108120,_pictureCodingExtension,LIBMPEG.A mpc.o/,DNAT
+00108310,_extrainfo,LIBMPEG.A mpc.o/,DNAT
+00108358,_updateTempTackData,LIBMPEG.A mpc.o/,DNAT
+001083d0,_groupOfPicturesHeader,LIBMPEG.A mpc.o/,DNAT
+00108470,_quantMatrixExtension,LIBMPEG.A mpc.o/,DNAT
+00108538,_pictureDisplayExtension,LIBMPEG.A mpc.o/,DNAT
+00108630,_copyrightExtension,LIBMPEG.A mpc.o/,DNAT
+001086c0,_decPicture,LIBMPEG.A mpc.o/,DNAT
+00108790,_outputFrame,LIBMPEG.A mpc.o/,DNAT
+00108820,_updateRefImage,LIBMPEG.A mpc.o/,DNAT
+00108ad8,_isOutSizeOK,LIBMPEG.A mpc.o/,DNAT
+00108b78,_cpr8,LIBMPEG.A mpc.o/,DNAT
+00108e08,_markOutput,LIBMPEG.A mpc.o/,DNAT
+00108e30,_getPtsDtsFlags,LIBMPEG.A mpc.o/,DNAT
+00108fa8,_dispRefImage,LIBMPEG.A mpc.o/,DNAT
+001090b8,_dispRefImageField,LIBMPEG.A mpc.o/,DNAT
+00109270,dmaRefImage,LIBMPEG.A mpc.o/,DNAT
+001093e0,receiveDataFromIPU,LIBMPEG.A mpc.o/,DNAT
+00109468,_doCSC,LIBMPEG.A csc.o/,DNAT
+00109590,_ch3dmaCSC,LIBMPEG.A csc.o/,DNAT
+001096d8,_doCSC2,LIBMPEG.A csc.o/,DNAT
+00109898,_ch4dma,LIBMPEG.A csc.o/,DNAT
+00109970,_csc_storeRefImage,LIBMPEG.A csc.o/,DNAT
+00109bf8,sceMpegInit,LIBMPEG.A mpeg.o/,DNAT
+00109ca8,sceMpegCreate,LIBMPEG.A mpeg.o/,DNAT
+00109eb8,sceMpegDelete,LIBMPEG.A mpeg.o/,DNAT
+00109ec0,sceMpegAddBs,LIBMPEG.A mpeg.o/,DNAT
+00109f00,sceMpegGetPicture,LIBMPEG.A mpeg.o/,DNAT
+00109f48,sceMpegGetPictureRAW8,LIBMPEG.A mpeg.o/,DNAT
+00109f90,sceMpegGetPictureRAW8xy,LIBMPEG.A mpeg.o/,DNAT
+00109fe0,sceMpegGetPictureAbort,LIBMPEG.A mpeg.o/,DNAT
+00109ff0,sceMpegSetDecodeMode,LIBMPEG.A mpeg.o/,DNAT
+0010a008,sceMpegGetDecodeMode,LIBMPEG.A mpeg.o/,DNAT
+0010a028,sceMpegIsEnd,LIBMPEG.A mpeg.o/,DNAT
+0010a038,sceMpegIsRefBuffEmpty,LIBMPEG.A mpeg.o/,DNAT
+0010a048,sceMpegReset,LIBMPEG.A mpeg.o/,DNAT
+0010a0a8,sceMpegClearRefBuff,LIBMPEG.A mpeg.o/,DNAT
+0010a100,sceMpegAddCallback,LIBMPEG.A mpeg.o/,DNAT
+0010a138,_dispatchMpegCallback,LIBMPEG.A mpeg.o/,DNAT
+0010a1b0,_dispatchMpegCbNodata,LIBMPEG.A mpeg.o/,DNAT
+0010a1d8,sceMpegSetDefaultPtsGap,LIBMPEG.A mpeg.o/,DNAT
+0010a1f0,sceMpegResetDefaultPtsGap,LIBMPEG.A mpeg.o/,DNAT
+0010a208,sceMpegSetImageBuff,LIBMPEG.A mpeg.o/,DNAT
+0010a218,sceMpegDispWidth,LIBMPEG.A mpeg.o/,DNAT
+0010a228,sceMpegDispHeight,LIBMPEG.A mpeg.o/,DNAT
+0010a238,sceMpegDispCenterOffX,LIBMPEG.A mpeg.o/,DNAT
+0010a248,sceMpegDispCenterOffY,LIBMPEG.A mpeg.o/,DNAT
+0010a258,sceSetBrokenLink,LIBMPEG.A mpeg.o/,DNAT
+0010a268,sceSetPtm,LIBMPEG.A mpeg.o/,DNAT
+0010a280,_alalcInit,LIBMPEG.A mpeg.o/,DNAT
+0010a298,_alalcSetDynamic,LIBMPEG.A mpeg.o/,DNAT
+0010a2a8,_alalcFree,LIBMPEG.A mpeg.o/,DNAT
+0010a2b8,_alalcAlloc,LIBMPEG.A mpeg.o/,DNAT
+0010a328,_alalcRest,LIBMPEG.A mpeg.o/,DNAT
+0010a340,_getpic,LIBMPEG.A mpeg.o/,DNAT
+0010a4f8,_decodeOrSkipFrame,LIBMPEG.A mpeg.o/,DNAT
+0010a618,_decodeOrSkip,LIBMPEG.A mpeg.o/,DNAT
+0010a660,_decodeOrSkipField,LIBMPEG.A mpeg.o/,DNAT
+0010a7d8,_sceMpegFlush,LIBMPEG.A mpeg.o/,DNAT
+0010a840,_initSeqAgain,LIBMPEG.A init.o/,DNAT
+0010a850,_lastFrame,LIBMPEG.A init.o/,DNAT
+0010a8d0,_clearOnce,LIBMPEG.A init.o/,DNAT
+0010a930,_clearEach,LIBMPEG.A init.o/,B3INTERN
+0010a9f8,_ErrMessage,LIBMPEG.A init.o/,B3INTERN
+0010aa08,_Error1,LIBMPEG.A init.o/,B3INTERN
+0010aa40,_Error,LIBMPEG.A init.o/,B3INTERN
+0010b348,_defStopDMA,LIBMPEG.A defhandler.o/,B3INTERN
+0010b370,_defRestartDMA,LIBMPEG.A defhandler.o/,B3INTERN
+0010b398,setD3_CHCR,LIBIPU.A libipu.o/,B3INTERN
+0010b410,setD4_CHCR,LIBIPU.A libipu.o/,B3INTERN
+0010b488,sceIpuStopDMA,LIBIPU.A libipu.o/,B3INTERN
+0010b570,sceIpuRestartDMA,LIBIPU.A libipu.o/,B3INTERN
+0010b6c0,sceIpuSync,LIBIPU.A libipu.o/,B3INTERN
+0010b728,setD4_CHCR,LIBIPU.A ipuinit.o/,B3INTERN
+0010b7a0,sceIpuInit,LIBIPU.A ipuinit.o/,B3INTERN
+0010b9d8,scePcStart,LIBPC.A libpc.o/,B3INTERN
+0010ba50,scePcStop,LIBPC.A libpc.o/,B3INTERN
+0010ba80,RFU000_FullReset,Libkernl.a klib.o/,B3INTERN
+0010c230,sceSifGetReg,Libkernl.a klib.o/,DNAT
+0010c240,_ExecOSD,Libkernl.a klib.o/,DNAT
+0010c250,Deci2Call,Libkernl.a klib.o/,DNAT
+0010c260,PSMode,Libkernl.a klib.o/,DNAT
+0010c270,MachineType,Libkernl.a klib.o/,DNAT
+0010c280,GetMemorySize,Libkernl.a klib.o/,DNAT
+0010c290,_InitTLB,Libkernl.a klib.o/,DNAT
+0010c2a0,sceResetttyinit,Libkernl.a glue.o/,DNAT
+0010c2b0,VSync,Libkernl.a glue.o/,DNAT
+0010c340,VSync2,Libkernl.a glue.o/,DNAT
+0010c3e8,write,Libkernl.a glue.o/,DNAT
+0010c468,read,Libkernl.a glue.o/,DNAT
+0010c4e0,open,Libkernl.a glue.o/,DNAT
+0010c508,close,Libkernl.a glue.o/,DNAT
+0010c510,ioctl,Libkernl.a glue.o/,DNAT
+0010c518,lseek,Libkernl.a glue.o/,DNAT
+0010c520,sbrk,Libkernl.a glue.o/,DNAT
+0010c5d0,isatty,Libkernl.a glue.o/,DNAT
+0010c5d8,fstat,Libkernl.a glue.o/,DNAT
+0010c5f0,getpid,Libkernl.a glue.o/,DNAT
+0010c5f8,kill,Libkernl.a glue.o/,DNAT
+0010c620,stat,Libkernl.a glue.o/,DNAT
+0010c648,unlink,Libkernl.a glue.o/,DNAT
+0010c670,_sceSDC,Libkernl.a cache.o/,DNAT
+0010c718,SyncDCache,Libkernl.a cache.o/,DNAT
+0010c798,iSyncDCache,Libkernl.a cache.o/,DNAT
+0010c7b0,_sceIDC,Libkernl.a cache.o/,DNAT
+0010c858,InvalidDCache,Libkernl.a cache.o/,DNAT
+0010c8d8,iInvalidDCache,Libkernl.a cache.o/,DNAT
+0010c8f0,QueryIntrContext,Libkernl.a intr.o/,DNAT
+0010c900,DisableIntc,Libkernl.a intr.o/,DNAT
+0010c968,EnableIntc,Libkernl.a intr.o/,DNAT
+0010c9d0,DisableDmac,Libkernl.a intr.o/,DNAT
+0010ca38,EnableDmac,Libkernl.a intr.o/,DNAT
+0010caa0,iEnableIntc,Libkernl.a intr.o/,DNAT
+0010cac0,iDisableIntc,Libkernl.a intr.o/,DNAT
+0010cae0,iEnableDmac,Libkernl.a intr.o/,DNAT
+0010cb00,iDisableDmac,Libkernl.a intr.o/,DNAT
+0010cb20,topThread,Libkernl.a thread.o/,DNAT
+0010cbf8,InitThread,Libkernl.a thread.o/,DNAT
+0010ccd0,iWakeupThread,Libkernl.a thread.o/,DNAT
+0010cd68,iRotateThreadReadyQueue,Libkernl.a thread.o/,DNAT
+0010cde8,iSuspendThread,Libkernl.a thread.o/,DNAT
+0010ce80,DelayThread,Libkernl.a thread.o/,DNAT
+0010cf48,_DelayThreadHandler,Libkernl.a thread.o/,DNAT
+0010cf70,sceDeci2Open,Libkernl.a deci2.o/,DNAT
+0010cfb8,sceDeci2Close,Libkernl.a deci2.o/,DNAT
+0010cfe0,sceDeci2ReqSend,Libkernl.a deci2.o/,DNAT
+0010d010,sceDeci2Poll,Libkernl.a deci2.o/,DNAT
+0010d038,sceDeci2GrpOpen,Libkernl.a deci2.o/,DNAT
+0010d068,sceDeci2GrpClose,Libkernl.a deci2.o/,DNAT
+0010d090,sceDeci2ExRecv,Libkernl.a deci2.o/,DNAT
+0010d0c8,sceDeci2ExSend,Libkernl.a deci2.o/,DNAT
+0010d100,sceDeci2ExReqSend,Libkernl.a deci2.o/,DNAT
+0010d130,sceDeci2ExLock,Libkernl.a deci2.o/,DNAT
+0010d158,sceDeci2ExUnLock,Libkernl.a deci2.o/,DNAT
+0010d180,kputs,Libkernl.a deci2.o/,DNAT
+0010d1a8,QueueInit,Libkernl.a tty.o/,DNAT
+0010d1d0,QueuePeekWriteDone,Libkernl.a tty.o/,DNAT
+0010d210,QueuePeekReadDone,Libkernl.a tty.o/,DNAT
+0010d250,sceTtyHandler,Libkernl.a tty.o/,DNAT
+0010d3e8,sceTtyWrite,Libkernl.a tty.o/,DNAT
+0010d560,sceTtyRead,Libkernl.a tty.o/,DNAT
+0010d630,sceTtyInit,Libkernl.a tty.o/,DNAT
+0010d6f0,kputchar,Libkernl.a kprintf.o/,DNAT
+0010d730,deci2Putchar,Libkernl.a kprintf.o/,DNAT
+0010d7e0,serialPutchar,Libkernl.a kprintf.o/,DNAT
+0010d818,ftoi,Libkernl.a kprintf.o/,DNAT
+0010d8b0,printfloat,Libkernl.a kprintf.o/,DNAT
+0010da18,_printf,Libkernl.a kprintf.o/,DNAT
+0010e010,kprintf,Libkernl.a kprintf.o/,DNAT
+0010e048,scePrintf,Libkernl.a kprintf.o/,DNAT
+0010e0a8,_set_sreg,Libkernl.a sifcmd.o/,DNAT
+0010e0c8,_change_addr,Libkernl.a sifcmd.o/,DNAT
+0010e0d8,sceSifGetSreg,Libkernl.a sifcmd.o/,DNAT
+0010e0f0,sceSifSetSreg,Libkernl.a sifcmd.o/,DNAT
+0010e110,sceSifGetDataTable,Libkernl.a sifcmd.o/,DNAT
+0010e120,sceSifInitCmd,Libkernl.a sifcmd.o/,DNAT
+0010e3a0,sceSifExitCmd,Libkernl.a sifcmd.o/,DNAT
+0010e3d8,sceSifSetCmdBuffer,Libkernl.a sifcmd.o/,DNAT
+0010e3f0,sceSifSetSysCmdBuffer,Libkernl.a sifcmd.o/,DNAT
+0010e408,sceSifAddCmdHandler,Libkernl.a sifcmd.o/,DNAT
+0010e480,sceSifRemoveCmdHandler,Libkernl.a sifcmd.o/,DNAT
+0010e4d0,_sceSifSendCmd,Libkernl.a sifcmd.o/,DNAT
+0010e608,sceSifSendCmd,Libkernl.a sifcmd.o/,DNAT
+0010e648,isceSifSendCmd,Libkernl.a sifcmd.o/,DNAT
+0010e688,_sceSifCmdIntrHdlr,Libkernl.a sifcmd.o/,DNAT
+0010e7d0,sceSifWriteBackDCache,Libkernl.a sifcmd.o/,DNAT
+0010e880,sceSifInitRpc,Libkernl.a sifrpc.o/,DNAT
+0010ea20,sceSifExitRpc,Libkernl.a sifrpc.o/,DNAT
+0010ea48,_sceRpcGetPacket,Libkernl.a sifrpc.o/,DNAT
+0010eaf0,_sceRpcFreePacket,Libkernl.a sifrpc.o/,DNAT
+0010eb10,_sceRpcGetFPacket,Libkernl.a sifrpc.o/,DNAT
+0010eb40,_sceRpcGetFPacket2,Libkernl.a sifrpc.o/,DNAT
+0010eb80,_request_end,Libkernl.a sifrpc.o/,DNAT
+0010ec50,_alarm_rdata,Libkernl.a sifrpc.o/,DNAT
+0010ec90,_request_rdata,Libkernl.a sifrpc.o/,DNAT
+0010ed60,sceSifGetOtherData,Libkernl.a sifrpc.o/,DNAT
+0010eeb8,_search_svdata,Libkernl.a sifrpc.o/,DNAT
+0010ef08,_alarm_bind,Libkernl.a sifrpc.o/,DNAT
+0010ef48,_request_bind,Libkernl.a sifrpc.o/,DNAT
+0010f018,sceSifBindRpc,Libkernl.a sifrpc.o/,DNAT
+0010f158,_request_call,Libkernl.a sifrpc.o/,DNAT
+0010f1e8,sceSifCallRpc,Libkernl.a sifrpc.o/,DNAT
+0010f3e0,sceSifCheckStatRpc,Libkernl.a sifrpc.o/,DNAT
+0010f420,sceSifSetRpcQueue,Libkernl.a sifrpc.o/,DNAT
+0010f4b8,sceSifRegisterRpc,Libkernl.a sifrpc.o/,DNAT
+0010f588,sceSifRemoveRpc,Libkernl.a sifrpc.o/,DNAT
+0010f620,sceSifRemoveRpcQueue,Libkernl.a sifrpc.o/,DNAT
+0010f6b0,sceSifGetNextRequest,Libkernl.a sifrpc.o/,DNAT
+0010f708,sceSifExecRequest,Libkernl.a sifrpc.o/,DNAT
+0010f8d0,sceSifRpcLoop,Libkernl.a sifrpc.o/,DNAT
+0010f910,_sceFsIobSemaMK,Libkernl.a filestub.o/,DNAT
+0010f970,new_iob,Libkernl.a filestub.o/,DNAT
+0010f9f8,get_iob,Libkernl.a filestub.o/,DNAT
+0010fa68,_sceFs_Rcv_Intr,Libkernl.a filestub.o/,DNAT
+0010fe20,_sceFsSemInit,Libkernl.a filestub.o/,DNAT
+0010fe70,_sceFsWaitS,Libkernl.a filestub.o/,DNAT
+0010fea0,_sceFsSigSema,Libkernl.a filestub.o/,DNAT
+0010feb0,scePowerOffHandler,Libkernl.a filestub.o/,DNAT
+0010ff58,_sceFs_Poff_Intr,Libkernl.a filestub.o/,DNAT
+0010ffa0,sceFsInit,Libkernl.a filestub.o/,DNAT
+001101a8,_fs_version,Libkernl.a filestub.o/,DNAT
+00110238,sceFsReset,Libkernl.a filestub.o/,DNAT
+00110270,sceOpen,Libkernl.a filestub.o/,DNAT
+001104f8,sceClose,Libkernl.a filestub.o/,DNAT
+00110678,sceLseek,Libkernl.a filestub.o/,DNAT
+001108b0,sceRead,Libkernl.a filestub.o/,DNAT
+00110b10,sceWrite,Libkernl.a filestub.o/,DNAT
+00110dd0,sceIoctl,Libkernl.a filestub.o/,DNAT
+00111148,sceIoctl2,Libkernl.a filestub.o/,DNAT
+00111328,_sceCallCode,Libkernl.a filestub.o/,DNAT
+001114d0,sceRemove,Libkernl.a filestub.o/,DNAT
+001114f0,sceMkdir,Libkernl.a filestub.o/,DNAT
+001116a0,sceRmdir,Libkernl.a filestub.o/,DNAT
+001116c0,sceFormat,Libkernl.a filestub.o/,DNAT
+00111930,sceAddDrv,Libkernl.a filestub.o/,DNAT
+00111a50,sceDelDrv,Libkernl.a filestub.o/,DNAT
+00111a70,sceDopen,Libkernl.a filestub.o/,DNAT
+00111b38,sceDclose,Libkernl.a filestub.o/,DNAT
+00111ca0,sceDread,Libkernl.a filestub.o/,DNAT
+00111df8,sceGetstat,Libkernl.a filestub.o/,DNAT
+00111f98,sceChstat,Libkernl.a filestub.o/,DNAT
+001121d8,sceRename,Libkernl.a filestub.o/,DNAT
+001123c8,sceChdir,Libkernl.a filestub.o/,DNAT
+001123e8,sceSync,Libkernl.a filestub.o/,DNAT
+00112580,sceMount,Libkernl.a filestub.o/,DNAT
+001127f0,sceUmount,Libkernl.a filestub.o/,DNAT
+00112810,sceLseek64,Libkernl.a filestub.o/,DNAT
+00112a48,sceDevctl,Libkernl.a filestub.o/,DNAT
+00112c80,sceSymlink,Libkernl.a filestub.o/,DNAT
+00112e60,sceReadlink,Libkernl.a filestub.o/,DNAT
+00113028,sceSifInitIopHeap,Libkernl.a iopheap.o/,DNAT
+001130b0,sceSifAllocIopHeap,Libkernl.a iopheap.o/,DNAT
+00113120,sceSifAllocSysMemory,Libkernl.a iopheap.o/,DNAT
+001131a0,sceSifFreeSysMemory,Libkernl.a iopheap.o/,DNAT
+00113218,sceSifFreeIopHeap,Libkernl.a iopheap.o/,DNAT
+00113238,sceSifLoadIopHeap,Libkernl.a iopheap.o/,DNAT
+00113328,sceSifQueryMemSize,Libkernl.a iopheap.o/,DNAT
+00113398,sceSifQueryMaxFreeMemSize,Libkernl.a iopheap.o/,DNAT
+00113408,sceSifQueryTotalFreeMemSize,Libkernl.a iopheap.o/,DNAT
+00113478,sceSifQueryBlockTopAddress,Libkernl.a iopheap.o/,DNAT
+001134f8,sceSifQueryBlockSize,Libkernl.a iopheap.o/,DNAT
+00113578,_lf_bind,Libkernl.a eeloadfile.o/,DNAT
+00113678,_lf_version,Libkernl.a eeloadfile.o/,DNAT
+00113708,sceSifLoadFileReset,Libkernl.a eeloadfile.o/,DNAT
+00113740,_sceSifLoadModuleBuffer,Libkernl.a eeloadfile.o/,DNAT
+00113948,sceSifStopModule,Libkernl.a eeloadfile.o/,DNAT
+00113b50,sceSifUnloadModule,Libkernl.a eeloadfile.o/,DNAT
+00113be0,sceSifSearchModuleByName,Libkernl.a eeloadfile.o/,DNAT
+00113c80,sceSifSearchModuleByAddress,Libkernl.a eeloadfile.o/,DNAT
+00113d10,sceSifLoadModuleBuffer,Libkernl.a eeloadfile.o/,DNAT
+00113d30,sceSifLoadStartModuleBuffer,Libkernl.a eeloadfile.o/,DNAT
+00113d50,_sceSifLoadModule,Libkernl.a eeloadfile.o/,DNAT
+00113f78,sceSifLoadModule,Libkernl.a eeloadfile.o/,DNAT
+00113f98,sceSifLoadStartModule,Libkernl.a eeloadfile.o/,DNAT
+00113fb8,_sceSifLoadElfPart,Libkernl.a eeloadfile.o/,DNAT
+001140c0,sceSifLoadElfPart,Libkernl.a eeloadfile.o/,DNAT
+001140e0,sceSifLoadElf,Libkernl.a eeloadfile.o/,DNAT
+00114108,sceSifGetIopAddr,Libkernl.a eeloadfile.o/,DNAT
+001141f8,sceSifSetIopAddr,Libkernl.a eeloadfile.o/,DNAT
+001142d8,sceSifResetIop,Libkernl.a iopreset.o/,DNAT
+00114430,sceSifIsAliveIop,Libkernl.a iopreset.o/,DNAT
+00114458,sceSifSyncIop,Libkernl.a iopreset.o/,DNAT
+001144a8,sceSifRebootIop,Libkernl.a iopreset.o/,DNAT
+001145b8,SetTLBHandler,Libkernl.a tlbfunc.o/,DNAT
+00114618,SetDebugHandler,Libkernl.a tlbfunc.o/,DNAT
+001146a0,Copy,Libkernl.a tlbfunc.o/,DNAT
+001146b0,kCopy,Libkernl.a tlbfunc.o/,DNAT
+001146e8,GetEntryAddress,Libkernl.a tlbfunc.o/,DNAT
+001146f8,setup,Libkernl.a tlbfunc.o/,DNAT
+00114708,InitTLBFunctions,Libkernl.a tlbfunc.o/,DNAT
+001147d0,PutTLBEntry,Libkernl.a tlbfunc.o/,B3INTERN
+001147e0,iPutTLBEntry,Libkernl.a tlbfunc.o/,B3INTERN
+00114b00,_kTLBException,Libkernl.a tlbtrap.o/,DNAT
+00114c40,_kExitTLBHandler,Libkernl.a tlbtrap.o/,DNAT
+00114d40,_kDebugException,Libkernl.a tlbtrap.o/,DNAT
+00114e60,DIntr,Libkernl.a diei.o/,DNAT
+00114eb8,EIntr,Libkernl.a diei.o/,DNAT
+00114ed0,supplement_crt0,Libkernl.a initsys.o/,DNAT
+00114f18,__sceKernlGetEhSemaId,Libkernl.a initsys.o/,DNAT
+00114f28,Copy,Libkernl.a initsys.o/,DNAT
+00114f38,kCopy,Libkernl.a initsys.o/,DNAT
+00114f70,kFindAddress,Libkernl.a initsys.o/,DNAT
+00114fb0,FindAddress,Libkernl.a initsys.o/,DNAT
+00114fc0,GetSystemCallEntry,Libkernl.a initsys.o/,DNAT
+00114ff8,InitSystemCallTableAddress,Libkernl.a initsys.o/,DNAT
+001150f8,setup,Libkernl.a initsys.o/,DNAT
+00115108,_InitSys,Libkernl.a initsys.o/,DNAT
+00115160,setup,Libkernl.a libosd.o/,DNAT
+00115170,Copy,Libkernl.a libosd.o/,DNAT
+00115180,kCopy,Libkernl.a libosd.o/,DNAT
+001151b8,GetEntryAddress,Libkernl.a libosd.o/,DNAT
+001151c8,PatchIsNeeded,Libkernl.a libosd.o/,DNAT
+00115230,InitExecPS2,Libkernl.a libosd.o/,DNAT
+001152e0,Copy,Libkernl.a exit.o/,DNAT
+001152f0,kCopy,Libkernl.a exit.o/,DNAT
+00115320,setup,Libkernl.a exit.o/,DNAT
+00115330,SetArg,Libkernl.a exit.o/,B3INTERN
+00115448,TerminateLibrary,Libkernl.a exit.o/,B3INTERN
+00115750,SetT2_COMP,Libkernl.a timer.o/,B3INTERN
+00115760,InitTimer,Libkernl.a timer.o/,B3INTERN
+001158b8,EndTimer,Libkernl.a timer.o/,B3INTERN
+00115970,GetTimerPreScaleFactor,Libkernl.a timer.o/,B3INTERN
+001159a0,StartTimerSystemTime,Libkernl.a timer.o/,B3INTERN
+00115a30,StopTimerSystemTime,Libkernl.a timer.o/,B3INTERN
+00115ab0,SetNextComp,Libkernl.a timer.o/,B3INTERN
+00115c40,InsertAlarm,Libkernl.a timer.o/,B3INTERN
+00115cc8,UnlinkAlarm,Libkernl.a timer.o/,B3INTERN
+00115d00,cbTimerHandler,Libkernl.a timer.o/,B3INTERN
+00115fa0,iGetTimerSystemTime,Libkernl.a timer.o/,DNAT
+00115ff0,GetTimerSystemTime,Libkernl.a timer.o/,DNAT
+00116070,iAllocTimerCounter,Libkernl.a timer.o/,DNAT
+001160e0,AllocTimerCounter,Libkernl.a timer.o/,DNAT
+00116128,iFreeTimerCounter,Libkernl.a timer.o/,DNAT
+001161c8,FreeTimerCounter,Libkernl.a timer.o/,DNAT
+00116218,iGetTimerUsedUnusedCounters,Libkernl.a timer.o/,DNAT
+00116268,GetTimerUsedUnusedCounters,Libkernl.a timer.o/,DNAT
+001162c8,iStartTimerCounter,Libkernl.a timer.o/,DNAT
+00116378,StartTimerCounter,Libkernl.a timer.o/,DNAT
+001163c8,iStopTimerCounter,Libkernl.a timer.o/,DNAT
+00116490,StopTimerCounter,Libkernl.a timer.o/,DNAT
+001164e0,SetTimerCount,Libkernl.a timer.o/,DNAT
+001165b0,iGetTimerBaseTime,Libkernl.a timer.o/,DNAT
+001165f8,GetTimerBaseTime,Libkernl.a timer.o/,DNAT
+00116648,iGetTimerCount,Libkernl.a timer.o/,DNAT
+001166b8,GetTimerCount,Libkernl.a timer.o/,DNAT
+00116708,iSetTimerHandler,Libkernl.a timer.o/,DNAT
+00116800,SetTimerHandler,Libkernl.a timer.o/,DNAT
+00116880,TimerBusClock2USec,Libkernl.a timer.o/,DNAT
+00116928,TimerUSec2BusClock,Libkernl.a timer.o/,DNAT
+00116998,TimerBusClock2Freq,Libkernl.a timer.o/,DNAT
+001169f0,TimerFreq2BusClock,Libkernl.a timer.o/,DNAT
+00116a28,_InitAlarm,Libkernl.a timeralarm.o/,DNAT
+00116a78,AlarmHandler,Libkernl.a timeralarm.o/,DNAT
+00116ad8,SetTimerAlarm,Libkernl.a timeralarm.o/,DNAT
+00116c08,iSetTimerAlarm,Libkernl.a timeralarm.o/,DNAT
+00116cf8,ReleaseTimerAlarm,Libkernl.a timeralarm.o/,DNAT
+00116da0,iReleaseTimerAlarm,Libkernl.a timeralarm.o/,DNAT
+00116e18,sceSifInitRebootNotify,Libkernl.a iopnotify.o/,DNAT
+00116e40,sceSifSetRebootNotifyBuffer,Libkernl.a iopnotify.o/,DNAT
+00116ec0,sceSifAddRebootNotifyHandler,Libkernl.a iopnotify.o/,DNAT
+00116f78,sceSifRemoveRebootNotifyHandler,Libkernl.a iopnotify.o/,DNAT
+00116fd0,sceSifExecNotifyHandler,Libkernl.a iopnotify.o/,DNAT
+00117078,__ieee754_acos,LIBM.A e_acos.o/,DNAT
+001177a0,__ieee754_exp,LIBM.A e_exp.o/,DNAT
+00117c40,__ieee754_log,LIBM.A e_log.o/,DNAT
+00118248,__ieee754_log10,LIBM.A e_log10.o/,DNAT
+001183f8,__ieee754_pow,LIBM.A e_pow.o/,DNAT
+00119348,__ieee754_rem_pio2,LIBM.A e_rem_pio2.o/,DNAT
+00119900,__ieee754_sqrt,LIBM.A e_sqrt.o/,DNAT
+00119c20,__ieee754_acosf,LIBM.A ef_acos.o/,DNAT
+0011a048,__ieee754_asinf,LIBM.A ef_asin.o/,DNAT
+0011a3e8,__ieee754_atan2f,LIBM.A ef_atan2.o/,DNAT
+0011a5c8,__ieee754_logf,LIBM.A ef_log.o/,DNAT
+0011a8a8,__ieee754_powf,LIBM.A ef_pow.o/,DNAT
+0011b088,__ieee754_rem_pio2f,LIBM.A ef_rem_pio2.o/,DNAT
+0011b438,__ieee754_sqrtf,LIBM.A ef_sqrt.o/,DNAT
+0011b508,__kernel_cos,LIBM.A k_cos.o/,B3INTERN
+0011b7e0,__kernel_rem_pio2,LIBM.A k_rem_pio2.o/,B3INTERN
+0011d670,isinf,LIBM.A s_isinf.o/,DNAT
+0011d6b8,isnan,LIBM.A s_isnan.o/,DNAT
+0011d6f8,scalbn,LIBM.A s_scalbn.o/,DNAT
+0011d8e0,atanf,LIBM.A sf_atan.o/,DNAT
+0011db70,ceilf,LIBM.A sf_ceil.o/,DNAT
+0011dc48,copysignf,LIBM.A sf_copysign.o/,DNAT
+0011dc88,cosf,LIBM.A sf_cos.o/,DNAT
+0011dd60,fabsf,LIBM.A sf_fabs.o/,DNAT
+0011dd88,floorf,LIBM.A sf_floor.o/,DNAT
+0011de60,scalbnf,LIBM.A sf_scalbn.o/,DNAT
+0011df28,sinf,LIBM.A sf_sin.o/,DNAT
+0011e010,tanf,LIBM.A sf_tan.o/,DNAT
+0011e3f8,sceCdInitEeCB,libcdvd.a cdvd000.o/,B3INTERN
+0011e4c8,_sceCd_cd_read_intr,libcdvd.a cdvd000.o/,B3INTERN
+0011e580,cmd_sem_init,libcdvd.a cdvd000.o/,B3INTERN
+0011e638,cdvd_exit,libcdvd.a cdvd000.o/,B3INTERN
+0011e6d8,sceCdPOffCallback,libcdvd.a cdvd000.o/,B3INTERN
+0011e758,_sceCd_Poff_Intr,libcdvd.a cdvd000.o/,B3INTERN
+0011e7b0,PowerOffCB,libcdvd.a cdvd000.o/,B3INTERN
+0011e828,sceCdLayerSearchFile,libcdvd.a cdvd000.o/,B3INTERN
+0011eb40,sceCdSearchFile,libcdvd.a cdvd000.o/,B3INTERN
+0011eb60,_sceCd_ncmd_prechk,libcdvd.a cdvd000.o/,B3INTERN
+0011ecd0,sceCdNcmdDiskReady,libcdvd.a cdvd000.o/,B3INTERN
+0011ed68,sceCdSync,libcdvd.a cdvd000.o/,B3INTERN
+0011f970,atoi,libg.a atoi.o/,B3INTERN
+0011f998,atol,libg.a atol.o/,B3INTERN
+0011f9b8,bcopy,libg.a bcopy.o/,B3INTERN
+0011f9d8,calloc,libg.a calloc.o/,B3INTERN
+0011fa40,_calloc_r,libg.a callocr.o/,B3INTERN
+0011faf8,_close_r,libg.a closer.o/,B3INTERN
+0011fb50,quorem,libg.a dtoa.o/,B3INTERN
+0011fd80,_dtoa_r,libg.a dtoa.o/,B3INTERN
+00120fe8,__errno,libg.a errno.o/,B3INTERN
+00120ff8,exit,libg.a exit.o/,B3INTERN
+001210a8,fclose,libg.a fclose.o/,DNAT
+001211a8,feof,libg.a feof.o/,DNAT
+001211b8,fflush,libg.a fflush.o/,DNAT
+001212d0,fgets,libg.a fgets.o/,DNAT
+00121408,std,libg.a findfp.o/,DNAT
+00121468,__sfmoreglue,libg.a findfp.o/,DNAT
+001214e0,__sfp,libg.a findfp.o/,DNAT
+001215d8,_cleanup_r,libg.a findfp.o/,DNAT
+001215f8,_cleanup,libg.a findfp.o/,DNAT
+00121618,__sinit,libg.a findfp.o/,DNAT
+001216a8,__sflags,libg.a flags.o/,DNAT
+00121760,_fopen_r,libg.a fopen.o/,DNAT
+00121840,fopen,libg.a fopen.o/,DNAT
+00121868,fprintf,libg.a fprintf.o/,DNAT
+001218c0,fputc,libg.a fputc.o/,DNAT
+00121958,fputs,libg.a fputs.o/,DNAT
+001219a8,fread,libg.a fread.o/,DNAT
+00121ac8,_free_r,libg.a freer.o/,DNAT
+00121dc0,_malloc_trim_r,libg.a freer.o/,DNAT
+00121f30,fseek,libg.a fseek.o/,DNAT
+001223e0,_fstat_r,libg.a fstatr.o/,DNAT
+00122440,ftell,libg.a ftell.o/,DNAT
+00122548,__sfvwrite,libg.a fvwrite.o/,DNAT
+00122928,_fwalk,libg.a fwalk.o/,DNAT
+001229c0,fwrite,libg.a fwrite.o/,B3INTERN
+00122a48,_setlocale_r,libg.a locale.o/,B3INTERN
+00122fe0,_malloc_r,libg.a mallocr.o/,DNAT
+00123708,_mbtowc_r,libg.a mbtowc_r.o/,DNAT
+00123740,memchr,libg.a memchr.o/,DNAT
+00123820,memcmp,libg.a memcmp.o/,DNAT
+001238b8,memcpy,libg.a memcpy.o/,DNAT
+00123968,memmove,libg.a memmove.o/,DNAT
+00123a70,memset,libg.a memset.o/,DNAT
+00123b30,__malloc_lock,libg.a mlock.o/,DNAT
+00123bb0,__malloc_unlock,libg.a mlock.o/,DNAT
+00123c00,_Balloc,libg.a mprec.o/,DNAT
+00123ca8,_Bfree,libg.a mprec.o/,DNAT
+00123cd8,_multadd,libg.a mprec.o/,DNAT
+00123de0,_s2b,libg.a mprec.o/,DNAT
+00123f10,_hi0bits,libg.a mprec.o/,DNAT
+00123f90,_lo0bits,libg.a mprec.o/,DNAT
+00124050,_i2b,libg.a mprec.o/,DNAT
+00124088,_multiply,libg.a mprec.o/,DNAT
+00124298,_pow5mult,libg.a mprec.o/,DNAT
+00124398,_lshift,libg.a mprec.o/,DNAT
+001244f0,__mcmp,libg.a mprec.o/,DNAT
+00124558,__mdiff,libg.a mprec.o/,DNAT
+001246e8,_ulp,libg.a mprec.o/,DNAT
+001247b8,_b2d,libg.a mprec.o/,DNAT
+00124950,_d2b,libg.a mprec.o/,DNAT
+00124ad8,_ratio,libg.a mprec.o/,DNAT
+00124ba8,_mprec_log10,libg.a mprec.o/,DNAT
+00124c18,_open_r,libg.a openr.o/,DNAT
+00124c78,_printf_r,libg.a printf.o/,DNAT
+00124cd8,printf,libg.a printf.o/,DNAT
+00124d48,qsort,libg.a qsort.o/,DNAT
+00125738,srand,libg.a rand.o/,DNAT
+00125750,rand,libg.a rand.o/,DNAT
+001257b8,_read_r,libg.a readr.o/,DNAT
+00125818,realloc,libg.a realloc.o/,DNAT
+00125880,_realloc_r,libg.a reallocr.o/,DNAT
+00125e20,lflush,libg.a refill.o/,DNAT
+00125e58,__srefill,libg.a refill.o/,B3INTERN
+00125fd8,_sbrk_r,libg.a sbrkr.o/,B3INTERN
+00126390,_snprintf_r,libg.a snprintf.o/,DNAT
+00126428,snprintf,libg.a snprintf.o/,DNAT
+001264c8,_sprintf_r,libg.a sprintf.o/,DNAT
+00126550,sprintf,libg.a sprintf.o/,DNAT
+001265e0,eofread,libg.a sscanf.o/,DNAT
+001265e8,sscanf,libg.a sscanf.o/,DNAT
+00126690,__sread,libg.a stdio.o/,DNAT
+001266f8,__swrite,libg.a stdio.o/,DNAT
+00126778,__sseek,libg.a stdio.o/,DNAT
+001267e0,__sclose,libg.a stdio.o/,DNAT
+00126800,strcasecmp,libg.a strcasecmp.o/,DNAT
+001268d8,strcat,libg.a strcat.o/,DNAT
+00126a08,strchr,libg.a strchr.o/,DNAT
+00126b98,strcmp,libg.a strcmp.o/,DNAT
+00126ce0,strcpy,libg.a strcpy.o/,DNAT
+00126df8,strlen,libg.a strlen.o/,DNAT
+00126f30,strncasecmp,libg.a strncasecmp.o/,DNAT
+00127008,strncat,libg.a strncat.o/,DNAT
+001271b8,strncmp,libg.a strncmp.o/,DNAT
+00127370,strncpy,libg.a strncpy.o/,DNAT
+00127530,strpbrk,libg.a strpbrk.o/,DNAT
+001275b8,strrchr,libg.a strrchr.o/,DNAT
+00127608,strstr,libg.a strstr.o/,DNAT
+00127690,_strtod_r,libg.a strtod.o/,DNAT
+001285a8,strtod,libg.a strtod.o/,B3INTERN
+001285d0,strtodf,libg.a strtod.o/,B3INTERN
+00128eb0,__sbprintf,libg.a vfprintf.o/,DNAT
+00128f68,vfprintf,libg.a vfprintf.o/,DNAT
+00128fe0,_vfprintf_r,libg.a vfprintf.o/,DNAT
+0012a650,cvt,libg.a vfprintf.o/,DNAT
+0012a810,exponent,libg.a vfprintf.o/,DNAT
+0012a8f0,__svfscanf,libg.a vfscanf.o/,DNAT
+0012b580,__sccl,libg.a vfscanf.o/,DNAT
+0012b680,vsprintf,libg.a vsprintf.o/,DNAT
+0012b6d8,vsprintf_r,libg.a vsprintf.o/,DNAT
+0012b730,__swbuf,libg.a wbuf.o/,DNAT
+0012b840,_write_r,libg.a writer.o/,DNAT
+0012b8a0,__swsetup,libg.a wsetup.o/,DNAT
+0012b9b0,__muldi3,LIBGCC.A _muldi3.o/,DNAT
+0012ba28,__divdi3,LIBGCC.A _divdi3.o/,DNAT
+0012c0c0,__moddi3,LIBGCC.A _moddi3.o/,DNAT
+0012c750,__udivdi3,LIBGCC.A _udivdi3.o/,DNAT
+0012ccd0,__umoddi3,LIBGCC.A _umoddi3.o/,DNAT
+0012d238,__floatdidf,LIBGCC.A _floatdidf.o/,DNAT
+0012d2e0,__floatdisf,LIBGCC.A _floatdisf.o/,DNAT
+0012d3c8,__fixunsdfdi,LIBGCC.A _fixunsdfdi.o/,DNAT
+0012d4e0,__fixdfdi,LIBGCC.A _fixdfdi.o/,DNAT
+0012d558,__fixunssfdi,LIBGCC.A _fixunssfdi.o/,DNAT
+0012d680,__fixsfdi,LIBGCC.A _fixsfdi.o/,DNAT
+0012d6c0,__pack_f,LIBGCC.A _pack_sf.o/,DNAT
+0012d778,__unpack_f,LIBGCC.A _unpack_sf.o/,DNAT
+0012d7d8,__make_fp,LIBGCC.A _make_sf.o/,DNAT
+0012d808,fptodp,LIBGCC.A _sf_to_df.o/,DNAT
+0012d848,fptoui,LIBGCC.A _sf_to_usi.o/,DNAT
+0012d8c8,__pack_d,LIBGCC.A _pack_df.o/,DNAT
+0012d9a0,__unpack_d,LIBGCC.A _unpack_df.o/,DNAT
+0012da60,_fpadd_parts,LIBGCC.A _addsub_df.o/,DNAT
+0012dcc0,dpadd,LIBGCC.A _addsub_df.o/,DNAT
+0012dd18,dpsub,LIBGCC.A _addsub_df.o/,DNAT
+0012dd80,dpmul,LIBGCC.A _mul_df.o/,DNAT
+0012e008,dpdiv,LIBGCC.A _div_df.o/,DNAT
+0012e148,__fpcmp_parts_d,LIBGCC.A /19,DNAT
+0012e268,dpcmp,LIBGCC.A _compare_df.o/,B3INTERN
+0012e2b8,litodp,LIBGCC.A _si_to_df.o/,B3INTERN
+0012e370,dptoli,LIBGCC.A _df_to_si.o/,B3INTERN
+0012e420,__make_dp,LIBGCC.A _make_df.o/,B3INTERN
+0012e450,dptofp,LIBGCC.A _df_to_sf.o/,B3INTERN
+0012e4a8,dptoul,LIBGCC.A _df_to_usi.o/,B3INTERN
+0012e550,main,B3MainPS2.cpp,B3INTERN
+0012e7c0,CB3ControllerMapping::ResetControllerDeadTime(),,B3INTERN
+0012e7d0,CB3ControllerMapping::GetControllerDeadTime(),,B3INTERN
+0012e7f0,CB3ControllerMapping::WheelIsValid(),,B3INTERN
+0012e800,CB3ControllerMapping::PadIsValid(),,B3INTERN
+0012e830,CB3ControllerMapping::GetBoost(),,B3INTERN
+0012e8d0,CB3ControllerMapping::GetLookBack(),,B3INTERN
+0012e970,CB3ControllerMapping::GetCameraSwitch(),,B3INTERN
+0012ea30,CB3ControllerMapping::GetGearDown(),,B3INTERN
+00146320,CB3Burn::Release(),,B3INTERN
+00146330,CB3Burn::Update(CB3RaceCar*),,B3INTERN
+00146490,CB3Burn::Prepare(EB3BoostBarSize),,B3INTERN
+001465a0,CB3Burn::Construct(),,B3INTERN
+001465b0,CB3Burn::UnregisterStaticVariables(),,B3INTERN
+00146620,CB3Burn::RegisterStaticVariables(),,B3INTERN
+00146770,CB3CrashPresentationDirector::Prepare(),,B3INTERN
+00146780,CB3CrashPresentationDirector::Construct(),,B3INTERN
+00146790,"CB3GameData::GetGameDataThreshold(int*,int*,int*)",,B3INTERN
+001467e0,"CB3GameData::GetGameDataThreshold(float*,float*,float*)",,B3INTERN
+00146810,CB3GameData::GetNumLaps(),,B3INTERN
+00146830,CB3GameData::GetNumSplitTimeCheckpoints(),,B3INTERN
+0018b2a0,CGtFileSystemPS2DVD::GetFileObject(unsigned int),GtFileSystemPS2DVD.cpp,DNAT
+0018b2c0,"CGtFileSystemPS2DVD::Init(unsigned int,CGtFilePS2DVD*,CGtFileBufferPS2DVD*,const char*,int,int,int,char*)",GtFileSystemPS2DVD.cpp,DNAT
+0018b4b0,CGtTimer::SetSlowMo(int),GtTimer.cpp,DNAT
+0018b4c0,CGtTimer::Update(),GtTimer.cpp,DNAT
+0018b670,CGtTimer::Stop(),GtTimer.cpp,DNAT
+0018b6b0,CGtTimer::Start(),GtTimer.cpp,DNAT
+0018b6f0,CGtTimer::Prepare(),GtTimer.cpp,DNAT
+0018b740,CGtTimer::Construct(),GtTimer.cpp,DNAT
+0018b780,CGtTimer::NextFrame(),GtTimer.cpp,DNAT
+0018b790,CGtTimer::PrepareTimerServices(int),GtTimer.cpp,DNAT
+0018b7d0,CB3Game::SetFrontendFrameRate(bool),B3GamePS2.cpp,DNAT
+0018b890,CB3Game::PreparePowerOff(),B3GamePS2.cpp,DNAT
+0018ea60,"CGt2dFont::RenderString(const unsigned short*,float,float,float,GtMathPs2::CGtV4d) const",Gt2dFont.cpp,DNAT
+0018ece0,"CGt2dFont::GetStringStartAndEnd(const unsigned short*,float,const unsigned short**,const unsigned short**,bool) const",Gt2dFont.cpp,DNAT
+0018ef10,CGt2dFont::GetStringWidthIncludingLRKern(const unsigned short*) const,Gt2dFont.cpp,DNAT
+0018efc0,CGt2dFont::GetStringWidth(const unsigned short*) const,Gt2dFont.cpp,DNAT
+0018eff8,CGt2dFont::Prepare(CGtTexture*),,B3INTERN
+0018f080,CGt2dFont::Prepare(CGtTexture*),Gt2dFont.cpp,DNAT
+0018f0d0,ChunkIsComplex,librwcore.a babinary.obj/,DNAT
+0018f118,RwStreamFindChunk,librwcore.a babinary.obj/,DNAT
+0018f328,RwStreamReadChunkHeaderInfo,librwcore.a babinary.obj/,DNAT
+0018f4a0,_rwStreamWriteVersionedChunkHeader,librwcore.a babinary.obj/,DNAT
+0018f4f8,RwStreamWriteReal,librwcore.a babinary.obj/,DNAT
+0018f590,RwStreamWriteInt32,librwcore.a babinary.obj/,DNAT
+0018f5b8,RwStreamWriteInt16,librwcore.a babinary.obj/,DNAT
+0018f5e0,RwStreamReadReal,librwcore.a babinary.obj/,DNAT
+0018f630,RwStreamReadInt32,librwcore.a babinary.obj/,DNAT
+0018f680,RwStreamReadInt16,librwcore.a babinary.obj/,DNAT
+0018f6d0,_rwStreamReadChunkHeader,librwcore.a babinary.obj/,DNAT
+0018f7f8,_rwColorOpen,librwcore.a bacolor.obj/,DNAT
+0018f810,_rwColorClose,librwcore.a bacolor.obj/,DNAT
+0018f828,_rwerror,librwcore.a baerr.obj/,DNAT
+0018f868,_rwErrorOpen,librwcore.a baerr.obj/,DNAT
+0018f898,_rwErrorClose,librwcore.a baerr.obj/,DNAT
+0018f8b0,RwErrorGet,librwcore.a baerr.obj/,DNAT
+0018f8f0,RwErrorSet,librwcore.a baerr.obj/,DNAT
+0018f958,_rwFileSystemOpen,librwcore.a bafsys.obj/,DNAT
+0018f9f0,_rwFileSystemClose,librwcore.a bafsys.obj/,DNAT
+0018f9f8,RwOsGetFileInterface,librwcore.a bafsys.obj/,DNAT
+0018fa08,rwfexist,librwcore.a bafsys.obj/,DNAT
+0018fa60,MatrixMultiply,librwcore.a bamatrix.obj/,DNAT
+0018fcc0,MatrixOrthoNormalize,librwcore.a bamatrix.obj/,DNAT
+00190180,MatrixInvertGeneric,librwcore.a bamatrix.obj/,DNAT
+001903b0,MatrixQueryRotateDegenerateUnitAxis,librwcore.a bamatrix.obj/,DNAT
+00190528,MatrixQueryRotate,librwcore.a bamatrix.obj/,DNAT
+00190800,RwMatrixOptimize,librwcore.a bamatrix.obj/,DNAT
+00190a20,RwMatrixRotateOneMinusCosineSine,librwcore.a bamatrix.obj/,DNAT
+00190ca8,RwMatrixInvert,librwcore.a bamatrix.obj/,DNAT
+00190e20,RwMatrixScale,librwcore.a bamatrix.obj/,DNAT
+00191060,RwMatrixTranslate,librwcore.a bamatrix.obj/,DNAT
+00191220,RwEngineGetMatrixTolerances,librwcore.a bamatrix.obj/,DNAT
+00191250,RwEngineSetMatrixTolerances,librwcore.a bamatrix.obj/,DNAT
+00191280,RwMatrixSetFreeListCreateParams,librwcore.a bamatrix.obj/,DNAT
+00191290,RwMatrixDestroy,librwcore.a bamatrix.obj/,DNAT
+001912c8,RwMatrixCreate,librwcore.a bamatrix.obj/,DNAT
+00191358,RwMatrixMultiply,librwcore.a bamatrix.obj/,DNAT
+001913d8,RwMatrixTransform,librwcore.a bamatrix.obj/,DNAT
+00191598,RwMatrixOrthoNormalize,librwcore.a bamatrix.obj/,DNAT
+001915b8,RwMatrixRotate,librwcore.a bamatrix.obj/,DNAT
+001916b0,RwMatrixQueryRotate,librwcore.a bamatrix.obj/,DNAT
+001916d0,RwMatrixUpdate,librwcore.a bamatrix.obj/,DNAT
+001916f0,_rwMatrixDeterminant,librwcore.a bamatrix.obj/,DNAT
+00191770,_rwMatrixNormalError,librwcore.a bamatrix.obj/,DNAT
+00191818,_rwMatrixOrthogonalError,librwcore.a bamatrix.obj/,DNAT
+001918b0,_rwMatrixIdentityError,librwcore.a bamatrix.obj/,DNAT
+00191960,_rwMatrixSetOptimizations,librwcore.a bamatrix.obj/,DNAT
+00191980,_rwMatrixSetMultFn,librwcore.a bamatrix.obj/,DNAT
+001919b0,_rwMatrixOpen,librwcore.a bamatrix.obj/,DNAT
+00191a68,_rwMatrixClose,librwcore.a bamatrix.obj/,DNAT
+00191ad0,RwFreeListCreate,librwcore.a bamemory.obj/,DNAT
+00191e38,RwFreeListCreateAndPreallocateSpace,librwcore.a bamemory.obj/,DNAT
+001921a8,_rwFreeListAllocReal,librwcore.a bamemory.obj/,DNAT
+00192450,RwFreeListPurgeAllFreeLists,librwcore.a bamemory.obj/,DNAT
+00192608,RwOsGetMemoryInterface,librwcore.a bamemory.obj/,DNAT
+00192618,RwFreeListDestroy,librwcore.a bamemory.obj/,DNAT
+001926f0,RwFreeListSetFlags,librwcore.a bamemory.obj/,DNAT
+00192710,RwFreeListGetFlags,librwcore.a bamemory.obj/,DNAT
+00192718,_rwFreeListFreeReal,librwcore.a bamemory.obj/,DNAT
+001928b0,RwFreeListPurge,librwcore.a bamemory.obj/,DNAT
+00192a28,RwFreeListForAllUsed,librwcore.a bamemory.obj/,DNAT
+00192c78,_rwMemoryClose,librwcore.a bamemory.obj/,DNAT
+00192cc8,_rwMemoryOpen,librwcore.a bamemory.obj/,DNAT
+00192dc8,_rwFreeListEnable,librwcore.a bamemory.obj/,DNAT
+00192dd0,_RwFreeListFree,librwcore.a bamemory.obj/,DNAT
+00192e90,FreeListCreate,librwcore.a bamemory.obj/,DNAT
+00193200,HMalloc,librwcore.a bamemory.obj/,DNAT
+00193220,HRealloc,librwcore.a bamemory.obj/,DNAT
+00193240,HCalloc,librwcore.a bamemory.obj/,DNAT
+00193260,_rwResourcesOpen,librwcore.a baresour.obj/,DNAT
+00193398,RwResourcesAllocateResEntry,librwcore.a baresour.obj/,DNAT
+00193580,RwResourcesSetArenaSize,librwcore.a baresour.obj/,DNAT
+00193688,RwResourcesEmptyArena,librwcore.a baresour.obj/,DNAT
+001937a8,RwResourcesGetArenaSize,librwcore.a baresour.obj/,DNAT
+001937c0,RwResourcesGetArenaUsage,librwcore.a baresour.obj/,DNAT
+00193810,RwResourcesFreeResEntry,librwcore.a baresour.obj/,DNAT
+001938b0,_rwResourcesPurge,librwcore.a baresour.obj/,DNAT
+00193938,_rwResourcesClose,librwcore.a baresour.obj/,DNAT
+001939b0,_rwStreamInitialize,librwcore.a bastream.obj/,DNAT
+00193c38,RwStreamRead,librwcore.a bastream.obj/,DNAT
+00193dd8,RwStreamWrite,librwcore.a bastream.obj/,DNAT
+00193fd8,RwStreamSkip,librwcore.a bastream.obj/,DNAT
+00194120,RwStreamSetFreeListCreateParams,librwcore.a bastream.obj/,DNAT
+00194130,RwStreamOpen,librwcore.a bastream.obj/,DNAT
+001941e0,RwStreamClose,librwcore.a bastream.obj/,DNAT
+001942f8,_rwStreamModuleOpen,librwcore.a bastream.obj/,DNAT
+00194370,_rwStreamModuleClose,librwcore.a bastream.obj/,DNAT
+001943c8,_rwPluginRegistryReadDataChunks,librwcore.a batkbin.obj/,DNAT
+00194558,_rwPluginRegistryAddPluginStream,librwcore.a batkbin.obj/,DNAT
+00194598,_rwPluginRegistryAddPlgnStrmlwysCB,librwcore.a batkbin.obj/,DNAT
+001945d0,_rwPluginRegistryAddPlgnStrmRightsCB,librwcore.a batkbin.obj/,DNAT
+00194608,_rwPluginRegistryWriteDataChunks,librwcore.a batkbin.obj/,DNAT
+00194748,_rwPluginRegistrySkipDataChunks,librwcore.a batkbin.obj/,DNAT
+001947f0,_rwPluginRegistryGetSize,librwcore.a batkbin.obj/,DNAT
+00194868,_rwPluginRegistryInvokeRights,librwcore.a batkbin.obj/,DNAT
+001948d8,_rwPluginRegistryClose,librwcore.a batkreg.obj/,DNAT
+00194a08,_rwPluginRegistryAddPlugin,librwcore.a batkreg.obj/,DNAT
+00194d68,_rwPluginRegistryOpen,librwcore.a batkreg.obj/,DNAT
+00194db8,RwPluginRegistrySetFreeListCreateParams,librwcore.a batkreg.obj/,DNAT
+00194dc8,_rwPluginRegistrySetStaticPluginsSize,librwcore.a batkreg.obj/,DNAT
+00194e10,_rwPluginRegistryGetPluginOffset,librwcore.a batkreg.obj/,DNAT
+00194e40,_rwPluginRegistryInitObject,librwcore.a batkreg.obj/,DNAT
+00194ed8,_rwPluginRegistryDeInitObject,librwcore.a batkreg.obj/,DNAT
+00194f38,_rwPluginRegistryCopyObject,librwcore.a batkreg.obj/,DNAT
+00194fa8,rwDestroyEntry,librwcore.a batkreg.obj/,DNAT
+00194ff0,PluginDefaultConstructor,librwcore.a batkreg.obj/,DNAT
+00194ff8,PluginDefaultDestructor,librwcore.a batkreg.obj/,DNAT
+00195000,PluginDefaultCopy,librwcore.a batkreg.obj/,DNAT
+00195008,RwV3dNormalize,librwcore.a bavector.obj/,DNAT
+001950d0,RwV3dLength,librwcore.a bavector.obj/,DNAT
+00195100,RwV2dLength,librwcore.a bavector.obj/,DNAT
+00195120,RwV2dNormalize,librwcore.a bavector.obj/,DNAT
+001951d0,RwV3dTransformPoint,librwcore.a bavector.obj/,DNAT
+00195210,RwV3dTransformPoints,librwcore.a bavector.obj/,DNAT
+00195250,RwV3dTransformVector,librwcore.a bavector.obj/,DNAT
+00195290,RwV3dTransformVectors,librwcore.a bavector.obj/,DNAT
+001952d0,_rwV3dNormalize,librwcore.a bavector.obj/,DNAT
+00195350,_rwVectorOpen,librwcore.a bavector.obj/,DNAT
+001953a8,_rwVectorClose,librwcore.a bavector.obj/,DNAT
+001953c0,_rwVectorSetMultFn,librwcore.a bavector.obj/,DNAT
+00195418,VectorMultPoints,librwcore.a bavector.obj/,DNAT
+00195630,VectorMultPoint,librwcore.a bavector.obj/,DNAT
+001956c8,VectorMultVectors,librwcore.a bavector.obj/,DNAT
+00195898,VectorMultVector,librwcore.a bavector.obj/,DNAT
+00195918,_rwResHeapAlloc,librwcore.a resmem.obj/,DNAT
+00195a48,_rwResHeapRealloc,librwcore.a resmem.obj/,DNAT
+00195db0,_rwResHeapInit,librwcore.a resmem.obj/,DNAT
+00195e08,_rwResHeapClose,librwcore.a resmem.obj/,DNAT
+00195e10,_rwResHeapCalloc,librwcore.a resmem.obj/,DNAT
+00195e60,_rwResHeapFree,librwcore.a resmem.obj/,DNAT
+00195f18,_rwResHeapGetStats,librwcore.a resmem.obj/,DNAT
+00195fd8,_rwChunkGroupOpen,librwcore.a rwgrp.obj/,DNAT
+00196050,_rwChunkGroupClose,librwcore.a rwgrp.obj/,DNAT
+001960a8,RwChunkGroupSetFreeListCreateParams,librwcore.a rwgrp.obj/,DNAT
+001960b8,RwChunkGroupCreate,librwcore.a rwgrp.obj/,DNAT
+00196118,RwChunkGroupDestroy,librwcore.a rwgrp.obj/,DNAT
+00196158,RwChunkGroupBeginStreamRead,librwcore.a rwgrp.obj/,DNAT
+00196218,RwChunkGroupEndStreamRead,librwcore.a rwgrp.obj/,DNAT
+00196220,RwChunkGroupBeginStreamWrite,librwcore.a rwgrp.obj/,DNAT
+001962b8,RwChunkGroupEndStreamWrite,librwcore.a rwgrp.obj/,DNAT
+00196310,RwChunkGroupStreamGetSize,librwcore.a rwgrp.obj/,DNAT
+00196330,RwChunkGroupSetName,librwcore.a rwgrp.obj/,DNAT
+001963b0,_rwStringOpen,librwcore.a rwstring.obj/,DNAT
+001964b8,_rwStringStreamFindAndRead,librwcore.a rwstring.obj/,DNAT
+001968b0,_rwStringClose,librwcore.a rwstring.obj/,DNAT
+001968b8,_rwStringDestroy,librwcore.a rwstring.obj/,DNAT
+001968e0,_rwStringStreamGetSize,librwcore.a rwstring.obj/,DNAT
+00196918,_rwStringStreamWrite,librwcore.a rwstring.obj/,DNAT
+001969b8,StrICmp,librwcore.a rwstring.obj/,DNAT
+00196a28,StrUpr,librwcore.a rwstring.obj/,DNAT
+00196a70,StrLwr,librwcore.a rwstring.obj/,DNAT
+00196ab8,StrChr,librwcore.a rwstring.obj/,DNAT
+00196af0,StrRChr,librwcore.a rwstring.obj/,DNAT
+00196b28,_rwpathisabsolute,librwcore.a osintf.obj/,DNAT
+00196b70,_rwgetcurrenttime,librwcore.a osintf.obj/,DNAT
+00196b78,RwBBoxCalculate,librwcore.a babbox.obj/,DNAT
+00196c68,RwBBoxInitialize,librwcore.a babbox.obj/,DNAT
+00196ca0,RwBBoxAddPoint,librwcore.a babbox.obj/,DNAT
+00196d40,RwBBoxContainsPoint,librwcore.a babbox.obj/,DNAT
+00196dc8,RwTextureStreamWrite,librwcore.a babintex.obj/,DNAT
+00196f10,RwTextureStreamRead,librwcore.a babintex.obj/,DNAT
+00197130,RwTexDictionaryStreamWrite,librwcore.a babintex.obj/,DNAT
+001972b8,RwTexDictionaryStreamRead,librwcore.a babintex.obj/,DNAT
+001975a0,RwTextureRegisterPluginStream,librwcore.a babintex.obj/,DNAT
+001975d8,RwTextureSetStreamAlwaysCallBack,librwcore.a babintex.obj/,DNAT
+00197600,RwTextureStreamGetSize,librwcore.a babintex.obj/,DNAT
+00197660,RwTexDictionaryRegisterPluginStream,librwcore.a babintex.obj/,DNAT
+00197698,RwTexDictionarySetStreamAlwaysCallBack,librwcore.a babintex.obj/,DNAT
+001976c0,RwTexDictionaryStreamGetSize,librwcore.a babintex.obj/,DNAT
+00197738,_rwTextureChunkInfoRead,librwcore.a babintex.obj/,DNAT
+00197810,addNativeTextureSize,librwcore.a babintex.obj/,DNAT
+001978a0,countTexturesInDictionary,librwcore.a babintex.obj/,DNAT
+001978b8,writeNativeTexture,librwcore.a babintex.obj/,DNAT
+00197990,destroyTexture,librwcore.a babintex.obj/,DNAT
+001979b8,CameraBuildPerspClipPlanes,librwcore.a bacamera.obj/,DNAT
+00198280,CameraBuildPerspViewMatrix,librwcore.a bacamera.obj/,DNAT
+00198458,CameraBuildParallelClipPlanes,librwcore.a bacamera.obj/,DNAT
+00198998,CameraBuildParallelViewMatrix,librwcore.a bacamera.obj/,DNAT
+00198b70,RwCameraCreate,librwcore.a bacamera.obj/,DNAT
+00198cc0,RwCameraClone,librwcore.a bacamera.obj/,DNAT
+00198e20,RwCameraBeginUpdate,librwcore.a bacamera.obj/,DNAT
+00198e40,RwCameraEndUpdate,librwcore.a bacamera.obj/,DNAT
+00198e60,RwCameraClear,librwcore.a bacamera.obj/,DNAT
+00198e98,RwCameraShowRaster,librwcore.a bacamera.obj/,DNAT
+00198ec8,RwCameraSetFreeListCreateParams,librwcore.a bacamera.obj/,DNAT
+00198ed8,RwCameraDestroy,librwcore.a bacamera.obj/,DNAT
+00198f38,RwCameraSetViewOffset,librwcore.a bacamera.obj/,DNAT
+00198f80,RwCameraSetViewWindow,librwcore.a bacamera.obj/,DNAT
+00198fe8,RwCameraSetProjection,librwcore.a bacamera.obj/,DNAT
+001990f8,RwCameraSetNearClipPlane,librwcore.a bacamera.obj/,DNAT
+001991c8,RwCameraSetFarClipPlane,librwcore.a bacamera.obj/,DNAT
+00199298,RwCameraRegisterPlugin,librwcore.a bacamera.obj/,DNAT
+001992e0,RwCameraGetPluginOffset,librwcore.a bacamera.obj/,DNAT
+00199308,RwCameraValidatePlugins,librwcore.a bacamera.obj/,DNAT
+00199310,RwCameraFrustumTestSphere,librwcore.a bacamera.obj/,DNAT
+00199398,_rwCameraClose,librwcore.a bacamera.obj/,DNAT
+00199400,_rwCameraOpen,librwcore.a bacamera.obj/,DNAT
+00199480,CameraSync,librwcore.a bacamera.obj/,DNAT
+001994f0,CameraEndUpdate,librwcore.a bacamera.obj/,DNAT
+00199548,CameraBeginUpdate,librwcore.a bacamera.obj/,DNAT
+001995a8,CorePluginAttach,librwcore.a badevice.obj/,DNAT
+00199798,RwEngineGetNumSubSystems,librwcore.a badevice.obj/,DNAT
+001997e8,RwEngineGetCurrentSubSystem,librwcore.a badevice.obj/,DNAT
+00199828,RwEngineGetNumVideoModes,librwcore.a badevice.obj/,DNAT
+00199898,RwEngineGetCurrentVideoMode,librwcore.a badevice.obj/,DNAT
+00199908,RwEngineSetVideoMode,librwcore.a badevice.obj/,DNAT
+00199970,RwEngineGetTextureMemorySize,librwcore.a badevice.obj/,DNAT
+001999e0,RwEngineGetMaxTextureSize,librwcore.a badevice.obj/,DNAT
+00199a50,RwEngineSetFocus,librwcore.a badevice.obj/,DNAT
+00199ab8,RwEngineStop,librwcore.a badevice.obj/,DNAT
+00199b80,RwEngineStart,librwcore.a badevice.obj/,DNAT
+00199c90,RwEngineClose,librwcore.a badevice.obj/,DNAT
+00199d18,RwEngineOpen,librwcore.a badevice.obj/,DNAT
+00199e58,RwEngineGetVersion,librwcore.a badevice.obj/,DNAT
+00199e68,RwEngineInit,librwcore.a badevice.obj/,DNAT
+00199fc0,RwEngineRegisterPlugin,librwcore.a badevice.obj/,DNAT
+0019a000,RwEngineGetPluginOffset,librwcore.a badevice.obj/,DNAT
+0019a028,RwEngineTerm,librwcore.a badevice.obj/,DNAT
+0019a078,RwEngineGetSubSystemInfo,librwcore.a badevice.obj/,DNAT
+0019a130,RwEngineSetSubSystem,librwcore.a badevice.obj/,DNAT
+0019a1b8,RwEngineGetVideoModeInfo,librwcore.a badevice.obj/,DNAT
+0019a230,RwEngineGetMetrics,librwcore.a badevice.obj/,DNAT
+0019a240,_rwDeviceSystemRequest,librwcore.a badevice.obj/,DNAT
+0019a348,_rwGetNumEngineInstances,librwcore.a badevice.obj/,DNAT
+0019a350,MallocWrapper,librwcore.a badevice.obj/,DNAT
+0019a378,FreeWrapper,librwcore.a badevice.obj/,DNAT
+0019a3b0,rwFrameCloneRecurse,librwcore.a baframe.obj/,DNAT
+0019a500,_rwFrameInit,librwcore.a baframe.obj/,DNAT
+0019a5d8,RwFrameForAllObjects,librwcore.a baframe.obj/,DNAT
+0019a650,RwFrameTranslate,librwcore.a baframe.obj/,DNAT
+0019a6d0,RwFrameRotate,librwcore.a baframe.obj/,DNAT
+0019a750,RwFrameScale,librwcore.a baframe.obj/,DNAT
+0019a7d0,RwFrameTransform,librwcore.a baframe.obj/,DNAT
+0019a850,RwFrameOrthoNormalize,librwcore.a baframe.obj/,DNAT
+0019a8d0,RwFrameSetIdentity,librwcore.a baframe.obj/,DNAT
+0019a988,RwFrameCloneHierarchy,librwcore.a baframe.obj/,DNAT
+0019aa50,RwFrameDestroyHierarchy,librwcore.a baframe.obj/,DNAT
+0019aaf8,RwFrameForAllChildren,librwcore.a baframe.obj/,DNAT
+0019ab68,RwFrameRemoveChild,librwcore.a baframe.obj/,DNAT
+0019ac60,RwFrameAddChild,librwcore.a baframe.obj/,DNAT
+0019ad70,RwFrameAddChildNoUpdate,librwcore.a baframe.obj/,DNAT
+0019adf8,RwFrameGetRoot,librwcore.a baframe.obj/,DNAT
+0019ae00,RwFrameGetLTM,librwcore.a baframe.obj/,DNAT
+0019ae40,RwFrameUpdateObjects,librwcore.a baframe.obj/,DNAT
+0019aea0,RwFrameSetFreeListCreateParams,librwcore.a baframe.obj/,DNAT
+0019aeb0,RwFrameCreate,librwcore.a baframe.obj/,DNAT
+0019af08,RwFrameInit,librwcore.a baframe.obj/,DNAT
+0019af40,RwFrameDeInit,librwcore.a baframe.obj/,DNAT
+0019afe0,RwFrameDestroy,librwcore.a baframe.obj/,DNAT
+0019b0a0,_rwFrameDeInit,librwcore.a baframe.obj/,DNAT
+0019b140,RwFrameDirty,librwcore.a baframe.obj/,DNAT
+0019b150,RwFrameCount,librwcore.a baframe.obj/,DNAT
+0019b1a0,RwFrameSetStaticPluginsSize,librwcore.a baframe.obj/,DNAT
+0019b1d0,RwFrameRegisterPlugin,librwcore.a baframe.obj/,DNAT
+0019b218,RwFrameGetPluginOffset,librwcore.a baframe.obj/,DNAT
+0019b240,RwFrameValidatePlugins,librwcore.a baframe.obj/,DNAT
+0019b248,_rwFrameCloneAndLinkClones,librwcore.a baframe.obj/,DNAT
+0019b290,_rwFramePurgeClone,librwcore.a baframe.obj/,DNAT
+0019b320,_rwFrameClose,librwcore.a baframe.obj/,DNAT
+0019b388,_rwFrameOpen,librwcore.a baframe.obj/,DNAT
+0019b410,rwSetHierarchyRoot,librwcore.a baframe.obj/,DNAT
+0019b468,rwFrameDestroyRecurse,librwcore.a baframe.obj/,DNAT
+0019b510,_rwImageOpen,librwcore.a baimage.obj/,DNAT
+0019b6b0,_rwImageClose,librwcore.a baimage.obj/,DNAT
+0019b7e0,RwImageResize,librwcore.a baimage.obj/,DNAT
+0019ba90,RwImageMakeMask,librwcore.a baimage.obj/,DNAT
+0019bcb8,RwImageApplyMask,librwcore.a baimage.obj/,DNAT
+0019c190,ImagePathForAllFullNames,librwcore.a baimage.obj/,DNAT
+0019c498,RwImageRead,librwcore.a baimage.obj/,DNAT
+0019c5c0,RwImageRegisterImageFormat,librwcore.a baimage.obj/,DNAT
+0019c750,RwImageReadMaskedImage,librwcore.a baimage.obj/,DNAT
+0019c910,ImageConvertDepth,librwcore.a baimage.obj/,DNAT
+0019ccb8,RwImageStreamRead,librwcore.a baimage.obj/,DNAT
+0019cf38,RwImageGammaCorrect,librwcore.a baimage.obj/,DNAT
+0019d140,RwImageSetFreeListCreateParams,librwcore.a baimage.obj/,DNAT
+0019d150,RwImageFormatSetFreeListCreateParams,librwcore.a baimage.obj/,DNAT
+0019d160,RwImageCreate,librwcore.a baimage.obj/,DNAT
+0019d200,RwImageDestroy,librwcore.a baimage.obj/,DNAT
+0019d270,RwImageAllocatePixels,librwcore.a baimage.obj/,DNAT
+0019d380,RwImageFreePixels,librwcore.a baimage.obj/,DNAT
+0019d3d0,RwImageCopy,librwcore.a baimage.obj/,DNAT
+0019d4f0,RwImageWrite,librwcore.a baimage.obj/,DNAT
+0019d5d0,RwImageGetPath,librwcore.a baimage.obj/,DNAT
+0019d5e8,RwImageSetPath,librwcore.a baimage.obj/,DNAT
+0019d6c8,_rwImageSwapPath,librwcore.a baimage.obj/,DNAT
+0019d700,RwRGBAToPixel,librwcore.a baimage.obj/,DNAT
+0019d730,RwRGBASetFromPixel,librwcore.a baimage.obj/,DNAT
+0019d768,RwImageSetGamma,librwcore.a baimage.obj/,DNAT
+0019d958,RwImageGetGamma,librwcore.a baimage.obj/,DNAT
+0019d970,RwRGBAGammaCorrect,librwcore.a baimage.obj/,DNAT
+0019d9c8,RwImageRegisterPlugin,librwcore.a baimage.obj/,DNAT
+0019da10,RwImageGetPluginOffset,librwcore.a baimage.obj/,DNAT
+0019da38,RwImageValidatePlugins,librwcore.a baimage.obj/,DNAT
+0019da40,RwImageFindFileType,librwcore.a baimage.obj/,DNAT
+0019da70,RwImageStreamGetSize,librwcore.a baimage.obj/,DNAT
+0019daa0,RwImageStreamWrite,librwcore.a baimage.obj/,DNAT
+0019dba8,_rwImageGammaCorrectArrayOfRGBA,librwcore.a baimage.obj/,DNAT
+0019dc28,_rwImageGammaUnCorrectArrayOfRGBA,librwcore.a baimage.obj/,DNAT
+0019dca8,ImageAttempRead,librwcore.a baimage.obj/,DNAT
+0019dd08,ImageDetermineExtender,librwcore.a baimage.obj/,DNAT
+0019ddf0,RwRasterRead,librwcore.a baimras.obj/,DNAT
+0019df40,RwImageSetFromRaster,librwcore.a baimras.obj/,DNAT
+0019dfa8,RwRasterSetFromImage,librwcore.a baimras.obj/,DNAT
+0019e010,RwRGBAGetRasterPixel,librwcore.a baimras.obj/,DNAT
+0019e120,RwRasterReadMaskedRaster,librwcore.a baimras.obj/,DNAT
+0019e1d0,RwImageFindRasterFormat,librwcore.a baimras.obj/,DNAT
+0019e278,_rwRasterOpen,librwcore.a baraster.obj/,DNAT
+0019e350,RwRasterSetFreeListCreateParams,librwcore.a baraster.obj/,DNAT
+0019e360,RwRasterCreate,librwcore.a baraster.obj/,DNAT
+0019e460,RwRasterDestroy,librwcore.a baraster.obj/,DNAT
+0019e4d0,RwRasterGetOffset,librwcore.a baraster.obj/,DNAT
+0019e4e8,RwRasterGetNumLevels,librwcore.a baraster.obj/,DNAT
+0019e538,RwRasterSubRaster,librwcore.a baraster.obj/,DNAT
+0019e5d8,RwRasterRenderFast,librwcore.a baraster.obj/,DNAT
+0019e618,RwRasterRender,librwcore.a baraster.obj/,DNAT
+0019e658,RwRasterRenderScaled,librwcore.a baraster.obj/,DNAT
+0019e690,RwRasterPushContext,librwcore.a baraster.obj/,DNAT
+0019e708,RwRasterPopContext,librwcore.a baraster.obj/,DNAT
+0019e778,RwRasterGetCurrentContext,librwcore.a baraster.obj/,DNAT
+0019e7a0,RwRasterClear,librwcore.a baraster.obj/,DNAT
+0019e818,RwRasterClearRect,librwcore.a baraster.obj/,DNAT
+0019e848,RwRasterShowRaster,librwcore.a baraster.obj/,DNAT
+0019e8b0,RwRasterLock,librwcore.a baraster.obj/,DNAT
+0019e8f0,RwRasterUnlock,librwcore.a baraster.obj/,DNAT
+0019e930,RwRasterLockPalette,librwcore.a baraster.obj/,DNAT
+0019e968,RwRasterUnlockPalette,librwcore.a baraster.obj/,DNAT
+0019e9b0,RwRasterRegisterPlugin,librwcore.a baraster.obj/,DNAT
+0019e9f8,RwRasterGetPluginOffset,librwcore.a baraster.obj/,DNAT
+0019ea20,RwRasterValidatePlugins,librwcore.a baraster.obj/,DNAT
+0019ea28,_rwRasterClose,librwcore.a baraster.obj/,DNAT
+0019ea90,ImageResampleGetSpan,librwcore.a baresamp.obj/,DNAT
+0019ed90,ImageResampleGetAvgPixel,librwcore.a baresamp.obj/,DNAT
+0019f010,RwImageResample,librwcore.a baresamp.obj/,DNAT
+0019f358,RwImageCreateResample,librwcore.a baresamp.obj/,DNAT
+0019f470,FrameSyncHierarchy,librwcore.a basync.obj/,DNAT
+0019f650,_rwFrameSyncDirty,librwcore.a basync.obj/,DNAT
+0019f6b8,_rwFrameSyncHierarchyLTM,librwcore.a basync.obj/,DNAT
+0019f780,FrameSyncHierarchyRecurse,librwcore.a basync.obj/,DNAT
+0019f848,FrameSyncHierarchyRecurseNoLTM,librwcore.a basync.obj/,DNAT
+0019f8d0,FrameSyncHierarchyLTMRecurse,librwcore.a basync.obj/,DNAT
+0019f958,PalettizeMipmaps,librwcore.a batextur.obj/,DNAT
+0019fce8,TextureImageReadAndSize,librwcore.a batextur.obj/,DNAT
+001a0128,TextureDefaultNormalRead,librwcore.a batextur.obj/,DNAT
+001a03a0,TextureDefaultMipmapRead,librwcore.a batextur.obj/,DNAT
+001a0a80,TextureRasterDefaultBuildMipmaps,librwcore.a batextur.obj/,DNAT
+001a1040,RwTextureRead,librwcore.a batextur.obj/,DNAT
+001a1188,_rwTextureClose,librwcore.a batextur.obj/,DNAT
+001a1320,_rwTextureOpen,librwcore.a batextur.obj/,DNAT
+001a1520,RwTextureSetMipmapping,librwcore.a batextur.obj/,DNAT
+001a1540,RwTextureGetMipmapping,librwcore.a batextur.obj/,DNAT
+001a1558,RwTextureSetAutoMipmapping,librwcore.a batextur.obj/,DNAT
+001a1578,RwTextureGetAutoMipmapping,librwcore.a batextur.obj/,DNAT
+001a1590,RwTextureSetMipmapGenerationCallBack,librwcore.a batextur.obj/,DNAT
+001a15b0,RwTextureGetMipmapGenerationCallBack,librwcore.a batextur.obj/,DNAT
+001a15c8,RwTextureSetMipmapNameCallBack,librwcore.a batextur.obj/,DNAT
+001a15e8,RwTextureGetMipmapNameCallBack,librwcore.a batextur.obj/,DNAT
+001a1600,RwTextureGenerateMipmapName,librwcore.a batextur.obj/,DNAT
+001a1640,RwTextureRasterGenerateMipmaps,librwcore.a batextur.obj/,DNAT
+001a1678,_rwTextureSetAutoMipMapState,librwcore.a batextur.obj/,DNAT
+001a1698,_rwTextureGetAutoMipMapState,librwcore.a batextur.obj/,DNAT
+001a16b0,RwTextureGetReadCallBack,librwcore.a batextur.obj/,DNAT
+001a16c8,RwTextureSetReadCallBack,librwcore.a batextur.obj/,DNAT
+001a16e8,RwTextureGetFindCallBack,librwcore.a batextur.obj/,DNAT
+001a1700,RwTextureSetFindCallBack,librwcore.a batextur.obj/,DNAT
+001a1720,RwTextureSetName,librwcore.a batextur.obj/,DNAT
+001a17c0,RwTextureSetMaskName,librwcore.a batextur.obj/,DNAT
+001a1860,RwTexDictionarySetFreeListCreateParams,librwcore.a batextur.obj/,DNAT
+001a1870,RwTexDictionaryCreate,librwcore.a batextur.obj/,DNAT
+001a1928,RwTexDictionaryDestroy,librwcore.a batextur.obj/,DNAT
+001a19c8,RwTextureSetFreeListCreateParams,librwcore.a batextur.obj/,DNAT
+001a19d8,RwTextureCreate,librwcore.a batextur.obj/,DNAT
+001a1a60,RwTextureDestroy,librwcore.a batextur.obj/,DNAT
+001a1b10,RwTextureSetRaster,librwcore.a batextur.obj/,DNAT
+001a1b60,RwTexDictionaryAddTexture,librwcore.a batextur.obj/,DNAT
+001a1bb0,RwTexDictionaryRemoveTexture,librwcore.a batextur.obj/,DNAT
+001a1be8,RwTexDictionaryFindNamedTexture,librwcore.a batextur.obj/,DNAT
+001a1cd8,RwTexDictionaryGetCurrent,librwcore.a batextur.obj/,DNAT
+001a1cf0,RwTexDictionarySetCurrent,librwcore.a batextur.obj/,DNAT
+001a1d10,RwTexDictionaryForAllTextures,librwcore.a batextur.obj/,DNAT
+001a1d80,RwTexDictionaryForAllTexDictionaries,librwcore.a batextur.obj/,DNAT
+001a1df8,RwTextureRegisterPlugin,librwcore.a batextur.obj/,DNAT
+001a1e40,RwTexDictionaryRegisterPlugin,librwcore.a batextur.obj/,DNAT
+001a1e88,RwTextureGetPluginOffset,librwcore.a batextur.obj/,DNAT
+001a1eb0,RwTexDictionaryGetPluginOffset,librwcore.a batextur.obj/,DNAT
+001a1ed8,RwTextureValidatePlugins,librwcore.a batextur.obj/,DNAT
+001a1ee0,RwTexDictionaryValidatePlugins,librwcore.a batextur.obj/,DNAT
+001a1ee8,TextureDefaultMipmapName,librwcore.a batextur.obj/,DNAT
+001a1f88,TextureDefaultRead,librwcore.a batextur.obj/,DNAT
+001a1fd0,TextureDefaultFind,librwcore.a batextur.obj/,DNAT
+001a2058,_rwObjectHasFrameSetFrame,librwcore.a batypehf.obj/,DNAT
+001a20c8,_rwObjectHasFrameReleaseFrame,librwcore.a batypehf.obj/,DNAT
+001a20f8,_rwImageFindAlphaType,librwcore.a imrascnv.obj/,DNAT
+001a2418,_rwRasterSetFromImage8888,librwcore.a imrascnv.obj/,DNAT
+001a28a0,_rwRasterSetFromImage888,librwcore.a imrascnv.obj/,DNAT
+001a2cc0,_rwRasterSetFromImage4444,librwcore.a imrascnv.obj/,DNAT
+001a30b0,_rwRasterSetFromImage1555,librwcore.a imrascnv.obj/,DNAT
+001a34d0,_rwRasterSetFromImage565,librwcore.a imrascnv.obj/,DNAT
+001a3948,_rwRGBAFromImage8,librwcore.a imrascnv.obj/,DNAT
+001a3b80,_rwRGBAFromImage32,librwcore.a imrascnv.obj/,DNAT
+001a3d70,_rwImageFindNearestPaletteColor,librwcore.a imrascnv.obj/,DNAT
+001a4008,_rwImageSetFromRaster8888,librwcore.a imrascnv.obj/,DNAT
+001a41b8,_rwImageSetFromRaster888,librwcore.a imrascnv.obj/,DNAT
+001a4358,_rwImageSetFromRaster4444,librwcore.a imrascnv.obj/,DNAT
+001a44f0,_rwImageSetFromRaster1555,librwcore.a imrascnv.obj/,DNAT
+001a4790,_rwImageSetFromRaster565,librwcore.a imrascnv.obj/,DNAT
+001a49c8,_rwMipmapRasterSetFromImage8888,librwcore.a imrascnv.obj/,DNAT
+001a4d00,_rwMipmapRasterSetFromImage888,librwcore.a imrascnv.obj/,DNAT
+001a5018,_rwMipmapRasterSetFromImage4444,librwcore.a imrascnv.obj/,DNAT
+001a5238,_rwMipmapRasterSetFromImage1555,librwcore.a imrascnv.obj/,DNAT
+001a5468,_rwMipmapRasterSetFromImage565,librwcore.a imrascnv.obj/,DNAT
+001a57a0,LeafAddPixel,librwcore.a palquant.obj/,DNAT
+001a58d8,LeafCalcStats,librwcore.a palquant.obj/,DNAT
+001a59e8,StatsAdd,librwcore.a palquant.obj/,DNAT
+001a5b30,StatsSub,librwcore.a palquant.obj/,DNAT
+001a5c58,RepresentativeColor,librwcore.a palquant.obj/,DNAT
+001a5d50,RwPalQuantAddImage,librwcore.a palquant.obj/,DNAT
+001a6230,assignindex,librwcore.a palquant.obj/,DNAT
+001a6470,addvolume,librwcore.a palquant.obj/,DNAT
+001a6720,nCut,librwcore.a palquant.obj/,DNAT
+001a6d40,RwPalQuantResolvePalette,librwcore.a palquant.obj/,DNAT
+001a7768,RwPalQuantMatchImage,librwcore.a palquant.obj/,DNAT
+001a7e00,RwPalQuantSetMaxDepth,librwcore.a palquant.obj/,DNAT
+001a7e10,RwPalQuantGetMaxDepth,librwcore.a palquant.obj/,DNAT
+001a7e18,RwPalQuantInit,librwcore.a palquant.obj/,DNAT
+001a7f40,RwPalQuantTerm,librwcore.a palquant.obj/,DNAT
+001a8060,CalcNodeWeights,librwcore.a palquant.obj/,DNAT
+001a8238,CountLeafs,librwcore.a palquant.obj/,DNAT
+001a8338,ExtractNodes,librwcore.a palquant.obj/,DNAT
+001a8480,GetIndex,librwcore.a palquant.obj/,DNAT
+001a84c8,DeleteOctTree,librwcore.a palquant.obj/,DNAT
+001a85e8,rwDMAHandler,librwcore.a badma.obj/,DNAT
+001a8b58,rwDMAVSYNCHandler,librwcore.a badma.obj/,DNAT
+001a8dc0,_rwDMAClosePkt,librwcore.a badma.obj/,DNAT
+001a9278,_rwDMAForceBufferSwap,librwcore.a badma.obj/,DNAT
+001a9490,_rwDMAAddPkt,librwcore.a badma.obj/,DNAT
+001a9608,_rwDMAAddPkt2,librwcore.a badma.obj/,DNAT
+001a97d0,_rwDMAReqFlip,librwcore.a badma.obj/,DNAT
+001a9968,_rwDMAOpenGIFPkt,librwcore.a badma.obj/,DNAT
+001a9ef0,_rwDMAOpenVIFPkt,librwcore.a badma.obj/,B3INTERN
+001aa438,_rwDMAFreeSPR,librwcore.a badma.obj/,B3INTERN
+001aa5d8,_rwDMADMAPktAllocHigh,librwcore.a badma.obj/,B3INTERN
+001aa880,_rwDMAAddImageUpload,librwcore.a badma.obj/,B3INTERN
+001aaa80,_rwDMAHook,librwcore.a badma.obj/,B3INTERN
+001aabb0,_rwDMAUnhook,librwcore.a badma.obj/,B3INTERN
+001aae10,_rwDMADmaOpen,librwcore.a badma.obj/,B3INTERN
+001ab100,_rwDMAYieldCallbackSet,librwcore.a badma.obj/,B3INTERN
+001ab108,_rwDMAMinVsyncCntSet,librwcore.a badma.obj/,B3INTERN
+001ab110,_rwDMACallbackRestart,librwcore.a badma.obj/,B3INTERN
+001ab188,_rwDMAAddPURef,librwcore.a badma.obj/,B3INTERN
+001ab228,_rwDMAWaitQueue,librwcore.a badma.obj/,B3INTERN
+001ab308,_rwDMADMAAlloca,librwcore.a badma.obj/,DNAT
+001ab3f0,_rwDMADmaClose,librwcore.a badma.obj/,DNAT
+001ab438,_rwDMAPreAlloc,librwcore.a badma.obj/,DNAT
+001ab478,_rwSkyInitConfigSystem,librwcore.a baevent.obj/,DNAT
+001ab4e0,_rwSkySetRenderState,librwcore.a basky.obj/,DNAT
+001abf78,SkyGetRenderState,librwcore.a basky.obj/,DNAT
+001ac388,RpSkyRenderStateSet,librwcore.a basky.obj/,DNAT
+001ac580,SkyCameraBeginUpdate,librwcore.a basky.obj/,DNAT
+001acf80,SkyCameraClear,librwcore.a basky.obj/,DNAT
+001ad400,SkyGetRasterFormat,librwcore.a basky.obj/,DNAT
+001ad980,calcOffsets,librwcore.a basky.obj/,DNAT
+001aec80,SkyRasterCreate,librwcore.a basky.obj/,DNAT
+001b07c0,_skyRasterRecreateDMATags,librwcore.a basky.obj/,DNAT
+001b0c38,SkyRasterSubRaster,librwcore.a basky.obj/,DNAT
+001b0fe0,SkyRasterDestroy,librwcore.a basky.obj/,DNAT
+001b11f8,SkyRasterLock_32to8,librwcore.a basky.obj/,DNAT
+001b14e0,SkyRasterLock_16to4,librwcore.a basky.obj/,DNAT
+001b1898,SkyRasterUnlock_8to32,librwcore.a basky.obj/,DNAT
+001b1b78,SkyRasterUnlock_4to16,librwcore.a basky.obj/,DNAT
+001b1f28,SkyRasterLock,librwcore.a basky.obj/,DNAT
+001b27d8,SkyRasterUnlock,librwcore.a basky.obj/,DNAT
+001b29e8,writeTEXToStream,librwcore.a basky.obj/,DNAT
+001b2cd0,readTEXFromStream,librwcore.a basky.obj/,DNAT
+001b3018,SkyNativeTextureWrite,librwcore.a basky.obj/,DNAT
+001b3108,SkyNativeTextureRead,librwcore.a basky.obj/,DNAT
+001b3338,setInitialRenderState,librwcore.a basky.obj/,DNAT
+001b34b0,SkyOpen,librwcore.a basky.obj/,DNAT
+001b37a0,SkyFinalizeStart,librwcore.a basky.obj/,DNAT
+001b3890,setUpFSAA0,librwcore.a basky.obj/,DNAT
+001b3fb0,skyCustomModeIsOk,librwcore.a basky.obj/,DNAT
+001b4308,SkyStart,librwcore.a basky.obj/,DNAT
+001b5018,SkySystem,librwcore.a basky.obj/,DNAT
+001b53b8,RpSkyResume,librwcore.a basky.obj/,DNAT
+001b54f0,_rpSkyFrameBufferRastersUpdate,librwcore.a basky.obj/,DNAT
+001b5620,SkyCreateFBRaster,librwcore.a basky.obj/,DNAT
+001b5800,SkyCreateDBRaster,librwcore.a basky.obj/,DNAT
+001b59f0,_rpSkyCreateFrameBufferRasters,librwcore.a basky.obj/,DNAT
+001b5ac8,SkyGSMipGenerate,librwcore.a basky.obj/,DNAT
+001b61d8,_rwDeviceGetHandle,librwcore.a basky.obj/,DNAT
+001b61e8,_rpSkyDestroyFrameBufferRasters,librwcore.a basky.obj/,DNAT
+001b6240,RpSkyGetModeStructurePtr,librwcore.a basky.obj/,DNAT
+001b6250,_rwSkyFindMSB,librwcore.a basky.obj/,DNAT
+001b6280,_rwSkyFSAAMode0SetVisibleWidth,librwcore.a basky.obj/,DNAT
+001b62d0,RpSkySuspend,librwcore.a basky.obj/,DNAT
+001b6308,_skyRasterGetTwiddling,librwcore.a basky.obj/,DNAT
+001b6320,_skyRasterSetTwiddling,librwcore.a basky.obj/,DNAT
+001b6388,RpSkySelectDeepZBuffer,librwcore.a basky.obj/,DNAT
+001b63c8,RpSkyTextureSetDefaultMipmapK,librwcore.a basky.obj/,DNAT
+001b6430,RpSkyTextureSetDefaultMipmapL,librwcore.a basky.obj/,DNAT
+001b6460,RpSkyTextureGetDefaultMipmapK,librwcore.a basky.obj/,DNAT
+001b6490,RpSkyTextureGetDefaultMipmapL,librwcore.a basky.obj/,DNAT
+001b64a0,RpSkyTextureSetMipmapK,librwcore.a basky.obj/,DNAT
+001b6510,RpSkyTextureSetMipmapL,librwcore.a basky.obj/,DNAT
+001b6558,RpSkyTextureGetMipmapK,librwcore.a basky.obj/,DNAT
+001b65b0,RpSkyTextureGetMipmapL,librwcore.a basky.obj/,DNAT
+001b65e0,RpSkySelectTrueTSClipper,librwcore.a basky.obj/,DNAT
+001b65f0,RpSkyGetTrueTSClipper,librwcore.a basky.obj/,DNAT
+001b65f8,RpSkySelectTrueTLClipper,librwcore.a basky.obj/,DNAT
+001b6608,RpSkyGetTrueTLClipper,librwcore.a basky.obj/,DNAT
+001b6610,RpSkyRenderStateGet,librwcore.a basky.obj/,DNAT
+001b66c0,RpSkyGetDisplayBufferRaster,librwcore.a basky.obj/,DNAT
+001b66c8,RpSkyGetDrawBufferRaster,librwcore.a basky.obj/,DNAT
+001b66d0,_rwDeviceRegisterPlugin,librwcore.a basky.obj/,DNAT
+001b6788,skyReadTexCB,librwcore.a basky.obj/,DNAT
+001b6800,skyWriteTexCB,librwcore.a basky.obj/,DNAT
+001b6858,skyGetSizeTexCB,librwcore.a basky.obj/,DNAT
+001b6878,SkyCameraEndUpdate,librwcore.a basky.obj/,DNAT
+001b6930,SkyRasterShowRaster,librwcore.a basky.obj/,DNAT
+001b69c8,SkyTextureSetRaster,librwcore.a basky.obj/,DNAT
+001b69d8,SkyRasterLockPalette,librwcore.a basky.obj/,DNAT
+001b6a90,SkyRasterUnlockPalette,librwcore.a basky.obj/,DNAT
+001b6b90,SkyRasterGetMipLevels,librwcore.a basky.obj/,DNAT
+001b6bf0,SkyNativeTextureGetSize,librwcore.a basky.obj/,DNAT
+001b6c80,SkyHintRenderFront2Back,librwcore.a basky.obj/,DNAT
+001b6c88,SkyNoStandard,librwcore.a basky.obj/,DNAT
+001b6c90,matrixASMMult,librwcore.a baskytran.obj/,DNAT
+001b6d08,vectorASMMultPointSingle,librwcore.a baskytran.obj/,DNAT
+001b6d68,vectorASMMultPoints,librwcore.a baskytran.obj/,DNAT
+001b6df8,vectorASMMultVectorSingle,librwcore.a baskytran.obj/,DNAT
+001b6e50,vectorASMMultVectors,librwcore.a baskytran.obj/,DNAT
+001b6ed8,spriteSetup,librwcore.a skyblit.obj/,DNAT
+001b7130,spriteUV,librwcore.a skyblit.obj/,DNAT
+001b72a8,spriteUnsetup,librwcore.a skyblit.obj/,DNAT
+001b73f0,_rwSkyRasterClearRect,librwcore.a skyblit.obj/,DNAT
+001b7810,unScaledSpriteClip,librwcore.a skyblit.obj/,DNAT
+001b7950,scaledSpriteClip,librwcore.a skyblit.obj/,DNAT
+001b7b38,skyRasterSetupForUpload,librwcore.a skyblit.obj/,DNAT
+001b7f80,_rwSkyRasterRender,librwcore.a skyblit.obj/,DNAT
+001b9b38,_rwSkyRasterRenderScaled,librwcore.a skyblit.obj/,DNAT
+001bb198,_rwSkyRasterRenderFast,librwcore.a skyblit.obj/,DNAT
+001bcbb0,_rwSkyRasterFinaliseStart,librwcore.a skyblit.obj/,DNAT
+001bcc20,_rwSkyRasterInitiateStop,librwcore.a skyblit.obj/,DNAT
+001bcc60,_rwSkyRasterClear,librwcore.a skyblit.obj/,DNAT
+001bcca8,_rwSkyRasterSetContext,librwcore.a skyblit.obj/,DNAT
+001bcce0,_rwSkyImageFindRasterFormat,librwcore.a skyconv.obj/,DNAT
+001bce68,_rwSkyImageGetRaster,librwcore.a skyconv.obj/,DNAT
+001bdda0,copyRGBAPalette,librwcore.a skyconv.obj/,DNAT
+001be218,SkyRasterSetImageNormalPalettised,librwcore.a skyconv.obj/,DNAT
+001be5b0,SkyRasterSetImageNormal,librwcore.a skyconv.obj/,DNAT
+001beca8,_rwSkyRGBToPixel,librwcore.a skyconv.obj/,DNAT
+001beda0,_rwSkyPixelToRGB,librwcore.a skyconv.obj/,DNAT
+001bee88,_rwSkyRasterSetImage,librwcore.a skyconv.obj/,DNAT
+001bef98,open2DVU1Pkt,librwcore.a skyinst.obj/,DNAT
+001bf148,openVU1SetupPkt,librwcore.a skyinst.obj/,DNAT
+001bf4d0,openVU1SetupPktNew,librwcore.a skyinst.obj/,DNAT
+001bf7c0,closeAndDispatchVU1Packet,librwcore.a skyinst.obj/,DNAT
+001bf828,initVu1DispatchStuff,librwcore.a skyinst.obj/,DNAT
+001bfbc0,addCopyVU1Line,librwcore.a skyinst.obj/,DNAT
+001bfd28,addCopyVU1Triangle,librwcore.a skyinst.obj/,DNAT
+001bfed8,addCopyVU1PrimLineList,librwcore.a skyinst.obj/,DNAT
+001c0268,addCopyVU1PrimPolyLine,librwcore.a skyinst.obj/,DNAT
+001c0600,addCopyVU1PrimTriList,librwcore.a skyinst.obj/,DNAT
+001c0888,addCopyVU1PrimTriStrip,librwcore.a skyinst.obj/,DNAT
+001c0b38,addCopyVU1PrimTriFan,librwcore.a skyinst.obj/,DNAT
+001c0dc0,addCopyVU1IndPrimLineList,librwcore.a skyinst.obj/,DNAT
+001c1170,addCopyVU1IndPrimPolyLine,librwcore.a skyinst.obj/,DNAT
+001c1520,addCopyVU1IndPrimTriList,librwcore.a skyinst.obj/,DNAT
+001c17e0,addCopyVU1IndPrimTriStrip,librwcore.a skyinst.obj/,DNAT
+001c1ab0,addCopyVU1IndPrimTriFan,librwcore.a skyinst.obj/,DNAT
+001c1d68,_rwSkyPipeSetupForCamera,librwcore.a skyinst.obj/,DNAT
+001c2060,_rwSkyOverloadPipelines,librwcore.a skyinst.obj/,DNAT
+001c20b0,_rwSkyUnOverloadPipelines,librwcore.a skyinst.obj/,DNAT
+001c20b8,SkyIm2DRenderLine,librwcore.a skyinst.obj/,DNAT
+001c2110,SkyIm2DRenderTriangle,librwcore.a skyinst.obj/,DNAT
+001c2170,SkyIm2DRenderPrimitive,librwcore.a skyinst.obj/,DNAT
+001c21e0,SkyIm2DRenderIndexedPrimitive,librwcore.a skyinst.obj/,DNAT
+001c2248,_SkyBuildPktForUpLoadAlignedContiguousRectangle,librwcore.a texcache.obj/,DNAT
+001c24c0,skyPrepareUploadRaster,librwcore.a texcache.obj/,DNAT
+001c26b8,_SkyDdispatchUpLoadAlignedContiguousRectangle,librwcore.a texcache.obj/,DNAT
+001c28f0,_SkyUpLoadAlignedRectangle,librwcore.a texcache.obj/,DNAT
+001c2c50,skyTexCacheMemRasterToGs,librwcore.a texcache.obj/,DNAT
+001c3560,_skyTexCacheUploadRaster,librwcore.a texcache.obj/,DNAT
+001c3a80,skyTexCacheOpenCache,librwcore.a texcache.obj/,DNAT
+001c3b80,skyTexCacheCloseCache,librwcore.a texcache.obj/,DNAT
+001c3cb0,skyTexCacheUploadPalette,librwcore.a texcache.obj/,DNAT
+001c4060,RpSkyTexCacheAccessRaster,librwcore.a texcache.obj/,DNAT
+001c4460,RpSkyTexCacheReleaseRaster,librwcore.a texcache.obj/,DNAT
+001c4660,RpSkyTexCacheRasterLock,librwcore.a texcache.obj/,DNAT
+001c4938,RpSkyTexCacheRestore,librwcore.a texcache.obj/,DNAT
+001c4b80,RpSkyTexCacheSetStartAddress,librwcore.a texcache.obj/,DNAT
+001c4cb8,RpSkyTexCacheAccessSpeculate,librwcore.a texcache.obj/,DNAT
+001c4d88,RpSkyTexCacheRasterUnlockAll,librwcore.a texcache.obj/,DNAT
+001c4e28,RpSkyTexCacheFlush,librwcore.a texcache.obj/,DNAT
+001c4ec8,RpSkyTexCacheDisable,librwcore.a texcache.obj/,DNAT
+001c4ef8,RpSkyTexGetStartAddress,librwcore.a texcache.obj/,DNAT
+001c4f08,RpSkyTexGetSize,librwcore.a texcache.obj/,DNAT
+001c4f18,RpSkyTexCacheSetCallBack,librwcore.a texcache.obj/,DNAT
+001c4f28,RpSkyTexCacheGetCallBack,librwcore.a texcache.obj/,DNAT
+001c4f38,RpSkyTexCacheSetReleaseCallBack,librwcore.a texcache.obj/,DNAT
+001c4f48,RpSkyTexCacheGetReleaseCallBack,librwcore.a texcache.obj/,DNAT
+001c4f58,RpSkyTexCacheRasterGetAddr,librwcore.a texcache.obj/,DNAT
+001c4f70,RpSkyTexSetTex0,librwcore.a texcache.obj/,DNAT
+001c4f88,RpSkyTexGetTex0,librwcore.a texcache.obj/,DNAT
+001c4fa8,RpSkyTexCalcTex1,librwcore.a texcache.obj/,DNAT
+001c5020,RpSkyTexSetMiptbp1,librwcore.a texcache.obj/,DNAT
+001c5038,RpSkyTexGetMiptbp1,librwcore.a texcache.obj/,DNAT
+001c5058,RpSkyTexSetMiptbp12,librwcore.a texcache.obj/,DNAT
+001c5078,RpSkyTexGetMiptbp12,librwcore.a texcache.obj/,DNAT
+001c50a8,RpSkyTexCacheValidateRaster,librwcore.a texcache.obj/,DNAT
+001c50d8,RpSkyUploadPixelData,librwcore.a texcache.obj/,DNAT
+001c5100,RpSkyTexCacheUploadRaster,librwcore.a texcache.obj/,DNAT
+001c5188,RpSkyTexCacheGetStartAddress,librwcore.a texcache.obj/,DNAT
+001c5198,skyTexCacheEndFrame,librwcore.a texcache.obj/,DNAT
+001c51a0,skyFillInPktForUpLoadAlignedContiguousRectangle,librwcore.a texcache.obj/,DNAT
+001c5358,_skyTexCacheNullUploadRaster,librwcore.a texcache.obj/,DNAT
+001c5360,RwIm3DRenderIndexedPrimitive,librwcore.a baim3d.obj/,DNAT
+001c54f0,RwIm3DRenderPrimitive,librwcore.a baim3d.obj/,DNAT
+001c5678,RwIm3DSetRenderPipeline,librwcore.a baim3d.obj/,DNAT
+001c5910,_rwIm3DOpen,librwcore.a baim3d.obj/,DNAT
+001c59d0,_rwIm3DClose,librwcore.a baim3d.obj/,DNAT
+001c5a30,_rwIm3DGetPool,librwcore.a baim3d.obj/,DNAT
+001c5a48,RwIm3DTransform,librwcore.a baim3d.obj/,DNAT
+001c5af0,RwIm3DEnd,librwcore.a baim3d.obj/,DNAT
+001c5b40,RwIm3DRenderLine,librwcore.a baim3d.obj/,DNAT
+001c5c38,RwIm3DRenderTriangle,librwcore.a baim3d.obj/,DNAT
+001c5d50,RwIm3DGetTransformPipeline,librwcore.a baim3d.obj/,DNAT
+001c5d68,RwIm3DGetRenderPipeline,librwcore.a baim3d.obj/,DNAT
+001c5e68,RwIm3DSetTransformPipeline,librwcore.a baim3d.obj/,DNAT
+001c5eb8,_rwRenderPipelineOpen,librwcore.a bapipe.obj/,DNAT
+001c5ee8,_rwRenderPipelineClose,librwcore.a bapipe.obj/,DNAT
+001c5f10,_rwPipeAttach,librwcore.a bapipe.obj/,DNAT
+001c5f18,_rwPipeInitForCamera,librwcore.a bapipe.obj/,DNAT
+001c5f20,_rxEmbeddedPacketBetweenPipelines,librwcore.a p2altmdl.obj/,DNAT
+001c60c8,_rxEmbeddedPacketBetweenNodes,librwcore.a p2altmdl.obj/,DNAT
+001c6370,_rxPacketDestroy,librwcore.a p2altmdl.obj/,DNAT
+001c6660,_rxPipelineOpen,librwcore.a p2core.obj/,DNAT
+001c6718,PipelineNodeDestroy,librwcore.a p2core.obj/,DNAT
+001c6b30,RxClusterLockWrite,librwcore.a p2core.obj/,DNAT
+001c6c68,RxPipelineSetFreeListCreateParams,librwcore.a p2core.obj/,DNAT
+001c6c78,_rxPipelineClose,librwcore.a p2core.obj/,DNAT
+001c6cd8,RxPipelineCreate,librwcore.a p2core.obj/,DNAT
+001c6d68,_rxPipelineDestroy,librwcore.a p2core.obj/,DNAT
+001c6ea8,RxHeapGetGlobalHeap,librwcore.a p2core.obj/,DNAT
+001c6eb0,RxPipelineExecute,librwcore.a p2core.obj/,DNAT
+001c6f80,RxPacketCreate,librwcore.a p2core.obj/,DNAT
+001c6fb8,RxClusterSetStride,librwcore.a p2core.obj/,DNAT
+001c6fc8,RxClusterSetExternalData,librwcore.a p2core.obj/,DNAT
+001c7060,RxClusterSetData,librwcore.a p2core.obj/,DNAT
+001c70f8,RxClusterInitializeData,librwcore.a p2core.obj/,DNAT
+001c7190,RxClusterResizeData,librwcore.a p2core.obj/,DNAT
+001c7208,RxClusterDestroyData,librwcore.a p2core.obj/,DNAT
+001c7258,RxClusterUnlock,librwcore.a p2core.obj/,DNAT
+001c7260,RxPipelineNodeSendConfigMsg,librwcore.a p2core.obj/,DNAT
+001c72a0,RxPipelineNodeForAllConnectedOutputs,librwcore.a p2core.obj/,DNAT
+001c73a8,RxPipelineNodeGetPipelineCluster,librwcore.a p2core.obj/,DNAT
+001c73f8,RxPipelineClusterGetCreationAttributes,librwcore.a p2core.obj/,DNAT
+001c7410,RxPipelineClusterSetCreationAttributes,librwcore.a p2core.obj/,DNAT
+001c7428,RxClusterGetAttributes,librwcore.a p2core.obj/,DNAT
+001c7440,RxClusterSetAttributes,librwcore.a p2core.obj/,DNAT
+001c7458,_rwPipelineCheckForTramplingOfNodePrivateSpace,librwcore.a p2core.obj/,DNAT
+001c74d0,HeapSuperBlockReset,librwcore.a p2heap.obj/,DNAT
+001c7728,HeapReallocLarger,librwcore.a p2heap.obj/,DNAT
+001c78c0,HeapRealloc,librwcore.a p2heap.obj/,DNAT
+001c7b08,RxHeapFree,librwcore.a p2heap.obj/,DNAT
+001c7df8,RxHeapAlloc,librwcore.a p2heap.obj/,DNAT
+001c8240,RxHeapCreate,librwcore.a p2heap.obj/,DNAT
+001c83d8,RxHeapDestroy,librwcore.a p2heap.obj/,DNAT
+001c8478,_rxHeapReset,librwcore.a p2heap.obj/,DNAT
+001c8528,RxHeapRealloc,librwcore.a p2heap.obj/,DNAT
+001c8548,RxRenderStateVectorSetDefaultRenderStateVector,librwcore.a /0,DNAT
+001c86b0,RxRenderStateVectorLoadDriverState,librwcore.a /0,DNAT
+001c8898,RxRenderStateVectorGetDefaultRenderStateVector,librwcore.a /0,DNAT
+001c88f8,RxRenderStateVectorCreate,librwcore.a /0,DNAT
+001c89f0,CGtViewport::Prepare(),,B3INTERN
+001c8a00,CGtViewport::Destruct(),,B3INTERN
+001c8a38,RxRenderStateVectorDestroy,librwcore.a /0,DNAT
+001c8a60,"CGtViewport::Construct(int,int,int)",,B3INTERN
+001c8a88,_rwIm3DCreatePlatformTransformPipeline,librwcore.a im3dpipe.obj/,DNAT
+001c8a90,_rwIm3DCreatePlatformRenderPipelines,librwcore.a im3dpipe.obj/,DNAT
+001c8a98,_rwIm3DDestroyPlatformTransformPipeline,librwcore.a im3dpipe.obj/,DNAT
+001c8aa0,_rwIm3DDestroyPlatformRenderPipelines,librwcore.a im3dpipe.obj/,DNAT
+001c8bf0,CGtViewport::Update(),,B3INTERN
+001c9250,CGTFileSystem::FTell(void*),,B3INTERN
+001c9260,CGTFileSystem::FExist(const char*),,B3INTERN
+001c92b0,CGTFileSystem::FFlush(void*),,B3INTERN
+001c92c0,"CGTFileSystem::FSeek(void*,long,int)",,B3INTERN
+001c9340,CGTFileSystem::FEof(void*),,B3INTERN
+001c9360,"CGTFileSystem::FPuts(const char*,void*)",,B3INTERN
+001c93b0,"CGTFileSystem::FGets(char*,int,void*)",,B3INTERN
+001c93c0,"CGTFileSystem::FWrite(const void*,unsigned int,unsigned int,void*)",,B3INTERN
+001ca6a0,"CGtInputManagerPS2Pad2::BindToPort(CGtInputDevicePS2Pad2*,EGtPS2InputPort)",,B3DEBUG
+001ca810,CGtInputManagerPS2Pad2::SetPause(bool),,B3DEBUG
+001ca890,CGtInputManagerPS2Pad2::GetPadControls(EGtPS2InputPort),,B3DEBUG
+001ca920,CGtInputManagerPS2Pad2::GetSocketNumber(EGtPS2InputPort),,B3DEBUG
+001ca980,CGtInputManagerPS2Pad2::GetPadControls(EGtPS2InputPort),GtInputManagerPS2Pad2.cpp,DNAT
+001ca9b0,CGtInputManagerPS2Pad2::GetConnectedDeviceID(EGtPS2InputPort),,B3DEBUG
+001ca9c0,CGtInputManagerPS2Pad2::GetSocketNumber(EGtPS2InputPort),GtInputManagerPS2Pad2.cpp,DNAT
+001caa00,CGtInputManagerPS2Pad2::GetConnectedDeviceID(EGtPS2InputPort),GtInputManagerPS2Pad2.cpp,DNAT
+001caa40,CGtInputManagerPS2Pad2::Update(),GtInputManagerPS2Pad2.cpp,DNAT
+001cab30,CGtInputManagerPS2Pad2::Prepare(),GtInputManagerPS2Pad2.cpp,DNAT
+001cab40,CGtInputManagerPS2Pad2::Construct(bool),GtInputManagerPS2Pad2.cpp,DNAT
+001cac90,CGtInputDevicePS2DualShock2::Update(),GtInputDevicePS2DualShock2.cpp,DNAT
+001cb5e0,CGtInputDevicePS2DualShock2::Prepare(),GtInputDevicePS2DualShock2.cpp,DNAT
+001cb620,scePad2Init,libpad2.a libpad2.o/,DNAT
+001cb660,scePad2End,libpad2.a libpad2.o/,DNAT
+001cb6c8,scePad2CreateSocket,libpad2.a libpad2.o/,DNAT
+001cb7d0,scePad2DeleteSocket,libpad2.a libpad2.o/,DNAT
+001cb828,scePad2Read,libpad2.a libpad2.o/,DNAT
+001cb900,scePad2GetButtonProfile,libpad2.a libpad2.o/,DNAT
+001cb9d0,scePad2GetState,libpad2.a libpad2.o/,DNAT
+001cbb10,scePad2GetButtonInfo,libpad2.a libpad2.o/,DNAT
+001cbbf0,scePad2InitDmaDBuff,libpad2.a libpad2.o/,DNAT
+001cbc68,scePad2LinkDriver,libpad2.a libpad2.o/,DNAT
+001cbcc0,scePad2GetSide,libpad2.a libpad2.o/,DNAT
+001cbd28,scePad2GetSide2,libpad2.a libpad2.o/,DNAT
+001cbd90,scePad2CheckDma,libpad2.a libpad2.o/,DNAT
+001cbdf0,scePad2SetButtonOrder,libpad2.a libpad2.o/,DNAT
+001cbea0,scePad2StateIntToStr,libpad2.a libpad2.o/,DNAT
+001cbed8,sceDbcGetModVersion,libdbc.a libdbc.o/,DNAT
+001cbf30,sceDbcInit,libdbc.a libdbc.o/,DNAT
+001cc170,sceDbcEnd,libdbc.a libdbc.o/,DNAT
+001cc1b8,sceDbcSetWorkAddr,libdbc.a libdbc.o/,DNAT
+001cc228,sceDbcCreateSocket,libdbc.a libdbc.o/,DNAT
+001cc300,sceDbcDeleteSocket,libdbc.a libdbc.o/,DNAT
+001cc388,sceDbcGetDepNumber,libdbc.a libdbc.o/,DNAT
+001cc4d0,sceDbcGetConnection,libdbc.a libdbc.o/,DNAT
+001cc5c8,sceDbcInitSocket,libdbc.a libdbc.o/,DNAT
+001cc638,sceDbcResetSocket,libdbc.a libdbc.o/,DNAT
+001cc6a8,sceDbcGetDeviceStatus,libdbc.a libdbc.o/,DNAT
+001cc718,sceDbcSearchPortSpecific,libdbc.a libdbc.o/,DNAT
+001cc7a0,sceDbcSRData,libdbc.a libdbc.o/,DNAT
+001cc8e8,sceDbcSendData,libdbc.a libdbc.o/,DNAT
+001cca18,sceDbcSendData2,libdbc.a libdbc.o/,DNAT
+001ccb78,sceDbcSendData3,libdbc.a libdbc.o/,DNAT
+001ccce0,sceDbcReceiveData,libdbc.a libdbc.o/,DNAT
+001ccdd0,DPRINT,libdbc.a libdbc.o/,DNAT
+001cce00,"CGtInputDevicePS2DualShock::DeadzoneAxis(float,float)",GtInputDevicePS2DualShock.cpp,DNAT
+001cced0,CGtInputDevicePS2DualShock::DeadzoneTrigger(float),GtInputDevicePS2DualShock.cpp,DNAT
+001ccf40,CGtInputDevicePS2DualShock::DeadzoneButton(float),GtInputDevicePS2DualShock.cpp,DNAT
+001ccfb0,CGtInputDevicePS2DualShock::UnbindFromPort(),GtInputDevicePS2DualShock.cpp,DNAT
+001ccfd0,"CGtInputDevicePS2DualShock::BindToPort(CGtInputManagerPS2Pad2*,EGtPS2InputPort)",GtInputDevicePS2DualShock.cpp,DNAT
+001cd020,CGtInputDevicePS2DualShock::SetPause(bool),GtInputDevicePS2DualShock.cpp,DNAT
+001cd040,CGtInputDevicePS2DualShock::UpdateVibration(),GtInputDevicePS2DualShock.cpp,DNAT
+001cd1e0,CGtInputDevicePS2DualShock::GetPort(),GtInputDevicePS2DualShock.cpp,DNAT
+001cd1f0,CGtInputDevicePS2DualShock::IsControlJustPressed(int),GtInputDevicePS2DualShock.cpp,DNAT
+001cd220,CGtInputDevicePS2DualShock::Prepare(),,B3INTERN
+001cd240,CGtInputDevicePS2DualShock::GetControlValue(int),GtInputDevicePS2DualShock.cpp,DNAT
+001cd280,CGtInputDevicePS2DualShock::Prepare(),GtInputDevicePS2DualShock.cpp,DNAT
+001cd310,CGtInputDevicePS2DualShock::IsConnected(),GtInputDevicePS2DualShock.cpp,DNAT
+001cd320,CGtInputDevicePS2DualShock::Construct(),GtInputDevicePS2DualShock.cpp,DNAT
+001cd3d0,sceVibGetProfile,libvib.a libvib.o/,DNAT
+001cd450,sceVibSetActParam,libvib.a libvib.o/,DNAT
+001cd540,"CGtFSM::StateEnter(CGtState*,void*)",GtFSM.cpp,DNAT
+001cd580,"CGtFSM::StateLeave(CGtState*,void*)",GtFSM.cpp,DNAT
+001cd5c0,CGtFSM::GetStateFromID(unsigned long),GtFSM.cpp,DNAT
+001cd600,"CGtFSM::ApplyEvent(unsigned int,void*)",GtFSM.cpp,DNAT
+001cd640,CGtFSM::Update(),GtFSM.cpp,DNAT
+001cd680,CGtFSM::Destruct(),GtFSM.cpp,DNAT
+001cd6f0,"CGtFSM::Construct(void*,const CGtStateOffset*,CGtTimer*)",GtFSM.cpp,DNAT
+001cd780,Gt2dRenderer::EnableZTest(bool),Gt2dRendererPS2.cpp,DNAT
+001cd7b0,"Gt2dRenderer::SetZ(float,float,float)",Gt2dRendererPS2.cpp,DNAT
+001cd810,Gt2dRenderer::ResetClipRegion(),Gt2dRendererPS2.cpp,DNAT
+001cd950,"Gt2dRenderer::SetClipRegion(const GtMathPs2::CGtV2d&,const GtMathPs2::CGtV2d&)",Gt2dRendererPS2.cpp,DNAT
+001cdb70,Gt2dRenderer::SetTextureAddressMode(Gt2dRenderer::EGt2dRendererTexAddress),Gt2dRendererPS2.cpp,DNAT
+001cdc70,Gt2dRenderer::SetTextureFilterMode(Gt2dRenderer::EGt2dRendererFilter),Gt2dRendererPS2.cpp,DNAT
+001cdda0,Gt2dRenderer::SetBlendMode(Gt2dRenderer::EGt2dRendererBlend),Gt2dRendererPS2.cpp,DNAT
+001cdef0,"Gt2dRenderer::RenderTriStripGouraudUntex(const GtMathPs2::CGtV2d&,int,const GtMathPs2::CGtV2d*,const GtMathPs2::CGtV4d*)",Gt2dRendererPS2.cpp,DNAT
+001ce320,"Gt2dRenderer::RenderTriStripFlatUntex(GtMathPs2::CGtV4d,const GtMathPs2::CGtV2d&,int,const GtMathPs2::CGtV2d*)",Gt2dRendererPS2.cpp,DNAT
+001d25a0,CB3StreamedTrack::DoUnitFrustumTesting(),B3StreamedTrackPS2.cpp,DNAT
+001d2800,"CB3StaticTrack::RenderAllBackdrops(EBackdropRenderRange,bool,bool)",B3StaticTrackPS2.cpp,DNAT
+001d2a60,"CB3StaticTrack::RenderWater(float,const CB3BackdropObject&,const CB3BackdropObject*)",B3StaticTrackPS2.cpp,DNAT
+001d2c80,CB3StaticTrack::RenderStaticObject(const CB3StaticTrackObject&),B3StaticTrackPS2.cpp,DNAT
+001d2de0,CB3SkyDomeRenderer::SetGradientTextureAsSource(),B3SkyDomeRendererPS2.cpp,DNAT
+001d2e50,CB3SkyDomeRenderer::RestoreRenderTarget(),B3SkyDomeRendererPS2.cpp,DNAT
+001d2e60,CB3SkyDomeRenderer::SetBackdropAsRenderTarget(),B3SkyDomeRendererPS2.cpp,DNAT
+001d2ee0,CB3SkyDomeRenderer::RenderComponent(CB3SkyDomeRendererBase::ESkyComponent),B3SkyDomeRendererPS2.cpp,DNAT
+001d3060,CB3SkyDomeRenderer::EndRender(),B3SkyDomeRendererPS2.cpp,DNAT
+001d30e0,CB3SkyDomeRenderer::BeginRender(),B3SkyDomeRendererPS2.cpp,DNAT
+001d3210,"CB3SkyDomeRenderer::SetupCamera(float,float)",B3SkyDomeRendererPS2.cpp,DNAT
+001d3380,CB3SkyDomeRenderer::Release(),B3SkyDomeRendererPS2.cpp,DNAT
+001d3390,"CB3SkyDomeRenderer::Prepare(CGtTexture*,CGtTexture*,CGtTexture*)",B3SkyDomeRendererPS2.cpp,DNAT
+001d3600,CB3SkyDomeRenderer::Destruct(),B3SkyDomeRendererPS2.cpp,DNAT
+001d3610,CB3SkyDomeRenderer::Construct(),B3SkyDomeRendererPS2.cpp,DNAT
+001d36d0,CB3SkyDomeRenderer::CB3SkyDomeHemisphereParams::Construct(CB3SkyDomeRendererBase::ESkyComponent),B3SkyDomeRendererPS2.cpp,DNAT
+001d3930,"CB3VehicleRenderer::RenderDeformedObject(EB3VehicleRenderType,const GtMathPs2::CGtMatrix3x4&,CB3VehicleObject*,float,unsigned s",B3VehicleRendererRuntimePS2.cpp,DNAT
+001d3af0,"CB3VehicleRenderer::RenderObject(EB3VehicleRenderType,const GtMathPs2::CGtMatrix3x4&,CB3VehicleObject*,float,unsigned short,uns",B3VehicleRendererRuntimePS2.cpp,DNAT
+001d3c10,"CB3VehicleRenderer::RenderMesh(EB3VehicleRenderType,float,CB3VehicleMesh&,unsigned short)",B3VehicleRendererRuntimePS2.cpp,DNAT
+001d3ef0,"CB3VehicleRenderer::ComputePerObjectData(const GtMathPs2::CGtMatrix3x4&,float,bool)",B3VehicleRendererRuntimePS2.cpp,DNAT
+001d3fb0,"CB3VehicleRenderer::SetTexture(CGtTexture*,int)",B3VehicleRendererRuntimePS2.cpp,DNAT
+001d4090,CB3VehicleRenderer::EndRenderingSingleVehicle(),B3VehicleRendererRuntimePS2.cpp,DNAT
+001d40a0,"CB3VehicleRenderer::BeginRenderingSingleVehicle(const CB3VehicleEssentialParams*,CB3VehicleLODData*,float,float)",B3VehicleRendererRuntimePS2.cpp,DNAT
+001d41d0,CB3VehicleRenderer::EndVehicleRendering(),B3VehicleRendererRuntimePS2.cpp,DNAT
+001dd1a0,CB3InputManager::GetMenuPageUp(signed char),,B3INTERN
+001dd220,CB3InputManager::GetMenuKeyboardCapsLock(signed char),B3InputManager.cpp,DNAT
+001dd2a0,CB3InputManager::GetMenuKeyboardShift(signed char),B3InputManager.cpp,DNAT
+001dd320,CB3InputManager::GetMenuDeletePersona(signed char),B3InputManager.cpp,DNAT
+001dd3a0,"CB3InputManager::GetStartButton(bool,signed char)",B3InputManager.cpp,DNAT
+001dd440,CB3InputManager::GetMenuBuddies(signed char),B3InputManager.cpp,DNAT
+001dd4c0,CB3InputManager::GetMenuRight(signed char),B3InputManager.cpp,DNAT
+001dd540,CB3InputManager::GetMenuLeft(signed char),B3InputManager.cpp,DNAT
+001dd5c0,CB3InputManager::GetMenuDown(signed char),B3InputManager.cpp,DNAT
+001dd640,CB3InputManager::GetMenuUp(signed char),B3InputManager.cpp,DNAT
+001dd6c0,CB3InputManager::GetMenuBack(signed char),B3InputManager.cpp,DNAT
+001dd740,CB3InputManager::GetMenuConfirm(signed char),B3InputManager.cpp,DNAT
+001dd7d0,CB3InputManager::GetLockedPlayersPort(signed char),B3InputManager.cpp,DNAT
+001e3fe8,sceInsockGethostbyname,libinsck.a socket.o/,DNAT
+001e4168,sceInsockGethostbyaddr,libinsck.a socket.o/,DNAT
+001e4368,sceInsockAbortGethostbyname,libinsck.a socket.o/,DNAT
+001e43e0,sceInsockAbortGethostbyaddr,libinsck.a socket.o/,DNAT
+001e4400,sceSifMInitRpc,libmrpc.a msifrpc.o/,DNAT
+001e44e8,_iopnotify,libmrpc.a msifrpc.o/,DNAT
+001e4510,sceSifMExitRpc,libmrpc.a msifrpc.o/,DNAT
+001e4540,_sceRpcGetPacket,libmrpc.a msifrpc.o/,DNAT
+001e45e8,_sceRpcFreePacket,libmrpc.a msifrpc.o/,DNAT
+001e4608,_request_end,libmrpc.a msifrpc.o/,DNAT
+001e4728,sceSifMBindRpc,libmrpc.a msifrpc.o/,DNAT
+001e4750,sceSifMBindRpcParam,libmrpc.a msifrpc.o/,DNAT
+002038e0,CB3NetworkCarPhysics::Update(float),,B3INTERN
+00205760,CB3NetworkCarPhysics::ApplyADiff(),,B3INTERN
+00205920,CB3NetworkCarPhysics::WeWantToDoPhysics(),,B3INTERN
+00205a80,CB3NetworkCarPhysics::Prepare(CB3RaceCar*),,B3DEBUG
+00205ac0,CB3NetworkCarPhysics::Prepare(CB3RaceCar*),,B3INTERN
+00205b00,CB3NetworkCarPhysics::Construct(),,B3INTERN
+00205b30,CB3TriggerStruct::Fixup(unsigned int),,B3INTERN
+00205c90,CB3TrafficLightPositionStruct::Fixup(unsigned int),,B3INTERN
+00205cd0,CB3FormationBehaviourStruct::Fixup(unsigned int),,B3INTERN
+00205d00,CB3TrafficValvePositionStruct::Fixup(unsigned int),,B3INTERN
+00205d20,CB3TrafficLanesStruct::Fixup(unsigned int),,B3INTERN
+00205db0,CB3TrafficDataStruct::Fixup(unsigned int),,B3INTERN
+00205f70,CB3TrackMaterial::Prepare(),,B3INTERN
+00205f80,CB3TrackMaterial::FixUp(),,B3DEBUG
+00205fd0,CB3TrackRenderer::EndInstanceRender(),,B3DEBUG
+002061a0,CB3TrackRenderer::FlushInstances(),,B3DEBUG
+0021b450,CB3SoundPlayerCar::Register(unsigned long),B3SoundPlayerCar.cpp,DNAT
+0021b6e0,CB3SoundPlayerCar::Destruct(),B3SoundPlayerCar.cpp,DNAT
+0021b710,CB3SoundPlayerCar::Release(),B3SoundPlayerCar.cpp,DNAT
+0021b790,CB3SoundPlayerCar::Update(const CB3RaceCar*),B3SoundPlayerCar.cpp,DNAT
+0021b860,"CB3SoundPlayerCar::Prepare(unsigned long,int)",B3SoundPlayerCar.cpp,DNAT
+0021b9a0,CB3SoundPlayerCar::Construct(),B3SoundPlayerCar.cpp,DNAT
+0021ba20,CB3SoundRaceCar::UpdateHorn(CB3RaceCar*),B3SoundRaceCar.cpp,DNAT
+0021baf0,CB3SoundRaceCar::UpdateBoostIn(const CB3RaceCar*),B3SoundRaceCar.cpp,DNAT
+0021bbd0,CB3SoundRaceCar::UpdateBoostOut(const CB3RaceCar*),B3SoundRaceCar.cpp,DNAT
+0021bcb0,CB3SoundRaceCar::StopBoost(const CB3RaceCar*),B3SoundRaceCar.cpp,DNAT
+0021bd80,CB3SoundRaceCar::DoBoostIn(const CB3RaceCar*),B3SoundRaceCar.cpp,DNAT
+0021be60,CB3SoundRaceCar::StartBoost(const CB3RaceCar*),B3SoundRaceCar.cpp,DNAT
+0021feb0,CB3SoundCrashedTraffic::Release(),B3SoundCrashedTraffic.cpp,DNAT
+0021ff60,CB3SoundCrashedTraffic::Update(),B3SoundCrashedTraffic.cpp,DNAT
+00220350,CB3SoundCrashedTraffic::Prepare(),B3SoundCrashedTraffic.cpp,DNAT
+00220520,CB3SoundCrashedTraffic::Construct(),B3SoundCrashedTraffic.cpp,DNAT
+00220560,RwaSizeOf,librwacore.a rwabase.o,DNAT
+002206c0,RwaCoreRegisterDefaultObjects,librwacore.a rwabase.o,DNAT
+00220730,RwaCoreGetTickTime,librwacore.a rwabase.o,DNAT
+00220740,RwaCoreUpdateFinish,librwacore.a rwabase.o,DNAT
+00220780,RwaCoreUpdateStart,librwacore.a rwabase.o,DNAT
+002207c0,_rwaCoreOpen,librwacore.a rwabase.o,DNAT
+00220830,_RwaCoreCloseModuleCallback,librwacore.a rwabase.o,DNAT
+00220870,_RwaCoreOpenModuleCallback,librwacore.a rwabase.o,DNAT
+002209b0,_RwaCoreOpenCodeModules,librwacore.a rwabase.o,DNAT
+00220a90,_RwaCoreClosePlatform,librwacore.a rwabase.o,DNAT
+00220ae0,_RwaCoreOpenPlatform,librwacore.a rwabase.o,DNAT
+00220b80,RwaWaveByteSwap,librwacore.a rwawave.o,DNAT
+00220ca0,RwaWaveUploadBusy,librwacore.a rwawave.o,DNAT
+00220ce0,RwaWaveUpload,librwacore.a rwawave.o,DNAT
+00220e70,_RwaWaveSetFixedUp,librwacore.a rwawave.o,DNAT
+00220ea0,RwaWaveDestroy,librwacore.a rwawave.o,DNAT
+00220f80,RwaWaveCreateLoadedWave,librwacore.a rwawave.o,DNAT
+002210a0,_rwaWaveSetTargetFormat,librwacore.a rwawave.o,DNAT
+00221230,RwaWaveCreate,librwacore.a rwawave.o,DNAT
+002214f0,_rwaWaveCloseModule,librwacore.a rwawave.o,DNAT
+00221520,_rwaWaveOpenModule,librwacore.a rwawave.o,DNAT
+00221570,_rwaSymbolTableFindParamTypeByIndex,librwacore.a rwasymboltable.,DNAT
+002215d0,_rwaSymbolTableFindParamTypeFirstDepend,librwacore.a rwasymboltable.,DNAT
+00221610,_rwaSymbolTableFindParamTypeByUUID,librwacore.a rwasymboltable.,DNAT
+00221680,_rwaSymbolTableRemoveParamType,librwacore.a rwasymboltable.,DNAT
+002216e0,_rwaSymbolTableAddParamType,librwacore.a rwasymboltable.,DNAT
+00221720,_rwaSymbolTableDestroy,librwacore.a rwasymboltable.,DNAT
+00221740,_rwaSymbolTableInit,librwacore.a rwasymboltable.,DNAT
+00221760,_rwaParamTypeCreateByTypeDefs,librwacore.a rwaparam.o,DNAT
+002219c0,_rwaParamTypeHandleRefreshType,librwacore.a rwaparam.o,DNAT
+00221a20,_rwaParamTypeCloseModule,librwacore.a rwaparam.o,DNAT
+00221ab0,_rwaParamTypeOpenModule,librwacore.a rwaparam.o,DNAT
+00221bf0,RwaParamTypeDestroy,librwacore.a rwaparam.o,DNAT
+00221d50,RwaParamTypeCreateAlias,librwacore.a rwaparam.o,DNAT
+00221df0,RwaParamTypeCreateAtomic,librwacore.a rwaparam.o,DNAT
+002221b0,RwaObjGetTopLevelObject,librwacore.a rwaobj.o,DNAT
+002221c0,RwaObjDisconnectParamIndex,librwacore.a rwaobj.o,DNAT
+00222340,_rwaObjFinishExecute,librwacore.a rwaobj.o,DNAT
+002223f0,_rwaObjStartExecute,librwacore.a rwaobj.o,DNAT
+002224a0,RwaObjEnum,librwacore.a rwaobj.o,DNAT
+00222510,_rwaObjFindByObjDefCallback,librwacore.a rwaobj.o,DNAT
+00222540,RwaObjDestroy,librwacore.a rwaobj.o,DNAT
+00222690,_RwaObjInit,librwacore.a rwaobj.o,DNAT
+00222820,_rwaObjFindFixed,librwacore.a rwaobj.o,DNAT
+002228a0,_rwaObjCalcSize,librwacore.a rwaobj.o,DNAT
+00222960,RwaObjCreate,librwacore.a rwaobj.o,DNAT
+00222d60,_rwaObjCloseModule,librwacore.a rwaobj.o,DNAT
+00222da0,_RwaTopLevelObjCreateCallback,librwacore.a rwaobj.o,DNAT
+00222db0,_rwaObjOpenModule,librwacore.a rwaobj.o,DNAT
+00222e50,_rwaMemoryClose,librwacore.a rwamemory.o,DNAT
+00222e60,_rwaMemoryOpen,librwacore.a rwamemory.o,DNAT
+00222ee0,hcalloc,librwacore.a rwamemory.o,DNAT
+00222f30,hrealloc,librwacore.a rwamemory.o,DNAT
+00222f40,hmalloc,librwacore.a rwamemory.o,DNAT
+00222f50,_rwaCalloc,librwacore.a rwamemory.o,DNAT
+00222f60,_rwaFree,librwacore.a rwamemory.o,DNAT
+00222f70,_rwaFreeAligned,librwacore.a rwamemory.o,DNAT
+00222f90,_rwaMallocAligned,librwacore.a rwamemory.o,DNAT
+00222fe0,_rwaMalloc,librwacore.a rwamemory.o,DNAT
+00222ff0,_rwaGetFilenameExt,librwacore.a rwafile.o,DNAT
+00223050,RwaTimerGetFrequency,librwacore.a ostimer.o,DNAT
+00223060,RwaTimerGetValue,librwacore.a ostimer.o,DNAT
+00223070,_rwaTimerModuleClose,librwacore.a ostimer.o,DNAT
+00223080,_rwaTimerModuleOpen,librwacore.a ostimer.o,DNAT
+002230a0,_rwamemicmp,librwacore.a rwauuid.o,DNAT
+00223170,_rwaUUIDSerialize,librwacore.a rwauuid.o,DNAT
+00223230,_rwaUniqueIDInitialize,librwacore.a rwauuid.o,DNAT
+00223250,_rwaUniqueIDFreeData,librwacore.a rwauuid.o,DNAT
+002232e0,_rwaUniqueIDAssignUUID,librwacore.a rwauuid.o,DNAT
+00223360,_rwaUniqueIDAssignName,librwacore.a rwauuid.o,DNAT
+002233e0,_rwaUniqueIDModuleClose,librwacore.a rwauuid.o,DNAT
+00223410,_rwaUniqueIDModuleOpen,librwacore.a rwauuid.o,DNAT
+00223460,RwaUniqueIDByteSwap,librwacore.a rwauuid.o,DNAT
+002234d0,RwaUUIDByteSwap,librwacore.a rwauuid.o,DNAT
+00223550,RwaUUIDCompare,librwacore.a rwauuid.o,DNAT
+00223580,RwaObjInterfaceDefFindByUUID,librwacore.a rwaobjinterface,DNAT
+00223600,RwaObjInterfaceDefDestroy,librwacore.a rwaobjinterface,DNAT
+00223720,RwaObjInterfaceDefCreate,librwacore.a rwaobjinterface,DNAT
+002237d0,RwaObjInterfaceDefAssignID,librwacore.a rwaobjinterface,DNAT
+00223810,RwaObjInterfaceDefSetup,librwacore.a rwaobjinterface,DNAT
+002239c0,_rwaObjInterfaceDefSupported,librwacore.a rwaobjinterface,DNAT
+00223b60,RwaObjInterfaceRemove,librwacore.a rwaobjinterface,DNAT
+00223bd0,RwaObjInterfaceAttach,librwacore.a rwaobjinterface,DNAT
+00223ed0,_rwaObjInterfaceUnregister,librwacore.a rwaobjinterface,DNAT
+00223f40,_rwaObjInterfaceRegister,librwacore.a rwaobjinterface,DNAT
+00223fb0,_rwaObjInterfaceCloseModule,librwacore.a rwaobjinterface,DNAT
+00224010,_rwaObjInterfaceOpenModule,librwacore.a rwaobjinterface,DNAT
+00224070,RwaVoiceInterfaceRegister,librwacore.a rwavoice.o,DNAT
+002240e0,RwaObjDefAliasDestroy,librwacore.a rwaobjdefalias.,DNAT
+00224130,RwaObjHandleGetParamPointer,librwacore.a rwaintf.o,DNAT
+002241b0,RwaObjHandleGetParamUInt32,librwacore.a rwaintf.o,DNAT
+00224230,RwaObjHandleGetParamInt32,librwacore.a rwaintf.o,DNAT
+002242b0,RwaObjHandleSetParamPointer,librwacore.a rwaintf.o,DNAT
+00224310,RwaObjHandleSetParamReal,librwacore.a rwaintf.o,DNAT
+00224380,RwaObjHandleSetParamUInt32,librwacore.a rwaintf.o,DNAT
+002243f0,RwaObjHandleSetParamInt32,librwacore.a rwaintf.o,DNAT
+00224460,RwaObjHandleSetParamData,librwacore.a rwaintf.o,DNAT
+002244c0,RwaObjHandleRelease,librwacore.a rwaintf.o,DNAT
+00224610,RwaObjHandleCreateUsingObj,librwacore.a rwaintf.o,DNAT
+002247a0,_rwaObjHandleCloseModule,librwacore.a rwaintf.o,DNAT
+002247f0,_rwaObjHandleOpenModule,librwacore.a rwaintf.o,DNAT
+00224850,RwaOutputInterfaceRegister,librwacore.a rwaoutput.o,DNAT
+002248c0,RwaVirtualVoiceInterfaceUnregister,librwacore.a rwavirtualvoice,DNAT
+002248d0,RwaVirtualVoiceInterfaceRegister,librwacore.a rwavirtualvoice,DNAT
+00224920,RwaVoiceManagerUpdateVoice,librwacore.a rwavoicemanager,DNAT
+00224940,RwaVoiceManagerUpdateVoice,librwacore.a rwavoicemanager,B3DEBUG
+00224a60,_RwaVoiceManagerReInsertVoice,librwacore.a rwavoicemanager,DNAT
+00224a80,_RwaVoiceManagerReInsertVoice,librwacore.a rwavoicemanager,B3DEBUG
+00224e90,_RwaVoiceManagerStopVoice,librwacore.a rwavoicemanager,DNAT
+00224fa0,RwaVoiceManagerRegisterVoice,librwacore.a rwavoicemanager,DNAT
+00224fe0,RwaVoiceManagerRegister,librwacore.a rwavoicemanager,DNAT
+00225220,_RwaVoiceManagerInterfaceCreate,librwacore.a rwavoicemanager,DNAT
+00225230,_rwaVoiceManagerUpdate,librwacore.a rwavoicemanager,DNAT
+00225630,_rwaVoiceManagerUpdateTimeStamp,librwacore.a rwavoicemanager,DNAT
+00225710,_rwaVoiceManagerCloseModule,librwacore.a rwavoicemanager,DNAT
+00225730,_rwaVoiceManagerOpenModule,librwacore.a rwavoicemanager,DNAT
+00225770,_RwaObjDefNULLParam,librwacore.a rwaobjdef.o,DNAT
+00225780,_RwaObjDefInitParam,librwacore.a rwaobjdef.o,DNAT
+00225890,_RwaObjDefParamsFree,librwacore.a rwaobjdef.o,DNAT
+00225980,RwaObjDefSetupParams,librwacore.a rwaobjdef.o,DNAT
+00225b70,_RwaObjDefFindByUUIDCallback,librwacore.a rwaobjdef.o,DNAT
+00225ba0,_RwaObjDefBuildSupportedListCallback,librwacore.a rwaobjdef.o,DNAT
+00225c40,_rwaObjDefEnum,librwacore.a rwaobjdef.o,DNAT
+00225d60,_rwaObjDefFindByUUID,librwacore.a rwaobjdef.o,DNAT
+00225dd0,_rwaObjDefCreateSupported,librwacore.a rwaobjdef.o,DNAT
+00225e10,_rwaObjDefBuildSupportedList,librwacore.a rwaobjdef.o,DNAT
+00225e60,_rwaObjDefFreeObj,librwacore.a rwaobjdef.o,DNAT
+00225f80,_rwaObjDefAllocObj,librwacore.a rwaobjdef.o,DNAT
+00225fe0,_rwaObjDefCreateInstanceAllocator,librwacore.a rwaobjdef.o,DNAT
+002260c0,RwaObjDefGetDefaultCreationParams,librwacore.a rwaobjdef.o,DNAT
+00226100,RwaObjDefAssignID,librwacore.a rwaobjdef.o,DNAT
+00226150,RwaObjDefSetInterface,librwacore.a rwaobjdef.o,DNAT
+002261b0,RwaObjDefDestroy,librwacore.a rwaobjdef.o,DNAT
+00226390,_RwaObjDefInit,librwacore.a rwaobjdef.o,DNAT
+002264c0,RwaObjDefCreate,librwacore.a rwaobjdef.o,DNAT
+00226790,_rwaObjDefUnregister,librwacore.a rwaobjdef.o,DNAT
+00226800,_rwaObjDefRegister,librwacore.a rwaobjdef.o,DNAT
+00226870,_rwaObjDefCloseModule,librwacore.a rwaobjdef.o,DNAT
+002268c0,_rwaObjDefOpenModule,librwacore.a rwaobjdef.o,DNAT
+00226a10,_RwaVirtualVoiceGetGainArray,librwacore.a rwavirtualvoice,DNAT
+00226a20,_RwaVirtualVoiceSetGainArray,librwacore.a rwavirtualvoice,DNAT
+00226a70,_RwaVirtualVoiceGetReverbSendGain,librwacore.a rwavirtualvoice,DNAT
+00226ad0,_RwaVirtualVoiceSetReverbSendGain,librwacore.a rwavirtualvoice,DNAT
+00226b60,_RwaVirtualVoiceGetIsStereo,librwacore.a rwavirtualvoice,DNAT
+00226b70,_RwaVirtualVoiceGetPan,librwacore.a rwavirtualvoice,DNAT
+00226ba0,_RwaVirtualVoiceSetPan,librwacore.a rwavirtualvoice,DNAT
+00226c00,_RwaVirtualVoiceGetWave,librwacore.a rwavirtualvoice,DNAT
+00226c10,_RwaVirtualVoiceSetWave,librwacore.a rwavirtualvoice,DNAT
+00226cc0,_RwaVirtualVoiceGetLoop,librwacore.a rwavirtualvoice,DNAT
+00226ce0,_RwaVirtualVoiceSetLoop,librwacore.a rwavirtualvoice,DNAT
+00226d50,_RwaVirtualVoiceGetWavePos,librwacore.a rwavirtualvoice,DNAT
+00226dd0,_RwaVirtualVoiceSetWavePos,librwacore.a rwavirtualvoice,DNAT
+00226e20,_RwaVirtualVoiceGetPlaying,librwacore.a rwavirtualvoice,DNAT
+00226e40,_RwaVirtualVoiceSetTrigger,librwacore.a rwavirtualvoice,DNAT
+00226ea0,_RwaVirtualVoiceGetGain,librwacore.a rwavirtualvoice,DNAT
+00226f00,_RwaVirtualVoiceSetGain,librwacore.a rwavirtualvoice,DNAT
+00226f90,_RwaVirtualVoiceGetFreq,librwacore.a rwavirtualvoice,DNAT
+00226fa0,_RwaVirtualVoiceSetFreq,librwacore.a rwavirtualvoice,DNAT
+00226ff0,_RwaVirtualVoiceGetMaxDistance,librwacore.a rwavirtualvoice,DNAT
+00227000,_RwaVirtualVoiceSetMaxDistance,librwacore.a rwavirtualvoice,DNAT
+00227050,_RwaVirtualVoiceGetMinDistance,librwacore.a rwavirtualvoice,DNAT
+00227060,_RwaVirtualVoiceSetMinDistance,librwacore.a rwavirtualvoice,DNAT
+002270b0,_RwaVirtualVoiceGetListenerRelativeVel,librwacore.a rwavirtualvoice,DNAT
+002270d0,_RwaVirtualVoiceSetListenerRelativeVel,librwacore.a rwavirtualvoice,DNAT
+00227130,_RwaVirtualVoiceGetListenerRelativePos,librwacore.a rwavirtualvoice,DNAT
+00227150,_RwaVirtualVoiceSetListenerRelativePos,librwacore.a rwavirtualvoice,DNAT
+002271b0,_RwaVirtualVoiceGetVel,librwacore.a rwavirtualvoice,DNAT
+002271d0,_RwaVirtualVoiceSetVel,librwacore.a rwavirtualvoice,DNAT
+00227230,_RwaVirtualVoiceGetPos,librwacore.a rwavirtualvoice,DNAT
+00227250,_RwaVirtualVoiceSetPos,librwacore.a rwavirtualvoice,DNAT
+002272b0,_RwaVirtualVoiceGetBias,librwacore.a rwavirtualvoice,DNAT
+00227310,_RwaVirtualVoiceSetBias,librwacore.a rwavirtualvoice,DNAT
+00227370,_RwaVirtualVoiceGetPriority,librwacore.a rwavirtualvoice,DNAT
+002273d0,_RwaVirtualVoiceSetPriority,librwacore.a rwavirtualvoice,DNAT
+00227430,_rwaVirtualVoiceSetWave,librwacore.a rwavirtualvoice,DNAT
+002274e0,_rwaVirtualVoiceSetTrigger,librwacore.a rwavirtualvoice,DNAT
+00227530,_RwaVirtualVoiceGetParams,librwacore.a rwavirtualvoice,DNAT
+00227540,_RwaVirtualVoiceStartExecute,librwacore.a rwavirtualvoice,DNAT
+002275d0,_RwaVirtualVoiceDestroy,librwacore.a rwavirtualvoice,DNAT
+00227620,_RwaVirtualVoiceCreate,librwacore.a rwavirtualvoice,DNAT
+002276e0,RwaVirtualVoiceUnregister,librwacore.a rwavirtualvoice,DNAT
+00227730,_RwaVirtualVoiceRegisterCommon,librwacore.a rwavirtualvoice,DNAT
+00227a00,RwaVirtualVoiceRegisterUsingInterface,librwacore.a rwavirtualvoice,DNAT
+00227ad0,RwaVirtualVoiceCreate,librwacore.a rwavirtualvoice,DNAT
+00227b00,RwaVoice3DInterfaceRegister,librwacore.a rwavoice3d.o,DNAT
+00227b70,RwaListenerInterfaceRegister,librwacore.a rwalistener.o,DNAT
+00227be0,_RwaListenerGetRolloffFactor,librwacore.a rwalistenerobj.,DNAT
+00227bf0,_RwaListenerSetRolloffFactor,librwacore.a rwalistenerobj.,DNAT
+00227c10,_RwaListenerGetDistanceFactor,librwacore.a rwalistenerobj.,DNAT
+00227c20,_RwaListenerSetDistanceFactor,librwacore.a rwalistenerobj.,DNAT
+00227c40,_RwaListenerGetDopplerScale,librwacore.a rwalistenerobj.,B3DEBUG
+00227c50,_RwaListenerSetDopplerScale,librwacore.a rwalistenerobj.,B3DEBUG
+00227e10,_RwaListenerSetPosition,librwacore.a rwalistenerobj.,DNAT
+00227e40,_rwaListenerCalculateVoiceAttributes,librwacore.a rwalistenerobj.,DNAT
+00228300,_RwaListenerCreate,librwacore.a rwalistenerobj.,DNAT
+00228440,RwaListenerRegisterUsingInterface,librwacore.a rwalistenerobj.,DNAT
+002287a0,RwaListenerCreate,librwacore.a rwalistenerobj.,DNAT
+002287c0,RwaFreeListFree,librwacore.a rwafreelist.o,DNAT
+00228920,RwaFreeListAlloc,librwacore.a rwafreelist.o,DNAT
+00228ad0,RwaFreeListDestroy,librwacore.a rwafreelist.o,DNAT
+00228b80,RwaFreeListCreate,librwacore.a rwafreelist.o,DNAT
+00228d80,_rwaFreeListModuleClose,librwacore.a rwafreelist.o,DNAT
+00228ef0,_rwaFreeListModuleOpen,librwacore.a rwafreelist.o,DNAT
+00228f70,RwaFindLSB,librwacore.a rwamath.o,DNAT
+00228fb0,RwaMul32By32,librwacore.a rwamath.o,B3DEBUG
+00229090,RwaV3dLength,librwacore.a rwamath.o,B3DEBUG
+002294e0,_rwaWaveConvXADPCMDecodeSample,librwacore.a rwawaveconv.o,DNAT
+002295c0,_rwaWaveConvXADPCMEncodeSample,librwacore.a rwawaveconv.o,DNAT
+00229720,_rwaWaveConvXADPCMDecodeStereo,librwacore.a rwawaveconv.o,DNAT
+00229890,_rwaWaveConvXADPCMEncodeMono,librwacore.a rwawaveconv.o,DNAT
+002299c0,_rwaWaveConvXADPCMDecodeMono,librwacore.a rwawaveconv.o,DNAT
+00229ad0,_RwaWaveConvXBoxADPCM,librwacore.a rwawaveconv.o,DNAT
+00229ea0,_RwaWaveConvVAGDecode,librwacore.a rwawaveconv.o,DNAT
+00229f60,_RwaWaveConvVAGEncode,librwacore.a rwawaveconv.o,DNAT
+0022a0c0,_RwaWaveConvVAGEncodeBlock,librwacore.a rwawaveconv.o,DNAT
+0022a460,_RwaWaveConvVAG,librwacore.a rwawaveconv.o,DNAT
+0022a770,_RwaWaveConvVAGGCNADPCMTranscode,librwacore.a rwawaveconv.o,DNAT
+0022a820,_RwaWaveConvGCNADPCMDecode,librwacore.a rwawaveconv.o,DNAT
+0022aa90,_RwaWaveConvGCNADPCMEncode,librwacore.a rwawaveconv.o,DNAT
+0022b020,_RwaWaveConvGCNADPCMEncodeHeader,librwacore.a rwawaveconv.o,DNAT
+0022b2c0,_RwaWaveConvGCNADPCM,librwacore.a rwawaveconv.o,DNAT
+0022b660,_RwaWaveConvVAGGCNADPCM,librwacore.a rwawaveconv.o,DNAT
+0022b760,_RwaWaveConvPCM,librwacore.a rwawaveconv.o,DNAT
+0022bb10,_RwaWaveConvPCMFloat,librwacore.a rwawaveconv.o,DNAT
+0022bc80,_RwaWaveConvBitDepthPCM,librwacore.a rwawaveconv.o,DNAT
+0022c6a0,_RwaWaveConvResamplePCM,librwacore.a rwawaveconv.o,DNAT
+0022cfb0,_RwaWaveConvChannelPCM,librwacore.a rwawaveconv.o,DNAT
+0022d6e0,_rwaWaveConv,librwacore.a rwawaveconv.o,DNAT
+0022dad0,_rwaWaveConvGetTargetSize,librwacore.a rwawaveconv.o,DNAT
+0022dae0,_rwaWaveConvGetTargetOffset,librwacore.a rwawaveconv.o,DNAT
+0022db10,_rwaWaveConvGetOffsetLength,librwacore.a rwawaveconv.o,DNAT
+0022dd40,_RwaWaveConvFindPath,librwacore.a rwawaveconv.o,DNAT
+0022e110,RwaWaveDictSetWaveDataUploadBuffer,librwacore.a rwawavedict.o,DNAT
+0022e120,RwaWaveDictFixup,librwacore.a rwawavedict.o,DNAT
+0022e2e0,_rwaWaveDictUnfixWaveCallback,librwacore.a rwawavedict.o,DNAT
+0022e320,_rwaWaveDictFixupWaveCallback,librwacore.a rwawavedict.o,DNAT
+0022e360,RwaWaveDictFreeSRAM,librwacore.a rwawavedict.o,DNAT
+0022e400,_rwaWaveDictFreeSRAMCallback,librwacore.a rwawavedict.o,DNAT
+0022e430,_RwaWaveDictStreamHeaderByteSwap,librwacore.a rwawavedict.o,DNAT
+0022e550,RwaWaveDictReadAsync,librwacore.a rwawavedict.o,DNAT
+0022e6f0,_rwaWaveDictCreateDumpedWavesCallback,librwacore.a rwawavedict.o,DNAT
+0022e740,_rwaWaveDictLoaderLoadData,librwacore.a rwawavedict.o,DNAT
+0022e8c0,_rwaWaveDictLoaderLoadWaves,librwacore.a rwawavedict.o,DNAT
+0022eba0,RwaWaveDictLoaderUpdate,librwacore.a rwawavedict.o,DNAT
+0022ecd0,RwaWaveDictLoaderDestroy,librwacore.a rwawavedict.o,DNAT
+0022ed10,RwaWaveDictLoaderInitialise,librwacore.a rwawavedict.o,DNAT
+0022ed50,RwaWaveDictLoaderCreate,librwacore.a rwawavedict.o,DNAT
+0022edd0,RwaWaveFormatByteSwap,librwacore.a rwawavedef.o,DNAT
+0022eee0,RwaWaveFormatGetSamplesPerAudioFrame,librwacore.a rwawavedef.o,DNAT
+0022f090,RwaWaveFormatGetSamples,librwacore.a rwawavedef.o,DNAT
+0022f1e0,RwaWaveFormatGetUUIDFromIndex,librwacore.a rwawavedef.o,DNAT
+0022f200,_rwaWaveDefIsTargetFormatSupported,librwacore.a rwawavedef.o,DNAT
+0022f330,_rwaWaveFormatSerialize,librwacore.a rwawavedef.o,DNAT
+0022f660,_rwaWaveFormatGetSize,librwacore.a rwawavedef.o,DNAT
+0022f690,RwaWaveDefAssignSupportedFormats,librwacore.a rwawavedef.o,DNAT
+0022f710,RwaWaveDefFormatWaveFormatCompare,librwacore.a rwawavedef.o,DNAT
+0022f7d0,_rwaWaveDefFormatCopyToWaveFormat,librwacore.a rwawavedef.o,DNAT
+0022f870,_RwaWaveDefFindByUUIDCallback,librwacore.a rwawavedef.o,DNAT
+0022f8f0,RwaWaveDefFindByUUID,librwacore.a rwawavedef.o,DNAT
+0022f940,RwaWaveDefDestroy,librwacore.a rwawavedef.o,DNAT
+0022fa10,RwaWaveDefCreate,librwacore.a rwawavedef.o,DNAT
+0022fb30,RwaWaveDefAssignID,librwacore.a rwawavedef.o,DNAT
+0022fb90,_rwaWaveFormatFreeMiscData,librwacore.a rwawavedef.o,DNAT
+0022fbe0,RwaWaveFormatGetFrameSize,librwacore.a rwawavedef.o,DNAT
+0022fd40,RwaWaveFormatCompare,librwacore.a rwawavedef.o,DNAT
+0022fde0,_rwaWaveDefUnregister,librwacore.a rwawavedef.o,DNAT
+0022fe50,_rwaWaveDefRegister,librwacore.a rwawavedef.o,DNAT
+0022fec0,_RwaWaveDefDestroyCallback,librwacore.a rwawavedef.o,DNAT
+0022ffb0,_rwaWaveDefCloseModule,librwacore.a rwawavedef.o,DNAT
+0022fff0,_rwaWaveDefOpenModule,librwacore.a rwawavedef.o,DNAT
+00230050,_RwaNULLWaveDownload,librwacore.a rwanullwave.o,DNAT
+00230090,_RwaNULLWaveUpload,librwacore.a rwanullwave.o,DNAT
+002300d0,_RwaNULLWaveDestroy,librwacore.a rwanullwave.o,DNAT
+00230100,_RwaNULLWaveCreate,librwacore.a rwanullwave.o,DNAT
+00230180,_rwaNULLWaveRegister,librwacore.a rwanullwave.o,DNAT
+00230210,RwaHeapBlockAlloc,librwacore.a rwaheap.o,DNAT
+002302f0,RwaHeapFree,librwacore.a rwaheap.o,DNAT
+00230410,RwaHeapAlloc,librwacore.a rwaheap.o,DNAT
+00230530,RwaHeapDestroy,librwacore.a rwaheap.o,B3DEBUG
+002305d0,RwaHeapCreate,librwacore.a rwaheap.o,B3DEBUG
+00231850,_rwaStreamFileRequestQueueCreate,librwacore.a rwastreamfilequ,DNAT
+002318a0,RwaStreamInterfaceUnregister,librwacore.a rwastreamint.o,DNAT
+002318b0,RwaStreamInterfaceRegister,librwacore.a rwastreamint.o,DNAT
+00231920,RwaThreadTerminate,librwacore.a osmultithread.o,DNAT
+00231960,_RwaThreadStart,librwacore.a osmultithread.o,DNAT
+002319b0,_RwaThreadCreate,librwacore.a osmultithread.o,DNAT
+00231ab0,_RwaThreadFunc,librwacore.a osmultithread.o,DNAT
+00231b10,_rwaSemaphorePoll,librwacore.a osmultithread.o,DNAT
+00231b70,RwaSemaphoreCreate,librwacore.a osmultithread.o,DNAT
+00231bc0,_rwaLockedCountCompare,librwacore.a osmultithread.o,DNAT
+00231c40,_rwaLockedCountCreate,librwacore.a osmultithread.o,DNAT
+00231cc0,_RwaStreamGetSubStreamVoice,librwacore.a rwastream.o,DNAT
+00231cf0,_RwaStreamGetSubStreamInfo,librwacore.a rwastream.o,DNAT
+00231dd0,_RwaStreamGetSegmentInfo,librwacore.a rwastream.o,DNAT
+00231e00,_RwaStreamGetNoSegments,librwacore.a rwastream.o,DNAT
+00231e90,_RwaStreamGetPitch,librwacore.a rwastream.o,DNAT
+00231ea0,_RwaStreamSetPitch,librwacore.a rwastream.o,DNAT
+00231f20,_RwaStreamGetStreamGain,librwacore.a rwastream.o,DNAT
+00231f40,_RwaStreamSetStreamGain,librwacore.a rwastream.o,DNAT
+00231fc0,_RwaStreamGetRenderStatus,librwacore.a rwastream.o,DNAT
+00231fd0,_RwaStreamGetMediaStatus,librwacore.a rwastream.o,DNAT
+00231fe0,_RwaStreamGetStatus,librwacore.a rwastream.o,DNAT
+00231ff0,_RwaStreamSetPlayState,librwacore.a rwastream.o,DNAT
+00232070,_RwaStreamSetMedia,librwacore.a rwastream.o,DNAT
+00232160,_RwaStreamSetLoopSegment,librwacore.a rwastream.o,B3DEBUG
+002321e0,_RwaStreamGetStreamPos,librwacore.a rwastream.o,B3DEBUG
+00232200,_RwaStreamSetStreamPos,librwacore.a rwastream.o,B3DEBUG
+00232230,_rwaStreamGetSegmentInfo,librwacore.a rwastream.o,B3DEBUG
+00232480,_rwaStreamSetStreamGain,librwacore.a rwastream.o,B3DEBUG
+00232500,_rwaStreamGetMediaStatus,librwacore.a rwastream.o,B3DEBUG
+00232510,_rwaStreamGetStatus,librwacore.a rwastream.o,B3DEBUG
+00232520,_rwaStreamSetPlayState,librwacore.a rwastream.o,B3DEBUG
+00232590,_rwaStreamSetMedia,librwacore.a rwastream.o,B3DEBUG
+00232670,_rwaStreamSetLoopSegment,librwacore.a rwastream.o,B3DEBUG
+002326e0,_rwaStreamGetStreamPos,librwacore.a rwastream.o,B3DEBUG
+002328d0,_rwaStreamSetStreamPos,librwacore.a rwastream.o,B3DEBUG
+002329c0,_RwaStreamGetParams,librwacore.a rwastream.o,DNAT
+002329e0,_RwaStreamFinishExecute,librwacore.a rwastream.o,DNAT
+00232a10,_RwaStreamDestroy,librwacore.a rwastream.o,DNAT
+00232a80,_RwaStreamCreate,librwacore.a rwastream.o,DNAT
+00232ad0,RwaStreamUnregister,librwacore.a rwastream.o,DNAT
+00232b00,_RwaStreamRegisterCommon,librwacore.a rwastream.o,DNAT
+00232e30,RwaStreamRegisterUsingInterface,librwacore.a rwastream.o,DNAT
+00232f00,RwaStreamCreate,librwacore.a rwastream.o,DNAT
+00232f30,_RwaStreamContainerRendererPlaybackEnd,librwacore.a rwastreamcontai,DNAT
+00232fc0,_RwaStreamContainerOpenStateMachine,librwacore.a rwastreamcontai,DNAT
+002332a0,_RwaStreamContainerSetDefaultRendererParams,librwacore.a rwastreamcontai,DNAT
+002333b0,_RwaStreamContainerInstantiateRenderChains,librwacore.a rwastreamcontai,DNAT
+00233e40,_RwaStreamContainerInstanceRenderer,librwacore.a rwastreamcontai,B3DEBUG
+00233f30,_RwaStreamContainerPreinstanceChains,librwacore.a rwastreamcontai,B3DEBUG
+00235ec0,_rwaStreamContainerCommandSetPitch,librwacore.a rwastreamcontai,DNAT
+00235f00,_rwaStreamContainerCommandSetStreamPos,librwacore.a rwastreamcontai,DNAT
+00235f20,_rwaStreamContainerCommandSetMedia,librwacore.a rwastreamcontai,DNAT
+00235f60,_rwaStreamContainerInitializeGains,librwacore.a rwastreamcontai,DNAT
+00235f90,_rwaStreamContainerCommandInitialize,librwacore.a rwastreamcontai,DNAT
+00235fc0,_RwaStreamFanOutSetFlush,librwacore.a rwastreamfanout,DNAT
+00235fd0,_RwaStreamFanOutGetInputConnection,librwacore.a rwastreamfanout,DNAT
+00236000,_RwaStreamFanOutGetStatus,librwacore.a rwastreamfanout,DNAT
+00236040,_RwaStreamFanOutSetOutputConnection,librwacore.a rwastreamfanout,DNAT
+002360a0,_RwaStreamFanOutSetProcessState,librwacore.a rwastreamfanout,DNAT
+002360e0,_RwaStreamFanOutPacketCompletionCallback,librwacore.a rwastreamfanout,DNAT
+002361d0,_rwaStreamFanOutGetStreamPacket,librwacore.a rwastreamfanout,DNAT
+00236390,_RwaStreamFanOutGetParams,librwacore.a rwastreamfanout,DNAT
+002363e0,_RwaStreamFanOutFinishExecute,librwacore.a rwastreamfanout,DNAT
+002363f0,_RwaStreamFanOutStartExecute,librwacore.a rwastreamfanout,DNAT
+002364f0,_RwaStreamFanOutDestroy,librwacore.a rwastreamfanout,DNAT
+00236550,_RwaStreamFanOutCreate,librwacore.a rwastreamfanout,DNAT
+002367b0,RwaStreamFanOutUnregister,librwacore.a rwastreamfanout,DNAT
+002367c0,_RwaStreamFanOutRegisterCommon,librwacore.a rwastreamfanout,DNAT
+00236aa0,RwaStreamFanOutRegister,librwacore.a rwastreamfanout,DNAT
+00236b40,_RwaStreamSourceSetFlush,librwacore.a rwastreamsource,DNAT
+00236b80,_RwaStreamSourceSetOutputConnection,librwacore.a rwastreamsource,DNAT
+00236bd0,_RwaStreamSourceGetFormat,librwacore.a rwastreamsource,DNAT
+00236be0,_RwaStreamSourceGetLoop,librwacore.a rwastreamsource,DNAT
+00236c00,_RwaStreamSourceSetLoop,librwacore.a rwastreamsource,DNAT
+00236c40,_RwaStreamSourceGetStreamPos,librwacore.a rwastreamsource,DNAT
+00236d10,_RwaStreamSourceSetStreamPos,librwacore.a rwastreamsource,DNAT
+00236d40,_rwaStreamSourceSetStreamPos,librwacore.a rwastreamsource,DNAT
+00236ea0,_rwaStreamSourceGetStreamPacket,librwacore.a rwastreamsource,DNAT
+00237020,_RwaSourceStreamPacketCompletionCallback,librwacore.a rwastreamsource,DNAT
+002370a0,_RwaStreamSourceGetParams,librwacore.a rwastreamsource,DNAT
+00237150,_RwaStreamSourceStartExecute,librwacore.a rwastreamsource,DNAT
+00237340,_RwaStreamSourceOpenFunc,librwacore.a rwastreamsource,DNAT
+00237410,_RwaStreamSourceDestroy,librwacore.a rwastreamsource,DNAT
+00237470,_RwaStreamSourceCreate,librwacore.a rwastreamsource,DNAT
+002375f0,RwaStreamSourceUnregister,librwacore.a rwastreamsource,DNAT
+00237630,_RwaStreamSourceRegisterCommon,librwacore.a rwastreamsource,B3DEBUG
+00237920,RwaStreamSourceRegister,librwacore.a rwastreamsource,B3DEBUG
+002392a0,__rwaStreamSourceGetSegmentIndexByName,librwacore.a rwastreamsource,DNAT
+00239340,__rwaStreamSourceGetSegmentIndexByUUID,librwacore.a rwastreamsource,DNAT
+002393d0,__rwaStreamSourceSetSegmentByName,librwacore.a rwastreamsource,DNAT
+00239480,__rwaStreamSourceSetSegmentByUUID,librwacore.a rwastreamsource,DNAT
+00239530,_RwaStreamSourceFileOpCallback,librwacore.a rwastreamsource,DNAT
+0023a3e0,__rwaStreamSourceDestroy,librwacore.a rwastreamsource,DNAT
+0023a3f0,_RwaStreamSourceFree,librwacore.a rwastreamsource,DNAT
+0023a5b0,__rwaStreamSourceCreate,librwacore.a rwastreamsource,DNAT
+0023a850,__rwaStreamSourceCreationParamsInit,librwacore.a rwastreamsource,DNAT
+0023a8b0,_RwaStreamFormatFree,librwacore.a rwastreamsource,DNAT
+0023a8c0,_RwaStreamFormatAlloc,librwacore.a rwastreamsource,DNAT
+0023a8d0,_RwaWaveRendererSetFlush,librwacore.a rwawaverenderer,DNAT
+0023a940,_RwaWaveRendererGetStatus,librwacore.a rwawaverenderer,DNAT
+0023a980,_RwaWaveRendererSetOutputConnection,librwacore.a rwawaverenderer,DNAT
+0023a9b0,_RwaWaveRendererGetStreamPos,librwacore.a rwawaverenderer,DNAT
+0023aa80,_RwaWaveRendererGetVoice,librwacore.a rwawaverenderer,DNAT
+0023aaf0,_RwaWaveRendererGetGain,librwacore.a rwawaverenderer,DNAT
+0023ab10,_RwaWaveRendererSetGain,librwacore.a rwawaverenderer,DNAT
+0023ab70,_RwaWaveRendererGetFreq,librwacore.a rwawaverenderer,DNAT
+0023ab90,_RwaWaveRendererSetFreq,librwacore.a rwawaverenderer,DNAT
+0023ac00,_RwaWaveRendererGetParams,librwacore.a rwawaverenderer,DNAT
+0023ac60,_RwaWaveRendererStartExecute,librwacore.a rwawaverenderer,DNAT
+0023ac70,_RwaWaveRendererFinishExecute,librwacore.a rwawaverenderer,DNAT
+0023af00,_RwaWaveRendererDestroy,librwacore.a rwawaverenderer,DNAT
+0023afb0,_RwaWaveRendererCreate,librwacore.a rwawaverenderer,DNAT
+0023aff0,_RwaWaveRendererCreate,librwacore.a rwawaverenderer,B3DEBUG
+0023b110,RwaWaveRendererUnregister,librwacore.a rwawaverenderer,DNAT
+0023b120,_RwaWaveRendererRegisterCommon,librwacore.a rwawaverenderer,DNAT
+0023b150,RwaWaveRendererUnregister,librwacore.a rwawaverenderer,B3DEBUG
+0023b410,RwaWaveRendererRegister,librwacore.a rwawaverenderer,DNAT
+0023b4c0,_RwaWaveRendererDestroyAudioFeeds,librwacore.a rwawaverenderer,DNAT
+0023b580,_RwaWaveRendererCreateAudioFeeds,librwacore.a rwawaverenderer,DNAT
+0023b8a0,_RwaWaveRendererStop,librwacore.a rwawaverenderer,DNAT
+0023b910,_RwaWaveRendererPause,librwacore.a rwawaverenderer,DNAT
+0023b9b0,_RwaWaveRendererStart,librwacore.a rwawaverenderer,DNAT
+0023bba0,_RwaWaveRendererStateInitialise,librwacore.a rwawaverenderer,DNAT
+0023bc70,_RwaWaveRendererStateHasPlayedLastValidPacket,librwacore.a rwawaverenderer,DNAT
+0023bcb0,_RwaWaveRendererStateHasPlayedLastPacket,librwacore.a rwawaverenderer,DNAT
+0023bd30,_RwaWaveRendererStateGotLastPacket,librwacore.a rwawaverenderer,DNAT
+0023bd40,_RwaWaveRendererStateUploadNextBlock,librwacore.a rwawaverenderer,DNAT
+0023c010,_RwaWaveRendererStateUpdatePackets,librwacore.a rwawaverenderer,DNAT
+0023c240,_RwaWaveRendererAudioFeedSetVoiceGain,librwacore.a rwawaverenderer,DNAT
+0023c260,_RwaWaveRendererAudioFeedSetVoiceFreq,librwacore.a rwawaverenderer,DNAT
+0023c280,_RwaWaveRendererStateForAllAudioFeeds,librwacore.a rwawaverenderer,DNAT
+0023c300,_RwaWaveRendererStateWavesUploading,librwacore.a rwawaverenderer,DNAT
+0023c3a0,_RwaWaveRendererStateGetFreeBufferSpace,librwacore.a rwawaverenderer,DNAT
+0023c440,_RwaWaveRendererStateDestroyNULLPacket,librwacore.a rwawaverenderer,DNAT
+0023c450,_RwaWaveRendererStateCreateNULLPacket,librwacore.a rwawaverenderer,DNAT
+0023c4e0,_RwaWaveRendererStateDestroyTrackingBuffer,librwacore.a rwawaverenderer,DNAT
+0023c4f0,_RwaWaveRendererStateCreateTrackingBuffer,librwacore.a rwawaverenderer,DNAT
+0023c9e0,RwaObjIntGetParamUInt32,librwacore.a rwastreamnodety,DNAT
+0023ca20,RwaObjIntSetParamReal,librwacore.a rwastreamnodety,DNAT
+0023ca60,RwaObjIntSetParamUInt32,librwacore.a rwastreamnodety,DNAT
+0023caa0,RwaObjIntSetParamBool,librwacore.a rwastreamnodety,DNAT
+0023cae0,RwaObjIntGetParamPointer,librwacore.a rwastreamnodety,DNAT
+0023cb20,RwaObjIntGetParamData,librwacore.a rwastreamnodety,DNAT
+0023cb40,RwaObjIntSetParamPointer,librwacore.a rwastreamnodety,DNAT
+0023cb60,RwaStreamConnectionGetPacket,librwacore.a rwastreamnodety,DNAT
+0023cb80,RwaStreamNodeConnect,librwacore.a rwastreamnodety,DNAT
+0023cbf0,_rwaStreamNodeObjGetInputConnection,librwacore.a rwastreamnodety,DNAT
+0023cc00,_rwaStreamNodeObjSetOutputConnection,librwacore.a rwastreamnodety,DNAT
+0023cc30,_rwaStreamNodeObjSetProcessState,librwacore.a rwastreamnodety,DNAT
+0023cce0,_rwaStreamNodeObjGetStatus,librwacore.a rwastreamnodety,DNAT
+0023cd00,_rwaStreamNodeGetStatus,librwacore.a rwastreamnodety,DNAT
+0023cd10,_rwaStreamNodeGetStreamPacket,librwacore.a rwastreamnodety,DNAT
+0023cd20,_RwaStreamNodeDestroy,librwacore.a rwastreamnodety,DNAT
+0023cd30,_RwaStreamNodeGetParams,librwacore.a rwastreamnodety,DNAT
+0023cd60,_rwaStreamNodeProcessComplete,librwacore.a rwastreamnodety,DNAT
+0023cde0,_RwaStreamNodeCreationComplete,librwacore.a rwastreamnodety,DNAT
+0023ce70,_RwaStreamNodeCreate,librwacore.a rwastreamnodety,DNAT
+0023cf40,_RwaStreamNodeMemoryFree,librwacore.a rwastreamnodety,DNAT
+0023cf50,_RwaStreamNodeMemoryAlloc,librwacore.a rwastreamnodety,DNAT
+0023cf60,RwaStreamNodeInterfaceUnregister,librwacore.a rwastreamnodein,DNAT
+0023cf70,RwaStreamNodeInterfaceRegister,librwacore.a rwastreamnodein,DNAT
+0023cfe0,_rwaStreamFormatCreateFromPack,librwacore.a rwastreamcreate,DNAT
+0023d4d0,_rwaWaveDictRemoveAllWave,librwacore.a rwawavedictcomm,DNAT
+0023d530,RwaWaveDictGetCurrent,librwacore.a rwawavedictcomm,DNAT
+0023d540,RwaWaveDictAddWave,librwacore.a rwawavedictcomm,DNAT
+0023d5c0,RwaWaveDictGetWaveCount,librwacore.a rwawavedictcomm,DNAT
+0023d5d0,RwaWaveDictFindWaveByIndex,librwacore.a rwawavedictcomm,DNAT
+0023d5e0,RwaWaveDictUsingAllWaveDef,librwacore.a rwawavedictcomm,DNAT
+0023d630,RwaWaveDictForAllWaves,librwacore.a rwawavedictcomm,DNAT
+0023d6a0,RwaWaveDictDestroy,librwacore.a rwawavedictcomm,DNAT
+0023d890,_rwaWaveDictCreate,librwacore.a rwawavedictcomm,DNAT
+0023d950,_rwaWaveDictCloseModule,librwacore.a rwawavedictcomm,DNAT
+0023d9f0,_rwaWaveDictOpenModule,librwacore.a rwawavedictcomm,DNAT
+0023dac0,_RwaListenerManagerTransformVoice,librwacore.a rwalistenermana,B3DEBUG
+0023dc20,_rwaListenerManagerCalculateVoiceAttributes,librwacore.a rwalistenermana,B3DEBUG
+0023df40,_RwaVirtualListenerGetOrientation,librwacore.a rwavirtualliste,DNAT
+0023df90,_RwaVirtualListenerSetOrientation,librwacore.a rwavirtualliste,DNAT
+0023dff0,_RwaVirtualListenerGetVelocity,librwacore.a rwavirtualliste,DNAT
+0023e010,_RwaVirtualListenerSetVelocity,librwacore.a rwavirtualliste,DNAT
+0023e040,_RwaVirtualListenerGetPosition,librwacore.a rwavirtualliste,DNAT
+0023e060,_RwaVirtualListenerSetPosition,librwacore.a rwavirtualliste,DNAT
+0023e090,_RwaVirtualListenerDestroy,librwacore.a rwavirtualliste,DNAT
+0023e0c0,_RwaVirtualListenerCreate,librwacore.a rwavirtualliste,DNAT
+0023e1c0,RwaVirtualListenerUnregister,librwacore.a rwavirtualliste,DNAT
+0023e210,RwaVirtualListenerRegisterUsingInterface,librwacore.a rwavirtualliste,DNAT
+0023e570,RwaVirtualListenerCreate,librwacore.a rwavirtualliste,DNAT
+0023e580,RwaVirtualListenerInterfaceRegister,librwacore.a rwavirtualliste,DNAT
+0023e5a0,RwaVirtualListenerInterfaceUnregister,librwacore.a rwavirtualliste,DNAT
+0023e5f0,RwaRPCDmaBusy,librwaspu2.a rwarpc.o,DNAT
+0023e600,RwaRPCTransfer,librwaspu2.a rwarpc.o,DNAT
+0023e8e0,_RwaRPCUpdateThread,librwaspu2.a rwarpc.o,DNAT
+0023e980,_RwaRPCSifIntHandler,librwaspu2.a rwarpc.o,DNAT
+0023ea00,_RwaRPCProcessSystemCommand,librwaspu2.a rwarpc.o,DNAT
+0023ec30,RwaRPCClose,librwaspu2.a rwarpc.o,DNAT
+0023ecb0,RwaRPCOpen,librwaspu2.a rwarpc.o,DNAT
+0023efe0,RwaSifCmdInit,librwaspu2.a rwarpc.o,DNAT
+0023f060,_rwaSPU2InputAreaRAMFreeBlocks,librwaspu2.a rwaspu2wave.o,DNAT
+0023f0b0,_rwaSPU2InputAreaRAMReserveBlocks,librwaspu2.a rwaspu2wave.o,DNAT
+0023f100,_rwaSPU2WaveGetSamples,librwaspu2.a rwaspu2wave.o,DNAT
+0023f200,_rwaSPU2WaveRAMGetAddress,librwaspu2.a rwaspu2wave.o,DNAT
+0023f250,RwaSPU2WaveRAMGetFree,librwaspu2.a rwaspu2wave.o,DNAT
+0023f2a0,_rwaSPU2WaveRAMFree,librwaspu2.a rwaspu2wave.o,DNAT
+0023f300,_rwaSPU2WaveRAMAlloc,librwaspu2.a rwaspu2wave.o,DNAT
+0023f370,RwaSPU2HWResourceRAMUnlock,librwaspu2.a rwaspu2wave.o,DNAT
+0023f390,RwaSPU2HWResourceRAMLock,librwaspu2.a rwaspu2wave.o,DNAT
+0023f3d0,_rwaSPU2WaveRAMClose,librwaspu2.a rwaspu2wave.o,DNAT
+0023f410,_rwaSPU2WaveRAMOpen,librwaspu2.a rwaspu2wave.o,DNAT
+0023f460,_RwaSPU2WaveReadToSRAM,librwaspu2.a rwaspu2wave.o,DNAT
+0023f5c0,_RwaSPU2WaveFreeSRAM,librwaspu2.a rwaspu2wave.o,DNAT
+0023f660,_RwaSPU2WaveFixupSRAM,librwaspu2.a rwaspu2wave.o,DNAT
+0023f720,_RwaSPU2WaveAllocateSRAM,librwaspu2.a rwaspu2wave.o,DNAT
+0023f760,_RwaSPU2WaveDownload,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023f770,_RwaSPU2WaveUploadBusy,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023f780,_RwaSPU2WaveUpload,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023f9b0,_RwaSPU2WaveDestroy,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023fa50,_RwaSPU2WaveCreate,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023fc00,RwaSPU2WaveUnregister,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023fc30,RwaSPU2WaveRegister,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023fd50,RwaSPU2WaveDestroy,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023fd60,RwaSPU2WaveCreate,librwaspu2.a rwaspu2wave.o,B3DEBUG
+0023fd90,RwaSPU2RegisterUsingInterface,librwaspu2.a rwaspu2.o,B3DEBUG
+0023fe40,RwaSPU2OutputInterfaceUnregister,librwaspu2.a rwaspu2outint.o,B3DEBUG
+0023fe50,RwaSPU2OutputInterfaceRegister,librwaspu2.a rwaspu2outint.o,B3DEBUG
+0023fec0,_RwaSPU2VoiceGetGainArray,librwaspu2.a rwaspu2voice.o,DNAT
+0023fed0,_RwaSPU2VoiceSetGainArray,librwaspu2.a rwaspu2voice.o,DNAT
+0023fee0,_RwaSPU2VoiceGetReverbSendGain,librwaspu2.a rwaspu2voice.o,DNAT
+0023fef0,_RwaSPU2VoiceSetReverbSendGain,librwaspu2.a rwaspu2voice.o,DNAT
+0023ff10,_RwaSPU2VoiceGetIsStereo,librwaspu2.a rwaspu2voice.o,DNAT
+0023ff30,_RwaSPU2VoiceGetPan,librwaspu2.a rwaspu2voice.o,DNAT
+0023ff40,_RwaSPU2VoiceSetPan,librwaspu2.a rwaspu2voice.o,DNAT
+0023ff70,_RwaSPU2VoiceGetWave,librwaspu2.a rwaspu2voice.o,DNAT
+0023ff80,_RwaSPU2VoiceSetWave,librwaspu2.a rwaspu2voice.o,DNAT
+0023ffe0,_RwaSPU2VoiceGetLoop,librwaspu2.a rwaspu2voice.o,DNAT
+00240000,_RwaSPU2VoiceSetLoop,librwaspu2.a rwaspu2voice.o,DNAT
+00240040,_RwaSPU2VoiceGetWavePos,librwaspu2.a rwaspu2voice.o,DNAT
+00240060,_RwaSPU2VoiceSetWavePos,librwaspu2.a rwaspu2voice.o,DNAT
+00240080,_RwaSPU2VoiceGetPlaying,librwaspu2.a rwaspu2voice.o,DNAT
+002400c0,_RwaSPU2VoiceSetTrigger,librwaspu2.a rwaspu2voice.o,DNAT
+002400e0,_RwaSPU2VoiceGetGain,librwaspu2.a rwaspu2voice.o,DNAT
+002400f0,_RwaSPU2VoiceSetGain,librwaspu2.a rwaspu2voice.o,DNAT
+00240110,_RwaSPU2VoiceGetFreq,librwaspu2.a rwaspu2voice.o,DNAT
+00240120,_RwaSPU2VoiceSetFreq,librwaspu2.a rwaspu2voice.o,DNAT
+00240140,_RwaSPU2VoiceGetMaxDistance,librwaspu2.a rwaspu2voice.o,DNAT
+00240150,_RwaSPU2VoiceSetMaxDistance,librwaspu2.a rwaspu2voice.o,DNAT
+00240160,_RwaSPU2VoiceGetMinDistance,librwaspu2.a rwaspu2voice.o,DNAT
+00240170,_RwaSPU2VoiceSetMinDistance,librwaspu2.a rwaspu2voice.o,DNAT
+00240180,_RwaSPU2VoiceGetListenerRelativeVel,librwaspu2.a rwaspu2voice.o,DNAT
+002401a0,_RwaSPU2VoiceSetListenerRelativeVel,librwaspu2.a rwaspu2voice.o,DNAT
+002401c0,_RwaSPU2VoiceGetListenerRelativePos,librwaspu2.a rwaspu2voice.o,DNAT
+002401e0,_RwaSPU2VoiceSetListenerRelativePos,librwaspu2.a rwaspu2voice.o,DNAT
+00240200,_RwaSPU2VoiceGetVel,librwaspu2.a rwaspu2voice.o,DNAT
+00240220,_RwaSPU2VoiceSetVel,librwaspu2.a rwaspu2voice.o,DNAT
+00240240,_RwaSPU2VoiceGetPos,librwaspu2.a rwaspu2voice.o,DNAT
+00240260,_RwaSPU2VoiceSetPos,librwaspu2.a rwaspu2voice.o,DNAT
+00240280,_RwaSPU2VoiceGetLoopStart,librwaspu2.a rwaspu2voice.o,DNAT
+002402c0,_RwaSPU2VoiceSetLoopStart,librwaspu2.a rwaspu2voice.o,DNAT
+002402f0,_RwaSPU2VoiceSetLRVol,librwaspu2.a rwaspu2voice.o,DNAT
+00240560,_rwaSPU2VoiceSetPan,librwaspu2.a rwaspu2voice.o,DNAT
+00240590,_rwaSPU2VoiceSetWave,librwaspu2.a rwaspu2voice.o,DNAT
+002405e0,_rwaSPU2VoiceSetLoop,librwaspu2.a rwaspu2voice.o,DNAT
+00240620,_RwaSPU2VoiceGetParams,librwaspu2.a rwaspu2voice.o,DNAT
+00240640,_RwaSPU2VoiceFinishExecute,librwaspu2.a rwaspu2voice.o,DNAT
+00241240,_RwaSPU2VoiceDestroy,librwaspu2.a rwaspu2voice.o,DNAT
+00241250,_RwaSPU2VoiceCreate,librwaspu2.a rwaspu2voice.o,DNAT
+00241440,RwaSPU2VoiceUnregister,librwaspu2.a rwaspu2voice.o,DNAT
+00241490,_RwaSPU2VoiceRegisterCommon,librwaspu2.a rwaspu2voice.o,DNAT
+00241770,RwaSPU2VoiceRegisterUsingInterface,librwaspu2.a rwaspu2voice.o,DNAT
+00241850,RwaSPU2VoiceCreate,librwaspu2.a rwaspu2voice.o,DNAT
+00241880,RwaSPU2VoiceInterfaceUnregister,librwaspu2.a rwaspu2voiceint,DNAT
+00241890,RwaSPU2VoiceInterfaceRegister,librwaspu2.a rwaspu2voiceint,DNAT
+00241900,_RwaSPU2OutputGetFreeVoice,librwaspu2.a rwaspu2out.o,DNAT
+002419b0,_RwaSPU2OutputSetFreeVoicePool,librwaspu2.a rwaspu2out.o,DNAT
+002419f0,_RwaSPU2OutputSetMixerCallback,librwaspu2.a rwaspu2out.o,DNAT
+00241a20,_RwaSPU2OutputGetSpeakerConfig,librwaspu2.a rwaspu2out.o,DNAT
+00241a30,_RwaSPU2OutputSetSpeakerConfig,librwaspu2.a rwaspu2out.o,DNAT
+00241a40,_RwaSPU2OutputGetEnvironment,librwaspu2.a rwaspu2out.o,DNAT
+00241a80,_RwaSPU2OutputSetEnvironment,librwaspu2.a rwaspu2out.o,DNAT
+00241ab0,_RwaSPU2OutputGetListener,librwaspu2.a rwaspu2out.o,DNAT
+00241ac0,_RwaSPU2OutputSetListener,librwaspu2.a rwaspu2out.o,DNAT
+00241ad0,_RwaSPU2OutputGetGain,librwaspu2.a rwaspu2out.o,DNAT
+00241b00,_RwaSPU2OutputSetGain,librwaspu2.a rwaspu2out.o,DNAT
+00241b30,_RwaSPU2OutputGetSPU2Reverb,librwaspu2.a rwaspu2out.o,DNAT
+00241b60,_RwaSPU2OutputSetSPU2Reverb,librwaspu2.a rwaspu2out.o,DNAT
+00241b90,RwaSPU2HWResourceDMAChannelLock,librwaspu2.a rwaspu2out.o,DNAT
+00241be0,_rwaSPU2OutputSetMixerCallback,librwaspu2.a rwaspu2out.o,DNAT
+00241d30,_RwaSPU2OutputFreeHWVoice,librwaspu2.a rwaspu2out.o,DNAT
+00241f40,_RwaSPU2OutputAllocateHWVoiceNumber,librwaspu2.a rwaspu2out.o,DNAT
+00242100,_RwaSPU2OutputAttachHWVoice,librwaspu2.a rwaspu2out.o,DNAT
+002421e0,_RwaSPU2OutputAllocateHWVoice,librwaspu2.a rwaspu2out.o,DNAT
+002424c0,_rwaSPU2OutputSetEnvironment,librwaspu2.a rwaspu2out.o,DNAT
+00242730,_RwaSPU2OutputGetParams,librwaspu2.a rwaspu2out.o,DNAT
+00242750,_RwaSPU2OutputFinishExecute,librwaspu2.a rwaspu2out.o,DNAT
+00242890,_RwaSPU2OutputDestroy,librwaspu2.a rwaspu2out.o,DNAT
+002429b0,_RwaSPU2OutputCreate,librwaspu2.a rwaspu2out.o,DNAT
+00242c70,RwaSPU2OutputUnregister,librwaspu2.a rwaspu2out.o,DNAT
+00242cc0,_RwaSPU2OutputRegisterCommon,librwaspu2.a rwaspu2out.o,B3DEBUG
+00242fa0,RwaSPU2OutputRegisterUsingInterface,librwaspu2.a rwaspu2out.o,B3DEBUG
+00245440,_rwaAllocBitmapGetFree,librwaspu2.a rwaallocbitmap.,DNAT
+002454d0,_rwaAllocBitmapReserve,librwaspu2.a rwaallocbitmap.,DNAT
+002455d0,_rwaAllocBitmapFree,librwaspu2.a rwaallocbitmap.,DNAT
+00245600,_rwaAllocBitmapAlloc,librwaspu2.a rwaallocbitmap.,DNAT
+00245750,_rwaAllocBitmapCreate,librwaspu2.a rwaallocbitmap.,DNAT
+002458f0,_rwaOsStreamContainerStateUpdateCurrentStatus,librwaspu2.a osstreamcontain,DNAT
+002459f0,_rwaSPU2RemoteIOPFopsHasIOPFileBeenOpened,librwaspu2.a rwaspu2remoteio,DNAT
+00245a20,RwaSPU2RemoteIOPFopsSetWaveDataUploadBuffer,librwaspu2.a rwaspu2remoteio,DNAT
+00245a30,RwaSPU2RemoteIOPFopsCreateWaveDataUploadBuffer,librwaspu2.a rwaspu2remoteio,DNAT
+00245a70,RwaSPU2RemoteIOPFopsPreviousOperationComplete,librwaspu2.a rwaspu2remoteio,DNAT
+00245af0,RwaSPU2RemoteIOPFopsSeek,librwaspu2.a rwaspu2remoteio,DNAT
+00245bf0,RwaSPU2RemoteIOPFopsReadToEE,librwaspu2.a rwaspu2remoteio,DNAT
+00245d10,RwaSPU2RemoteIOPFopsRead,librwaspu2.a rwaspu2remoteio,B3DEBUG
+00245e30,RwaSPU2RemoteIOPFopsSetCloseCallback,librwaspu2.a rwaspu2remoteio,B3DEBUG
+0024b850,CB3ConvexHull::Construct(),B3ConvexHull.cpp,DNAT
+0024b860,CB3ConvexHull::Fixup(),B3ConvexHull.cpp,DNAT
+0024b8a0,"CB3EnvironmentManager::SunPos2BearingAndAltitude(float*,float*,GtMathPs2::CGtV3d)",B3EnvironmentManager.cpp,DNAT
+0024bbf0,CB3EnvironmentManager::RenderBackdropTexture(),B3EnvironmentManager.cpp,DNAT
+0024bfa0,CB3EnvironmentManager::RenderSunCorona(),B3EnvironmentManager.cpp,DNAT
+0024bff0,CB3EnvironmentManager::SunOcclusionTest(),B3EnvironmentManager.cpp,DNAT
+0024c0b0,CB3EnvironmentManager::RenderSunToEnvironmentMap(),B3EnvironmentManager.cpp,DNAT
+0024c180,CB3EnvironmentManager::RenderSkyToEnvironmentMap(),B3EnvironmentManager.cpp,DNAT
+0024c1d0,CB3EnvironmentManager::BuildEnvmapSunCoronaData(),B3EnvironmentManager.cpp,DNAT
+0024c2b0,CB3EnvironmentManager::RenderClouds(),B3EnvironmentManager.cpp,DNAT
+0024c2f0,CB3EnvironmentManager::RenderSunBlob(),B3EnvironmentManager.cpp,DNAT
+0024c3b0,CB3EnvironmentManager::RenderSky(),B3EnvironmentManager.cpp,DNAT
+0024f670,CGtLogitechHeadset::BeginDecodeFrame(),GtLogitechHeadset.cpp,DNAT
+0024f680,CGtLogitechHeadset::OpenHeadset(int),GtLogitechHeadset.cpp,DNAT
+0024f830,CGtLogitechHeadset::SetHeadsetCodec(int),GtLogitechHeadset.cpp,DNAT
+0024f950,CGtLogitechHeadset::GetHeadsetCodecDesc(int),GtLogitechHeadset.cpp,DNAT
+0024f9c0,CGtLogitechHeadset::GetNumCodecs(),GtLogitechHeadset.cpp,DNAT
+0024fa10,CGtLogitechHeadset::HaveHeadsetsChanged(),GtLogitechHeadset.cpp,DNAT
+0024fad0,CGtLogitechHeadset::GetStatus(),GtLogitechHeadset.cpp,DNAT
+0024fae0,"CGtLogitechHeadset::Prepare(int,int)",GtLogitechHeadset.cpp,DNAT
+0024fc40,CGtLogitechHeadset::Destruct(),GtLogitechHeadset.cpp,DNAT
+0024fc50,"CGtLogitechHeadset::Construct(char*,int,char*,int)",GtLogitechHeadset.cpp,DNAT
+0024fcd0,lgCodecOpen,liblgcodec.a liblgcodec.o/,DNAT
+002500a8,lgCodecClose,liblgcodec.a liblgcodec.o/,DNAT
+00250198,lgCodecEncode,liblgcodec.a liblgcodec.o/,DNAT
+00250310,lgCodecDecode,liblgcodec.a liblgcodec.o/,DNAT
+00250488,lgCodecInit,liblgcodec.a liblgcodec.o/,DNAT
+00250490,lgCodecEnumerate,liblgcodec.a liblgcodec.o/,DNAT
+002504c8,lgFrameEncode,liblgcodec.a liblgcodec.o/,DNAT
+002506a8,lgFrameDecode,liblgcodec.a liblgcodec.o/,DNAT
+00250868,min,liblgcodec.a utils.o/,DNAT
+00250878,max,liblgcodec.a utils.o/,DNAT
+00250888,lgCodecGSMEncode,liblgcodec.a lggsm.o/,DNAT
+002508e0,lgCodecGSMDecode,liblgcodec.a lggsm.o/,DNAT
+00250938,gsm_frame_encode,liblgcodec.a lggsm.o/,DNAT
+00250960,gsm_frame_decode,liblgcodec.a lggsm.o/,DNAT
+00250988,lgCodecLPC10Encode,liblgcodec.a lglpc10.o/,DNAT
+002509e0,lgCodecLPC10Decode,liblgcodec.a lglpc10.o/,DNAT
+00250a38,lpc10_frame_encode,liblgcodec.a lglpc10.o/,DNAT
+00250a50,lpc10_frame_decode,liblgcodec.a lglpc10.o/,DNAT
+00250a68,lgCodecUlawEncode,liblgcodec.a lgulaw.o/,DNAT
+00250b70,lgCodecUlawDecode,liblgcodec.a lgulaw.o/,DNAT
+00250c60,lgCodecG72324Encode,liblgcodec.a lgG723.o/,DNAT
+00250cb8,lgCodecG72324Decode,liblgcodec.a lgG723.o/,DNAT
+00250d10,g723_24_frame_encode,liblgcodec.a lgG723.o/,DNAT
+00250d28,g723_24_frame_decode,liblgcodec.a lgG723.o/,DNAT
+00250d40,lgCodecSpeex8Encode,liblgcodec.a lgSpeex.o/,DNAT
+00250d98,lgCodecSpeex8Decode,liblgcodec.a lgSpeex.o/,DNAT
+00250df0,speex8_frame_encode,liblgcodec.a lgSpeex.o/,DNAT
+00250e80,speex8_frame_decode,liblgcodec.a lgSpeex.o/,DNAT
+00250f30,gsm_create,liblgcodec.a gsm_create.o/,DNAT
+00250f80,gsm_decode,liblgcodec.a gsm_decode.o/,DNAT
+00251898,Gsm_Decoder,liblgcodec.a gsm_decode.o/,DNAT
+00251a38,gsm_destroy,liblgcodec.a gsm_destroy.o/,DNAT
+00251a60,gsm_encode,liblgcodec.a gsm_encode.o/,DNAT
+00252370,Gsm_Preprocess,liblgcodec.a gsm_encode.o/,DNAT
+00252448,Gsm_Coder,liblgcodec.a gsm_encode.o/,DNAT
+00252680,Autocorrelation,liblgcodec.a gsm_lpc.o/,DNAT
+00252c40,Reflection_coefficients,liblgcodec.a gsm_lpc.o/,DNAT
+00252ea0,Quantization_and_coding,liblgcodec.a gsm_lpc.o/,DNAT
+002530e0,Gsm_LPC_Analysis,liblgcodec.a gsm_lpc.o/,DNAT
+00253180,gsm_norm,liblgcodec.a gsm_norm.o/,DNAT
+00253258,gsm_option,liblgcodec.a gsm_option.o/,DNAT
+00253288,RPE_grid_selection,liblgcodec.a gsm_rpe.o/,DNAT
+00253688,APCM_quantization,liblgcodec.a gsm_rpe.o/,DNAT
+00253890,Gsm_RPE_Encoding,liblgcodec.a gsm_rpe.o/,DNAT
+00253b90,Gsm_RPE_Decoding,liblgcodec.a gsm_rpe.o/,DNAT
+00253df0,Calculation_of_the_LTP_parameters,liblgcodec.a long_term.o/,DNAT
+002547c8,Cut_Calculation_of_the_LTP_parameters,liblgcodec.a long_term.o/,DNAT
+002549f0,Long_term_analysis_filtering,liblgcodec.a long_term.o/,DNAT
+00254bb0,Gsm_Long_Term_Predictor,liblgcodec.a long_term.o/,DNAT
+00254c58,Gsm_Long_Term_Synthesis_Filtering,liblgcodec.a long_term.o/,DNAT
+00254d68,Decoding_of_the_coded_Log_Area_Ratios,liblgcodec.a short_term.o/,DNAT
+00255080,Short_term_analysis_filtering,liblgcodec.a short_term.o/,DNAT
+00255480,Short_term_synthesis_filtering,liblgcodec.a short_term.o/,DNAT
+00255860,Gsm_Short_Term_Analysis_Filter,liblgcodec.a short_term.o/,DNAT
+00255c20,Gsm_Short_Term_Synthesis_Filter,liblgcodec.a short_term.o/,DNAT
+00256000,mload,liblgcodec.a analys.o/,DNAT
+00256230,lpfilt,liblgcodec.a analys.o/,DNAT
+00256470,ivfilt,liblgcodec.a analys.o/,DNAT
+002565d8,invert,liblgcodec.a analys.o/,DNAT
+002568c8,dyptrk,liblgcodec.a analys.o/,DNAT
+00256ca0,onset,liblgcodec.a analys.o/,DNAT
+00256f40,analys,liblgcodec.a analys.o/,DNAT
+00257818,chanwr_0_,liblgcodec.a chanwr.o/,DNAT
+00257ab8,chanwr_,liblgcodec.a chanwr.o/,DNAT
+00257b00,chanrd_,liblgcodec.a chanwr.o/,DNAT
+00257b40,random,liblgcodec.a lpcdec.o/,DNAT
+00257bb8,bsynz,liblgcodec.a lpcdec.o/,DNAT
+00258120,irc2pc,liblgcodec.a lpcdec.o/,DNAT
+002582c0,synths,liblgcodec.a lpcdec.o/,DNAT
+00258668,decode,liblgcodec.a lpcdec.o/,DNAT
+00258990,lpc10_decode,liblgcodec.a lpcdec.o/,DNAT
+00258ad0,encode,liblgcodec.a lpcenc.o/,DNAT
+00258e60,lpc10_encode,liblgcodec.a lpcenc.o/,DNAT
+00259068,hp100,liblgcodec.a lpcenc.o/,DNAT
+00259130,lpc10encode,liblgcodec.a lpcenc.o/,DNAT
+002592a0,init_lpc10_encoder_state,liblgcodec.a lpcini.o/,DNAT
+00259528,init_lpc10_decoder_state,liblgcodec.a lpcini.o/,DNAT
+00259650,create_lpc10_encoder_state,liblgcodec.a lpcini.o/,DNAT
+00259668,destroy_lpc10_encoder_state,liblgcodec.a lpcini.o/,DNAT
+00259688,create_lpc10_decoder_state,liblgcodec.a lpcini.o/,DNAT
+002596a0,destroy_lpc10_decoder_state,liblgcodec.a lpcini.o/,DNAT
+002596c0,pitsyn_,liblgcodec.a pitsyn.o/,DNAT
+0025a178,placea_,liblgcodec.a placea.o/,DNAT
+0025a6e8,placev_,liblgcodec.a placev.o/,DNAT
+0025aaa8,tbdm_,liblgcodec.a tbdm.o/,DNAT
+0025b158,vparms,liblgcodec.a voicin.o/,DNAT
+0025b5d0,voicin_,liblgcodec.a voicin.o/,DNAT
+0025bee0,linear2alaw,liblgcodec.a g711.o/,DNAT
+0025bf88,alaw2linear,liblgcodec.a g711.o/,DNAT
+0025bfe0,linear2ulaw,liblgcodec.a g711.o/,DNAT
+0025c070,ulaw2linear,liblgcodec.a g711.o/,DNAT
+0025c0b0,alaw2ulaw,liblgcodec.a g711.o/,DNAT
+0025c0f8,ulaw2alaw,liblgcodec.a g711.o/,DNAT
+0025c150,ulawEncode,liblgcodec.a u-law.o/,DNAT
+0025c1c0,ulawDecode,liblgcodec.a u-law.o/,DNAT
+0025c230,g723_24_encoder,liblgcodec.a g723_24.o/,DNAT
+0025c3b8,g723_24_decoder,liblgcodec.a g723_24.o/,DNAT
+0025c598,g723_24_encode_window,liblgcodec.a g723_frm.o/,DNAT
+0025c808,g723_24_decode_window,liblgcodec.a g723_frm.o/,DNAT
+0025c980,fmult,liblgcodec.a g72x.o/,DNAT
+0025ca60,update,liblgcodec.a g72x.o/,DNAT
+0025cfa0,tandem_adjust_alaw,liblgcodec.a g72x.o/,DNAT
+0025d1b0,tandem_adjust_ulaw,liblgcodec.a g72x.o/,DNAT
+0025d3a0,g72x_init_state,liblgcodec.a g72x.o/,DNAT
+0025d418,predictor_zero,liblgcodec.a g72x.o/,DNAT
+0025d490,predictor_pole,liblgcodec.a g72x.o/,DNAT
+0025d4e8,step_size,liblgcodec.a g72x.o/,DNAT
+0025d550,quantize,liblgcodec.a g72x.o/,DNAT
+0025d650,reconstruct,liblgcodec.a g72x.o/,DNAT
+0025d6a8,speex_bits_read_whole_bytes,liblgcodec.a bits.o/,DNAT
+0025d848,speex_bits_pack,liblgcodec.a bits.o/,DNAT
+0025da08,speex_bits_init,liblgcodec.a bits.o/,DNAT
+0025da80,speex_bits_init_buffer,liblgcodec.a bits.o/,DNAT
+0025dac8,speex_bits_destroy,liblgcodec.a bits.o/,DNAT
+0025daf0,speex_bits_reset,liblgcodec.a bits.o/,DNAT
+0025db30,speex_bits_rewind,liblgcodec.a bits.o/,DNAT
+0025db40,speex_bits_read_from,liblgcodec.a bits.o/,DNAT
+0025dc28,speex_bits_write,liblgcodec.a bits.o/,DNAT
+0025dc78,speex_bits_write_whole_bytes,liblgcodec.a bits.o/,DNAT
+0025dd20,speex_bits_unpack_signed,liblgcodec.a bits.o/,DNAT
+0025dd68,speex_bits_unpack_unsigned,liblgcodec.a bits.o/,DNAT
+0025de18,speex_bits_nbytes,liblgcodec.a bits.o/,DNAT
+0025de28,speex_bits_peek_unsigned,liblgcodec.a bits.o/,DNAT
+0025dec8,speex_bits_peek,liblgcodec.a bits.o/,DNAT
+0025df28,speex_bits_advance,liblgcodec.a bits.o/,DNAT
+0025df98,speex_bits_remaining,liblgcodec.a bits.o/,DNAT
+0025dfc8,split_cb_search_shape_sign,liblgcodec.a cb_search.o/,DNAT
+0025ee48,split_cb_shape_sign_unquant,liblgcodec.a cb_search.o/,DNAT
+0025f020,noise_codebook_quant,liblgcodec.a cb_search.o/,DNAT
+0025f0f0,noise_codebook_unquant,liblgcodec.a cb_search.o/,DNAT
+0025f110,syn_percep_zero,liblgcodec.a filters.o/,DNAT
+0025f2e0,residue_percep_zero,liblgcodec.a filters.o/,DNAT
+0025f4a0,qmf_decomp,liblgcodec.a filters.o/,DNAT
+0025f6c0,fir_mem_up,liblgcodec.a filters.o/,DNAT
+0025f858,comb_filter,liblgcodec.a filters.o/,DNAT
+0025fc80,filter_mem2,liblgcodec.a filters.o/,DNAT
+0025fd40,fir_mem2,liblgcodec.a filters.o/,DNAT
+0025fde0,iir_mem2,liblgcodec.a filters.o/,DNAT
+0025fe90,bw_lpc,liblgcodec.a filters.o/,DNAT
+0025fed8,comp_filter_mem_init,liblgcodec.a filters.o/,DNAT
+0025ff00,wld,liblgcodec.a lpc.o/,DNAT
+002600d0,_spx_autocorr,liblgcodec.a lpc.o/,DNAT
+00260140,lpc_to_lsp,liblgcodec.a lsp.o/,DNAT
+002606f0,lsp_to_lpc,liblgcodec.a lsp.o/,DNAT
+00260878,lsp_enforce_margin,liblgcodec.a lsp.o/,DNAT
+002609b8,open_loop_nbest_pitch,liblgcodec.a ltp.o/,DNAT
+00260ec8,pitch_gain_search_3tap,liblgcodec.a ltp.o/,DNAT
+002617a8,pitch_unquant_3tap,liblgcodec.a ltp.o/,DNAT
+00261c88,pitch_search_3tap,liblgcodec.a ltp.o/,DNAT
+00261f60,forced_pitch_quant,liblgcodec.a ltp.o/,DNAT
+00262008,forced_pitch_unquant,liblgcodec.a ltp.o/,DNAT
+002620d8,print_vec,liblgcodec.a misc.o/,DNAT
+00262158,be_int,liblgcodec.a misc.o/,DNAT
+00262188,le_int,liblgcodec.a misc.o/,DNAT
+00262190,be_short,liblgcodec.a misc.o/,DNAT
+002621a8,le_short,liblgcodec.a misc.o/,DNAT
+002621b0,speex_alloc,liblgcodec.a misc.o/,DNAT
+002621c8,speex_realloc,liblgcodec.a misc.o/,DNAT
+00262248,speex_warning,liblgcodec.a misc.o/,B3DEBUG
+00262278,speex_warning_int,liblgcodec.a misc.o/,B3DEBUG
+002622a8,speex_rand_vec,liblgcodec.a misc.o/,B3DEBUG
+00262390,speex_rand,liblgcodec.a misc.o/,B3DEBUG
+00262418,_speex_putc,liblgcodec.a misc.o/,B3DEBUG
+00262430,speex_encoder_init,liblgcodec.a modes.o/,B3DEBUG
+00262450,speex_encoder_destroy,liblgcodec.a modes.o/,B3DEBUG
+00262478,speex_encode,liblgcodec.a modes.o/,B3DEBUG
+002624a0,speex_encoder_ctl,liblgcodec.a modes.o/,B3DEBUG
+002624c8,speex_decoder_init,liblgcodec.a modes.o/,DNAT
+002624e8,speex_decoder_destroy,liblgcodec.a modes.o/,DNAT
+00262510,speex_decode,liblgcodec.a modes.o/,DNAT
+00262538,speex_decoder_ctl,liblgcodec.a modes.o/,DNAT
+00262560,speex_mode_query,liblgcodec.a modes.o/,DNAT
+00262588,nb_mode_query,liblgcodec.a modes.o/,DNAT
+002625f8,wb_mode_query,liblgcodec.a modes.o/,DNAT
+00262668,nb_encoder_init,liblgcodec.a nb_celp.o/,DNAT
+00262d28,nb_encode,liblgcodec.a nb_celp.o/,DNAT
+00264d78,nb_decoder_init,liblgcodec.a nb_celp.o/,DNAT
+00265090,nb_decode_lost,liblgcodec.a nb_celp.o/,DNAT
+00265640,nb_decode,liblgcodec.a nb_celp.o/,DNAT
+00266a70,nb_encoder_ctl,liblgcodec.a nb_celp.o/,DNAT
+00266f90,nb_decoder_ctl,liblgcodec.a nb_celp.o/,DNAT
+00267270,nb_encoder_destroy,liblgcodec.a nb_celp.o/,DNAT
+002672a0,nb_decoder_destroy,liblgcodec.a nb_celp.o/,DNAT
+002672b8,lsp_quant_nb,liblgcodec.a quant_lsp.o/,DNAT
+00267a80,lsp_unquant_nb,liblgcodec.a quant_lsp.o/,DNAT
+00267d78,lsp_quant_lbr,liblgcodec.a quant_lsp.o/,DNAT
+00268330,lsp_unquant_lbr,liblgcodec.a quant_lsp.o/,DNAT
+00268538,lsp_quant_high,liblgcodec.a quant_lsp.o/,DNAT
+00268988,lsp_unquant_high,liblgcodec.a quant_lsp.o/,DNAT
+00268b28,sb_encoder_init,liblgcodec.a sb_celp.o/,DNAT
+002691f8,sb_encode,liblgcodec.a sb_celp.o/,DNAT
+0026aae0,sb_decoder_init,liblgcodec.a sb_celp.o/,DNAT
+0026ad40,sb_decode_lost,liblgcodec.a sb_celp.o/,DNAT
+0026b0d0,sb_decode,liblgcodec.a sb_celp.o/,DNAT
+0026bdd0,sb_encoder_ctl,liblgcodec.a sb_celp.o/,DNAT
+0026c4e8,sb_decoder_ctl,liblgcodec.a sb_celp.o/,DNAT
+0026c850,sb_encoder_destroy,liblgcodec.a sb_celp.o/,DNAT
+0026c880,sb_decoder_destroy,liblgcodec.a sb_celp.o/,DNAT
+0026c8b0,speex_inband_handler,liblgcodec.a /187,DNAT
+0026c978,speex_std_mode_request_handler,liblgcodec.a /187,DNAT
+0026c9b8,speex_std_high_mode_request_handler,liblgcodec.a /187,DNAT
+0026c9f8,speex_std_char_handler,liblgcodec.a /187,DNAT
+0026ca30,speex_default_user_handler,liblgcodec.a /187,DNAT
+0026ca70,speex_std_low_mode_request_handler,liblgcodec.a /187,DNAT
+0026cab0,speex_std_vbr_request_handler,liblgcodec.a /187,DNAT
+0026caf0,speex_std_enh_request_handler,liblgcodec.a /187,DNAT
+0026cb30,speex_std_vbr_quality_request_handler,liblgcodec.a /187,DNAT
+0026cb70,vbr_analysis,liblgcodec.a vbr.o/,DNAT
+0026d758,vbr_init,liblgcodec.a vbr.o/,DNAT
+0026d840,vbr_destroy,liblgcodec.a vbr.o/,DNAT
+0026d848,vq_index,liblgcodec.a vq.o/,DNAT
+0026d8c8,vq_nbest,liblgcodec.a vq.o/,DNAT
+0026da68,vq_nbest_sign,liblgcodec.a vq.o/,DNAT
+0026dc48,lgAudInit,liblgaud.a liblgaud.o/,DNAT
+0026e100,lgAudOpen,liblgaud.a liblgaud.o/,DNAT
+0026e268,lgAudRead,liblgaud.a liblgaud.o/,DNAT
+0026e3d8,lgAudWrite,liblgaud.a liblgaud.o/,DNAT
+0026e548,lgAudWriteVag,liblgaud.a liblgaud.o/,DNAT
+0026e6b8,lgAudPrepareForReboot,liblgaud.a liblgaud.o/,DNAT
+0026e7a8,lgAudARead,liblgaud.a liblgaud.o/,DNAT
+0026e920,lgAudAWrite,liblgaud.a liblgaud.o/,DNAT
+0026eaa8,lgAudAWriteVag,liblgaud.a liblgaud.o/,DNAT
+0026ec30,lgAudDeInit,liblgaud.a liblgaud.o/,DNAT
+0026ed00,lgAudEnumHint,liblgaud.a liblgaud.o/,DNAT
+0026ed70,lgAudEnumerate,liblgaud.a liblgaud.o/,DNAT
+0026ef40,lgAudClose,liblgaud.a liblgaud.o/,DNAT
+0026f008,lgAudGetRemainingPlaybackBytes,liblgaud.a liblgaud.o/,DNAT
+0026f0d0,lgAudGetAvailableRecordingBytes,liblgaud.a liblgaud.o/,DNAT
+0026f1a8,lgAudGetMixer,liblgaud.a liblgaud.o/,DNAT
+0026f2c8,lgAudSetMixer,liblgaud.a liblgaud.o/,DNAT
+0026f3e0,lgAudStartRecording,liblgaud.a liblgaud.o/,DNAT
+0026f4a8,lgAudStopRecording,liblgaud.a liblgaud.o/,DNAT
+0026f570,lgAudStartPlayback,liblgaud.a liblgaud.o/,DNAT
+0026f638,lgAudStopPlayback,liblgaud.a liblgaud.o/,DNAT
+0026f700,lgAudResumePlayback,liblgaud.a liblgaud.o/,DNAT
+0026f7c8,lgAudSetPlaybackVolume,liblgaud.a liblgaud.o/,DNAT
+0026f8c0,lgAudSetRecordingVolume,liblgaud.a liblgaud.o/,DNAT
+0026f9b8,lgAudASync,liblgaud.a liblgaud.o/,DNAT
+0026fb00,CB3BehaviourOffset::Construct(),B3BehaviourOffset.cpp,DNAT
+0026fb10,CB3BehaviourOffset::Destruct(),,B3DEBUG
+0026fb20,CB3BehaviourOffset::Release(void*),,B3DEBUG
+0026fb30,"CB3BehaviourOffset::Update(CGtCamera*,float)",,B3DEBUG
+002930d0,CGtLinearMalloc::Destroy(),GtLinearMalloc.cpp,DNAT
+00293170,"CGtLinearMalloc::Create(void*,unsigned int)",GtLinearMalloc.cpp,DNAT
+002931a0,CGtLinearMalloc::~CGtLinearMalloc(),GtLinearMalloc.cpp,DNAT
+00293270,CGtLinearMalloc::CGtLinearMalloc(),GtLinearMalloc.cpp,DNAT
+00293290,CB3RadialBlur::RestoreRenderstates(const CB3CameraData*),B3RadialBlurPS2.cpp,DNAT
+00293320,"CB3RadialBlur::CopyToScreen(unsigned long,unsigned long,unsigned long,unsigned long,int,int,int,int)",B3RadialBlurPS2.cpp,DNAT
+00293500,"CB3RadialBlur::BlurOut(int,int,int,int,const GtMathPs2::CGtV2d&)",B3RadialBlurPS2.cpp,DNAT
+00293780,"CB3RadialBlur::BlurSetRenderstates(unsigned long,unsigned long,int,int)",B3RadialBlurPS2.cpp,DNAT
+00293850,"CB3RadialBlur::SetAlpha(unsigned long,unsigned long,int,int,int,int,CGtTexture*,bool)",B3RadialBlurPS2.cpp,DNAT
+00293b30,"CB3RadialBlur::Downsample(unsigned long,unsigned long,unsigned long,unsigned long,int,int,int,int)",B3RadialBlurPS2.cpp,DNAT
+00293cc0,CB3RadialBlur::SetRenderstates(),B3RadialBlurPS2.cpp,DNAT
+00293d60,CB3RadialBlur::Render(),B3RadialBlurPS2.cpp,DNAT
+00294150,CB3RadialBlur::Prepare(),B3RadialBlurPS2.cpp,DNAT
+00294230,CB3SoundESMManager::RelinquishESM(CB3SoundESM*),B3SoundESMManager.cpp,DNAT
+00294250,CB3SoundESMManager::RequestESM(bool),B3SoundESMManager.cpp,DNAT
+002942e0,CB3SoundESMManager::Release(),B3SoundESMManager.cpp,DNAT
+002942f0,CB3SoundESMManager::Update(),B3SoundESMManager.cpp,DNAT
+00294300,CB3SoundESMManager::Prepare(),B3SoundESMManager.cpp,DNAT
+00294310,CB3SoundESMManager::Construct(),B3SoundESMManager.cpp,DNAT
+00294360,"CB3SoundESMGraphInputs::ApplyLag(const CB3SoundESMGraphInputs&,const CB3SoundESMInputLag*)",B3SoundESMStruct.cpp,DNAT
+002944d0,"CB3SoundESMGraphInputs::Construct(const CB3RaceCar*,float)",B3SoundESMStruct.cpp,DNAT
+002945d0,CB3SoundESMGraphInputs::Construct(),B3SoundESMStruct.cpp,DNAT
+002945f0,"CB3SoundEsmGraphOutputs::Apply(CGtSoundVirtualVoice*,const CB3RaceCar*,float) const",B3SoundESMStruct.cpp,DNAT
+002946f0,CB3SoundEsmGraphOutputs::Apply(unsigned int) const,B3SoundESMStruct.cpp,DNAT
+002947f0,"CB3SoundEsmGraphOutputs::Apply(CGtSoundRealVoice*,const CB3RaceCar*,float,float) const",B3SoundESMStruct.cpp,DNAT
+00294980,"CB3SoundESMGraphStruct::Update(const CB3SoundESMGraphInputs&,CB3SoundEsmGraphOutputs&) const",B3SoundESMStruct.cpp,DNAT
+00294aa0,"CB3SoundESMStruct::Update(const CB3SoundESMGraphInputs&,CB3SoundEsmGraphOutputs*) const",B3SoundESMStruct.cpp,DNAT
+00294bd0,"CB3SoundDSPDataBlock::ProcessHighShelfFilter(short*,short*)",B3SoundDSPBlock.cpp,DNAT
+00294e40,"CB3SoundDSPDataBlock::CalculateHighShelfCoefficients(float,float,float)",B3SoundDSPBlock.cpp,DNAT
+00294fe0,"CB3SoundDSPDataBlock::SetParam(int,float)",B3SoundDSPBlock.cpp,DNAT
+00295130,"CB3SoundDSPDataBlock::ProcessB2Distortion(short*,short*)",B3SoundDSPBlock.cpp,DNAT
+00295380,"CB3SoundDSPDataBlock::Process(short*,short*)",B3SoundDSPBlock.cpp,DNAT
+002953e0,CB3SoundDSPDataBlock::Reset(),B3SoundDSPBlock.cpp,DNAT
+00295450,CB3SoundDSPDataBlock::SetType(EDSPType),B3SoundDSPBlock.cpp,DNAT
+00295460,CB3SoundDSPDataBlock::Construct(),B3SoundDSPBlock.cpp,DNAT
+002954c0,"CB3SoundDistortion::GetDSPSends(CGtSoundRealVoiceDSPSend**,int*)",B3SoundDistPS2.cpp,DNAT
+002b11c0,"CGtVideoDecoder::NodataCallback(sceMpeg*,sceMpegCbData*,void*)",GtVideoDecoderPS2.cpp,DNAT
+002b1370,"CGtVideoDecoder::RestartDMA(sceMpeg*,sceMpegCbData*,void*)",GtVideoDecoderPS2.cpp,DNAT
+002b1390,"CGtVideoDecoder::StopDMA(sceMpeg*,sceMpegCbData*,void*)",GtVideoDecoderPS2.cpp,DNAT
+002b13b0,"CGtVideoImage::SetTileTexture(int,int)",GtVideoDecoderPS2.cpp,DNAT
+002b15a0,viBufCount,vibuf.c,DNAT
+002b15f0,viBufDelete,vibuf.c,DNAT
+002b1670,viBufRestartDMA,vibuf.c,DNAT
+002b19f0,viBufStopDMA,vibuf.c,DNAT
+002b1b10,viBufAddDMA,vibuf.c,DNAT
+002b1dd0,viBufEndPut,vibuf.c,DNAT
+002b1e30,viBufBeginPut,vibuf.c,DNAT
+002b1f30,viBufReset,vibuf.c,DNAT
+002d6dc0,"CGtSphereTree::SetMaxParentSize(int,float)",GtSphereTree.cpp,DNAT
+002d6dd0,"CGtSphereTree::Init(int,int,CGtSphereTreeSphere*,float)",GtSphereTree.cpp,DNAT
+002d6ea0,CB3CrashTrafficSequenceStruct::Fixup(unsigned int),B3CrashTrafficGenerationStruct.cpp,DNAT
+002d6eb0,CB3DebugMipMaps::Update(),B3DebugMipMaps.cpp,DNAT
+002d6f00,CB3DebugMipMaps::Destruct(),B3DebugMipMaps.cpp,DNAT
+002d6f10,CB3DebugMipMaps::Construct(),B3DebugMipMaps.cpp,DNAT
+002d6f20,"CGtUnicodeUtils::Compare(unsigned short*,unsigned short*)",GtUnicodeUtils.cpp,DNAT
+002d6f90,"CGtUnicodeUtils::FindUTFChar(unsigned short*,unsigned short)",GtUnicodeUtils.cpp,DNAT
+002d6fd0,"CGtUnicodeUtils::PrintUTFChar(unsigned short*,unsigned short)",GtUnicodeUtils.cpp,DNAT
+002d7010,"CGtBuddies::SetPresenceDetail(char*,char*,char*)",GtBuddies.cpp,DNAT
+002d7070,CGtBuddies::Prepare(),GtBuddies.cpp,DNAT
+002d70f0,"CGtBuddiesPS2DirtySock::_InviteBuddyCallback(DirtySock::HLBApiRefT*,int,int,void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7130,"CGtBuddiesPS2DirtySock::BuddyInviteBlock(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7180,"CGtBuddiesPS2DirtySock::BuddyInviteRevoke(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d71d0,"CGtBuddiesPS2DirtySock::BuddyInviteReject(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7220,"CGtBuddiesPS2DirtySock::BuddyInviteAccept(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7270,"CGtBuddiesPS2DirtySock::BuddyInvite(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d72c0,CGtBuddiesPS2DirtySock::IsNewMailAvailable(),GtBuddiesPS2DirtySock.cpp,DNAT
+002d7350,CGtBuddiesPS2DirtySock::ConvertHLBError(int),GtBuddiesPS2DirtySock.cpp,DNAT
+002d74b0,"CGtBuddiesPS2DirtySock::IsWannaBeHisBuddy(char*,bool*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7510,"CGtBuddiesPS2DirtySock::IsWannaBeMyBuddy(char*,bool*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7570,"CGtBuddiesPS2DirtySock::IsPermanentBuddy(char*,bool*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d75d0,"CGtBuddiesPS2DirtySock::IsTemporaryBuddy(char*,bool*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7630,"CGtBuddiesPS2DirtySock::GetAndRemoveMail(char*,int,char*,char*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7750,"CGtBuddiesPS2DirtySock::_RemoveBuddyCallback(DirtySock::HLBApiRefT*,int,int,void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d77a0,"CGtBuddiesPS2DirtySock::RemoveIgnoredBuddy(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7840,"CGtBuddiesPS2DirtySock::RemoveTempBuddy(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7910,"CGtBuddiesPS2DirtySock::RemoveBuddy(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d79f0,"CGtBuddiesPS2DirtySock::_BanBuddyCallback(DirtySock::HLBApiRefT*,int,int,void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7a50,"CGtBuddiesPS2DirtySock::BanBuddy(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7aa0,"CGtBuddiesPS2DirtySock::_FindBuddyCallback(DirtySock::HLBApiRefT*,int,int,void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7af0,"CGtBuddiesPS2DirtySock::FindBuddy(char*,void (*)(bool, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7b40,"CGtBuddiesPS2DirtySock::SendMail(char*,char*,void (*)(bool, int, void*),void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7b80,"CGtBuddiesPS2DirtySock::_RosterCallback(DirtySock::HLBApiRefT*,int,int,void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7b90,"CGtBuddiesPS2DirtySock::_ConnectCallback(DirtySock::HLBApiRefT*,int,int,void*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002d7c50,"CGtBuddiesPS2DirtySock::_BuddyApiDebugPrint(void*,const char*)",GtBuddiesPS2DirtySock.cpp,DNAT
+002ea790,CB3ScrapeSystem::Update(),B3ScrapeSystem.cpp,DNAT
+002ea920,CB3ScrapeSystem::Release(),B3ScrapeSystem.cpp,DNAT
+002ea930,CB3ScrapeSystem::Prepare(),B3ScrapeSystem.cpp,DNAT
+002eaa20,CB3ScrapeSystem::Destruct(),B3ScrapeSystem.cpp,DNAT
+002eaa30,CB3ScrapeSystem::Construct(),B3ScrapeSystem.cpp,DNAT
+002eab30,"CB3ScrapeRenderer::Render(CB3ScrapeEmitter**,int,CB3ScrapeParams*,EB3ScrapeType)",B3ScrapeRenderPS2.cpp,DNAT
+002eadb0,CGtTimer::GetFrameCount(),B3ScrapeRenderPS2.cpp,DNAT
+002eadc0,CB3ScrapeRenderer::EndRender(),B3ScrapeRenderPS2.cpp,DNAT
+002eadf0,CB3ScrapeRenderer::BeginRender(),B3ScrapeRenderPS2.cpp,DNAT
+002eae20,CB3ScrapeRenderer::Construct(),B3ScrapeRenderPS2.cpp,DNAT
+002eaec0,CB3OnlineTrackRecordsMenuPage::Release(),B3OnlineTrackRecordsMenuPage.cpp,DNAT
+002eaed0,CB3OnlineTrackRecordsMenuPage::Update(),B3OnlineTrackRecordsMenuPage.cpp,DNAT
+002f2a10,CB3OnlineLobbySelectPage::Update(),B3OnlineLobbySelectPage.cpp,DNAT
+002f2fa0,"CB3OnlineLobbySelectPage::ForEachLobby(int,char*,int,int,bool,void*)",B3OnlineLobbySelectPage.cpp,DNAT
+002f3200,CB3OnlineLobbySelectPage::Prepare(char*),B3OnlineLobbySelectPage.cpp,DNAT
+002f33f0,"CGtSoundBank::FindWave(const unsigned long&,bool) const",GtSoundBank.cpp,DNAT
+002f3570,CGtSoundBank::GetPath() const,GtSoundBank.cpp,DNAT
+002f3580,CGtSoundBank::Unload(),GtSoundBank.cpp,DNAT
+002f35f0,"CGtSoundBank::LoadAsync(const char*,RwaSPU2Output*,RwaWaveDictLoader*,void*,int)",GtSoundBank.cpp,DNAT
+002f3810,CGtSoundBank::IsGlobal(),GtSoundBank.cpp,DNAT
+002f3820,CGtSoundBank::SetIsGlobal(bool),GtSoundBank.cpp,DNAT
+002f3830,CGtSoundBank::GetReferenceCount(),GtSoundBank.cpp,DNAT
+002f3840,CGtSoundBank::SetReferenceCount(int),GtSoundBank.cpp,DNAT
+002f3850,CGtSoundBank::Destruct(),GtSoundBank.cpp,DNAT
+002f3860,CGtSoundBank::Prepare(),GtSoundBank.cpp,DNAT
+002f3870,CGtSoundBank::Construct(),GtSoundBank.cpp,DNAT
+002f3890,"CGtSoundBankManager::FindWave(const unsigned long&,bool) const",GtSoundBankManager.cpp,DNAT
+002f3910,CGtSoundBankManager::UnloadBank(CGtSoundBank*),GtSoundBankManager.cpp,DNAT
+002f39e0,"CGtSoundBankManager::LoadBank(const char*,bool,bool,int)",GtSoundBankManager.cpp,DNAT
+002f3c00,CGtSoundBankManager::Update(),GtSoundBankManager.cpp,DNAT
+002f3c10,CGtSoundBankManager::Prepare(void*),GtSoundBankManager.cpp,DNAT
+002f3c90,CGtSoundBankManager::Destruct(),GtSoundBankManager.cpp,DNAT
+002f3cf0,"CGtSoundBankManager::Construct(RwaSPU2Output*,int,CGtSoundWaveObjectBuffer*)",GtSoundBankManager.cpp,DNAT
+002f3df0,CGtSoundListener::GetVelocity(GtMathPs2::CGtV3d*) const,GtSoundListener.cpp,DNAT
+002f3e30,CGtSoundListener::GetRight(GtMathPs2::CGtV3d*) const,GtSoundListener.cpp,DNAT
+002f3e70,CGtSoundListener::GetAt(GtMathPs2::CGtV3d*) const,GtSoundListener.cpp,DNAT
+0031e720,sce_call_rpc,netcnfif.a rpc.o/,B3INTERN
+0031e7b0,sce_sync,netcnfif.a rpc.o/,B3INTERN
+0031e840,GetRomName,libscf.a libscf.o/,B3INTERN
+0031e8b0,IsT10K,libscf.a libscf.o/,B3INTERN
+0031e8f0,sceScfGetLanguage,libscf.a libscf.o/,DNAT
+0031e950,sceScfSetT10kConfig,libscf.a libscf.o/,DNAT
+0031e970,sceScfGetAspect,libscf.a libscf.o/,DNAT
+0031e9b0,sceScfGetSpdif,libscf.a libscf.o/,DNAT
+0031e9f0,sceScfGetTimeZone,libscf.a libscf.o/,DNAT
+0031ea40,sceScfGetDateNotation,libscf.a libscf.o/,DNAT
+0031eaa8,sceScfGetSummerTime,libscf.a libscf.o/,DNAT
+0031eb10,sceScfGetTimeNotation,libscf.a libscf.o/,DNAT
+0031eb78,tobcd,libscf.a libscf.o/,DNAT
+0031eba8,frombcd,libscf.a libscf.o/,DNAT
+0031ebc8,convertfrombcd,libscf.a libscf.o/,DNAT
+0031ec30,converttobcd,libscf.a libscf.o/,DNAT
+0031ec98,adddate,libscf.a libscf.o/,B3DEBUG
+00320160,"CGtLobbyPS2DirtySock::ReJoinLobbyCallback(DirtySock::LobbyApiRefT*,DirtySock::LobbyApiMsgT*,void*)",GtLobbyDirtySock.cpp,DNAT
+003201b0,"CGtLobbyPS2DirtySock::ForAllLobbys(bool (*)(int, char*, int, int, bool, void*),void*)",GtLobbyDirtySock.cpp,DNAT
+003202b0,"CGtLobbyPS2DirtySock::GetRoomUserInCallback(DirtySock::LobbyApiRefT*,DirtySock::LobbyApiMsgT*,void*)",GtLobbyDirtySock.cpp,DNAT
+003203f0,"CGtLobbyPS2DirtySock::GetRoomUserIn(char*,bool (*)(bool, char*, char*, int, bool, void*),void*)",GtLobbyDirtySock.cpp,DNAT
+00320460,"CGtLobbyPS2DirtySock::RegisterServerDisconnectCallback(bool (*)(int, void*),void*)",GtLobbyDirtySock.cpp,DNAT
+00320470,"CGtLobbyPS2DirtySock::LostAccountCallback(DirtySock::LobbyApiRefT*,DirtySock::LobbyApiMsgT*,void*)",GtLobbyDirtySock.cpp,DNAT
+003204c0,CGtLobbyPS2DirtySock::LostPassword(char*),GtLobbyDirtySock.cpp,DNAT
+00320540,CGtLobbyPS2DirtySock::LostAccountName(char*),GtLobbyDirtySock.cpp,DNAT
+003205c0,CGtLobbyPS2DirtySock::GetOurPlayerID(),GtLobbyDirtySock.cpp,DNAT
+00320650,CGtLobbyPS2DirtySock::GetHostPlayerID(),GtLobbyDirtySock.cpp,DNAT
+003206e0,CGtLobbyPS2DirtySock::SendKeepAlive(),GtLobbyDirtySock.cpp,DNAT
+00320780,"CGtLobbyPS2DirtySock::GetExternalIPAddress(int,char*)",GtLobbyDirtySock.cpp,DNAT
+00339f60,CGtThreadMgr::Open(),,B3INTERN
+00339fa8,strtoui_internal,libinsck.a inet_addr.o/,B3INTERN
+0033a158,sceInsockInetAddr,libinsck.a inet_addr.o/,B3INTERN
+0033a188,sceInsockInetAton,libinsck.a inet_addr.o/,DNAT
+0033a390,sceInsockSetErrnoMode,libinsck.a socket.o/,DNAT
+0033a3a0,sceInsockGetErrnoMode,libinsck.a socket.o/,DNAT
+0033a3b0,my_malloc,libinsck.a socket.o/,DNAT
+0033a3e8,my_free,libinsck.a socket.o/,DNAT
+0033a420,mem_alloc,libinsck.a socket.o/,DNAT
+0033a570,mem_free,libinsck.a socket.o/,DNAT
+0033a708,sceInsockInitMemory,libinsck.a socket.o/,DNAT
+0033a798,sceInsockSetMallocFunction,libinsck.a socket.o/,DNAT
+0033a7a8,sceInsockSetFreeFunction,libinsck.a socket.o/,DNAT
+0033a7b8,block,libinsck.a socket.o/,DNAT
+0033a820,unblock,libinsck.a socket.o/,DNAT
+0033a840,thread_enter,libinsck.a socket.o/,DNAT
+0033a9f0,thread_leave,libinsck.a socket.o/,DNAT
+0033aa40,__sceInsockErrnoLoc,libinsck.a socket.o/,DNAT
+0033aa88,__sceInsockHErrnoLoc,libinsck.a socket.o/,DNAT
+0033aad0,socket_info,libinsck.a socket.o/,DNAT
+0033ab08,conv_addr_to_inet,libinsck.a socket.o/,DNAT
+0033ab50,conv_addr_from_inet,libinsck.a socket.o/,DNAT
+0033ab80,conv_port_to_inet,libinsck.a socket.o/,DNAT
+0033aba8,conv_port_from_inet,libinsck.a socket.o/,DNAT
+0033abc8,conv_errno,libinsck.a socket.o/,DNAT
+0033acc8,unused_socket_id,libinsck.a socket.o/,DNAT
+0033ad40,sceInsockSetSifMBindRpcValue,libinsck.a socket.o/,DNAT
+0033ae70,sceInsockSetRecvTimeout,libinsck.a socket.o/,DNAT
+0033aef0,sceInsockSetSendTimeout,libinsck.a socket.o/,DNAT
+0033af70,sceInsockSetShutdownTimeout,libinsck.a socket.o/,DNAT
+0033aff0,sceInsockAbort,libinsck.a socket.o/,DNAT
+0033b190,sceInsockTerminate,libinsck.a socket.o/,DNAT
+0033b288,sceInsockSocket,libinsck.a socket.o/,DNAT
+0033b3d0,sceInsockBind,libinsck.a socket.o/,DNAT
+0033b4c8,sceInsockConnect,libinsck.a socket.o/,DNAT
+0033b630,add_listen,libinsck.a socket.o/,DNAT
+0033b818,sceInsockListen,libinsck.a socket.o/,DNAT
+0033b9a0,sceInsockAccept,libinsck.a socket.o/,DNAT
+0033bc98,connect_check,libinsck.a socket.o/,DNAT
+0033bd58,sceInsockSend,libinsck.a socket.o/,DNAT
+0033bf08,sceInsockRecv,libinsck.a socket.o/,DNAT
+0033c0a8,sceInsockSendto,libinsck.a socket.o/,DNAT
+0033c218,sceInsockRecvfrom,libinsck.a socket.o/,DNAT
+0033c3e0,sceInsockShutdown,libinsck.a socket.o/,DNAT
+0033c558,sceInsockPoll,libinsck.a socket.o/,DNAT
+0033c780,sceInsockSendFin,libinsck.a socket.o/,DNAT
+0033c838,sceInsockGetsockopt,libinsck.a socket.o/,DNAT
+0033cac8,sceInsockSetsockopt,libinsck.a socket.o/,DNAT
+0033cdc8,_get_peer_or_sock_name,libinsck.a socket.o/,DNAT
+0033cf58,sceInsockGetsockname,libinsck.a socket.o/,DNAT
+0033cf78,sceInsockGetpeername,libinsck.a socket.o/,DNAT

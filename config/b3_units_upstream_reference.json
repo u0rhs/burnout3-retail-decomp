@@ -1,0 +1,47 @@
+{
+  "_comment": "Local fork: our C units (merged into C_UNITS by configure.py) and their progress category. Carves in assembly/splat/b3.yaml are tagged 'local fork'. Names: E map (tools/gen_symbols.py).",
+  "categories": {
+    "b3": [
+      "game",
+      null
+    ]
+  },
+  "units": {
+    "b3/B3PlayerCarPhysics_001BD640": {
+      "linked": true
+    },
+    "b3/B3PlayerCarPhysics_001BDF10": {
+      "linked": true
+    },
+    "b3/B3VehiclePhysics_001CC3B0": {
+      "linked": true
+    },
+    "b3/B3VehiclePhysics_001CE450": {
+      "linked": true
+    },
+    "b3/B3SoundPlayerCar_0028CA50": {
+      "linked": true
+    },
+    "b3/GtVideoDecoderPS2_00325B90": {
+      "linked": true
+    },
+    "b3/B3TrackDataStruct_003A20E0": {
+      "linked": true
+    },
+    "b3/B3Globe2dObject_003B54D0": {
+      "linked": true
+    },
+    "b3/GameShared/GameClasses/Gt2dObject": {
+      "linked": true
+    },
+    "b3/GameShared/GameClasses/Gt2dObjectBox": {
+      "linked": true
+    },
+    "b3/GameShared/GameClasses/Gt2dObjectImage": {
+      "linked": false
+    },
+    "b3/GameShared/GameClasses/Gt2dScene": {
+      "linked": false
+    }
+  }
+}

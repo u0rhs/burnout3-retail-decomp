@@ -1,0 +1,191 @@
+// Hand-written; the lifter refused it (a82: Prepare, straight-line; buf declared before cfg, 0x80 third string, store before call).
+
+// Prepare__20CGtLobbyPS2DirtySockFiPFiPv_bPvPF16ELobbyKickReasonPv_bPv -- [L] DNAT: CGtLobbyPS2DirtySock::Prepare (research/proto/new_names.csv, high)
+#include "b3/classes/CGtMalloc.h"
+
+struct UnkStruct_0033C000_e13C { unsigned char field_0; unsigned char pad_1[0x23]; };
+struct UnkStruct_0033C000_e370 { unsigned char field_0; unsigned char pad_1[0xF]; };
+struct UnkStruct_0033C000_cfg {
+    int field_0;
+    int field_4;
+    char field_8[0x3C];
+    char field_44[0x3C];
+    char field_80[0x80];
+};
+struct UnkStruct_0033C000 {
+    unsigned char pad_0[0x104];
+    int field_104;
+    int field_108;
+    int field_10C;
+    unsigned char field_110;
+    unsigned char field_111;
+    unsigned char pad_112[0x6];
+    int field_118;
+    unsigned char field_11C;
+    unsigned char field_11D;
+    unsigned char field_11E;
+    unsigned char field_11F;
+    unsigned char field_120;
+    unsigned char field_121;
+    unsigned char pad_122[0x2];
+    int field_124;
+    unsigned char pad_128[0x4];
+    int field_12C;
+    int field_130;
+    int field_134;
+    int field_138;
+    UnkStruct_0033C000_e13C field_13C[8];
+    unsigned char pad_25C[0x4];
+    int field_260;
+    unsigned char pad_264[0x10C];
+    UnkStruct_0033C000_e370 field_370[5];
+    unsigned char pad_3C0[0x1];
+    unsigned char pad_3C1[0x18F];
+    int field_550;
+    int field_554;
+    int field_558;
+    int field_55C;
+    int field_560;
+    int field_564;
+    int field_568;
+    int field_56C;
+    unsigned char pad_570[0x78];
+    int field_5E8;
+    unsigned char pad_5EC[0x8];
+    int field_5F4;
+    int field_5F8;
+    int field_5FC;
+    int field_600;
+    int field_604;
+    int field_608;
+    int field_60C;
+    int field_610;
+    int field_614;
+    int field_618;
+    int field_61C;
+    int field_620;
+    int field_624;
+    unsigned char pad_628[0x4];
+    int field_62C;
+    unsigned char field_630;
+    unsigned char pad_631[0x3];
+    int field_634;
+    unsigned char pad_638[0x12];
+    unsigned char field_64A;
+    unsigned char field_64B;
+};
+
+extern char D_004C5B40[];
+extern char D_004C5968[];
+extern char D_004C5B48[];
+extern char D_004C5B58[];
+extern char D_004C5B60[];
+extern char D_004C5B68[];
+extern char D_004C5B70[];
+extern char D_004C5B78[];
+extern char D_004C5B80[];
+extern char D_004C5B20[];
+extern char D_004C5960[];
+extern char D_004C5B90[];
+extern int D_004C5820[];
+extern int D_004E2DAC;
+extern CGtMalloc _gMemoryAllocator;
+extern "C" int mnNumArbPacketsBuffered__20CGtLobbyPS2DirtySock;
+
+extern "C" char * strcpy(char *, const char *);
+extern "C" void NetConnStartup(char *);
+extern "C" void NetConnConnect(void *, int);
+extern "C" int func_003BB270(void *);
+extern "C" int Malloc__9CGtMallocFUi(void *, int);
+extern "C" void TagFieldSetString(char *, int, char *, char *);
+extern "C" int func_00401BC8();
+extern "C" int LobbyApiCreate(char *, int, int);
+extern "C" int LobbyApiSetCallback(int, int, void *, void *);
+extern "C" int func_00405C60(int, int, int, int);
+extern "C" void DispListSort(int, int, int, void *);
+extern "C" void DispListDirty(int, int);
+extern "C" int _LobbyStatbookCreate(int, int);
+extern "C" void RespCallback__20CGtLobbyPS2DirtySockFPQ29DirtySock12LobbyApiRefTPQ29DirtySock12LobbyApiMsgTPv(void *, void *, void *);
+extern "C" void ChatCallback__20CGtLobbyPS2DirtySockFPQ29DirtySock12LobbyApiRefTPQ29DirtySock12LobbyApiMsgTPv(void *, void *, void *);
+extern "C" void func_0033C670(void *, void *, void *);
+extern "C" void EventStatusCallback__20CGtLobbyPS2DirtySockFPQ29DirtySock12LobbyApiRefTPQ29DirtySock12LobbyApiMsgTPv(void *, void *, void *);
+extern "C" void func_003379B0(int, int, int, int);
+
+// 0x0033C000
+extern "C" int Prepare__20CGtLobbyPS2DirtySockFiPFiPv_bPvPF16ELobbyKickReasonPv_bPv(UnkStruct_0033C000 * self, int p0, void * cb0, void * ud0, void * cb1, void * ud1, int idx)
+{
+    char buf[0x100];
+    UnkStruct_0033C000_cfg cfg;
+    cfg.field_0 = 1;
+    cfg.field_4 = 1;
+    strcpy(cfg.field_8, D_004C5B40);
+    strcpy(cfg.field_44, D_004C5968);
+    strcpy(cfg.field_80, D_004C5B48);
+    NetConnStartup(D_004C5968);
+    NetConnConnect(&cfg, 0);
+    func_003BB270(&_gMemoryAllocator);
+    self->field_634 = D_004C5820[idx];
+    buf[0] = 0;
+    TagFieldSetString(buf, 0x100, D_004C5B58, D_004C5B60);
+    TagFieldSetString(buf, 0x100, D_004C5B68, D_004C5B70);
+    TagFieldSetString(buf, 0x100, D_004C5B78, D_004C5B80);
+    TagFieldSetString(buf, 0x100, D_004C5B20, (char *)self->field_634);
+    TagFieldSetString(buf, 0x100, D_004C5960, D_004C5968);
+    TagFieldSetString(buf, 0x100, D_004C5B90, (char *)func_00401BC8());
+    self->field_104 = LobbyApiCreate(buf, 0, 0);
+    mnNumArbPacketsBuffered__20CGtLobbyPS2DirtySock = 0;
+    self->field_110 = 0;
+    self->field_111 = 0;
+    self->field_60C = LobbyApiSetCallback(self->field_104, 0, (void *)RespCallback__20CGtLobbyPS2DirtySockFPQ29DirtySock12LobbyApiRefTPQ29DirtySock12LobbyApiMsgTPv, self);
+    self->field_610 = LobbyApiSetCallback(self->field_104, 1, (void *)ChatCallback__20CGtLobbyPS2DirtySockFPQ29DirtySock12LobbyApiRefTPQ29DirtySock12LobbyApiMsgTPv, self);
+    self->field_614 = LobbyApiSetCallback(self->field_104, 3, (void *)func_0033C670, self);
+    self->field_618 = LobbyApiSetCallback(self->field_104, 4, (void *)EventStatusCallback__20CGtLobbyPS2DirtySockFPQ29DirtySock12LobbyApiRefTPQ29DirtySock12LobbyApiMsgTPv, self);
+    self->field_560 = func_00405C60(self->field_104, 0, 0, 0);
+    self->field_564 = func_00405C60(self->field_104, 5, 0, 0);
+    self->field_568 = func_00405C60(self->field_104, 4, 0, 0);
+    self->field_56C = func_00405C60(self->field_104, 1, 0, 0);
+    DispListSort(self->field_56C, 0, 0, (void *)func_003379B0);
+    DispListDirty(self->field_56C, 1);
+    self->field_62C = _LobbyStatbookCreate(self->field_104, 10);
+    self->field_630 = 0;
+    self->field_61C = 0;
+    self->field_550 = (int)cb0;
+    self->field_554 = (int)ud0;
+    self->field_558 = (int)cb1;
+    self->field_55C = (int)ud1;
+    self->field_12C = -1;
+    self->field_11C = 0;
+    self->field_11E = 0;
+    self->field_11D = 0;
+    self->field_121 = 0;
+    self->field_124 = 0;
+    self->field_130 = 0;
+    self->field_120 = 0;
+    self->field_134 = 0;
+    self->field_10C = 0;
+    self->pad_3C0[0] = 0;
+    self->field_5E8 = 0;
+    self->field_5F8 = -1;
+    self->field_5F4 = -1;
+    self->field_5FC = 0;
+    self->field_600 = 0;
+    for (int i = 0; i < 5; i++) {
+        self->field_370[i].field_0 = 0;
+    }
+    self->field_604 = 0;
+    self->field_608 = 0;
+    self->field_620 = 0;
+    self->field_624 = 0;
+    for (int j = 0; j < 8; j++) {
+        self->field_13C[j].field_0 = 0;
+    }
+    self->field_138 = -1;
+    self->field_11D = 0;
+    self->field_260 = -1;
+    self->field_118 = 0;
+    self->field_64B = 1;
+    self->field_11F = 0;
+    self->field_64A = 0;
+    D_004E2DAC = Malloc__9CGtMallocFUi(&_gMemoryAllocator, 0x400);
+    return 1;
+}

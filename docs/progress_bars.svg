@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 236" width="1000" height="236">
+<rect width="1000" height="236" rx="12" fill="#0d1117"/>
+<text x="28" y="51" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#e6edf3">Functions</text>
+<text x="28" y="71" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">5,652 total</text>
+<clipPath id="c0"><rect x="200" y="34" width="580" height="30" rx="7"/></clipPath>
+<g clip-path="url(#c0)"><rect x="200" y="34" width="580" height="30" fill="#21262d"/>
+<rect x="200.0" y="34" width="477.7" height="30" fill="#2ea043"><title>Byte-matched: 4,655 (82.4%)</title></rect>
+<rect x="677.7" y="34" width="102.3" height="30" fill="#388bfd"><title>Complete C: 997 (17.6%)</title></rect>
+</g>
+<text x="798" y="51" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#3fb950">82.4% <tspan font-size="14" font-weight="400" fill="#8b949e">matched</tspan></text>
+<text x="798" y="71" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#79c0ff">100.0% with complete C</text>
+<text x="28" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" fill="#e6edf3">Code</text>
+<text x="28" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#8b949e">2.71 MB total</text>
+<clipPath id="c1"><rect x="200" y="108" width="580" height="30" rx="7"/></clipPath>
+<g clip-path="url(#c1)"><rect x="200" y="108" width="580" height="30" fill="#21262d"/>
+<rect x="200.0" y="108" width="285.1" height="30" fill="#2ea043"><title>Byte-matched: 1.33 MB (49.2%)</title></rect>
+<rect x="485.1" y="108" width="294.9" height="30" fill="#388bfd"><title>Complete C: 1.38 MB (50.8%)</title></rect>
+</g>
+<text x="798" y="125" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#3fb950">49.2% <tspan font-size="14" font-weight="400" fill="#8b949e">matched</tspan></text>
+<text x="798" y="145" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#79c0ff">100.0% with complete C</text>
+<rect x="28" y="196" width="14" height="14" rx="3" fill="#2ea043"/>
+<text x="50" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#c9d1d9">Byte-matched</text>
+<rect x="180" y="196" width="14" height="14" rx="3" fill="#388bfd"/>
+<text x="202" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#c9d1d9">Complete C</text>
+<rect x="314" y="196" width="14" height="14" rx="3" fill="#d29922"/>
+<text x="336" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#c9d1d9">Partial C</text>
+<rect x="439" y="196" width="14" height="14" rx="3" fill="#484f58"/>
+<text x="461" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" fill="#c9d1d9">No C yet</text>
+<text x="972" y="208" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#6e7681">green = proven by relinking the whole game byte for byte</text>
+</svg>

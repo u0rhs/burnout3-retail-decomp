@@ -1,0 +1,140 @@
+// NONMATCHING: func_004D5350 -- retail 166 / ours 166 instructions, 22 in changed runs
+// gaps1 (2026-11-02): generated from the retail asm by build/vt/gaps1/gen_sinit.py (symbolic execution of this branch-free
+// static initialiser: every global load, store and call in retail's order; the stack staging of 16-byte constants folded).
+// A C++ __sinit (.init section, 0x4D3E00-0x4DD81C): the constructor code of one translation unit's globals, kept as its
+// asm label (retail's own symbol is a local __sinit_<file>). Declarations are byte arrays; types [G] from store widths.
+// TRACK: clean
+// EQUIV: [L] generated: every instruction modelled or the generator refuses; behaviour_audit quiet
+
+extern unsigned char D_004B7650[];
+extern unsigned char D_004B7654[];
+extern unsigned char D_004B7658[];
+extern unsigned char D_004B765C[];
+extern unsigned char D_004B7660[];
+extern unsigned char D_004B7664[];
+extern unsigned char D_004B7668[];
+extern unsigned char D_004B766C[];
+extern unsigned char D_004B7670[];
+extern unsigned char D_004B7674[];
+extern unsigned char D_004B7678[];
+extern unsigned char D_004B767C[];
+extern unsigned char D_004B7680[];
+extern unsigned char D_004B7684[];
+extern unsigned char D_004B7688[];
+extern unsigned char D_004B768C[];
+extern unsigned char D_004B7690[];
+extern unsigned char D_004B7694[];
+extern unsigned char D_004DDE80[];
+extern unsigned char D_004DDEA0[];
+extern unsigned char D_004DDEC0[];
+extern unsigned char D_004DE570[];
+extern unsigned char D_004DE590[];
+extern unsigned char D_004DF480[];
+extern unsigned char D_004DF510[];
+extern unsigned char D_004DF540[];
+extern unsigned char D_004DF5A0[];
+extern unsigned char D_004DF8C0[];
+extern unsigned char D_004DFB20[];
+extern unsigned char D_004DFCB0[];
+extern unsigned char D_004DFCD0[];
+extern unsigned char D_004DFCF0[];
+extern unsigned char D_004DFD30[];
+extern unsigned char D_004E0150[];
+extern unsigned char D_004E0170[];
+extern unsigned char D_0066B500[];
+extern unsigned char D_0066B550[];
+extern unsigned char D_0066B5B0[];
+extern unsigned char D_0066B6F0[];
+extern unsigned char D_0066B750[];
+extern unsigned char D_0066C000[];
+extern unsigned char D_0066C0A0[];
+extern unsigned char D_0066C100[];
+extern unsigned char D_0066C2B0[];
+extern unsigned char __vt__20CB3HUDPrimaryMessage[];
+extern unsigned char _gBoostBarComponentP1[];
+extern unsigned char _gBoostBarComponentP2[];
+extern unsigned char _gCrashComboComponent[];
+extern unsigned char _gCrashHeading[];
+extern unsigned char _gCrashStyleComponentP1[];
+extern unsigned char _gCrashTimerComponentP1[];
+extern unsigned char _gImpactTime[];
+extern unsigned char _gLapComponentP1[];
+extern unsigned char _gLapTimerComponentP1[];
+extern unsigned char _gPosComponentP1[];
+extern unsigned char _gPrimaryMessageComponentP1[];
+extern unsigned char _gScoreComponentP1[];
+extern unsigned char _gScoreComponentP2[];
+extern unsigned char _gScoreListComponentP1[];
+extern unsigned char _gSpeedoComponentP1[];
+extern unsigned char _gSpeedoComponentP2[];
+extern unsigned char _gTakedownsComponentP1[];
+extern unsigned char _gTimerComponentP1[];
+extern unsigned char kaMovementDirections[];
+
+// 0x004D5350
+extern "C" void func_004D5350()
+{
+    *(float *)D_004B7650 = 0.5f;
+    *(float *)D_004B7654 = 0.0f;
+    *(float *)D_004B7658 = 0.0f;
+    *(float *)D_004B765C = 0.0f;
+    *(float *)D_004B7660 = 0.0f;
+    *(float *)D_004B7664 = 0.5f;
+    *(float *)D_004B7668 = 0.0f;
+    *(float *)D_004B766C = 1.0f;
+    *(float *)D_004B7670 = 0.5f;
+    *(float *)D_004B7674 = 1.0f;
+    *(float *)D_004B7678 = 1.0f;
+    *(float *)D_004B767C = 1.0f;
+    *(float *)D_004B7680 = 1.0f;
+    *(float *)D_004B7684 = 0.5f;
+    *(float *)D_004B7688 = 1.0f;
+    *(float *)(kaMovementDirections + 0x4) = -1.0f;
+    *(float *)D_004B768C = 0.0f;
+    *(float *)(kaMovementDirections + 0xC) = -1.0f;
+    *(float *)D_004B7690 = 0.0f;
+    *(float *)(kaMovementDirections + 0x14) = 0.0f;
+    *(float *)D_004B7694 = 0.0f;
+    *(float *)(kaMovementDirections + 0x1C) = 1.0f;
+    *(float *)kaMovementDirections = 0.0f;
+    *(float *)(kaMovementDirections + 0x24) = 1.0f;
+    *(float *)(kaMovementDirections + 0x8) = -1.0f;
+    *(float *)(kaMovementDirections + 0x2C) = 1.0f;
+    *(float *)(kaMovementDirections + 0x10) = -1.0f;
+    *(float *)(kaMovementDirections + 0x34) = 0.0f;
+    *(float *)(kaMovementDirections + 0x18) = -1.0f;
+    *(float *)(kaMovementDirections + 0x20) = 0.0f;
+    *(float *)(kaMovementDirections + 0x28) = 1.0f;
+    *(float *)(kaMovementDirections + 0x30) = 1.0f;
+    *(float *)(kaMovementDirections + 0x38) = 1.0f;
+    *(float *)(kaMovementDirections + 0x3C) = -1.0f;
+    *(float *)(kaMovementDirections + 0x44) = 0.0f;
+    *(float *)(kaMovementDirections + 0x40) = 0.0f;
+    *(int *)_gPosComponentP1 = (int)D_004DE590;
+    *(int *)_gLapComponentP1 = (int)D_004DE570;
+    *(int *)_gBoostBarComponentP1 = (int)D_004DDEC0;
+    *(int *)_gScoreComponentP1 = (int)D_004DDE80;
+    *(int *)_gSpeedoComponentP1 = (int)D_004DDEA0;
+    *(int *)_gLapTimerComponentP1 = (int)D_004DF480;
+    *(int *)_gTakedownsComponentP1 = (int)D_004DF510;
+    *(int *)_gCrashStyleComponentP1 = (int)D_004DF540;
+    *(int *)_gCrashTimerComponentP1 = (int)D_004DF5A0;
+    *(int *)_gTimerComponentP1 = (int)D_004DF8C0;
+    *(int *)_gScoreListComponentP1 = (int)D_004DFB20;
+    *(int *)_gPrimaryMessageComponentP1 = (int)__vt__20CB3HUDPrimaryMessage;
+    *(int *)D_0066B500 = (int)D_004DFD30;
+    *(int *)D_0066B550 = (int)D_004E0150;
+    *(int *)D_0066B5B0 = (int)D_004E0170;
+    *(int *)D_0066B6F0 = (int)D_004DE590;
+    *(int *)D_0066B750 = (int)D_004DE570;
+    *(int *)_gBoostBarComponentP2 = (int)D_004DDEC0;
+    *(int *)_gScoreComponentP2 = (int)D_004DDE80;
+    *(int *)_gSpeedoComponentP2 = (int)D_004DDEA0;
+    *(int *)D_0066C000 = (int)D_004DF510;
+    *(int *)D_0066C0A0 = (int)D_004DF540;
+    *(int *)D_0066C100 = (int)__vt__20CB3HUDPrimaryMessage;
+    *(int *)D_0066C2B0 = (int)D_004E0170;
+    *(int *)_gCrashHeading = (int)D_004DFCB0;
+    *(int *)_gImpactTime = (int)D_004DFCD0;
+    *(int *)_gCrashComboComponent = (int)D_004DFCF0;
+}

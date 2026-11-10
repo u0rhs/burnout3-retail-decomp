@@ -1,0 +1,324 @@
+# gaps1 (2026-11-02, docs/known.md N296): the 318 Criterion functions that sat outside the game-code count.
+# [C] each: no config/proven_units.txt range covers its address, no src/nonmatching archive names it; c = 'draft' where an
+# unwired src/b3 draft exists. why_outside: its unit's file was under assembly/asm/d2-d6/ or sinit*.s, which
+# tools/progress_report.py classed as library/glue by directory. Now renamed (unit = current, old_unit = before).
+# file/conf: research/retail_names.csv (empty = no row). Sizes: the asm 'nonmatching' sizes (no inter-function padding).
+addr	size	name	unit	old_unit	section	file	conf	why_outside	c
+0012EB30	960	func_0012EB30	game/unit_0012EB30	d5/boot	.text			d5/ classed glue	none
+00130BF0	36	__ct__13CB3Im3dVertexFv	game/unit_00130BF0	d4/func_00130BF0	.text	B3DebugManager.cpp	medium	d4/ classed glue	none
+00130C20	8	func_00130C20	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+00130C30	8	func_00130C30	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+00130C40	44	func_00130C40	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+00130C70	136	func_00130C70	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+00130D00	80	func_00130D00	game/unit_00130C20	d5/frontend_flow	.text			d5/ classed glue	none
+00130D50	392	func_00130D50	game/unit_00130C20	d5/frontend_flow	.text			d5/ classed glue	none
+00130EE0	536	func_00130EE0	game/unit_00130C20	d5/frontend_flow	.text			d5/ classed glue	none
+00131100	456	func_00131100	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+001312D0	236	func_001312D0	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+001313C0	184	func_001313C0	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+00131480	1296	func_00131480	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+00131990	260	func_00131990	game/unit_00130C20	d5/frontend_flow	.text	B3FrontEnd.cpp	high	d5/ classed glue	none
+00131AA0	20	func_00131AA0	game/unit_00131AA0	d2/func_00131AA0	.text	B3FrontEnd.cpp	high	d2/ classed glue	none
+00131AC0	108	func_00131AC0	game/unit_00131AC0	d5/unit_00131AC0	.text			d5/ classed glue	none
+00131B30	92	func_00131B30	game/unit_00131AC0	d5/unit_00131AC0	.text			d5/ classed glue	none
+00131B90	268	func_00131B90	game/unit_00131AC0	d5/unit_00131AC0	.text			d5/ classed glue	none
+00131CA0	56	func_00131CA0	game/unit_00131AC0	d5/unit_00131AC0	.text	B3Game.cpp	high	d5/ classed glue	none
+00131CE0	64	func_00131CE0	game/unit_00131CE0	d2/func_00131CE0	.text	B3Game.cpp	high	d2/ classed glue	none
+00131D20	100	func_00131D20	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00131D90	92	func_00131D90	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00131DF0	8	func_00131DF0	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00131E00	64	func_00131E00	game/unit_00131D20	d5/unit_00131D20	.text	B3Game.cpp	high	d5/ classed glue	none
+00131E40	200	func_00131E40	game/unit_00131D20	d5/unit_00131D20	.text	B3Game.cpp	high	d5/ classed glue	none
+00131F10	72	func_00131F10	game/unit_00131D20	d5/unit_00131D20	.text	B3Game.cpp	high	d5/ classed glue	none
+00131F60	44	func_00131F60	game/unit_00131D20	d5/unit_00131D20	.text	B3Game.cpp	high	d5/ classed glue	none
+00131F90	252	func_00131F90	game/unit_00131D20	d5/unit_00131D20	.text	B3Game.cpp	high	d5/ classed glue	none
+00132090	544	UpdatePreSimulation__7CB3GameFv	game/unit_00131D20	d5/unit_00131D20	.text	B3Game.cpp	medium	d5/ classed glue	none
+001322B0	364	func_001322B0	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00132420	320	func_00132420	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00132560	152	func_00132560	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00132600	2936	func_00132600	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00133180	8	func_00133180	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00133190	2592	func_00133190	game/unit_00131D20	d5/unit_00131D20	.text			d5/ classed glue	none
+00133BB0	1700	Construct__7CB3GameFv	game/unit_00131D20	d5/unit_00131D20	.text	B3Game.cpp	medium	d5/ classed glue	none
+00134600	96	func_00134600	game/unit_00134600	d5/mode_base	.text	B3GameMode.cpp	high	d5/ classed glue	none
+00134660	88	func_00134660	game/unit_00134600	d5/mode_base	.text	B3GameMode.cpp	high	d5/ classed glue	none
+001346C0	592	func_001346C0	game/unit_00134600	d5/mode_base	.text	B3GameMode.cpp	high	d5/ classed glue	none
+00134910	20	func_00134910	game/unit_00134600	d5/mode_base	.text	B3GameMode.cpp	high	d5/ classed glue	none
+00134930	12	func_00134930	game/unit_00134930	d5/play_mode	.text			d5/ classed glue	none
+00134940	68	func_00134940	game/unit_00134930	d5/play_mode	.text	B3OnePlayerStage.cpp	medium	d5/ classed glue	none
+00134990	8	func_00134990	game/unit_00134930	d5/play_mode	.text	B3OnePlayerStage.cpp	medium	d5/ classed glue	none
+001349A0	116	func_001349A0	game/unit_00134930	d5/play_mode	.text	B3OnePlayerStage.cpp	medium	d5/ classed glue	none
+00135180	256	func_00135180	game/unit_00135180	d5/play_transition	.text	B3OnePlayerStage.cpp	high	d5/ classed glue	none
+00135280	276	func_00135280	game/unit_00135180	d5/play_transition	.text	B3OnePlayerStage.cpp	high	d5/ classed glue	none
+001353A0	8	func_001353A0	game/unit_00135180	d5/play_transition	.text	B3OnePlayerStage.cpp	medium	d5/ classed glue	none
+001353B0	8	func_001353B0	game/unit_00135180	d5/play_transition	.text	B3OnlineStage.cpp	medium	d5/ classed glue	none
+001353C0	68	func_001353C0	game/unit_00135180	d5/play_transition	.text	B3OnlineStage.cpp	high	d5/ classed glue	none
+00135410	12	func_00135410	game/unit_00135180	d5/play_transition	.text	B3OnlineStage.cpp	medium	d5/ classed glue	none
+00135420	192	func_00135420	game/unit_00135420	d5/network_mode	.text	B3OnlineStage.cpp	high	d5/ classed glue	none
+001354E0	320	Render__14CB3OnlineStageFv	game/unit_00135420	d5/network_mode	.text	B3OnlineStage.cpp	high	d5/ classed glue	none
+00135620	280	func_00135620	game/unit_00135420	d5/network_mode	.text	B3OnlineStage.cpp	high	d5/ classed glue	none
+00135740	796	func_00135740	game/unit_00135420	d5/network_mode	.text	B3OnlineStage.cpp	high	d5/ classed glue	none
+00135A60	44	func_00135A60	game/unit_00135420	d5/network_mode	.text	B3OnlineStage.cpp	high	d5/ classed glue	none
+00136E00	12	func_00136E00	game/unit_00136E00	d2/func_00136E00	.text	B3Profile.cpp	high	d2/ classed glue	none
+0013AE70	52	func_0013AE70	game/unit_0013AE70	d2/func_0013AE70	.text			d2/ classed glue	none
+0013B670	48	func_0013B670	game/unit_0013B670	d2/func_0013B670	.text			d2/ classed glue	none
+0013B740	40	func_0013B740	game/unit_0013B740	d2/func_0013B740	.text			d2/ classed glue	none
+0013C910	24	func_0013C910	game/unit_0013C910	d2/func_0013C910	.text			d2/ classed glue	none
+0013C930	16	func_0013C930	game/unit_0013C910	d2/func_0013C910	.text			d2/ classed glue	none
+0013C940	68	func_0013C940	game/unit_0013C940	d4/gamemode	.text			d4/ classed glue	none
+0013C990	12	func_0013C990	game/unit_0013C940	d4/gamemode	.text			d4/ classed glue	none
+0013C9A0	8	func_0013C9A0	game/unit_0013C940	d4/gamemode	.text			d4/ classed glue	none
+0013C9B0	88	func_0013C9B0	game/unit_0013C940	d4/gamemode	.text			d4/ classed glue	none
+0013CA10	404	func_0013CA10	game/unit_0013C940	d4/gamemode	.text	B3TwoPlayerSplitScreenStage.cpp	medium	d4/ classed glue	none
+0013CBB0	8	func_0013CBB0	game/unit_0013C940	d4/gamemode	.text			d4/ classed glue	none
+0013CBC0	164	func_0013CBC0	game/unit_0013C940	d4/gamemode	.text	B3TwoPlayerSplitScreenStage.cpp	medium	d4/ classed glue	none
+0013CC70	352	func_0013CC70	game/unit_0013C940	d4/gamemode	.text	B3TwoPlayerSplitScreenStage.cpp	medium	d4/ classed glue	none
+0013CDD0	72	func_0013CDD0	game/unit_0013C940	d4/gamemode	.text			d4/ classed glue	none
+0014DD80	40	func_0014DD80	game/unit_0014DD80	d2/func_0014DD80	.text	B3Burn.cpp	high	d2/ classed glue	none
+0014E7E0	72	func_0014E7E0	game/unit_0014E7E0	d2/func_0014E7E0	.text		high	d2/ classed glue	none
+0014E830	40	func_0014E830	game/unit_0014E7E0	d2/func_0014E7E0	.text		high	d2/ classed glue	none
+0014EC30	116	func_0014EC30	game/unit_0014EC30	d2/func_0014EC30	.text			d2/ classed glue	none
+001AB010	44	func_001AB010	game/unit_001AB010	d4/func_001AB010	.text	B3CollidingBody.cpp	high	d4/ classed glue	none
+001AB090	144	func_001AB090	game/unit_001AB090	d6/vehicle_cache_append	.text	B3CollidingBody.cpp	high	d6/ classed glue	none
+001AB610	156	func_001AB610	game/unit_001AB610	d6/vehicle_transform	.text	B3CollidingBody.cpp	high	d6/ classed glue	none
+001ABE40	36	func_001ABE40	game/unit_001ABE40	d6/vehicle_activate	.text	B3CollidingBody.cpp	high	d6/ classed glue	none
+001AD850	64	func_001AD850	game/unit_001AD850	d6/body_init	.text	B3CollidingBody.cpp	high	d6/ classed glue	none
+001C0E80	120	func_001C0E80	game/unit_001C0E80	d6/vehicle_resource	.text	B3RaceCarPhysics.cpp	high	d6/ classed glue	none
+001C5040	52	func_001C5040	game/unit_001C5040	d6/vehicle_shutdown	.text			d6/ classed glue	none
+001C5080	684	CacheWorldTriangles__17CB3RaceCarPhysicsFi	game/unit_001C5080	d6/vehicle_collision_query	.text	B3RaceCarPhysics.cpp	medium	d6/ classed glue	none
+001C5330	256	func_001C5330	game/unit_001C5330	d6/vehicle_collision_filter	.text			d6/ classed glue	none
+001C6EF0	52	func_001C6EF0	game/unit_001C6EF0	d6/vehicle_reset	.text			d6/ classed glue	none
+001C6F30	92	func_001C6F30	game/unit_001C6F30	d6/transmission_rpm	.text			d6/ classed glue	none
+001C6F90	2288	func_001C6F90	game/unit_001C6F90	d6/transmission_update	.text			d6/ classed glue	none
+001C7880	232	func_001C7880	game/unit_001C7880	d6/transmission_init	.text			d6/ classed glue	none
+001CBC70	108	func_001CBC70	game/unit_001CBC70	d6/vehicle_register	.text	B3VehiclePhysics.cpp	high	d6/ classed glue	none
+001CBCE0	156	func_001CBCE0	game/unit_001CBCE0	d6/vehicle_body_parts	.text	B3VehiclePhysics.cpp	high	d6/ classed glue	none
+001CBD80	196	func_001CBD80	game/unit_001CBCE0	d6/vehicle_body_parts	.text	B3VehiclePhysics.cpp	high	d6/ classed glue	none
+001CBE50	56	func_001CBE50	game/unit_001CBE50	d6/vehicle_body_state	.text	B3VehiclePhysics.cpp	high	d6/ classed glue	none
+001CC4C0	84	func_001CC4C0	game/unit_001CC4C0	d6/vehicle_collision	.text	B3VehiclePhysics.cpp	high	d6/ classed glue	none
+001CC520	96	func_001CC520	game/unit_001CC4C0	d6/vehicle_collision	.text	B3VehiclePhysics.cpp	high	d6/ classed glue	none
+001CFD20	280	func_001CFD20	game/unit_001CFD20	d6/vehicle_init	.text	B3VehiclePhysics.cpp	high	d6/ classed glue	none
+001D17B0	20	func_001D17B0	game/unit_001D17B0	d6/vehicle_timer	.text	B3AICarPhysics.cpp	high	d6/ classed glue	none
+00212580	8	FTell__13CGTFileSystemFPv	game/unit_00212580	d4/fs	.text			d4/ classed glue	none
+00212590	72	FExist__13CGTFileSystemFPCc	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+002125E0	8	FFlush__13CGTFileSystemFPv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+002125F0	124	FSeek__13CGTFileSystemFPvii	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212670	20	FEof__13CGTFileSystemFPv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212690	72	FPuts__13CGTFileSystemFPCcPv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+002126E0	8	FGets__13CGTFileSystemFPciPv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+002126F0	64	FWrite__13CGTFileSystemFPCvUiUiPv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212730	64	FRead__13CGTFileSystemFPvUiUiPv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212770	40	FClose__13CGTFileSystemFPv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+002127A0	240	FOpen__13CGTFileSystemFPCcPCc	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212890	260	Open__13CGTFileSystemFPCcUi	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+002129A0	200	Init__13CGTFileSystemFUiPCc	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212A70	8	SetAsDefaultFilesystem__13CGTFileSystemFv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212A80	248	BuildFileName__13CGTFileSystemFPciPCcPCcc	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212B80	72	GetFileNameFromDeviceName__13CGTFileSystemFPCc	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212BD0	212	GetFileSystemFromFileName__13CGTFileSystemFPCc	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212CB0	376	InstallToRenderWare__13CGTFileSystemFv	game/unit_00212580	d4/fs	.text	GtFileSystem.cpp	high	d4/ classed glue	none
+00212E30	536	ustrFormat	game/unit_00212E30	d4/ustrfmt	.text	GtUnicode.cpp	high	d4/ classed glue	none
+00213050	156	ustrFmtScan	game/unit_00212E30	d4/ustrfmt	.text	GtUnicode.cpp	high	d4/ classed glue	none
+002130F0	12	ustrSetSeparators	game/unit_002130F0	d4/ustring	.text			d4/ classed glue	none
+00213100	608	ustrFromFloat	game/unit_002130F0	d4/ustring	.text			d4/ classed glue	none
+00213360	604	ustrFromFloatNoSep	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+002135C0	296	ustrFromInt	game/unit_002130F0	d4/ustring	.text			d4/ classed glue	none
+002136F0	244	ustrFromIntNoSep	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+002137F0	196	ustrFromUInt	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+002138C0	116	ustrncat	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+00213940	84	ustrcat	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+002139A0	84	ustrncpy	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+00213A00	48	ustrcpy	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+00213A30	44	ustrlen	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+00213A60	376	ustrFromUtf8Checked	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+00213BE0	200	ustrFromUtf8	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+00213CB0	348	ustrToUtf8	game/unit_002130F0	d4/ustring	.text	GtUnicode.cpp	high	d4/ classed glue	none
+0021B8C0	48	vdbSetDatabase	game/unit_0021B8C0	d4/vdb	.text	GtCommsToolBase.cpp	high	d4/ classed glue	none
+0021B8F0	20	vdbFreeEntry	game/unit_0021B8C0	d4/vdb	.text	GtCommsDatabase.cpp	high	d4/ classed glue	none
+0021B910	148	vdbUnregister	game/unit_0021B8C0	d4/vdb	.text	GtCommsDatabase.cpp	high	d4/ classed glue	none
+0021B9B0	428	vdbRegisterVector	game/unit_0021B8C0	d4/vdb	.text	GtCommsDatabase.cpp	high	d4/ classed glue	none
+0021BB60	532	vdbRegisterFloat	game/unit_0021B8C0	d4/vdb	.text	GtCommsDatabase.cpp	high	d4/ classed glue	none
+0021BD80	504	vdbRegisterInt	game/unit_0021B8C0	d4/vdb	.text	GtCommsDatabase.cpp	high	d4/ classed glue	none
+0021BF80	28	vdbInit	game/unit_0021B8C0	d4/vdb	.text	GtCommsDatabase.cpp	high	d4/ classed glue	none
+0021BFA0	112	vdbHash	game/unit_0021B8C0	d4/vdb	.text	GtHash.cpp	high	d4/ classed glue	none
+00222300	164	memMgrSize	game/unit_00222300	d4/memmgr	.text	B3MemoryManagerPS2.cpp	high	d4/ classed glue	none
+002223B0	8	memMgrPeekCat13	game/unit_00222300	d4/memmgr	.text	B3MemoryManagerPS2.cpp	medium	d4/ classed glue	none
+002223C0	252	memMgrRelease	game/unit_00222300	d4/memmgr	.text	B3MemoryManagerPS2.cpp	high	d4/ classed glue	none
+002224C0	248	memMgrTake	game/unit_00222300	d4/memmgr	.text	B3MemoryManagerPS2.cpp	high	d4/ classed glue	none
+002225C0	84	memMgrUpdate	game/unit_00222300	d4/memmgr	.text	B3MemoryManagerPS2.cpp	high	d4/ classed glue	none
+00222620	48	memMgrFreeBlock	game/unit_00222300	d4/memmgr	.text	B3MemoryManagerPS2.cpp	high	d4/ classed glue	none
+00222650	1596	memMgrInit	game/unit_00222300	d4/memmgr	.text	B3MemoryManagerPS2.cpp	high	d4/ classed glue	none
+0024D4D0	72	func_0024D4D0	game/unit_0024D4D0	d5/preview_exit	.text	B3CarViewerGameMode.cpp	high	d5/ classed glue	none
+0024FC20	372	func_0024FC20	game/unit_0024FC20	d5/preview_flow	.text	B3CarViewerGameMode.cpp	high	d5/ classed glue	none
+0024FDA0	60	func_0024FDA0	game/unit_0024FC20	d5/preview_flow	.text	B3CarViewerGameMode.cpp	high	d5/ classed glue	none
+0024FDE0	168	vdbDbIsEnabled	game/unit_0024FDE0	d4/valuedb	.text	GtCommsDatabaseGame.cpp	high	d4/ classed glue	none
+0024FE90	292	vdbDbLoad	game/unit_0024FDE0	d4/valuedb	.text	GtCommsDatabaseGame.cpp	high	d4/ classed glue	none
+0024FFC0	320	vdbDbApply	game/unit_0024FDE0	d4/valuedb	.text	GtCommsDatabaseGame.cpp	high	d4/ classed glue	none
+00250100	8	vdbDbRemove	game/unit_0024FDE0	d4/valuedb	.text	GtCommsDatabaseGame.cpp	medium	d4/ classed glue	none
+00250110	8	vdbDbAdd	game/unit_0024FDE0	d4/valuedb	.text	GtCommsDatabaseGame.cpp	medium	d4/ classed glue	none
+00250120	56	vdbDbInit	game/unit_0024FDE0	d4/valuedb	.text	GtCommsDatabaseGame.cpp	high	d4/ classed glue	none
+002527F0	12	func_002527F0	game/unit_002527F0	d3/func_002527F0	.text	B3RaceCarPhysicsAttribs.cpp	high	d3/ classed glue	none
+0027A900	32	func_0027A900	game/unit_0027A900	d3/func_0027A900	.text			d3/ classed glue	none
+0028B700	20	__ct__12CUnk0028B700Fv	game/unit_0028B700	d2/func_0028B700	.text			d2/ classed glue	none
+002B6C40	96	GtLListRemoveAllLinks__FP10GtLListTag	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	high	d4/ classed glue	none
+002B6CA0	120	GtLListRemoveLink__FP10GtLListTagP11GtLLLinkTag	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	high	d4/ classed glue	none
+002B6D20	120	GtLListTakeLinkFromList__FP10GtLListTagP11GtLLLinkTagP10GtLListTag	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	high	d4/ classed glue	none
+002B6DA0	100	GtLListAddLink__FP10GtLListTag	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	high	d4/ classed glue	none
+002B6E10	12	GtLListInitialise__FP10GtLListTagP14GtLListPoolTag	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	high	d4/ classed glue	none
+002B6E20	152	GtLListPoolSortFree__FP14GtLListPoolTag	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	high	d4/ classed glue	none
+002B6EC0	40	GtLListPoolCalculateSize__FUiUiUi	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	high	d4/ classed glue	none
+002B6EF0	248	GtLListPoolCreateInMemory__FP14GtLListPoolTagUiUiUiPCvPv	game/unit_002B6C40	d4/pool	.text	GtFreeList.cpp	medium	d4/ classed glue	none
+002BAEE0	16	func_002BAEE0	game/unit_002BAEE0	d6/vehicle_collision_shape_init	.text	B3ConvexHull.cpp	high	d6/ classed glue	none
+003EA7E0	8	func_003EA7E0	game/unit_003EA7E0	d3/func_003EA7E0	.text			d3/ classed glue	none
+004D3E00	88	func_004D3E00	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D3E60	1164	func_004D3E60	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D42F0	284	func_004D42F0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D4410	172	func_004D4410	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D44C0	284	func_004D44C0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D45E0	3388	func_004D45E0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5320	8	func_004D5320	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5330	32	func_004D5330	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5350	664	func_004D5350	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D55F0	672	func_004D55F0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5890	68	func_004D5890	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D58E0	72	func_004D58E0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5930	88	func_004D5930	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5990	36	func_004D5990	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D59C0	20	func_004D59C0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D59E0	48	func_004D59E0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5A10	8	func_004D5A10	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5A20	64	func_004D5A20	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5A60	20	func_004D5A60	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5A80	200	func_004D5A80	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5B50	84	func_004D5B50	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5BB0	64	func_004D5BB0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5BF0	80	func_004D5BF0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5C40	312	func_004D5C40	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5D80	32	func_004D5D80	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5DA0	32	func_004D5DA0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5DC0	132	func_004D5DC0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5E50	144	func_004D5E50	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5EE0	232	func_004D5EE0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D5FD0	172	func_004D5FD0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6080	164	func_004D6080	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6130	8	func_004D6130	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6140	40	func_004D6140	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6170	32	func_004D6170	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6190	2452	func_004D6190	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6B30	144	func_004D6B30	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6BC0	72	func_004D6BC0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6C10	220	func_004D6C10	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6CF0	8	func_004D6CF0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6D00	236	func_004D6D00	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6DF0	76	func_004D6DF0	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D6E40	724	func_004D6E40	game/unit_004D3E00	sinit	.init			sinit*.s classed glue	none
+004D7150	1684	func_004D7150	game/unit_004D7150	sinit_004D7150	.init			sinit*.s classed glue	none
+004D77F0	980	func_004D77F0	game/unit_004D7150	sinit_004D7150	.init			sinit*.s classed glue	none
+004D7BD0	352	func_004D7BD0	game/unit_004D7150	sinit_004D7150	.init			sinit*.s classed glue	none
+004D7D30	228	func_004D7D30	game/unit_004D7150	sinit_004D7150	.init			sinit*.s classed glue	draft
+004D81D0	344	func_004D81D0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8330	120	func_004D8330	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D83B0	156	func_004D83B0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8450	232	func_004D8450	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8540	312	func_004D8540	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8680	136	func_004D8680	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8710	212	func_004D8710	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D87F0	340	func_004D87F0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8950	48	func_004D8950	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8980	64	func_004D8980	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D89C0	120	func_004D89C0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8A40	64	func_004D8A40	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8A80	232	func_004D8A80	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8B70	460	func_004D8B70	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8D40	8	func_004D8D40	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8D50	120	func_004D8D50	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8DD0	40	func_004D8DD0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8E00	112	func_004D8E00	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8E70	48	func_004D8E70	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D8EA0	1316	func_004D8EA0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D93D0	64	func_004D93D0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9410	152	func_004D9410	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D94B0	28	func_004D94B0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D94D0	152	func_004D94D0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9570	8	func_004D9570	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9580	8	func_004D9580	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9590	48	func_004D9590	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D95C0	24	func_004D95C0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D95E0	120	func_004D95E0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9660	156	func_004D9660	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9700	108	func_004D9700	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9770	112	func_004D9770	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D97E0	172	func_004D97E0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9890	472	func_004D9890	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9A70	148	func_004D9A70	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004D9B10	1436	func_004D9B10	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA0B0	120	func_004DA0B0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA130	112	func_004DA130	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA1A0	88	func_004DA1A0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA200	120	func_004DA200	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA280	24	func_004DA280	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA2A0	112	func_004DA2A0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA310	140	func_004DA310	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA3A0	48	func_004DA3A0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA3D0	148	func_004DA3D0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA470	140	func_004DA470	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA500	328	func_004DA500	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA650	44	func_004DA650	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA680	568	func_004DA680	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DA8C0	804	func_004DA8C0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DABF0	88	func_004DABF0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DAC50	544	func_004DAC50	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DAE70	40	func_004DAE70	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DAEA0	84	func_004DAEA0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DAF00	160	func_004DAF00	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DAFA0	36	func_004DAFA0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DAFD0	116	func_004DAFD0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB050	24	func_004DB050	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB070	112	func_004DB070	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB0E0	540	func_004DB0E0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB300	48	func_004DB300	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB330	172	func_004DB330	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB3E0	24	func_004DB3E0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB400	136	func_004DB400	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB490	360	func_004DB490	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB600	28	func_004DB600	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB620	52	func_004DB620	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB660	560	func_004DB660	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DB890	2200	func_004DB890	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC130	372	func_004DC130	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC2B0	52	func_004DC2B0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC2F0	52	func_004DC2F0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC330	104	func_004DC330	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC3A0	52	func_004DC3A0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC3E0	100	func_004DC3E0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC450	120	func_004DC450	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC4D0	256	func_004DC4D0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC5D0	52	func_004DC5D0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC610	116	func_004DC610	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC690	88	func_004DC690	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC6F0	248	func_004DC6F0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC7F0	328	func_004DC7F0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC940	52	func_004DC940	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DC980	400	func_004DC980	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCB10	28	func_004DCB10	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCB30	52	func_004DCB30	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCB70	116	func_004DCB70	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCBF0	52	func_004DCBF0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCC30	44	func_004DCC30	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCC60	172	func_004DCC60	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCD10	388	func_004DCD10	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCEA0	104	func_004DCEA0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCF10	24	func_004DCF10	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCF30	72	func_004DCF30	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DCF80	240	func_004DCF80	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD070	208	func_004DD070	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD140	296	func_004DD140	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD270	232	func_004DD270	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD360	44	func_004DD360	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD390	116	func_004DD390	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD410	364	func_004DD410	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD580	232	func_004DD580	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD670	104	func_004DD670	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD6E0	208	func_004DD6E0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD7B0	48	func_004DD7B0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none
+004DD7E0	52	func_004DD7E0	game/unit_004D81D0	sinit_004D81D0	.init			sinit*.s classed glue	none

@@ -1,0 +1,13 @@
+# disc-derived or machine-local: never commit
+/orig/
+/build/
+/ext/
+tools/local.env
+__pycache__/
+*.pyc
+*.o
+*.iso
+*.elf
+*.bin
+.DS_Store
+Thumbs.db

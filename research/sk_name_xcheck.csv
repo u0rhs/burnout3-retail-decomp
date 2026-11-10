@@ -1,0 +1,414 @@
+addr,theirs,theirs_demangled,ours,our_conf,result,their_source
+00100008,_start,_start,,,only theirs,symbol_addrs
+0010ba00,RFU000_FullReset,RFU000_FullReset,,,only theirs,symbol_addrs
+0010ba10,ResetEE,ResetEE,,,only theirs,symbol_addrs
+0010ba20,SetGsCrt,SetGsCrt,,,only theirs,symbol_addrs
+0010ba30,RFU003,RFU003,,,only theirs,symbol_addrs
+0010ba40,_Exit,_Exit,,,only theirs,symbol_addrs
+0010ba50,RFU005_ResumeIntrDispatch,RFU005_ResumeIntrDispatch,,,only theirs,symbol_addrs
+0010ba60,_LoadExecPS2,_LoadExecPS2,,,only theirs,symbol_addrs
+0010ba70,_ExecPS2,_ExecPS2,,,only theirs,symbol_addrs
+0010ba80,RFU008_ResumeT3IntrDispatch,RFU008_ResumeT3IntrDispatch,,,only theirs,symbol_addrs
+0010ba90,RFU009,RFU009,,,only theirs,symbol_addrs
+0010baa0,AddSbusIntcHandler,AddSbusIntcHandler,,,only theirs,symbol_addrs
+0010bab0,RemoveSbusIntcHandler,RemoveSbusIntcHandler,,,only theirs,symbol_addrs
+0010bac0,Interrupt2Iop,Interrupt2Iop,,,only theirs,symbol_addrs
+0010bad0,SetVTLBRefillHandler,SetVTLBRefillHandler,,,only theirs,symbol_addrs
+0010bae0,SetVCommonHandler,SetVCommonHandler,,,only theirs,symbol_addrs
+0010baf0,SetVInterruptHandler,SetVInterruptHandler,,,only theirs,symbol_addrs
+0010bb00,AddIntcHandler,AddIntcHandler,,,only theirs,symbol_addrs
+0010bb10,AddIntcHandler2,AddIntcHandler2,,,only theirs,symbol_addrs
+0010bb20,RemoveIntcHandler,RemoveIntcHandler,,,only theirs,symbol_addrs
+0010bb30,AddDmacHandler,AddDmacHandler,,,only theirs,symbol_addrs
+0010bb40,AddDmacHandler2,AddDmacHandler2,,,only theirs,symbol_addrs
+0010bb50,RemoveDmacHandler,RemoveDmacHandler,,,only theirs,symbol_addrs
+0010bb60,_EnableIntc,_EnableIntc,,,only theirs,symbol_addrs
+0010bb70,_DisableIntc,_DisableIntc,,,only theirs,symbol_addrs
+0010bb80,_EnableDmac,_EnableDmac,,,only theirs,symbol_addrs
+0010bb90,_DisableDmac,_DisableDmac,,,only theirs,symbol_addrs
+0010bba0,SetAlarm,SetAlarm,,,only theirs,symbol_addrs
+0010bbb0,ReleaseAlarm,ReleaseAlarm,,,only theirs,symbol_addrs
+0010bbc0,_iEnableIntc,_iEnableIntc,,,only theirs,symbol_addrs
+0010bbd0,_iDisableIntc,_iDisableIntc,,,only theirs,symbol_addrs
+0010bbe0,_iEnableDmac,_iEnableDmac,,,only theirs,symbol_addrs
+0010bbf0,_iDisableDmac,_iDisableDmac,,,only theirs,symbol_addrs
+0010bc00,iSetAlarm,iSetAlarm,,,only theirs,symbol_addrs
+0010bc10,iReleaseAlarm,iReleaseAlarm,,,only theirs,symbol_addrs
+0010bc20,CreateThread,CreateThread,,,only theirs,symbol_addrs
+0010bc30,DeleteThread,DeleteThread,,,only theirs,symbol_addrs
+0010bc40,_StartThread,_StartThread,,,only theirs,symbol_addrs
+0010bc50,ExitThread,ExitThread,,,only theirs,symbol_addrs
+0010bc60,ExitDeleteThread,ExitDeleteThread,,,only theirs,symbol_addrs
+0010bc70,TerminateThread,TerminateThread,,,only theirs,symbol_addrs
+0010bc80,iTerminateThread,iTerminateThread,,,only theirs,symbol_addrs
+0010bc90,DisableDispatchThread,DisableDispatchThread,,,only theirs,symbol_addrs
+0010bca0,EnableDispatchThread,EnableDispatchThread,,,only theirs,symbol_addrs
+0010bcb0,ChangeThreadPriority,ChangeThreadPriority,,,only theirs,symbol_addrs
+0010bcc0,iChangeThreadPriority,iChangeThreadPriority,,,only theirs,symbol_addrs
+0010bcd0,RotateThreadReadyQueue,RotateThreadReadyQueue,,,only theirs,symbol_addrs
+0010bce0,_iRotateThreadReadyQueue,_iRotateThreadReadyQueue,,,only theirs,symbol_addrs
+0010bcf0,ReleaseWaitThread,ReleaseWaitThread,,,only theirs,symbol_addrs
+0010bd00,iReleaseWaitThread,iReleaseWaitThread,,,only theirs,symbol_addrs
+0010bd10,GetThreadId,GetThreadId,,,only theirs,symbol_addrs
+0010bd20,ReferThreadStatus,ReferThreadStatus,,,only theirs,symbol_addrs
+0010bd30,iReferThreadStatus,iReferThreadStatus,,,only theirs,symbol_addrs
+0010bd40,SleepThread,SleepThread,,,only theirs,symbol_addrs
+0010bd50,WakeupThread,WakeupThread,,,only theirs,symbol_addrs
+0010bd60,_iWakeupThread,_iWakeupThread,,,only theirs,symbol_addrs
+0010bd70,CancelWakeupThread,CancelWakeupThread,,,only theirs,symbol_addrs
+0010bd80,iCancelWakeupThread,iCancelWakeupThread,,,only theirs,symbol_addrs
+0010bd90,SuspendThread,SuspendThread,,,only theirs,symbol_addrs
+0010bda0,_iSuspendThread,_iSuspendThread,,,only theirs,symbol_addrs
+0010bdb0,ResumeThread,ResumeThread,,,only theirs,symbol_addrs
+0010bdc0,iResumeThread,iResumeThread,,,only theirs,symbol_addrs
+0010bdd0,JoinThread,JoinThread,,,only theirs,symbol_addrs
+0010bde0,RFU060_SetupThread,RFU060_SetupThread,,,only theirs,symbol_addrs
+0010bdf0,RFU061_SetupHeap,RFU061_SetupHeap,,,only theirs,symbol_addrs
+0010be00,EndOfHeap,EndOfHeap,,,only theirs,symbol_addrs
+0010be10,RFU063,RFU063,,,only theirs,symbol_addrs
+0010be20,CreateSema,CreateSema,,,only theirs,symbol_addrs
+0010be30,DeleteSema,DeleteSema,,,only theirs,symbol_addrs
+0010be40,SignalSema,SignalSema,,,only theirs,symbol_addrs
+0010be50,iSignalSema,iSignalSema,,,only theirs,symbol_addrs
+0010be60,WaitSema,WaitSema,,,only theirs,symbol_addrs
+0010be70,PollSema,PollSema,,,only theirs,symbol_addrs
+0010be80,iPollSema,iPollSema,,,only theirs,symbol_addrs
+0010be90,ReferSemaStatus,ReferSemaStatus,,,only theirs,symbol_addrs
+0010bea0,iReferSemaStatus,iReferSemaStatus,,,only theirs,symbol_addrs
+0010beb0,RFU073,RFU073,,,only theirs,symbol_addrs
+0010bec0,SetOsdConfigParam,SetOsdConfigParam,,,only theirs,symbol_addrs
+0010bed0,GetOsdConfigParam,GetOsdConfigParam,,,only theirs,symbol_addrs
+0010bee0,GetGsHParam,GetGsHParam,,,only theirs,symbol_addrs
+0010bef0,GetGsVParam,GetGsVParam,,,only theirs,symbol_addrs
+0010bf00,SetGsHParam,SetGsHParam,,,only theirs,symbol_addrs
+0010bf10,SetGsVParam,SetGsVParam,,,only theirs,symbol_addrs
+0010bf20,RFU080_CreateEventFlag,RFU080_CreateEventFlag,,,only theirs,symbol_addrs
+0010bf30,RFU081_DeleteEventFlag,RFU081_DeleteEventFlag,,,only theirs,symbol_addrs
+0010bf40,RFU082_SetEventFlag,RFU082_SetEventFlag,,,only theirs,symbol_addrs
+0010bf50,RFU083_iSetEventFlag,RFU083_iSetEventFlag,,,only theirs,symbol_addrs
+0010bf60,RFU084_ClearEventFlag,RFU084_ClearEventFlag,,,only theirs,symbol_addrs
+0010bf70,RFU085_iClearEventFlag,RFU085_iClearEventFlag,,,only theirs,symbol_addrs
+0010bf80,RFU086_WaitEventFlag,RFU086_WaitEventFlag,,,only theirs,symbol_addrs
+0010bf90,RFU087_PollEventFlag,RFU087_PollEventFlag,,,only theirs,symbol_addrs
+0010bfa0,RFU088_iPollEventFlag,RFU088_iPollEventFlag,,,only theirs,symbol_addrs
+0010bfb0,RFU089_ReferEventFlagStatus,RFU089_ReferEventFlagStatus,,,only theirs,symbol_addrs
+0010bfc0,RFU090_iReferEventFlagStatus,RFU090_iReferEventFlagStatus,,,only theirs,symbol_addrs
+0010bfd0,RFU091,RFU091,,,only theirs,symbol_addrs
+0010bfe0,EnableIntcHandler,EnableIntcHandler,,,only theirs,symbol_addrs
+0010bff0,iEnableIntcHandler,iEnableIntcHandler,,,only theirs,symbol_addrs
+0010c000,DisableIntcHandler,DisableIntcHandler,,,only theirs,symbol_addrs
+0010c010,iDisableIntcHandler,iDisableIntcHandler,,,only theirs,symbol_addrs
+0010c020,EnableDmacHandler,EnableDmacHandler,,,only theirs,symbol_addrs
+0010c030,iEnableDmacHandler,iEnableDmacHandler,,,only theirs,symbol_addrs
+0010c040,DisableDmacHandler,DisableDmacHandler,,,only theirs,symbol_addrs
+0010c050,iDisableDmacHandler,iDisableDmacHandler,,,only theirs,symbol_addrs
+0010c060,KSeg0,KSeg0,,,only theirs,symbol_addrs
+0010c070,EnableCache,EnableCache,,,only theirs,symbol_addrs
+0010c080,DisableCache,DisableCache,,,only theirs,symbol_addrs
+0010c090,GetCop0,GetCop0,,,only theirs,symbol_addrs
+0010c0a0,FlushCache,FlushCache,,,only theirs,symbol_addrs
+0010c0b0,CpuConfig,CpuConfig,,,only theirs,symbol_addrs
+0010c0c0,iGetCop0,iGetCop0,,,only theirs,symbol_addrs
+0010c0d0,iFlushCache,iFlushCache,,,only theirs,symbol_addrs
+0010c0e0,iCpuConfig,iCpuConfig,,,only theirs,symbol_addrs
+0010c0f0,sceSifStopDma,sceSifStopDma,,,only theirs,symbol_addrs
+0010c100,SetCPUTimerHandler,SetCPUTimerHandler,,,only theirs,symbol_addrs
+0010c110,SetCPUTimer,SetCPUTimer,,,only theirs,symbol_addrs
+0010c120,SetOsdConfigParam2,SetOsdConfigParam2,,,only theirs,symbol_addrs
+0010c130,GetOsdConfigParam2,GetOsdConfigParam2,,,only theirs,symbol_addrs
+0010c140,GsGetIMR,GsGetIMR,,,only theirs,symbol_addrs
+0010c150,iGsGetIMR,iGsGetIMR,,,only theirs,symbol_addrs
+0010c160,GsPutIMR,GsPutIMR,,,only theirs,symbol_addrs
+0010c170,iGsPutIMR,iGsPutIMR,,,only theirs,symbol_addrs
+0010c180,SetPgifHandler,SetPgifHandler,,,only theirs,symbol_addrs
+0010c190,SetVSyncFlag,SetVSyncFlag,,,only theirs,symbol_addrs
+0010c1a0,RFU116_SetSyscall,RFU116_SetSyscall,,,only theirs,symbol_addrs
+0010c1b0,_print,_print,,,only theirs,symbol_addrs
+0010c1c0,sceSifDmaStat,sceSifDmaStat,,,only theirs,symbol_addrs
+0010c1d0,isceSifDmaStat,isceSifDmaStat,,,only theirs,symbol_addrs
+0010c1e0,sceSifSetDma,sceSifSetDma,,,only theirs,symbol_addrs
+0010c1f0,isceSifSetDma,isceSifSetDma,,,only theirs,symbol_addrs
+0010c200,sceSifSetDChain,sceSifSetDChain,,,only theirs,symbol_addrs
+0010c210,isceSifSetDChain,isceSifSetDChain,,,only theirs,symbol_addrs
+0010c220,sceSifSetReg,sceSifSetReg,,,only theirs,symbol_addrs
+0010c230,sceSifGetReg,sceSifGetReg,sceSifGetReg,high,agree,symbol_addrs
+0010c240,_ExecOSD,_ExecOSD,_ExecOSD,high,agree,symbol_addrs
+0010c250,Deci2Call,Deci2Call,Deci2Call,high,agree,symbol_addrs
+0010c260,PSMode,PSMode,,,only theirs,symbol_addrs
+0010c270,MachineType,MachineType,,,only theirs,symbol_addrs
+0010c280,GetMemorySize,GetMemorySize,GetMemorySize,high,agree,symbol_addrs
+0010c290,_InitTLB,_InitTLB,_InitTLB,high,agree,symbol_addrs
+00102638,sceGsDefDispEnv,sceGsDefDispEnv,sceGsSetDefDispEnv,high,CONFLICT,symbol_addrs
+00102d20,sceGsPutDrawEnv,sceGsPutDrawEnv,,,only theirs,symbol_addrs
+00102ea0,sceGsSyncPath,sceGsSyncPath,sceGsSyncPath,high,agree,symbol_addrs
+001032f8,sceGsExecStoreImage,sceGsExecStoreImage,sceGsExecStoreImage,high,agree,symbol_addrs
+001067e8,_sliceA0,_sliceA0,_sliceA0,high,agree,symbol_addrs
+0010b308,_sequenceScalableExtension,_sequenceScalableExtension,,,only theirs,symbol_addrs
+002161f8,sceDbcSetWorkAddr,sceDbcSetWorkAddr,sceDbcSetWorkAddr,high,agree,symbol_addrs
+00216268,sceDbcCreateSocket,sceDbcCreateSocket,sceDbcCreateSocket,high,agree,symbol_addrs
+00216340,sceDbcDeleteSocket,sceDbcDeleteSocket,sceDbcDeleteSocket,high,agree,symbol_addrs
+002163c8,sceDbcGetDepNumber,sceDbcGetDepNumber,sceDbcGetDepNumber,high,agree,symbol_addrs
+00216608,sceDbcInitSocket,sceDbcInitSocket,sceDbcInitSocket,high,agree,symbol_addrs
+00216678,sceDbcResetSocket,sceDbcResetSocket,sceDbcResetSocket,high,agree,symbol_addrs
+002167e0,sceDbcSRData,sceDbcSRData,sceDbcSRData,high,agree,symbol_addrs
+00216928,sceDbcSendData,sceDbcSendData,sceDbcSendData,high,agree,symbol_addrs
+00216a58,sceDbcSendData2,sceDbcSendData2,sceDbcSendData2,high,agree,symbol_addrs
+00216d20,sceDbcReceiveData,sceDbcReceiveData,sceDbcReceiveData,high,agree,symbol_addrs
+002e0838,lgAudInit,lgAudInit,lgAudInit,high,agree,symbol_addrs
+002e0cf0,lgAudOpen,lgAudOpen,lgAudOpen,high,agree,symbol_addrs
+002e0e58,lgAudRead,lgAudRead,lgAudRead,high,agree,symbol_addrs
+002e0fc8,lgAudWrite,lgAudWrite,lgAudWrite,high,agree,symbol_addrs
+002e1138,lgAudWriteVag,lgAudWriteVag,lgAudWriteVag,high,agree,symbol_addrs
+002e12a8,lgAudPrepareForReboot,lgAudPrepareForReboot,lgAudPrepareForReboot,high,agree,symbol_addrs
+002e1398,lgAudARead,lgAudARead,lgAudARead,high,agree,symbol_addrs
+002e1510,lgAudAWrite,lgAudAWrite,lgAudAWrite,high,agree,symbol_addrs
+002e1698,lgAudAWriteVag,lgAudAWriteVag,lgAudAWriteVag,high,agree,symbol_addrs
+002e18f0,lgAudEnumHint,lgAudEnumHint,lgAudEnumHint,high,agree,symbol_addrs
+002e1960,lgAudEnumerate,lgAudEnumerate,lgAudEnumerate,high,agree,symbol_addrs
+002e1b30,lgAudClose,lgAudClose,lgAudClose,high,agree,symbol_addrs
+002e1bf8,lgAudGetRemainingPlaybackBytes,lgAudGetRemainingPlaybackBytes,lgAudGetRemainingPlaybackBytes,high,agree,symbol_addrs
+002e1cd0,lgAudGetAvailableRecordingBytes,lgAudGetAvailableRecordingBytes,lgAudGetAvailableRecordingBytes,high,agree,symbol_addrs
+002e1da8,lgAudGetMixer,lgAudGetMixer,lgAudGetMixer,high,agree,symbol_addrs
+002e2170,lgAudStartPlayback,lgAudStartPlayback,lgAudStartPlayback,high,agree,symbol_addrs
+002e2300,lgAudResumePlayback,lgAudResumePlayback,lgAudResumePlayback,high,agree,symbol_addrs
+00305f18,lgKbMInit,lgKbMInit,lgKbMInit,high,agree,symbol_addrs
+004008e8,_RpcCall,_RpcCall,_RpcCall,high,agree,symbol_addrs
+004012a8,RpcBind,RpcBind,RpcBind,high,agree,symbol_addrs
+00404d88,_LobbyApiGlobalCallback,_LobbyApiGlobalCallback,_LobbyApiGlobalCallback,high,agree,symbol_addrs
+00404ef0,_LobbyApiCancelOneShotCB,_LobbyApiCancelOneShotCB,_LobbyApiCancelOneShotCB,high,agree,symbol_addrs
+00405668,_LobbyApiConfigCallback,_LobbyApiConfigCallback,_LobbyApiConfigCallback,high,agree,symbol_addrs
+0040c078,_LobbyRankSnapCb,_LobbyRankSnapCb,,,only theirs,symbol_addrs
+0040df78,_LobbyStatbookViewCb,_LobbyStatbookViewCb,,,only theirs,symbol_addrs
+0040e268,_LobbyStatbookRowCb,_LobbyStatbookRowCb,,,only theirs,symbol_addrs
+0040e440,_LobbyStatbookCreate,_LobbyStatbookCreate,,,only theirs,symbol_addrs
+00443c70,lgDevEnumHint,lgDevEnumHint,,,only theirs,symbol_addrs
+00443cc8,lgDevEnumerate,lgDevEnumerate,,,only theirs,symbol_addrs
+00443db0,lgDevOpen,lgDevOpen,,,only theirs,symbol_addrs
+00443e70,lgDevClose,lgDevClose,,,only theirs,symbol_addrs
+00443ef8,lgDevGetDeviceProperty,lgDevGetDeviceProperty,,,only theirs,symbol_addrs
+00443fc8,lgDevSetDeviceProperty,lgDevSetDeviceProperty,,,only theirs,symbol_addrs
+00444070,lgDevRead,lgDevRead,,,only theirs,symbol_addrs
+00444168,lgDevReadMulti,lgDevReadMulti,,,only theirs,symbol_addrs
+00444330,lgDevDownloadForceEffect,lgDevDownloadForceEffect,,,only theirs,symbol_addrs
+00444490,lgDevUpdateForceEffect,lgDevUpdateForceEffect,,,only theirs,symbol_addrs
+004445d8,lgDevStartForceEffect,lgDevStartForceEffect,,,only theirs,symbol_addrs
+00444660,lgDevStartForceEffectMulti,lgDevStartForceEffectMulti,,,only theirs,symbol_addrs
+00444770,lgDevStopForceEffect,lgDevStopForceEffect,,,only theirs,symbol_addrs
+004447f8,lgDevStopForceEffectMulti,lgDevStopForceEffectMulti,,,only theirs,symbol_addrs
+00444908,lgDevDestroyForceEffect,lgDevDestroyForceEffect,,,only theirs,symbol_addrs
+00444990,lgDevPrepareForIOPReboot,lgDevPrepareForIOPReboot,,,only theirs,symbol_addrs
+00444c08,lgDevARead,lgDevARead,,,only theirs,symbol_addrs
+00444cd8,lgDevAReadMulti,lgDevAReadMulti,,,only theirs,symbol_addrs
+00444e48,lgDevAUpdateForceEffect,lgDevAUpdateForceEffect,,,only theirs,symbol_addrs
+00444f98,lgDevAStartForceEffect,lgDevAStartForceEffect,,,only theirs,symbol_addrs
+00445028,lgDevAStartForceEffectMulti,lgDevAStartForceEffectMulti,,,only theirs,symbol_addrs
+00445148,lgDevAStopForceEffect,lgDevAStopForceEffect,,,only theirs,symbol_addrs
+004451d8,lgDevAStopForceEffectMulti,lgDevAStopForceEffectMulti,,,only theirs,symbol_addrs
+0011f218,sceCdInit,sceCdInit,sceCdInit,high,agree,symbol_addrs
+0011f6f0,sceCdDiskReady,sceCdDiskReady,sceCdDiskReady,high,agree,symbol_addrs
+0011fa48,sceCdMmode,sceCdMmode,sceCdMmode,high,agree,symbol_addrs
+0011fb18,sceCdReadClock,sceCdReadClock,sceCdReadClock,high,agree,symbol_addrs
+0011fd30,atoi,atoi,atoi,high,agree,symbol_addrs
+00121e88,_free_r,_free_r,_free_r,high,agree,symbol_addrs
+001232d8,malloc,malloc,malloc,high,agree,symbol_addrs
+00123330,free,free,free,high,agree,symbol_addrs
+001235d0,_malloc_r,_malloc_r,_malloc_r,high,agree,symbol_addrs
+00123e10,memcmp,memcmp,memcmp,high,agree,symbol_addrs
+00123ea8,memcpy,memcpy,memcpy,high,agree,symbol_addrs
+00124060,memset,memset,memset,high,agree,symbol_addrs
+00124120,__malloc_lock,__malloc_lock,__malloc_lock,high,agree,symbol_addrs
+001241a0,__malloc_unlock,__malloc_unlock,__malloc_unlock,high,agree,symbol_addrs
+001252c8,printf,printf,printf,high,agree,symbol_addrs
+00126a18,snprintf,snprintf,snprintf,high,agree,symbol_addrs
+00126b40,sprintf,sprintf,sprintf,high,agree,symbol_addrs
+00126df0,strcasecmp,strcasecmp,strcasecmp,high,agree,symbol_addrs
+00126ec8,strcat,strcat,strcat,high,agree,symbol_addrs
+00126ff8,strchr,strchr,strchr,high,agree,symbol_addrs
+00127188,strcmp,strcmp,strcmp,high,agree,symbol_addrs
+001272d0,strcpy,strcpy,strcpy,high,agree,symbol_addrs
+001273e8,strlen,strlen,strlen,high,agree,symbol_addrs
+001275f8,strncat,strncat,strncat,high,agree,symbol_addrs
+001277a8,strncmp,strncmp,strncmp,high,agree,symbol_addrs
+00127960,strncpy,strncpy,strncpy,high,agree,symbol_addrs
+00128f08,strtol,strtol,,,only theirs,symbol_addrs
+00129558,vfprintf,vfprintf,vfprintf,high,agree,symbol_addrs
+004876e8,_impure_ptr,_impure_ptr,_impure_ptr,high,agree,symbol_addrs
+0012bfa0,__muldi3,__muldi3,__muldi3,high,agree,symbol_addrs
+0012c018,__divdi3,__divdi3,__divdi3,high,agree,symbol_addrs
+0012c6b0,__moddi3,__moddi3,__moddi3,high,agree,symbol_addrs
+0012cd40,__udivdi3,__udivdi3,__udivdi3,high,agree,symbol_addrs
+0012d2c0,__umoddi3,__umoddi3,__umoddi3,high,agree,symbol_addrs
+0012d828,__floatdidf,__floatdidf,__floatdidf,high,agree,symbol_addrs
+0012d8d0,__floatdisf,__floatdisf,__floatdisf,high,agree,symbol_addrs
+0012d9b8,__fixunsdfdi,__fixunsdfdi,__fixunsdfdi,high,agree,symbol_addrs
+0012dad0,__fixdfdi,__fixdfdi,__fixdfdi,high,agree,symbol_addrs
+0012db48,__fixunssfdi,__fixunssfdi,__fixunssfdi,high,agree,symbol_addrs
+0012dc70,__fixsfdi,__fixsfdi,__fixsfdi,high,agree,symbol_addrs
+0012dcb0,__pack_f,__pack_f,__pack_f,high,agree,symbol_addrs
+0012dd68,__unpack_f,__unpack_f,__unpack_f,high,agree,symbol_addrs
+0012ddc8,__make_fp,__make_fp,__make_fp,high,agree,symbol_addrs
+0012ddf8,__extendsfdf2,__extendsfdf2,fptodp,high,CONFLICT,symbol_addrs
+0012de38,__fixunssfsi,__fixunssfsi,fptoui,high,CONFLICT,symbol_addrs
+0012deb8,__pack_d,__pack_d,__pack_d,high,agree,symbol_addrs
+0012df90,__unpack_d,__unpack_d,__unpack_d,high,agree,symbol_addrs
+0012e050,_fpadd_parts,_fpadd_parts,_fpadd_parts,high,agree,symbol_addrs
+0012e2b0,__adddf3,__adddf3,dpadd,high,CONFLICT,symbol_addrs
+0012e308,__subdf3,__subdf3,dpsub,high,CONFLICT,symbol_addrs
+0012e370,__muldf3,__muldf3,dpmul,high,CONFLICT,symbol_addrs
+0012e5f8,__divdf3,__divdf3,dpdiv,high,CONFLICT,symbol_addrs
+0012e738,__fpcmp_parts_d,__fpcmp_parts_d,__fpcmp_parts_d,high,agree,symbol_addrs
+0012e8a8,__floatsidf,__floatsidf,litodp,high,CONFLICT,symbol_addrs
+0012e960,__fixdfsi,__fixdfsi,dptoli,high,CONFLICT,symbol_addrs
+0012ea00,__make_dp,__make_dp,__make_dp,high,agree,symbol_addrs
+0012ea30,__truncdfsf2,__truncdfsf2,dptofp,high,CONFLICT,symbol_addrs
+0012ea88,__fixunsdfsi,__fixunsdfsi,dptoul,high,CONFLICT,symbol_addrs
+002130f0,ustrSetSeparators,ustrSetSeparators,,,only theirs,symbol_addrs
+00213100,ustrFromFloat,ustrFromFloat,,,only theirs,symbol_addrs
+00213360,ustrFromFloatNoSep,ustrFromFloatNoSep,"CGtUnicode::PrintReal(unsigned short*,float,int)",high,CONFLICT,symbol_addrs
+002135c0,ustrFromInt,ustrFromInt,,,only theirs,symbol_addrs
+002136f0,ustrFromIntNoSep,ustrFromIntNoSep,"CGtUnicode::PrintInt(unsigned short*,int,int)",high,CONFLICT,symbol_addrs
+002137f0,ustrFromUInt,ustrFromUInt,"CGtUnicode::PrintUInt(unsigned short*,unsigned int,int)",high,CONFLICT,symbol_addrs
+002138c0,ustrncat,ustrncat,"CGtUnicode::AppendN(unsigned short*,int,const unsigned short*)",high,CONFLICT,symbol_addrs
+00213940,ustrcat,ustrcat,"CGtUnicode::Append(unsigned short*,const unsigned short*)",high,CONFLICT,symbol_addrs
+002139a0,ustrncpy,ustrncpy,"CGtUnicode::CopyN(unsigned short*,int,const unsigned short*)",high,CONFLICT,symbol_addrs
+00213a00,ustrcpy,ustrcpy,"CGtUnicode::Copy(unsigned short*,const unsigned short*)",high,CONFLICT,symbol_addrs
+00213a30,ustrlen,ustrlen,CGtUnicode::Length(const unsigned short*),high,CONFLICT,symbol_addrs
+00213a60,ustrFromUtf8Checked,ustrFromUtf8Checked,"CGtUnicode::ConvertUTF8toUTF16(const unsigned char*,unsigned short*,int)",high,CONFLICT,symbol_addrs
+00213be0,ustrFromUtf8,ustrFromUtf8,"CGtUnicode::ConvertUTF8toUTF16Fast(const unsigned char*,unsigned short*,int)",high,CONFLICT,symbol_addrs
+00213cb0,ustrToUtf8,ustrToUtf8,"CGtUnicode::ConvertUTF16toUTF8Fast(const unsigned short*,unsigned char*,int)",high,CONFLICT,symbol_addrs
+004b9700,trailingBytesForUTF8,trailingBytesForUTF8,_gan8NumTrailingBytesForUTF8,high,CONFLICT,symbol_addrs
+004b9800,offsetsFromUTF8,offsetsFromUTF8,_ganOffsetsFromUTF8,high,CONFLICT,symbol_addrs
+004b9818,firstByteMark,firstByteMark,_ganFirstByteMark,medium,CONFLICT,symbol_addrs
+004b9820,powersOf10,powersOf10,,,only theirs,symbol_addrs
+004e1934,thousandsSep,thousandsSep,,,only theirs,symbol_addrs
+004e1938,decimalPoint,decimalPoint,,,only theirs,symbol_addrs
+004e193c,plusSign,plusSign,,,only theirs,symbol_addrs
+004e1940,minusSign,minusSign,,,only theirs,symbol_addrs
+0013ce20,Abort__17CAsyncLoadManagerFUi,CAsyncLoadManager::Abort(unsigned int),CB3AsyncDataLoader::Abort(unsigned int),high,CONFLICT,symbol_addrs
+0013cfa0,QueueLoadRequest__17CAsyncLoadManagerFPCcPbPvUi,"CAsyncLoadManager::QueueLoadRequest(const char*,bool*,void*,unsigned int)","CB3AsyncDataLoader::QueueLoadRequest(const char*,bool*,void*,unsigned int)",high,CONFLICT,symbol_addrs
+0013d250,Update__17CAsyncLoadManagerFv,CAsyncLoadManager::Update(),CB3AsyncDataLoader::Update(),high,CONFLICT,symbol_addrs
+0013d410,Shutdown__17CAsyncLoadManagerFv,CAsyncLoadManager::Shutdown(),CB3AsyncDataLoader::Destruct(),high,CONFLICT,symbol_addrs
+0013d4d0,Init__17CAsyncLoadManagerFv,CAsyncLoadManager::Init(),CB3AsyncDataLoader::Construct(),high,CONFLICT,symbol_addrs
+00222300,memMgrSize,memMgrSize,CB3MemoryManagerPS2::GetBlockSize(EB3MemoryBlock) const,high,CONFLICT,symbol_addrs
+002223b0,memMgrPeekCat13,memMgrPeekCat13,"CB3MemoryManagerPS2::QueryBlock(EB3MemoryBlock,int) const",medium,CONFLICT,symbol_addrs
+002223c0,memMgrRelease,memMgrRelease,"CB3MemoryManagerPS2::ReleaseBlock(EB3MemoryBlock,int)",high,CONFLICT,symbol_addrs
+002224c0,memMgrTake,memMgrTake,"CB3MemoryManagerPS2::AcquireBlock(EB3MemoryBlock,int)",high,CONFLICT,symbol_addrs
+002225c0,memMgrUpdate,memMgrUpdate,CB3MemoryManagerPS2::Update(),high,CONFLICT,symbol_addrs
+00222620,memMgrFreeBlock,memMgrFreeBlock,CB3MemoryManagerPS2::Destruct(),high,CONFLICT,symbol_addrs
+00222650,memMgrInit,memMgrInit,CB3MemoryManagerPS2::Construct(),high,CONFLICT,symbol_addrs
+004e293c,memMgrMallocBlock,memMgrMallocBlock,_gpWholeMemoryBlockUnaligned,high,CONFLICT,symbol_addrs
+004e2940,memMgrArena,memMgrArena,_gpWholeMemoryBlock,high,CONFLICT,symbol_addrs
+01d6d880,theMemMgr,theMemMgr,,,only theirs,symbol_addrs
+002b6c40,GtLListRemoveAllLinks__FP10GtLListTag,GtLListRemoveAllLinks__FP10GtLListTag,CGtFreeList::RemoveAllLinks(),high,CONFLICT,symbol_addrs
+002b6ca0,GtLListRemoveLink__FP10GtLListTagP11GtLLLinkTag,GtLListRemoveLink__FP10GtLListTagP11GtLLLinkTag,CGtFreeList::RemoveLink(CGtFreeListLink*),high,CONFLICT,symbol_addrs
+002b6d20,GtLListTakeLinkFromList__FP10GtLListTagP11GtLLLinkTagP10GtLListTag,GtLListTakeLinkFromList__FP10GtLListTagP11GtLLLinkTagP10GtLListTag,"CGtFreeList::TakeLinkFromList(CGtFreeListLink*,CGtFreeList*)",high,CONFLICT,symbol_addrs
+002b6da0,GtLListAddLink__FP10GtLListTag,GtLListAddLink__FP10GtLListTag,CGtFreeList::AddLink(),high,CONFLICT,symbol_addrs
+002b6e10,GtLListInitialise__FP10GtLListTagP14GtLListPoolTag,GtLListInitialise__FP10GtLListTagP14GtLListPoolTag,CGtFreeList::Construct(CGtFreeListPool*),high,CONFLICT,symbol_addrs
+002b6e20,GtLListPoolSortFree__FP14GtLListPoolTag,GtLListPoolSortFree__FP14GtLListPoolTag,CGtFreeListPool::SortFree(),high,CONFLICT,symbol_addrs
+002b6ec0,GtLListPoolCalculateSize__FUiUiUi,GtLListPoolCalculateSize__FUiUiUi,"CGtFreeListPool::_GetRequiredMemory(unsigned int,unsigned int,unsigned int)",high,CONFLICT,symbol_addrs
+002b6ef0,GtLListPoolCreateInMemory__FP14GtLListPoolTagUiUiUiPCvPv,GtLListPoolCreateInMemory__FP14GtLListPoolTagUiUiUiPCvPv,,,only theirs,symbol_addrs
+0021b8c0,vdbSetDatabase,vdbSetDatabase,GtComms::CGtCommsToolBase::Construct(const char*),high,CONFLICT,symbol_addrs
+0021b8f0,vdbFreeEntry,vdbFreeEntry,GtComms::CGtCommsDatabase::RemoveEntryCore(GtComms::CGtCommsDatabaseEntry*),high,CONFLICT,symbol_addrs
+0021b910,vdbUnregister,vdbUnregister,GtComms::CGtCommsDatabase::RemoveEntry(void*),high,CONFLICT,symbol_addrs
+0021b9b0,vdbRegisterVector,vdbRegisterVector,"GtComms::CGtCommsDatabase::AddEntry(GtMathPs2::CGtV3d*,const char*,const char*,const char*)",high,CONFLICT,symbol_addrs
+0021bb60,vdbRegisterFloat,vdbRegisterFloat,"GtComms::CGtCommsDatabase::AddEntry(float*,const char*,const char*,const char*,int,float,float,int)",high,CONFLICT,symbol_addrs
+0021bd80,vdbRegisterInt,vdbRegisterInt,"GtComms::CGtCommsDatabase::AddEntry(int*,const char*,const char*,const char*,int,int,int,int)",high,CONFLICT,symbol_addrs
+0021bf80,vdbInit,vdbInit,"GtComms::CGtCommsDatabase::Construct(GtComms::CGtCommsDatabaseEntry*,int)",high,CONFLICT,symbol_addrs
+0021bfa0,vdbHash,vdbHash,CGtHash::CalculateHash(const char*),high,CONFLICT,symbol_addrs
+0021aef0,packName40,packName40,GtIDCompress(const char*),high,CONFLICT,symbol_addrs
+0049b110,crc32Table,crc32Table,CGtHash::manHashTable,medium,CONFLICT,symbol_addrs
+004e2920,gVdbDatabase,gVdbDatabase,GtComms::CGtCommsToolBase::mpToolBase,high,CONFLICT,symbol_addrs
+0024fde0,vdbDbIsEnabled,vdbDbIsEnabled,GtComms::CGtCommsDatabaseGame::CheckFileValid(const char*),high,CONFLICT,symbol_addrs
+0024fe90,vdbDbLoad,vdbDbLoad,GtComms::CGtCommsDatabaseGame::InitialiseDefaultValues(),high,CONFLICT,symbol_addrs
+0024ffc0,vdbDbApply,vdbDbApply,GtComms::CGtCommsDatabaseGame::SetDefaultElementValue(GtComms::CGtCommsDatabaseEntry*),high,CONFLICT,symbol_addrs
+00250100,vdbDbRemove,vdbDbRemove,GtComms::CGtCommsDatabaseGame::RemoveEntryCore(GtComms::CGtCommsDatabaseEntry*),medium,CONFLICT,symbol_addrs
+00250110,vdbDbAdd,vdbDbAdd,GtComms::CGtCommsDatabaseGame::TransmitElement(GtComms::CGtCommsDatabaseEntry*),medium,CONFLICT,symbol_addrs
+00250120,vdbDbInit,vdbDbInit,GtComms::CGtCommsDatabaseGame::Construct(),high,CONFLICT,symbol_addrs
+004de0f0,vtVdbDatabase,vtVdbDatabase,GtComms::CGtCommsDatabaseGame::__vt,high,CONFLICT,symbol_addrs
+00212e30,ustrFormat,ustrFormat,"CGtUnicode::_FormatString(unsigned short*,const unsigned short*,const unsigned short*,const unsigned short*,const unsigned shor",high,CONFLICT,symbol_addrs
+00213050,ustrFmtScan,ustrFmtScan,"_CopyUntilNextParameter(unsigned short**,const unsigned short**)",high,CONFLICT,symbol_addrs
+00212580,FTell__13CGTFileSystemFPv,CGTFileSystem::FTell(void*),,,only theirs,symbol_addrs
+00212590,FExist__13CGTFileSystemFPCc,CGTFileSystem::FExist(const char*),CGTFileSystem::FExist(const char*),high,agree,symbol_addrs
+002125e0,FFlush__13CGTFileSystemFPv,CGTFileSystem::FFlush(void*),,,only theirs,symbol_addrs
+002125f0,FSeek__13CGTFileSystemFPvii,"CGTFileSystem::FSeek(void*,int,int)","CGTFileSystem::FSeek(void*,long,int)",high,agree (name; signature text differs),symbol_addrs
+00212670,FEof__13CGTFileSystemFPv,CGTFileSystem::FEof(void*),,,only theirs,symbol_addrs
+00212690,FPuts__13CGTFileSystemFPCcPv,"CGTFileSystem::FPuts(const char*,void*)",,,only theirs,symbol_addrs
+002126e0,FGets__13CGTFileSystemFPciPv,"CGTFileSystem::FGets(char*,int,void*)",,,only theirs,symbol_addrs
+002126f0,FWrite__13CGTFileSystemFPCvUiUiPv,"CGTFileSystem::FWrite(const void*,unsigned int,unsigned int,void*)","CGTFileSystem::FWrite(const void*,unsigned int,unsigned int,void*)",high,agree,symbol_addrs
+00212730,FRead__13CGTFileSystemFPvUiUiPv,"CGTFileSystem::FRead(void*,unsigned int,unsigned int,void*)","CGTFileSystem::FRead(void*,unsigned int,unsigned int,void*)",high,agree,symbol_addrs
+00212770,FClose__13CGTFileSystemFPv,CGTFileSystem::FClose(void*),CGTFileSystem::FClose(void*),high,agree,symbol_addrs
+002127a0,FOpen__13CGTFileSystemFPCcPCc,"CGTFileSystem::FOpen(const char*,const char*)","CGTFileSystem::FOpen(const char*,const char*)",high,agree,symbol_addrs
+00212890,Open__13CGTFileSystemFPCcUi,"CGTFileSystem::Open(const char*,unsigned int)","CGTFileSystem::Open(const char*,unsigned int)",high,agree,symbol_addrs
+002129a0,Init__13CGTFileSystemFUiPCc,"CGTFileSystem::Init(unsigned int,const char*)","CGTFileSystem::Init(unsigned int,const char*)",high,agree,symbol_addrs
+00212a70,SetAsDefaultFilesystem__13CGTFileSystemFv,CGTFileSystem::SetAsDefaultFilesystem(),CGTFileSystem::SetAsDefaultFilesystem(),high,agree,symbol_addrs
+00212a80,BuildFileName__13CGTFileSystemFPciPCcPCcc,"CGTFileSystem::BuildFileName(char*,int,const char*,const char*,char)","CGTFileSystem::BuildFileName(char*,int,const char*,const char*,char)",high,agree,symbol_addrs
+00212b80,GetFileNameFromDeviceName__13CGTFileSystemFPCc,CGTFileSystem::GetFileNameFromDeviceName(const char*),CGTFileSystem::GetFileNameFromDeviceName(const char*),high,agree,symbol_addrs
+00212bd0,GetFileSystemFromFileName__13CGTFileSystemFPCc,CGTFileSystem::GetFileSystemFromFileName(const char*),CGTFileSystem::GetFileSystemFromFileName(const char*),high,agree,symbol_addrs
+00212cb0,InstallToRenderWare__13CGTFileSystemFv,CGTFileSystem::InstallToRenderWare(),CGTFileSystem::InstallToRenderWare(),high,agree,symbol_addrs
+004e28c4,mnNumFilesystems__13CGTFileSystem,mnNumFilesystems__13CGTFileSystem,CGTFileSystem::mnNumFilesystems,high,CONFLICT,symbol_addrs
+004e28c8,mbInstalledToRW__13CGTFileSystem,mbInstalledToRW__13CGTFileSystem,CGTFileSystem::mbInstalledToRW,high,CONFLICT,symbol_addrs
+004e28cc,mpDefaultFilesystem__13CGTFileSystem,mpDefaultFilesystem__13CGTFileSystem,CGTFileSystem::mpDefaultFilesystem,high,CONFLICT,symbol_addrs
+004e28d0,mpaFilesystems__13CGTFileSystem,mpaFilesystems__13CGTFileSystem,CGTFileSystem::mpaFilesystems,high,CONFLICT,symbol_addrs
+00212a80,BuildFileName__13CGTFileSystemFPciPCcPCcc,"CGTFileSystem::BuildFileName(char*,int,const char*,const char*,char)","CGTFileSystem::BuildFileName(char*,int,const char*,const char*,char)",high,agree,d4/fs
+00212770,FClose__13CGTFileSystemFPv,CGTFileSystem::FClose(void*),CGTFileSystem::FClose(void*),high,agree,d4/fs
+00212670,FEof__13CGTFileSystemFPv,CGTFileSystem::FEof(void*),,,only theirs,d4/fs
+00212590,FExist__13CGTFileSystemFPCc,CGTFileSystem::FExist(const char*),CGTFileSystem::FExist(const char*),high,agree,d4/fs
+002125e0,FFlush__13CGTFileSystemFPv,CGTFileSystem::FFlush(void*),,,only theirs,d4/fs
+002126e0,FGets__13CGTFileSystemFPciPv,"CGTFileSystem::FGets(char*,int,void*)",,,only theirs,d4/fs
+002127a0,FOpen__13CGTFileSystemFPCcPCc,"CGTFileSystem::FOpen(const char*,const char*)","CGTFileSystem::FOpen(const char*,const char*)",high,agree,d4/fs
+00212690,FPuts__13CGTFileSystemFPCcPv,"CGTFileSystem::FPuts(const char*,void*)",,,only theirs,d4/fs
+00212730,FRead__13CGTFileSystemFPvUiUiPv,"CGTFileSystem::FRead(void*,unsigned int,unsigned int,void*)","CGTFileSystem::FRead(void*,unsigned int,unsigned int,void*)",high,agree,d4/fs
+002125f0,FSeek__13CGTFileSystemFPvii,"CGTFileSystem::FSeek(void*,int,int)","CGTFileSystem::FSeek(void*,long,int)",high,agree (name; signature text differs),d4/fs
+00212580,FTell__13CGTFileSystemFPv,CGTFileSystem::FTell(void*),,,only theirs,d4/fs
+002126f0,FWrite__13CGTFileSystemFPCvUiUiPv,"CGTFileSystem::FWrite(const void*,unsigned int,unsigned int,void*)","CGTFileSystem::FWrite(const void*,unsigned int,unsigned int,void*)",high,agree,d4/fs
+00212b80,GetFileNameFromDeviceName__13CGTFileSystemFPCc,CGTFileSystem::GetFileNameFromDeviceName(const char*),CGTFileSystem::GetFileNameFromDeviceName(const char*),high,agree,d4/fs
+00212bd0,GetFileSystemFromFileName__13CGTFileSystemFPCc,CGTFileSystem::GetFileSystemFromFileName(const char*),CGTFileSystem::GetFileSystemFromFileName(const char*),high,agree,d4/fs
+002129a0,Init__13CGTFileSystemFUiPCc,"CGTFileSystem::Init(unsigned int,const char*)","CGTFileSystem::Init(unsigned int,const char*)",high,agree,d4/fs
+00212cb0,InstallToRenderWare__13CGTFileSystemFv,CGTFileSystem::InstallToRenderWare(),CGTFileSystem::InstallToRenderWare(),high,agree,d4/fs
+00212890,Open__13CGTFileSystemFPCcUi,"CGTFileSystem::Open(const char*,unsigned int)","CGTFileSystem::Open(const char*,unsigned int)",high,agree,d4/fs
+00212a70,SetAsDefaultFilesystem__13CGTFileSystemFv,CGTFileSystem::SetAsDefaultFilesystem(),CGTFileSystem::SetAsDefaultFilesystem(),high,agree,d4/fs
+002b6da0,GtLListAddLink__FP10GtLListTag,GtLListAddLink__FP10GtLListTag,CGtFreeList::AddLink(),high,CONFLICT,d4/pool
+002b6e10,GtLListInitialise__FP10GtLListTagP14GtLListPoolTag,GtLListInitialise__FP10GtLListTagP14GtLListPoolTag,CGtFreeList::Construct(CGtFreeListPool*),high,CONFLICT,d4/pool
+002b6ec0,GtLListPoolCalculateSize__FUiUiUi,GtLListPoolCalculateSize__FUiUiUi,"CGtFreeListPool::_GetRequiredMemory(unsigned int,unsigned int,unsigned int)",high,CONFLICT,d4/pool
+002b6ef0,GtLListPoolCreateInMemory__FP14GtLListPoolTagUiUiUiPCvPv,GtLListPoolCreateInMemory__FP14GtLListPoolTagUiUiUiPCvPv,,,only theirs,d4/pool
+002b6e20,GtLListPoolSortFree__FP14GtLListPoolTag,GtLListPoolSortFree__FP14GtLListPoolTag,CGtFreeListPool::SortFree(),high,CONFLICT,d4/pool
+002b6c40,GtLListRemoveAllLinks__FP10GtLListTag,GtLListRemoveAllLinks__FP10GtLListTag,CGtFreeList::RemoveAllLinks(),high,CONFLICT,d4/pool
+002b6ca0,GtLListRemoveLink__FP10GtLListTagP11GtLLLinkTag,GtLListRemoveLink__FP10GtLListTagP11GtLLLinkTag,CGtFreeList::RemoveLink(CGtFreeListLink*),high,CONFLICT,d4/pool
+002b6d20,GtLListTakeLinkFromList__FP10GtLListTagP11GtLLLinkTagP10GtLListTag,GtLListTakeLinkFromList__FP10GtLListTagP11GtLLLinkTagP10GtLListTag,"CGtFreeList::TakeLinkFromList(CGtFreeListLink*,CGtFreeList*)",high,CONFLICT,d4/pool
+00250110,vdbDbAdd,vdbDbAdd,GtComms::CGtCommsDatabaseGame::TransmitElement(GtComms::CGtCommsDatabaseEntry*),medium,CONFLICT,d4/valuedb
+0024ffc0,vdbDbApply,vdbDbApply,GtComms::CGtCommsDatabaseGame::SetDefaultElementValue(GtComms::CGtCommsDatabaseEntry*),high,CONFLICT,d4/valuedb
+00250120,vdbDbInit,vdbDbInit,GtComms::CGtCommsDatabaseGame::Construct(),high,CONFLICT,d4/valuedb
+0024fde0,vdbDbIsEnabled,vdbDbIsEnabled,GtComms::CGtCommsDatabaseGame::CheckFileValid(const char*),high,CONFLICT,d4/valuedb
+0024fe90,vdbDbLoad,vdbDbLoad,GtComms::CGtCommsDatabaseGame::InitialiseDefaultValues(),high,CONFLICT,d4/valuedb
+00250100,vdbDbRemove,vdbDbRemove,GtComms::CGtCommsDatabaseGame::RemoveEntryCore(GtComms::CGtCommsDatabaseEntry*),medium,CONFLICT,d4/valuedb
+0021b8f0,vdbFreeEntry,vdbFreeEntry,GtComms::CGtCommsDatabase::RemoveEntryCore(GtComms::CGtCommsDatabaseEntry*),high,CONFLICT,d4/vdb
+0021bfa0,vdbHash,vdbHash,CGtHash::CalculateHash(const char*),high,CONFLICT,d4/vdb
+0021bf80,vdbInit,vdbInit,"GtComms::CGtCommsDatabase::Construct(GtComms::CGtCommsDatabaseEntry*,int)",high,CONFLICT,d4/vdb
+0021bb60,vdbRegisterFloat,vdbRegisterFloat,"GtComms::CGtCommsDatabase::AddEntry(float*,const char*,const char*,const char*,int,float,float,int)",high,CONFLICT,d4/vdb
+0021bd80,vdbRegisterInt,vdbRegisterInt,"GtComms::CGtCommsDatabase::AddEntry(int*,const char*,const char*,const char*,int,int,int,int)",high,CONFLICT,d4/vdb
+0021b9b0,vdbRegisterVector,vdbRegisterVector,"GtComms::CGtCommsDatabase::AddEntry(GtMathPs2::CGtV3d*,const char*,const char*,const char*)",high,CONFLICT,d4/vdb
+0021b8c0,vdbSetDatabase,vdbSetDatabase,GtComms::CGtCommsToolBase::Construct(const char*),high,CONFLICT,d4/vdb
+0021b910,vdbUnregister,vdbUnregister,GtComms::CGtCommsDatabase::RemoveEntry(void*),high,CONFLICT,d4/vdb
+00213050,ustrFmtScan,ustrFmtScan,"_CopyUntilNextParameter(unsigned short**,const unsigned short**)",high,CONFLICT,d4/ustrfmt
+00212e30,ustrFormat,ustrFormat,"CGtUnicode::_FormatString(unsigned short*,const unsigned short*,const unsigned short*,const unsigned short*,const unsigned shor",high,CONFLICT,d4/ustrfmt
+00222620,memMgrFreeBlock,memMgrFreeBlock,CB3MemoryManagerPS2::Destruct(),high,CONFLICT,d4/memmgr
+00222650,memMgrInit,memMgrInit,CB3MemoryManagerPS2::Construct(),high,CONFLICT,d4/memmgr
+002223b0,memMgrPeekCat13,memMgrPeekCat13,"CB3MemoryManagerPS2::QueryBlock(EB3MemoryBlock,int) const",medium,CONFLICT,d4/memmgr
+002223c0,memMgrRelease,memMgrRelease,"CB3MemoryManagerPS2::ReleaseBlock(EB3MemoryBlock,int)",high,CONFLICT,d4/memmgr
+00222300,memMgrSize,memMgrSize,CB3MemoryManagerPS2::GetBlockSize(EB3MemoryBlock) const,high,CONFLICT,d4/memmgr
+002224c0,memMgrTake,memMgrTake,"CB3MemoryManagerPS2::AcquireBlock(EB3MemoryBlock,int)",high,CONFLICT,d4/memmgr
+002225c0,memMgrUpdate,memMgrUpdate,CB3MemoryManagerPS2::Update(),high,CONFLICT,d4/memmgr
+00213100,ustrFromFloat,ustrFromFloat,,,only theirs,d4/ustring
+00213360,ustrFromFloatNoSep,ustrFromFloatNoSep,"CGtUnicode::PrintReal(unsigned short*,float,int)",high,CONFLICT,d4/ustring
+002135c0,ustrFromInt,ustrFromInt,,,only theirs,d4/ustring
+002136f0,ustrFromIntNoSep,ustrFromIntNoSep,"CGtUnicode::PrintInt(unsigned short*,int,int)",high,CONFLICT,d4/ustring
+002137f0,ustrFromUInt,ustrFromUInt,"CGtUnicode::PrintUInt(unsigned short*,unsigned int,int)",high,CONFLICT,d4/ustring
+00213be0,ustrFromUtf8,ustrFromUtf8,"CGtUnicode::ConvertUTF8toUTF16Fast(const unsigned char*,unsigned short*,int)",high,CONFLICT,d4/ustring
+00213a60,ustrFromUtf8Checked,ustrFromUtf8Checked,"CGtUnicode::ConvertUTF8toUTF16(const unsigned char*,unsigned short*,int)",high,CONFLICT,d4/ustring
+002130f0,ustrSetSeparators,ustrSetSeparators,,,only theirs,d4/ustring
+00213cb0,ustrToUtf8,ustrToUtf8,"CGtUnicode::ConvertUTF16toUTF8Fast(const unsigned short*,unsigned char*,int)",high,CONFLICT,d4/ustring
+00213940,ustrcat,ustrcat,"CGtUnicode::Append(unsigned short*,const unsigned short*)",high,CONFLICT,d4/ustring
+00213a00,ustrcpy,ustrcpy,"CGtUnicode::Copy(unsigned short*,const unsigned short*)",high,CONFLICT,d4/ustring
+00213a30,ustrlen,ustrlen,CGtUnicode::Length(const unsigned short*),high,CONFLICT,d4/ustring
+002138c0,ustrncat,ustrncat,"CGtUnicode::AppendN(unsigned short*,int,const unsigned short*)",high,CONFLICT,d4/ustring
+002139a0,ustrncpy,ustrncpy,"CGtUnicode::CopyN(unsigned short*,int,const unsigned short*)",high,CONFLICT,d4/ustring

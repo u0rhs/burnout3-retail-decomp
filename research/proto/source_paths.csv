@@ -1,0 +1,319 @@
+e_source,folder,revenge_2005_path,dominator_2007_path,revenge_vs_dominator,our_src_folder,status
+B3AIAggressionBehaviour.cpp,GameSource/World,GameSource/World/B4AIAggressionBehaviour.cpp,,,gamesource/World,agrees
+B3AIArbitrator.cpp,GameSource/World,GameSource/World/B4AIArbitrator.cpp,,,gamesource/World,agrees
+B3AIAttribs.cpp,GameSource/World,GameSource/World/B4AIAttribs.cpp,,,,not in src
+B3AIAvoidance.cpp,GameSource/World,GameSource/World/B4AIAvoidance.cpp,,,_unclassified;gamesource/World,agrees
+B3AICar.cpp,GameSource/World,GameSource/World/B4AICar.cpp,,,_unclassified;gamesource/World,agrees
+B3AICarPhysics.cpp,GameSource/Physics,GameSource/Physics/B4AICarPhysics.cpp,GameSource/Physics/B4AICarPhysics.cpp,1,gamesource/Physics,agrees
+B3AIControlData.cpp,GameSource/World,GameSource/World/B4AIControlData.cpp,,,_unclassified,src _unclassified: Dominator gives a folder
+B3AIDebug.cpp,GameSource/Game,GameSource/Game/B4AIDebug.cpp,GameSource/Game/B4AIDebug.cpp,1,gamesource/Game,agrees
+B3AIDriver.cpp,GameSource/World,GameSource/World/B4AIDriver.cpp,,,_unclassified;gamesource/World,agrees
+B3AILane.cpp,GameSource/World,GameSource/World/B4AILane.cpp,,,_unclassified,src _unclassified: Dominator gives a folder
+B3AILaneStruct.cpp,SharedClasses/AILaneData,SharedClasses/AILaneData/B4AILaneStruct.cpp,,,,not in src
+B3AITarget.cpp,GameSource/World,GameSource/World/B4AITarget.cpp,,,_unclassified;gamesource/World,agrees
+B3AsyncDataLoader.cpp,GameSource/Game,GameSource/Game/B4AsyncDataLoader.cpp,GameSource/Game/B4AsyncDataLoader.cpp,1,gamesource/Game,agrees
+B3AutoSaveState.cpp,GameSource/Menu/States/Offline/MemoryCard,GameSource/Menu/States/Offline/MemoryCard/B4AutosaveState.cpp,,,,not in src
+B3BehaviourCluster.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourCluster.cpp,,,_unclassified;gamesource/Camera/Behaviours,agrees
+B3BehaviourEffect.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourEffect.cpp,,,gamesource/Camera/Behaviours,agrees
+B3BehaviourFlyAround.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourFlyAround.cpp,,,gamesource/Camera/Behaviours,agrees
+B3BehaviourInterpolate.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourInterpolate.cpp,,,_unclassified;gamesource/Camera/Behaviours,agrees
+B3BehaviourKeyFrame.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourKeyFrame.cpp,,,,not in src
+B3BehaviourOffset.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourOffset.cpp,,,_unclassified;gamesource/Camera/Behaviours,agrees
+B3BehaviourRaceCarFollow.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourRaceCarFollow.cpp,,,_unclassified;gamesource/Camera/Behaviours,agrees
+B3BehaviourRotate.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4BehaviourRotate.cpp,,,gamesource/Camera/Behaviours,agrees
+B3BloomPS2.cpp,GameSource/Graphics/Bloom/Ps2,GameSource/Graphics/Bloom/Ps2/B4BloomPS2.cpp,GameSource/Graphics/Bloom/Ps2/B4BloomPS2.cpp,1,_unclassified;gamesource/Graphics/Bloom/Ps2,agrees
+B3BodyPartPhysics.cpp,GameSource/Physics,GameSource/Physics/B4BodyPartPhysics.cpp,GameSource/Physics/B4BodyPartPhysics.cpp,1,gamesource/Physics,agrees
+B3BoostEffectParams.cpp,GameSource/World,GameSource/World/B4BoostEffectParams.cpp,GameSource/World/B4BoostEffectParams.cpp,1,gamesource/World,agrees
+B3BoundingBox.cpp,GameSource/Physics,GameSource/Physics/B4BoundingBox.cpp,GameSource/Physics/B4BoundingBox.cpp,1,,not in src
+B3Burn.cpp,GameSource/World,GameSource/World/B4Burn.cpp,,,_unclassified;gamesource/World,agrees
+B3CPUMonitors.cpp,GameSource/Game,GameSource/Game/B4CPUMonitors.cpp,GameSource/Game/B4CPUMonitors.cpp,1,gamesource/Game,agrees
+B3CameraAttribs.cpp,GameSource/Camera,GameSource/Camera/B4CameraAttribs.cpp,,,_unclassified,src _unclassified: Dominator gives a folder
+B3CameraBehaviour.cpp,GameSource/Camera/Behaviours,GameSource/Camera/Behaviours/B4CameraBehaviour.cpp,,,gamesource/Camera/Behaviours,agrees
+B3CameraEditor.cpp,GameSource/Camera/Movie,GameSource/Camera/Movie/B4CameraEditor.cpp,GameSource/Camera/Movie/B4CameraEditor.cpp,1,gamesource/Camera/Movie,agrees
+B3CameraUtils.cpp,GameSource/Camera/CameraUtils,GameSource/Camera/CameraUtils/B4CameraUtils.cpp,,,gamesource/Camera/CameraUtils,agrees
+B3CarSelectState.cpp,GameSource/Menu/States/Offline,GameSource/Menu/States/Offline/B4CarSelectState.cpp,,,,not in src
+B3Challenge.cpp,GameSource/Game/Challenge,GameSource/Game/Challenge/B4Challenge.cpp,,,,not in src
+B3ChampionshipChallenge.cpp,GameSource/Game/Challenge,GameSource/Game/Challenge/B4ChampionshipChallenge.cpp,,,,not in src
+B3CollidingBody.cpp,GameSource/Physics,GameSource/Physics/B4CollidingBody.cpp,GameSource/Physics/B4CollidingBody.cpp,1,gamesource/Physics,agrees
+B3ControllerMappingPS2.cpp,GameSource/Game/PS2,GameSource/Game/Ps2/B4ControllerMappingPS2.cpp,GameSource/Game/PS2/B4ControllerMappingPS2.cpp,1,gamesource/Game/Ps2,agrees
+B3ConvexHull.cpp,SharedClasses/PhysicsData,SharedClasses/PhysicsData/B4ConvexHull.cpp,SharedClasses/PhysicsData/B4ConvexHull.cpp,1,SharedClasses/PhysicsData,agrees
+B3CoronaRendererPS2.cpp,GameSource/Graphics/CoronaRenderer/Ps2,GameSource/Graphics/CoronaRenderer/Ps2/B4CoronaRendererPS2.cpp,GameSource/Graphics/CoronaRenderer/Ps2/B4CoronaRendererPS2.cpp,1,_unclassified;gamesource/Graphics/CoronaRenderer/Ps2,agrees
+B3CrashActionDirector.cpp,GameSource/Physics,GameSource/Physics/B4CrashActionDirector.cpp,GameSource/Physics/B4CrashActionDirector.cpp,1,_unclassified;gamesource/Physics,agrees
+B3CrashAnalyser.cpp,GameSource/Camera/Crash,GameSource/Camera/Crash/B4CrashAnalyser.cpp,,,_unclassified;gamesource/Camera/Crash,agrees
+B3CrashCombo.cpp,GameSource/World,GameSource/World/B4CrashCombo.cpp,GameSource/World/B4CrashCombo.cpp,1,_unclassified;gamesource/World,agrees
+B3CrashPickup.cpp,GameSource/World,GameSource/World/B4CrashPickup.cpp,,,gamesource/World,agrees
+B3CrashPresentationDirector.cpp,GameSource/World,GameSource/World/B4CrashPresentationDirector.cpp,GameSource/World/B4CrashPresentationDirector.cpp,1,,not in src
+B3CrashRamp.cpp,GameSource/World,GameSource/World/B4CrashRamp.cpp,,,gamesource/World,agrees
+B3CrashScore.cpp,GameSource/World,GameSource/World/B4CrashScore.cpp,,,gamesource/World,agrees
+B3CrashTrafficGenerationStruct.cpp,SharedClasses/TrafficData,SharedClasses/TrafficData/B4CrashTrafficGenerationStruct.cpp,SharedClasses/TrafficData/B4CrashTrafficGenerationStruct.cpp,1,SharedClasses/TrafficData,agrees
+B3DataLists.cpp,SharedClasses/DataLists,SharedClasses/DataLists/B4DataLists.cpp,,,SharedClasses/DataLists;_unclassified,agrees
+B3DebrisRenderer.cpp,GameSource/Graphics/DebrisRenderer,GameSource/Graphics/DebrisRenderer/B4DebrisRenderer.cpp,,,,not in src
+B3DebrisRendererPS2.cpp,GameSource/Graphics/DebrisRenderer/Ps2,GameSource/Graphics/DebrisRenderer/Ps2/B4DebrisRendererPS2.cpp,GameSource/Graphics/DebrisRenderer/Ps2/B4DebrisRendererPS2.cpp,1,_unclassified;gamesource/Graphics/DebrisRenderer/Ps2,agrees
+B3DebugManager.cpp,GameSource/Game,GameSource/Game/B4DebugManager.cpp,GameSource/Game/B4DebugManager.cpp,1,gamesource/Game,agrees
+B3DebugMipMaps.cpp,GameSource/Graphics/Debug,GameSource/Graphics/Debug/B4DebugMipMaps.cpp,GameSource/Graphics/Debug/B4DebugMipMaps.cpp,1,_unclassified;gamesource/Graphics/Debug,agrees
+B3DemoPauseState.cpp,GameSource/Menu/States/Demo,GameSource/Menu/States/Demo/B4DemoPauseState.cpp,,,,not in src
+B3DirectionalBlur.cpp,GameSource/Graphics/DirectionalBlur,GameSource/Graphics/DirectionalBlur/B4DirectionalBlur.cpp,GameSource/Graphics/DirectionalBlur/B4DirectionalBlur.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3DirectionalBlurPS2.cpp,GameSource/Graphics/DirectionalBlur/Ps2,GameSource/Graphics/DirectionalBlur/Ps2/B4DirectionalBlurPS2.cpp,GameSource/Graphics/DirectionalBlur/Ps2/B4DirectionalBlurPS2.cpp,1,,not in src
+B3EffectsManager.cpp,GameSource/World,GameSource/World/B4EffectsManager.cpp,GameSource/World/B4EffectsManager.cpp,1,_unclassified;gamesource/World,agrees
+B3EnvironmentData.cpp,GameSource/World,GameSource/World/B4EnvironmentData.cpp,GameSource/World/B4EnvironmentData.cpp,1,,not in src
+B3EnvironmentManager.cpp,GameSource/World,GameSource/World/B4EnvironmentManager.cpp,GameSource/World/B4EnvironmentManager.cpp,1,gamesource/World,agrees
+B3ExplosionManager.cpp,GameSource/World,GameSource/World/B4ExplosionManager.cpp,GameSource/World/B4ExplosionManager.cpp,1,,not in src
+B3FogPS2.cpp,GameSource/Graphics/Fog/PS2,GameSource/Graphics/Fog/Ps2/B4FogPS2.cpp,GameSource/Graphics/Fog/PS2/B4FogPS2.cpp,1,_unclassified;gamesource/Graphics/Fog/Ps2,agrees
+B3FrontEnd.cpp,GameSource/Game,GameSource/Game/B4FrontEnd.cpp,GameSource/Game/B4FrontEnd.cpp,1,,not in src
+B3Game.cpp,GameSource/Game,GameSource/Game/B4Game.cpp,GameSource/Game/B4Game.cpp,1,gamesource/Game,agrees
+B3GameData.cpp,GameSource/World,GameSource/World/B4GameData.cpp,GameSource/World/B4GameData.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3GameMode.cpp,GameSource/Game,GameSource/Game/B4GameMode.cpp,,,gamesource/Game,agrees
+B3GamePS2.cpp,GameSource/Game/PS2,GameSource/Game/Ps2/B4GamePS2.cpp,GameSource/Game/PS2/B4GamePS2.cpp,1,gamesource/Game/Ps2,agrees
+B3GameState.cpp,GameSource/Menu/States,GameSource/Menu/States/B4GameState.cpp,GameSource/Menu/States/B4GameState.cpp,1,,not in src
+B3GraphicsManager.cpp,GameSource/Graphics,GameSource/Graphics/B4GraphicsManager.cpp,GameSource/Graphics/B4GraphicsManager.cpp,1,_unclassified;gamesource/Graphics,agrees
+B3GraphicsManagerPS2.cpp,GameSource/Graphics/PS2,GameSource/Graphics/Ps2/B4GraphicsManagerPS2.cpp,GameSource/Graphics/PS2/B4GraphicsManagerPS2.cpp,1,gamesource/Graphics/Ps2,agrees
+B3HUDBoostBar.cpp,GameSource/Hud,GameSource/Hud/B4HUDBoostBar.cpp,,,gamesource/Hud,agrees
+B3HUDComponent.cpp,GameSource/Hud,GameSource/Hud/B4HUDComponent.cpp,,,_unclassified;gamesource/Hud,agrees
+B3HUDCrashTimer.cpp,GameSource/Hud,GameSource/Hud/B4HUDCrashTimer.cpp,,,,not in src
+B3HUDDPad2dObject.cpp,GameSource/Hud,GameSource/Hud/B4HUDDPad2dObject.cpp,,,,not in src
+B3HUDHeading.cpp,GameSource/Hud,GameSource/Hud/B4HUDHeading.cpp,,,,not in src
+B3HUDImpactTime.cpp,GameSource/Hud,GameSource/Hud/B4HUDImpactTime.cpp,,,_unclassified,src _unclassified: Dominator gives a folder
+B3HUDLap.cpp,GameSource/Hud,GameSource/Hud/B4HUDLap.cpp,,,,not in src
+B3HUDManager.cpp,GameSource/Hud,GameSource/Hud/B4HUDManager.cpp,,,_unclassified;gamesource/Hud,agrees
+B3HUDPos.cpp,GameSource/Hud,GameSource/Hud/B4HUDPos.cpp,,,,not in src
+B3HUDSpeedo.cpp,GameSource/Hud,GameSource/Hud/B4HUDSpeedo.cpp,,,,not in src
+B3HUDTakedowns.cpp,GameSource/Hud,GameSource/Hud/B4HUDTakedowns.cpp,,,_unclassified,src _unclassified: Dominator gives a folder
+B3HUDTimer.cpp,GameSource/Hud,GameSource/Hud/B4HUDTimer.cpp,,,_unclassified,src _unclassified: Dominator gives a folder
+B3Im3DPS2.cpp,GameSource/Graphics/Im3D/Ps2,GameSource/Graphics/Im3D/Ps2/B4Im3DPS2.cpp,GameSource/Graphics/Im3D/Ps2/B4Im3DPS2.cpp,1,_unclassified;gamesource/Graphics/Im3D/Ps2,agrees
+B3InputManager.cpp,GameSource/Game,GameSource/Game/B4InputManager.cpp,GameSource/Game/B4InputManager.cpp,1,_unclassified;gamesource/Game,agrees
+B3InputManagerPS2.cpp,GameSource/Game/PS2,GameSource/Game/Ps2/B4InputManagerPS2.cpp,GameSource/Game/PS2/B4InputManagerPS2.cpp,1,gamesource/Game/Ps2,agrees
+B3MainMenuState.cpp,GameSource/Menu/States/Offline,GameSource/Menu/States/Offline/B4MainMenuState.cpp,GameSource/Menu/States/Offline/B4MainMenuState.cpp,1,,not in src
+B3MainPS2.cpp,GameSource/PS2,GameSource/Ps2/B4MainPS2.cpp,GameSource/PS2/B4MainPS2.cpp,1,,not in src
+B3MemoryManager.cpp,GameSource/Game,GameSource/Game/B4MemoryManager.cpp,GameSource/Game/B4MemoryManager.cpp,1,gamesource/Game,agrees
+B3MemoryManagerPS2.cpp,GameSource/Game/PS2,GameSource/Game/Ps2/B4MemoryManagerPS2.cpp,GameSource/Game/PS2/B4MemoryManagerPS2.cpp,1,,not in src
+B3MenuChoices.cpp,GameSource/Menu,GameSource/Menu/B4MenuChoices.cpp,GameSource/Menu/B4MenuChoices.cpp,1,_unclassified;gamesource/Menu,agrees
+B3MenuInput.cpp,GameSource/Game,GameSource/Game/B4MenuInput.cpp,GameSource/Game/B4MenuInput.cpp,1,_unclassified;gamesource/Game,agrees
+B3MenuStringBuffer.cpp,GameSource/Menu,GameSource/Menu/B4MenuStringBuffer.cpp,,,gamesource/Menu,agrees
+B3NetworkAllNATDataFinalisedMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkAllNATDataFinalisedMessage.cpp,,,,not in src
+B3NetworkCar.cpp,GameSource/World,GameSource/World/B4NetworkCar.cpp,GameSource/World/B4NetworkCar.cpp,1,,not in src
+B3NetworkCarPhysics.cpp,GameSource/Physics,GameSource/Physics/B4NetworkCarPhysics.cpp,,,_unclassified;gamesource/Physics,agrees
+B3NetworkHasHeadsetMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkHasHeadsetMessage.cpp,,,gamesource/Network/Messages,agrees
+B3NetworkHostKeepAliveMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkHostKeepAliveMessage.cpp,,,,not in src
+B3NetworkManager.cpp,GameSource/Network,GameSource/Network/B4NetworkManager.cpp,,,gamesource/Network,agrees
+B3NetworkMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkMessage.cpp,,,_unclassified;gamesource/Network/Messages,agrees
+B3NetworkNewHostMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkNewHostMessage.cpp,,,,not in src
+B3NetworkPingMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkPingMessage.cpp,,,,not in src
+B3NetworkPlayer.cpp,GameSource/Network,GameSource/Network/B4NetworkPlayer.cpp,,,,not in src
+B3NetworkPlayerFinishedRaceMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkPlayerFinishedRaceMessage.cpp,,,,not in src
+B3NetworkPlayerStartCountdownMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkPlayerStartCountdownMessage.cpp,,,gamesource/Network/Messages,agrees
+B3NetworkRaceReadyMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkRaceReadyMessage.cpp,,,gamesource/Network/Messages,agrees
+B3NetworkRaceUpdateMessage.cpp,GameSource/Network/Messages,GameSource/Network/Messages/B4NetworkRaceUpdateMessage.cpp,,,,not in src
+B3NormalGameModes.cpp,SharedClasses/GameModes,SharedClasses/GameModes/B4NormalGameModes.cpp,,,,not in src
+B3OnePlayerStage.cpp,GameSource/Game,GameSource/Game/B4OnePlayerStage.cpp,,,gamesource/Game,agrees
+B3OnlineSingleRaceLogic.cpp,GameSource/Game/Logic,GameSource/Game/Logic/B4OnlineSingleRaceLogic.cpp,GameSource/Game/Logic/B4OnlineSingleRaceLogic.cpp,1,,not in src
+B3OnlineStage.cpp,GameSource/Game,GameSource/Game/B4OnlineStage.cpp,GameSource/Game/B4OnlineStage.cpp,1,,not in src
+B3ParticleRenderer.cpp,GameSource/Graphics/ParticleRenderer,GameSource/Graphics/ParticleRenderer/B4ParticleRenderer.cpp,,,,not in src
+B3ParticleRendererPS2.cpp,GameSource/Graphics/ParticleRenderer/Ps2,GameSource/Graphics/ParticleRenderer/Ps2/B4ParticleRendererPS2.cpp,GameSource/Graphics/ParticleRenderer/Ps2/B4ParticleRendererPS2.cpp,1,gamesource/Graphics/ParticleRenderer/Ps2,agrees
+B3PauseState.cpp,GameSource/Menu/States,GameSource/Menu/States/B4PauseState.cpp,GameSource/Menu/States/B4PauseState.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3PhysicsConstants.cpp,SharedClasses/PhysicsData,SharedClasses/PhysicsData/B4PhysicsConstants.cpp,SharedClasses/PhysicsData/B4PhysicsConstants.cpp,1,,not in src
+B3PhysicsManager.cpp,GameSource/Physics,GameSource/Physics/B4PhysicsManager.cpp,GameSource/Physics/B4PhysicsManager.cpp,1,_unclassified;gamesource/Physics,agrees
+B3PhysicsManagerDebug.cpp,GameSource/Physics,GameSource/Physics/B4PhysicsManagerDebug.cpp,GameSource/Physics/B4PhysicsManagerDebug.cpp,1,gamesource/Physics,agrees
+B3Player.cpp,GameSource/Game,GameSource/Game/B4Player.cpp,GameSource/Game/B4Player.cpp,1,gamesource/Game,agrees
+B3PlayerCameraManager.cpp,GameSource/Camera,GameSource/Camera/B4PlayerCameraManager.cpp,,,_unclassified;gamesource/Camera,agrees
+B3PlayerCameraStateCrashMode.cpp,GameSource/Camera/States,GameSource/Camera/States/B4PlayerCameraStateCrashMode.cpp,,,,not in src
+B3PlayerCameraStateDebug.cpp,GameSource/Camera/States,GameSource/Camera/States/B4PlayerCameraStateDebug.cpp,,,,not in src
+B3PlayerCameraStateEditor.cpp,GameSource/Camera/States,GameSource/Camera/States/B4PlayerCameraStateEditor.cpp,,,,not in src
+B3PlayerCameraStateInGame.cpp,GameSource/Camera/States,GameSource/Camera/States/B4PlayerCameraStateInGame.cpp,,,,not in src
+B3PlayerCameraStateInactive.cpp,GameSource/Camera/States,GameSource/Camera/States/B4PlayerCameraStateInactive.cpp,,,,not in src
+B3PlayerCar.cpp,GameSource/World,GameSource/World/B4PlayerCar.cpp,GameSource/World/B4PlayerCar.cpp,1,gamesource/World,agrees
+B3PlayerCarPhysics.cpp,GameSource/Physics,GameSource/Physics/B4PlayerCarPhysics.cpp,GameSource/Physics/B4PlayerCarPhysics.cpp,1,gamesource/Physics,agrees
+B3PopcornRenderer.cpp,GameSource/Graphics/PopcornRenderer,GameSource/Graphics/PopcornRenderer/B4PopcornRenderer.cpp,,,,not in src
+B3PopcornRendererPS2.cpp,GameSource/Graphics/PopcornRenderer/Ps2,GameSource/Graphics/PopcornRenderer/Ps2/B4PopcornRendererPS2.cpp,GameSource/Graphics/PopcornRenderer/Ps2/B4PopcornRendererPS2.cpp,1,_unclassified;gamesource/Graphics/PopcornRenderer/Ps2,agrees
+B3Profile.cpp,GameSource/Game/Persistence,GameSource/Game/Persistence/B4Profile.cpp,,,_unclassified;gamesource/Game/Persistence,agrees
+B3ProgressionDataStruct.cpp,SharedClasses/ProgressionData,SharedClasses/ProgressionData/B4ProgressionDataStruct.cpp,,,SharedClasses/ProgressionData,agrees
+B3PropManager.cpp,GameSource/World,GameSource/World/B4PropManager.cpp,GameSource/World/B4PropManager.cpp,1,gamesource/World,agrees
+B3PropManagerPS2.cpp,GameSource/World/Ps2,GameSource/World/Ps2/B4PropManagerPS2.cpp,GameSource/World/Ps2/B4PropManagerPS2.cpp,1,,not in src
+B3PropPhysics.cpp,GameSource/Physics,GameSource/Physics/B4PropPhysics.cpp,GameSource/Physics/B4PropPhysics.cpp,1,_unclassified;gamesource/Physics,agrees
+B3RaceCar.cpp,GameSource/World,GameSource/World/B4RaceCar.cpp,GameSource/World/B4RaceCar.cpp,1,_unclassified;gamesource/World,agrees
+B3RaceCarPhysics.cpp,GameSource/Physics,GameSource/Physics/B4RaceCarPhysics.cpp,GameSource/Physics/B4RaceCarPhysics.cpp,1,gamesource/Physics,agrees
+B3RacePosition.cpp,GameSource/World,GameSource/World/B4RacePosition.cpp,,,gamesource/World,agrees
+B3RadialBlurPS2.cpp,GameSource/Graphics/RadialBlur/Ps2,GameSource/Graphics/RadialBlur/Ps2/B4RadialBlurPS2.cpp,GameSource/Graphics/RadialBlur/Ps2/B4RadialBlurPS2.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3ReplayFrame.cpp,GameSource/World,GameSource/World/B4ReplayFrame.cpp,GameSource/World/B4ReplayFrame.cpp,1,gamesource/World,agrees
+B3ReplaySystem.cpp,GameSource/World,GameSource/World/B4ReplaySystem.cpp,GameSource/World/B4ReplaySystem.cpp,1,_unclassified;gamesource/World,agrees
+B3RumbleAttribs.cpp,GameSource/Game,GameSource/Game/B4RumbleAttribs.cpp,GameSource/Game/B4RumbleAttribs.cpp,1,,not in src
+B3SFIOCallbacksPS2.cpp,GameSource/EASharedLogin/Ps2,GameSource/EASharedLogin/Ps2/B4SFIOCallbacksPS2.cpp,,,_unclassified;gamesource/EASharedLogin/Ps2,agrees
+B3ScrapeRenderPS2.cpp,GameSource/Graphics/Scrapes/Ps2,GameSource/Graphics/Scrapes/Ps2/B4ScrapeRenderPS2.cpp,GameSource/Graphics/Scrapes/Ps2/B4ScrapeRenderPS2.cpp,1,gamesource/Graphics/Scrapes/Ps2,agrees
+B3ScrapeSystem.cpp,GameSource/Graphics/Scrapes,GameSource/Graphics/Scrapes/B4ScrapeSystem.cpp,GameSource/Graphics/Scrapes/B4ScrapeSystem.cpp,1,_unclassified;gamesource/Graphics/Scrapes,agrees
+B3ServerDisconnectState.cpp,GameSource/Menu/States/Online,GameSource/Menu/States/Online/B4ServerDisconnectState.cpp,,,,not in src
+B3Settings.cpp,GameSource/Game,GameSource/Game/B4Settings.cpp,GameSource/Game/B4Settings.cpp,1,gamesource/Game,agrees
+B3ShadowRendererPS2.cpp,GameSource/Graphics/ShadowRenderer/Ps2,GameSource/Graphics/ShadowRenderer/Ps2/B4ShadowRendererPS2.cpp,GameSource/Graphics/ShadowRenderer/Ps2/B4ShadowRendererPS2.cpp,1,_unclassified;gamesource/Graphics/ShadowRenderer/Ps2,agrees
+B3Shadows.cpp,GameSource/World,GameSource/World/B4Shadows.cpp,GameSource/World/B4Shadows.cpp,1,,not in src
+B3SharedLoginExtPS2.cpp,GameSource/EASharedLogin/Ps2,GameSource/EASharedLogin/Ps2/B4SharedLoginExtPS2.cpp,,,,not in src
+B3SingleChallenge.cpp,GameSource/Game/Challenge,GameSource/Game/Challenge/B4SingleChallenge.cpp,,,,not in src
+B3SkyDomeRendererPS2.cpp,GameSource/Graphics/B4SkyDomeRenderer/PS2,GameSource/Graphics/B4SkyDomeRenderer/Ps2/B4SkyDomeRendererPS2.cpp,GameSource/Graphics/B4SkyDomeRenderer/PS2/B4SkyDomeRendererPS2.cpp,1,_unclassified;gamesource/Graphics/B4SkyDomeRenderer/Ps2,agrees
+B3SoundAICar.cpp,GameSource/Sound/Cars,GameSource/Sound/Cars/B4SoundAICar.cpp,GameSource/Sound/Cars/B4SoundAICar.cpp,1,_unclassified;gamesource/Sound/Cars,agrees
+B3SoundCrashManager.cpp,GameSource/Sound/Crash,GameSource/Sound/Crash/B4SoundCrashManager.cpp,GameSource/Sound/Crash/B4SoundCrashManager.cpp,1,_unclassified;gamesource/Sound/Crash,agrees
+B3SoundCrashedTraffic.cpp,GameSource/Sound/Traffic,GameSource/Sound/Traffic/B4SoundCrashedTraffic.cpp,GameSource/Sound/Traffic/B4SoundCrashedTraffic.cpp,1,_unclassified;gamesource/Sound/Traffic,agrees
+B3SoundCustomSoundTrackPS2.cpp,GameSource/Sound/Radio/Ps2,GameSource/Sound/Radio/Ps2/B4SoundCustomSoundTrackPS2.cpp,GameSource/Sound/Radio/Ps2/B4SoundCustomSoundTrackPS2.cpp,1,gamesource/Sound/Radio/Ps2,agrees
+B3SoundDSPBlock.cpp,GameSource/Sound/Dsp,GameSource/Sound/Dsp/B4SoundDSPBlock.cpp,GameSource/Sound/Dsp/B4SoundDSPBlock.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3SoundDistPS2.cpp,GameSource/Sound/Dsp,GameSource/Sound/Dsp/B4SoundDistPS2.cpp,GameSource/Sound/Dsp/B4SoundDistPS2.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3SoundDoppler.cpp,GameSource/Sound/Traffic,GameSource/Sound/Traffic/B4SoundDoppler.cpp,GameSource/Sound/Traffic/B4SoundDoppler.cpp,1,_unclassified;gamesource/Sound/Traffic,agrees
+B3SoundESM.cpp,GameSource/Sound/Esm,GameSource/Sound/Esm/B4SoundESM.cpp,GameSource/Sound/Esm/B4SoundESM.cpp,1,_unclassified;gamesource/Sound/Esm,agrees
+B3SoundESMManager.cpp,GameSource/Sound/Esm,GameSource/Sound/Esm/B4SoundESMManager.cpp,GameSource/Sound/Esm/B4SoundESMManager.cpp,1,_unclassified;gamesource/Sound/Esm,agrees
+B3SoundESMStruct.cpp,SharedClasses/SoundData,SharedClasses/SoundData/B4SoundESMStruct.cpp,SharedClasses/SoundData/B4SoundESMStruct.cpp,1,SharedClasses/SoundData;_unclassified,agrees
+B3SoundGameModeManager.cpp,GameSource/Sound/Core,GameSource/Sound/Core/B4SoundGameModeManager.cpp,GameSource/Sound/Core/B4SoundGameModeManager.cpp,1,_unclassified;gamesource/Sound/Core,agrees
+B3SoundHUDManager.cpp,GameSource/Sound/Hud,GameSource/Sound/Hud/B4SoundHUDManager.cpp,,,_unclassified;gamesource/Sound/Hud,agrees
+B3SoundListener.cpp,GameSource/Sound/Core,GameSource/Sound/Core/B4SoundListener.cpp,GameSource/Sound/Core/B4SoundListener.cpp,1,gamesource/Sound/Core,agrees
+B3SoundManager.cpp,GameSource/Sound,GameSource/Sound/B4SoundManager.cpp,GameSource/Sound/B4SoundManager.cpp,1,_unclassified;gamesource/Sound,agrees
+B3SoundManagerPS2.cpp,GameSource/Sound/Ps2,GameSource/Sound/Ps2/B4SoundManagerPS2.cpp,GameSource/Sound/Ps2/B4SoundManagerPS2.cpp,1,gamesource/Sound/Ps2,agrees
+B3SoundMusicManager.cpp,GameSource/Sound/Radio,GameSource/Sound/Radio/B4SoundMusicManager.cpp,GameSource/Sound/Radio/B4SoundMusicManager.cpp,1,,not in src
+B3SoundPlayerCar.cpp,GameSource/Sound/Cars,GameSource/Sound/Cars/B4SoundPlayerCar.cpp,GameSource/Sound/Cars/B4SoundPlayerCar.cpp,1,_unclassified;gamesource/Sound;gamesource/Sound/Cars,agrees
+B3SoundRaceCar.cpp,GameSource/Sound/Cars,GameSource/Sound/Cars/B4SoundRaceCar.cpp,,,_unclassified;gamesource/Sound/Cars,agrees
+B3SoundRaceCarManager.cpp,GameSource/Sound/Cars,GameSource/Sound/Cars/B4SoundRaceCarManager.cpp,GameSource/Sound/Cars/B4SoundRaceCarManager.cpp,1,_unclassified;gamesource/Sound/Cars,agrees
+B3SoundRadio.cpp,GameSource/Sound/Radio,GameSource/Sound/Radio/B4SoundRadio.cpp,GameSource/Sound/Radio/B4SoundRadio.cpp,1,,not in src
+B3SoundScrape.cpp,GameSource/Sound/Crash,GameSource/Sound/Crash/B4SoundScrape.cpp,GameSource/Sound/Crash/B4SoundScrape.cpp,1,gamesource/Sound/Crash,agrees
+B3SoundSkidModel.cpp,GameSource/Sound/Cars,GameSource/Sound/Cars/B4SoundSkidModel.cpp,GameSource/Sound/Cars/B4SoundSkidModel.cpp,1,_unclassified;gamesource/Sound/Cars,agrees
+B3SoundStaticPassManager.cpp,GameSource/Sound,GameSource/Sound/B4SoundStaticPassManager.cpp,GameSource/Sound/B4SoundStaticPassManager.cpp,1,gamesource/Sound,agrees
+B3SoundTrafficManager.cpp,GameSource/Sound/Traffic,GameSource/Sound/Traffic/B4SoundTrafficManager.cpp,GameSource/Sound/Traffic/B4SoundTrafficManager.cpp,1,_unclassified;gamesource/Sound/Traffic,agrees
+B3SoundTrafficPass.cpp,GameSource/Sound/Traffic,GameSource/Sound/Traffic/B4SoundTrafficPass.cpp,GameSource/Sound/Traffic/B4SoundTrafficPass.cpp,1,_unclassified;gamesource/Sound/Traffic,agrees
+B3SoundTrafficVehicle.cpp,GameSource/Sound/Traffic,GameSource/Sound/Traffic/B4SoundTrafficVehicle.cpp,GameSource/Sound/Traffic/B4SoundTrafficVehicle.cpp,1,_unclassified;gamesource/Sound/Traffic,agrees
+B3SoundTurboModel.cpp,GameSource/Sound/Cars,GameSource/Sound/Cars/B4SoundTurboModel.cpp,GameSource/Sound/Cars/B4SoundTurboModel.cpp,1,_unclassified;gamesource/Sound/Cars,agrees
+B3SparkRenderer.cpp,GameSource/Graphics/SparkRenderer,GameSource/Graphics/SparkRenderer/B4SparkRenderer.cpp,,,,not in src
+B3SparkRendererPS2.cpp,GameSource/Graphics/SparkRenderer/Ps2,GameSource/Graphics/SparkRenderer/Ps2/B4SparkRendererPS2.cpp,GameSource/Graphics/SparkRenderer/Ps2/B4SparkRendererPS2.cpp,1,_unclassified;gamesource/Graphics/SparkRenderer/Ps2,agrees
+B3SpatialTrigger.cpp,GameSource/World,GameSource/World/B4SpatialTrigger.cpp,,,,not in src
+B3SplitTimeCheckpoint.cpp,GameSource/World,GameSource/World/B4SplitTimeCheckpoint.cpp,GameSource/World/B4SplitTimeCheckpoint.cpp,1,_unclassified;gamesource/World,agrees
+B3StageLogic.cpp,GameSource/Game/Logic,GameSource/Game/Logic/B4StageLogic.cpp,,,_unclassified;gamesource/Game/Logic,agrees
+B3StartFinishLine.cpp,GameSource/World,GameSource/World/B4StartFinishLine.cpp,GameSource/World/B4StartFinishLine.cpp,1,_unclassified;gamesource/World,agrees
+B3StartPoint.cpp,GameSource/World,GameSource/World/B4StartPoint.cpp,GameSource/World/B4StartPoint.cpp,1,gamesource/World,agrees
+B3StaticTrack.cpp,GameSource/World,GameSource/World/B4StaticTrack.cpp,GameSource/World/B4StaticTrack.cpp,1,_unclassified;gamesource/World,agrees
+B3StaticTrackData.cpp,GameSource/World,GameSource/World/B4StaticTrackData.cpp,GameSource/World/B4StaticTrackData.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3StaticTrackPS2.cpp,GameSource/World/PS2,GameSource/World/Ps2/B4StaticTrackPS2.cpp,GameSource/World/PS2/B4StaticTrackPS2.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3StopJunction.cpp,GameSource/World,GameSource/World/B4StopJunction.cpp,GameSource/World/B4StopJunction.cpp,1,_unclassified;gamesource/World,agrees
+B3StreamManager.cpp,GameSource/World,GameSource/World/B4StreamManager.cpp,GameSource/World/B4StreamManager.cpp,1,_unclassified;gamesource/World,agrees
+B3StreamedTrack.cpp,GameSource/World,GameSource/World/B4StreamedTrack.cpp,GameSource/World/B4StreamedTrack.cpp,1,gamesource/Race,DIFFERS
+B3StreamedTrackCollisionPS2.cpp,GameSource/World/PS2,GameSource/World/Ps2/B4StreamedTrackCollisionPS2.cpp,GameSource/World/PS2/B4StreamedTrackCollisionPS2.cpp,1,,not in src
+B3StreamedTrackData.cpp,GameSource/World,GameSource/World/B4StreamedTrackData.cpp,GameSource/World/B4StreamedTrackData.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3StreamedTrackPS2.cpp,GameSource/World/PS2,GameSource/World/Ps2/B4StreamedTrackPS2.cpp,GameSource/World/PS2/B4StreamedTrackPS2.cpp,1,,not in src
+B3Strings.cpp,GameSource/Game,GameSource/Game/B4Strings.cpp,GameSource/Game/B4Strings.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3SunRenderer.cpp,GameSource/Graphics/SunRenderer,GameSource/Graphics/SunRenderer/B4SunRenderer.cpp,,,,not in src
+B3SunRendererPS2.cpp,GameSource/Graphics/SunRenderer/PS2,GameSource/Graphics/SunRenderer/Ps2/B4SunRendererPS2.cpp,GameSource/Graphics/SunRenderer/PS2/B4SunRendererPS2.cpp,1,_unclassified;gamesource/Graphics/SunRenderer/Ps2,agrees
+B3TextureCollectionPS2.cpp,GameSource/Graphics/Ps2,GameSource/Graphics/Ps2/B4TextureCollectionPS2.cpp,GameSource/Graphics/Ps2/B4TextureCollectionPS2.cpp,1,gamesource/Graphics/Ps2,agrees
+B3TrackDataStruct.cpp,SharedClasses/TrackData,SharedClasses/TrackData/B4TrackDataStruct.cpp,,,gamesource/Race,DIFFERS
+B3TrackMaterialPS2.cpp,GameSource/Graphics/TrackRenderer/Ps2,GameSource/Graphics/TrackRenderer/Ps2/B4TrackMaterialPS2.cpp,GameSource/Graphics/TrackRenderer/Ps2/B4TrackMaterialPS2.cpp,1,gamesource/Graphics/TrackRenderer/Ps2,agrees
+B3TrackRendererRuntimePS2.cpp,GameSource/Graphics/TrackRenderer/Ps2,GameSource/Graphics/TrackRenderer/Ps2/B4TrackRendererRuntimePS2.cpp,GameSource/Graphics/TrackRenderer/Ps2/B4TrackRendererRuntimePS2.cpp,1,gamesource/Graphics/TrackRenderer/Ps2,agrees
+B3TrafficAxle.cpp,GameSource/World,GameSource/World/B4TrafficAxle.cpp,GameSource/World/B4TrafficAxle.cpp,1,_unclassified;gamesource/World,agrees
+B3TrafficDataStruct.cpp,SharedClasses/TrafficData,SharedClasses/TrafficData/B4TrafficDataStruct.cpp,SharedClasses/TrafficData/B4TrafficDataStruct.cpp,1,SharedClasses/TrafficData,agrees
+B3TrafficDebug.cpp,GameSource/Game,GameSource/Game/B4TrafficDebug.cpp,GameSource/Game/B4TrafficDebug.cpp,1,gamesource/Game,agrees
+B3TrafficHullStruct.cpp,SharedClasses/TrafficData,SharedClasses/TrafficData/B4TrafficHullStruct.cpp,SharedClasses/TrafficData/B4TrafficHullStruct.cpp,1,SharedClasses/TrafficData,agrees
+B3TrafficLane.cpp,GameSource/World,GameSource/World/B4TrafficLane.cpp,GameSource/World/B4TrafficLane.cpp,1,_unclassified;gamesource/World,agrees
+B3TrafficLaneStruct.cpp,SharedClasses/TrafficData,SharedClasses/TrafficData/B4TrafficLaneStruct.cpp,SharedClasses/TrafficData/B4TrafficLaneStruct.cpp,1,SharedClasses/TrafficData,agrees
+B3TrafficLight.cpp,GameSource/World,GameSource/World/B4TrafficLight.cpp,GameSource/World/B4TrafficLight.cpp,1,_unclassified;gamesource/World,agrees
+B3TrafficLightStruct.cpp,SharedClasses/TrafficData,SharedClasses/TrafficData/B4TrafficLightStruct.cpp,SharedClasses/TrafficData/B4TrafficLightStruct.cpp,1,SharedClasses/TrafficData,agrees
+B3TrafficParam.cpp,GameSource/World,GameSource/World/B4TrafficParam.cpp,GameSource/World/B4TrafficParam.cpp,1,_unclassified;gamesource/World,agrees
+B3TrafficPhysics.cpp,GameSource/Physics,GameSource/Physics/B4TrafficPhysics.cpp,GameSource/Physics/B4TrafficPhysics.cpp,1,_unclassified;gamesource/Physics,agrees
+B3TrafficSplitter.cpp,GameSource/World,GameSource/World/B4TrafficSplitter.cpp,GameSource/World/B4TrafficSplitter.cpp,1,,not in src
+B3TrafficSystem.cpp,GameSource/World,GameSource/World/B4TrafficSystem.cpp,GameSource/World/B4TrafficSystem.cpp,1,_unclassified;gamesource/World,agrees
+B3TrafficSystemLoadAndRender.cpp,GameSource/World,GameSource/World/B4TrafficSystemLoadAndRender.cpp,GameSource/World/B4TrafficSystemLoadAndRender.cpp,1,_unclassified;gamesource/World,agrees
+B3TrafficValve.cpp,GameSource/World,GameSource/World/B4TrafficValve.cpp,GameSource/World/B4TrafficValve.cpp,1,_unclassified;gamesource/World,agrees
+B3TrafficValveStruct.cpp,SharedClasses/TrafficData,SharedClasses/TrafficData/B4TrafficValveStruct.cpp,SharedClasses/TrafficData/B4TrafficValveStruct.cpp,1,SharedClasses/TrafficData,agrees
+B3TrafficVehicle.cpp,GameSource/World,GameSource/World/B4TrafficVehicle.cpp,GameSource/World/B4TrafficVehicle.cpp,1,_unclassified;gamesource/World,agrees
+B3TrailRenderPS2.cpp,GameSource/Graphics/Trails/Ps2,GameSource/Graphics/Trails/Ps2/B4TrailRenderPS2.cpp,GameSource/Graphics/Trails/Ps2/B4TrailRenderPS2.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+B3TrailSystem.cpp,GameSource/Graphics/Trails,GameSource/Graphics/Trails/B4TrailSystem.cpp,GameSource/Graphics/Trails/B4TrailSystem.cpp,1,gamesource/Graphics/Trails,agrees
+B3Transmission.cpp,GameSource/Physics,GameSource/Physics/B4Transmission.cpp,GameSource/Physics/B4Transmission.cpp,1,,not in src
+B3TriggerStruct.cpp,SharedClasses/TrafficData,SharedClasses/TrafficData/B4TriggerStruct.cpp,SharedClasses/TrafficData/B4TriggerStruct.cpp,1,SharedClasses/TrafficData,agrees
+B3TurnBasedCrashChallenge.cpp,GameSource/Game/Challenge,GameSource/Game/Challenge/B4TurnBasedCrashChallenge.cpp,,,,not in src
+B3TwoPlayerSplitScreenStage.cpp,GameSource/Game,GameSource/Game/B4TwoPlayerSplitScreenStage.cpp,GameSource/Game/B4TwoPlayerSplitScreenStage.cpp,1,,not in src
+B3VehicleDeform.cpp,GameSource/Physics/Deformation,GameSource/Physics/Deformation/B4VehicleDeform.cpp,GameSource/Physics/Deformation/B4VehicleDeform.cpp,1,gamesource/Physics/Deformation,agrees
+B3VehiclePhysics.cpp,GameSource/Physics,GameSource/Physics/B4VehiclePhysics.cpp,GameSource/Physics/B4VehiclePhysics.cpp,1,gamesource/Physics,agrees
+B3VehiclePhysicsAttribs.cpp,GameSource/Physics,GameSource/Physics/B4VehiclePhysicsAttribs.cpp,GameSource/Physics/B4VehiclePhysicsAttribs.cpp,1,gamesource/Physics,agrees
+B3VehicleReflectivityData.cpp,GameSource/Graphics/VehicleRenderer,GameSource/Graphics/VehicleRenderer/B4VehicleReflectivityData.cpp,GameSource/Graphics/VehicleRenderer/B4VehicleReflectivityData.cpp,1,,not in src
+B3VehicleRendererRuntime.cpp,GameSource/Graphics/VehicleRenderer,GameSource/Graphics/VehicleRenderer/B4VehicleRendererRuntime.cpp,GameSource/Graphics/VehicleRenderer/B4VehicleRendererRuntime.cpp,1,_unclassified;gamesource/Graphics/VehicleRenderer,agrees
+B3VehicleRendererRuntimePS2.cpp,GameSource/Graphics/VehicleRenderer/PS2,GameSource/Graphics/VehicleRenderer/Ps2/B4VehicleRendererRuntimePS2.cpp,GameSource/Graphics/VehicleRenderer/PS2/B4VehicleRendererRuntimePS2.cpp,1,_unclassified;gamesource/Graphics/VehicleRenderer/Ps2,agrees
+B3Viewport.cpp,GameSource/Graphics,GameSource/Graphics/B4Viewport.cpp,GameSource/Graphics/B4Viewport.cpp,1,gamesource/Graphics,agrees
+B3World.cpp,GameSource/World,GameSource/World/B4World.cpp,GameSource/World/B4World.cpp,1,gamesource/World,agrees
+B3WorldPS2.cpp,GameSource/World/Ps2,GameSource/World/Ps2/B4WorldPS2.cpp,GameSource/World/Ps2/B4WorldPS2.cpp,1,gamesource/World/Ps2,agrees
+B3WrongWayWall.cpp,GameSource/World,GameSource/World/B4WrongWayWall.cpp,GameSource/World/B4WrongWayWall.cpp,1,gamesource/World,agrees
+GTMemoryDevicePS2_MC2.cpp,GameShared/GameClasses/System/MemoryCard/ps2,GameShared/GameClasses/System/MemoryCard/ps2/GTMemoryDevicePS2_MC2.cpp,GameShared/GameClasses/System/MemoryCard/ps2/GTMemoryDevicePS2_MC2.cpp,1,GameShared/GameClasses/System/MemoryCard/ps2;_unclassified,agrees
+Gt2dBezierCurve.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dBezierCurve.cpp,,,,not in src
+Gt2dFont.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dFont.cpp,GameShared/GameClasses/Graphical/2d/Gt2dFont.cpp,1,GameShared/GameClasses/Graphical/2d,agrees
+Gt2dFrameHierarchy.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dFrameHierarchy.cpp,GameShared/GameClasses/Graphical/2d/Gt2dFrameHierarchy.cpp,1,GameShared/GameClasses/Graphical/2d,agrees
+Gt2dObject.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dObject.cpp,GameShared/GameClasses/Graphical/2d/Gt2dObject.cpp,1,GameShared/GameClasses/Graphical/2d,agrees
+Gt2dObjectBox.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dObjectBox.cpp,GameShared/GameClasses/Graphical/2d/Gt2dObjectBox.cpp,1,GameShared/GameClasses/Graphical/2d,agrees
+Gt2dObjectImage.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dObjectImage.cpp,GameShared/GameClasses/Graphical/2d/Gt2dObjectImage.cpp,1,GameShared/GameClasses/Graphical/2d,agrees
+Gt2dObjectItalicText.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dObjectItalicText.cpp,GameShared/GameClasses/Graphical/2d/Gt2dObjectItalicText.cpp,1,,not in src
+Gt2dObjectParagraph.cpp,GameShared/GameClasses/Graphical/2D,GameShared/GameClasses/Graphical/2d/Gt2dObjectParagraph.cpp,GameShared/GameClasses/Graphical/2D/Gt2dObjectParagraph.cpp,1,,not in src
+Gt2dObjectTable.cpp,GameShared/GameClasses/Graphical/2D,GameShared/GameClasses/Graphical/2d/Gt2dObjectTable.cpp,GameShared/GameClasses/Graphical/2D/Gt2dObjectTable.cpp,1,,not in src
+Gt2dObjectText.cpp,GameShared/GameClasses/Graphical/2D,GameShared/GameClasses/Graphical/2d/Gt2dObjectText.cpp,GameShared/GameClasses/Graphical/2D/Gt2dObjectText.cpp,1,,not in src
+Gt2dObjectVideoImage.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dObjectVideoImage.cpp,,,,not in src
+Gt2dObjectVignette.cpp,GameShared/GameClasses/Graphical/2d,GameShared/GameClasses/Graphical/2d/Gt2dObjectVignette.cpp,,,,not in src
+Gt2dRendererPS2.cpp,GameShared/GameClasses/Graphical/2D/PS2,GameShared/GameClasses/Graphical/2d/Ps2/Gt2dRendererPS2.cpp,GameShared/GameClasses/Graphical/2D/PS2/Gt2dRendererPS2.cpp,1,GameShared/GameClasses/Graphical/2d/Ps2,agrees
+Gt2dScene.cpp,GameShared/GameClasses/Graphical/2D,GameShared/GameClasses/Graphical/2d/Gt2dScene.cpp,GameShared/GameClasses/Graphical/2D/Gt2dScene.cpp,1,GameShared/GameClasses/Graphical/2d,agrees
+GtArray.cpp,GameShared/GameClasses/Containers,GameShared/GameClasses/Containers/GtArray.cpp,GameShared/GameClasses/Containers/GtArray.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+GtBuddies.cpp,GameShared/GameClasses/System/Networking/Buddies,GameShared/GameClasses/System/Networking/Buddies/GtBuddies.cpp,,,GameShared/GameClasses/System/Networking/Buddies,agrees
+GtByteStream.cpp,GameShared/GameClasses/Memory,GameShared/GameClasses/Memory/GtByteStream.cpp,GameShared/GameClasses/Memory/GtByteStream.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+GtCamera.cpp,GameShared/GameClasses/Graphical/Camera,GameShared/GameClasses/Graphical/Camera/GtCamera.cpp,GameShared/GameClasses/Graphical/Camera/GtCamera.cpp,1,GameShared/GameClasses/Graphical/Camera;_unclassified,agrees
+GtCameraBehaviour.cpp,GameShared/GameClasses/Graphical/Camera,GameShared/GameClasses/Graphical/Camera/GtCameraBehaviour.cpp,GameShared/GameClasses/Graphical/Camera/GtCameraBehaviour.cpp,1,GameShared/GameClasses/Graphical/Camera,agrees
+GtCameraFrustumBase.cpp,GameShared/GameClasses/Graphical/CameraFrustum,GameShared/GameClasses/Graphical/CameraFrustum/GtCameraFrustumBase.cpp,GameShared/GameClasses/Graphical/CameraFrustum/GtCameraFrustumBase.cpp,1,,not in src
+GtCameraFrustumPS2.cpp,GameShared/GameClasses/Graphical/CameraFrustum/Ps2,GameShared/GameClasses/Graphical/CameraFrustum/Ps2/GtCameraFrustumPS2.cpp,GameShared/GameClasses/Graphical/CameraFrustum/Ps2/GtCameraFrustumPS2.cpp,1,,not in src
+GtCollisionKDTree.cpp,GameShared/GameClasses/Geometric/Intersection,GameShared/GameClasses/Geometric/Intersection/GtCollisionKDTree.cpp,GameShared/GameClasses/Geometric/Intersection/GtCollisionKDTree.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+GtCommsDatabase.cpp,GameShared/GameClasses/Development/CommsTool,GameShared/GameClasses/Development/CommsTool/GtCommsDatabase.cpp,GameShared/GameClasses/Development/CommsTool/GtCommsDatabase.cpp,1,,not in src
+GtCommsDatabaseGame.cpp,GameShared/GameClasses/Development/CommsTool,GameShared/GameClasses/Development/CommsTool/GtCommsDatabaseGame.cpp,GameShared/GameClasses/Development/CommsTool/GtCommsDatabaseGame.cpp,1,,not in src
+GtCommsToolBase.cpp,GameShared/GameClasses/Development/CommsTool,GameShared/GameClasses/Development/CommsTool/GtCommsToolBase.cpp,GameShared/GameClasses/Development/CommsTool/GtCommsToolBase.cpp,1,GameShared/GameClasses/Development/CommsTool,agrees
+GtDictionary.cpp,GameShared/GameClasses/Containers,GameShared/GameClasses/Containers/GtDictionary.cpp,GameShared/GameClasses/Containers/GtDictionary.cpp,1,GameShared/GameClasses/Containers,agrees
+GtFSM.cpp,GameShared/GameClasses/System/FSM,GameShared/GameClasses/System/Fsm/GtFSM.cpp,GameShared/GameClasses/System/FSM/GtFSM.cpp,1,GameShared/GameClasses/System/Fsm;_unclassified,agrees
+GtFileSystem.cpp,GameShared/GameClasses/System/FileSystem,GameShared/GameClasses/System/FileSystem/GtFileSystem.cpp,GameShared/GameClasses/System/FileSystem/GtFileSystem.cpp,1,,not in src
+GtFileSystemPS2DVD.cpp,GameShared/GameClasses/System/FileSystem/ps2,GameShared/GameClasses/System/FileSystem/ps2/GtFileSystemPS2DVD.cpp,GameShared/GameClasses/System/FileSystem/ps2/GtFileSystemPS2DVD.cpp,1,GameShared/GameClasses/System/FileSystem/ps2,agrees
+GtFixedPoint.cpp,GameShared/GameClasses/Numeric,GameShared/GameClasses/Numeric/GtFixedPoint.cpp,GameShared/GameClasses/Numeric/GtFixedPoint.cpp,1,,not in src
+GtFramerateManager.cpp,GameShared/GameClasses/System/Timer,GameShared/GameClasses/System/Timer/GtFramerateManager.cpp,GameShared/GameClasses/System/Timer/GtFramerateManager.cpp,1,GameShared/GameClasses/System/Timer,agrees
+GtFreeList.cpp,GameShared/GameClasses/Containers,GameShared/GameClasses/Containers/GtFreeList.cpp,GameShared/GameClasses/Containers/GtFreeList.cpp,1,,not in src
+GtFrustumBuilder.cpp,GameShared/GameClasses/Geometric,GameShared/GameClasses/Geometric/GtFrustumBuilder.cpp,GameShared/GameClasses/Geometric/GtFrustumBuilder.cpp,1,,not in src
+GtHash.cpp,GameShared/GameClasses/Development/CommsTool,GameShared/GameClasses/Development/CommsTool/GtHash.cpp,GameShared/GameClasses/Development/CommsTool/GtHash.cpp,1,,not in src
+GtHiResSystemTimerPS2.cpp,GameShared/GameClasses/System/Timer/Ps2,GameShared/GameClasses/System/Timer/Ps2/GtHiResSystemTimerPS2.cpp,GameShared/GameClasses/System/Timer/Ps2/GtHiResSystemTimerPS2.cpp,1,GameShared/GameClasses/System/Timer/Ps2,agrees
+GtID.cpp,GameShared/GameClasses/Core,GameShared/GameClasses/Core/GtID.cpp,GameShared/GameClasses/Core/GtID.cpp,1,,not in src
+GtInputDevicePS2DualShock.cpp,GameShared/GameClasses/System/Input/Ps2,GameShared/GameClasses/System/Input/Ps2/GtInputDevicePS2DualShock.cpp,GameShared/GameClasses/System/Input/Ps2/GtInputDevicePS2DualShock.cpp,1,GameShared/GameClasses/System/Input/Ps2;_unclassified,agrees
+GtInputDevicePS2DualShock2.cpp,GameShared/GameClasses/System/Input/Ps2,GameShared/GameClasses/System/Input/Ps2/GtInputDevicePS2DualShock2.cpp,GameShared/GameClasses/System/Input/Ps2/GtInputDevicePS2DualShock2.cpp,1,GameShared/GameClasses/System/Input/Ps2,agrees
+GtInputDevicePS2Keyboard.cpp,GameShared/GameClasses/System/Input/Ps2,GameShared/GameClasses/System/Input/Ps2/GtInputDevicePS2Keyboard.cpp,,,GameShared/GameClasses/System/Input/Ps2;_unclassified,agrees
+GtInputManagerPS2Keyboard.cpp,GameShared/GameClasses/System/Input/Ps2,GameShared/GameClasses/System/Input/Ps2/GtInputManagerPS2Keyboard.cpp,,,,not in src
+GtInputManagerPS2Pad2.cpp,GameShared/GameClasses/System/Input/Ps2,GameShared/GameClasses/System/Input/Ps2/GtInputManagerPS2Pad2.cpp,GameShared/GameClasses/System/Input/Ps2/GtInputManagerPS2Pad2.cpp,1,GameShared/GameClasses/System/Input/Ps2;_unclassified,agrees
+GtIntersection.cpp,GameShared/GameClasses/Geometric/Intersection,GameShared/GameClasses/Geometric/Intersection/GtIntersection.cpp,GameShared/GameClasses/Geometric/Intersection/GtIntersection.cpp,1,,not in src
+GtIntersectionPS2.cpp,GameShared/GameClasses/Geometric/Intersection/Ps2,GameShared/GameClasses/Geometric/Intersection/Ps2/GtIntersectionPS2.cpp,GameShared/GameClasses/Geometric/Intersection/Ps2/GtIntersectionPS2.cpp,1,,not in src
+GtLinearMalloc.cpp,GameShared/GameClasses/Memory,GameShared/GameClasses/Memory/GtLinearMalloc.cpp,GameShared/GameClasses/Memory/GtLinearMalloc.cpp,1,GameShared/GameClasses/Memory,agrees
+GtLobbyDirtySock.cpp,GameShared/GameClasses/System/Networking/LobbyService/PlatformIndependent/DirtySock,GameShared/GameClasses/System/Networking/LobbyService/PlatformIndependent/DirtySock/GtLobbyDirtySock.cpp,,,GameShared/GameClasses/System/Networking/LobbyService/PlatformIndependent/DirtySock;_unclassified,agrees
+GtLogitechHeadset.cpp,GameShared/GameClasses/System/Headset/Source/Ps2,GameShared/GameClasses/System/Headset/Source/Ps2/GtLogitechHeadset.cpp,,,GameShared/GameClasses/System/Headset/Source/Ps2;_unclassified,agrees
+GtMalloc.cpp,GameShared/GameClasses/Memory,GameShared/GameClasses/Memory/GtMalloc.cpp,GameShared/GameClasses/Memory/GtMalloc.cpp,1,GameShared/GameClasses/Memory,agrees
+GtNATDataManager.cpp,GameShared/GameClasses/System/Networking/Players,GameShared/GameClasses/System/Networking/Players/GtNATDataManager.cpp,,,,not in src
+GtNetworkAdapter.cpp,GameShared/GameClasses/System/Networking/Packeting,GameShared/GameClasses/System/Networking/Packeting/GtNetworkAdapter.cpp,,,,not in src
+GtNetworkConditions.cpp,GameShared/GameClasses/System/Networking/Packeting,GameShared/GameClasses/System/Networking/Packeting/GtNetworkConditions.cpp,,,,not in src
+GtNetworkMessage.cpp,GameShared/GameClasses/System/Networking/Packeting,GameShared/GameClasses/System/Networking/Packeting/GtNetworkMessage.cpp,,,,not in src
+GtNetworkPlayer.cpp,GameShared/GameClasses/System/Networking/Players,GameShared/GameClasses/System/Networking/Players/GtNetworkPlayer.cpp,,,,not in src
+GtNetworkPlayerManager.cpp,GameShared/GameClasses/System/Networking/Players,GameShared/GameClasses/System/Networking/Players/GtNetworkPlayerManager.cpp,,,GameShared/GameClasses/System/Networking/Players;_unclassified,agrees
+GtOrientedBox.cpp,GameShared/GameClasses/Geometric/Primitives,GameShared/GameClasses/Geometric/Primitives/GtOrientedBox.cpp,,,,not in src
+GtPS2LibNet.cpp,GameShared/GameClasses/System/Networking/Packeting/Ps2,GameShared/GameClasses/System/Networking/Packeting/Ps2/GtPS2LibNet.cpp,,,GameShared/GameClasses/System/Networking/Packeting/Ps2;_unclassified,agrees
+GtPerfMon.cpp,GameShared/GameClasses/Development/PerfMon,GameShared/GameClasses/Development/PerfMon/GtPerfMon.cpp,GameShared/GameClasses/Development/PerfMon/GtPerfMon.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+GtPolygonSoup.cpp,GameShared/GameClasses/Geometric/Primitives,GameShared/GameClasses/Geometric/Primitives/GtPolygonSoup.cpp,GameShared/GameClasses/Geometric/Primitives/GtPolygonSoup.cpp,1,GameShared/GameClasses/Geometric/Primitives,agrees
+GtScreenCentre.cpp,GameShared/GameClasses/Graphical,GameShared/GameClasses/Graphical/GtScreenCentre.cpp,GameShared/GameClasses/Graphical/GtScreenCentre.cpp,1,GameShared/GameClasses/Graphical;_unclassified,agrees
+GtSimpleOrientedBox.cpp,GameShared/GameClasses/Geometric/Primitives,GameShared/GameClasses/Geometric/Primitives/GtSimpleOrientedBox.cpp,GameShared/GameClasses/Geometric/Primitives/GtSimpleOrientedBox.cpp,1,,not in src
+GtSoundBank.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundBank.cpp,GameShared/GameClasses/Sound/GtSoundBank.cpp,1,GameShared/GameClasses/Sound,agrees
+GtSoundBankManager.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundBankManager.cpp,GameShared/GameClasses/Sound/GtSoundBankManager.cpp,1,GameShared/GameClasses/Sound,agrees
+GtSoundListener.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundListener.cpp,GameShared/GameClasses/Sound/GtSoundListener.cpp,1,GameShared/GameClasses/Sound,agrees
+GtSoundListenerManager.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundListenerManager.cpp,GameShared/GameClasses/Sound/GtSoundListenerManager.cpp,1,GameShared/GameClasses/Sound;_unclassified,agrees
+GtSoundManager.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundManager.cpp,GameShared/GameClasses/Sound/GtSoundManager.cpp,1,GameShared/GameClasses/Sound;_unclassified,agrees
+GtSoundRealVoice.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundRealVoice.cpp,GameShared/GameClasses/Sound/GtSoundRealVoice.cpp,1,GameShared/GameClasses/Sound;_unclassified,agrees
+GtSoundStream.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundStream.cpp,GameShared/GameClasses/Sound/GtSoundStream.cpp,1,GameShared/GameClasses/Sound;_unclassified,agrees
+GtSoundStreamManager.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundStreamManager.cpp,GameShared/GameClasses/Sound/GtSoundStreamManager.cpp,1,GameShared/GameClasses/Sound,agrees
+GtSoundUtils.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundUtils.cpp,GameShared/GameClasses/Sound/GtSoundUtils.cpp,1,_unclassified,src _unclassified: Dominator gives a folder
+GtSoundVirtualVoice.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundVirtualVoice.cpp,GameShared/GameClasses/Sound/GtSoundVirtualVoice.cpp,1,GameShared/GameClasses/Sound;_unclassified,agrees
+GtSoundVoice.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundVoice.cpp,GameShared/GameClasses/Sound/GtSoundVoice.cpp,1,GameShared/GameClasses/Sound,agrees
+GtSoundVoiceManager.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundVoiceManager.cpp,GameShared/GameClasses/Sound/GtSoundVoiceManager.cpp,1,GameShared/GameClasses/Sound;_unclassified,agrees
+GtSoundWave.cpp,GameShared/GameClasses/Sound,GameShared/GameClasses/Sound/GtSoundWave.cpp,GameShared/GameClasses/Sound/GtSoundWave.cpp,1,GameShared/GameClasses/Sound;_unclassified,agrees
+GtSphereTree.cpp,GameShared/GameClasses/Containers,GameShared/GameClasses/Containers/GtSphereTree.cpp,GameShared/GameClasses/Containers/GtSphereTree.cpp,1,GameShared/GameClasses/Containers;_unclassified,agrees
+GtSyncTime.cpp,GameShared/GameClasses/System/Networking/SyncTime,GameShared/GameClasses/System/Networking/SyncTime/GtSyncTime.cpp,,,,not in src
+GtSyncTimeClient.cpp,GameShared/GameClasses/System/Networking/SyncTime,GameShared/GameClasses/System/Networking/SyncTime/GtSyncTimeClient.cpp,,,,not in src
+GtSyncTimeHost.cpp,GameShared/GameClasses/System/Networking/SyncTime,GameShared/GameClasses/System/Networking/SyncTime/GtSyncTimeHost.cpp,,,,not in src
+GtSyncTimeMessage.cpp,GameShared/GameClasses/System/Networking/Packeting,GameShared/GameClasses/System/Networking/Packeting/GtSyncTimeMessage.cpp,,,,not in src
+GtTextureCachePS2.cpp,GameShared/GameClasses/Graphical/TextureCachePS2,GameShared/GameClasses/Graphical/TextureCachePS2/GtTextureCachePS2.cpp,GameShared/GameClasses/Graphical/TextureCachePS2/GtTextureCachePS2.cpp,1,GameShared/GameClasses/Graphical/TextureCachePS2;_unclassified,agrees
+GtTexturePS2.cpp,GameShared/GameClasses/Graphical/TextureClasses/PS2,GameShared/GameClasses/Graphical/TextureClasses/Ps2/GtTexturePS2.cpp,GameShared/GameClasses/Graphical/TextureClasses/PS2/GtTexturePS2.cpp,1,,not in src
+GtThreadMgrPS2.cpp,GameShared/GameClasses/System/Threads/ps2,GameShared/GameClasses/System/Threads/ps2/GtThreadMgrPS2.cpp,GameShared/GameClasses/System/Threads/ps2/GtThreadMgrPS2.cpp,1,GameShared/GameClasses/System/Threads/ps2,agrees
+GtTimer.cpp,GameShared/GameClasses/System/Timer,GameShared/GameClasses/System/Timer/GtTimer.cpp,GameShared/GameClasses/System/Timer/GtTimer.cpp,1,GameShared/GameClasses/System/Timer,agrees
+GtUnicode.cpp,GameShared/GameClasses/System,GameShared/GameClasses/System/GtUnicode.cpp,GameShared/GameClasses/System/GtUnicode.cpp,1,,not in src
+GtUnicodeUtils.cpp,GameShared/GameClasses/System,GameShared/GameClasses/System/GtUnicodeUtils.cpp,GameShared/GameClasses/System/GtUnicodeUtils.cpp,1,,not in src
+GtVideoDecoderPS2.cpp,GameShared/GameClasses/Graphical/VideoDecoder/Ps2,GameShared/GameClasses/Graphical/VideoDecoder/Ps2/GtVideoDecoderPS2.cpp,GameShared/GameClasses/Graphical/VideoDecoder/Ps2/GtVideoDecoderPS2.cpp,1,GameShared/GameClasses/Graphical/VideoDecoder/Ps2;GameShared/GameClasses/Mpeg/ps2;_unclassified,agrees
+GtViewport.cpp,GameShared/GameClasses/Graphical/Camera,GameShared/GameClasses/Graphical/Camera/GtViewport.cpp,GameShared/GameClasses/Graphical/Camera/GtViewport.cpp,1,GameShared/GameClasses/Graphical/Camera;_unclassified,agrees
+GtVu0CodeManager.cpp,GameShared/GameClasses/System/Ps2,GameShared/GameClasses/System/Ps2/GtVu0CodeManager.cpp,,,,not in src
+GtWideLine.cpp,GameShared/GameClasses/Graphical,GameShared/GameClasses/Graphical/GtWideLine.cpp,GameShared/GameClasses/Graphical/GtWideLine.cpp,1,,not in src
+vibuf.c,GameShared/GameClasses/Graphical/VideoDecoder/Ps2,GameShared/GameClasses/Graphical/VideoDecoder/Ps2/vibuf.c,GameShared/GameClasses/Graphical/VideoDecoder/Ps2/vibuf.c,1,,not in src

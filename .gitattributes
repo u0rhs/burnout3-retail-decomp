@@ -1,0 +1,5 @@
+# LF everywhere: the .sh and .py tools run under WSL bash / python (a CRLF checkout breaks them); binaries are
+# detected and left alone.
+* text=auto eol=lf
+# disc-derived files: stored byte for byte
+orig/** -text

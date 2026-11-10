@@ -1,0 +1,6 @@
+// vu0_keep_i.txt -- per-function exceptions to tools/vu0_ni_fixup.py (which clears the interlock bit of every
+// qmtc2/qmfc2 written .i, N127/N128). Format: `<function symbol> <k>[,<k>...]` = keep the k-th .i-written move
+// (0-based, address order, counting EVERY qmtc2/qmfc2 of the function since 2026-10-28) as `.i`. Each entry needs retail-byte evidence (the retail asm shows
+// `qmtc2.i` / `qmfc2.i` at that position). N205.
+IntersectLineTriangle__14GtIntersectionFRC7CGtLineQ29GtMathPs26CGtV3dQ29GtMathPs26CGtV3dQ29GtMathPs26CGtV3dPfPfPf 0  // retail qmtc2.i a2,$vf2: first move into VU0 after the UploadVu0Code DMA (setc)
+PushCameraForInstanceRendering__16CB3TrackRendererF19EB3RenderableCamera 2  // (index among ALL qmtc2/qmfc2 since 2026-10-28; was 0 among .i-flagged moves) retail qmtc2.i $t0,$vf1 at 0x26A7AC (+ cfc2.i at 0x26A7C8); near22 tested via VU0_KEEP_I: 4 -> 3 off

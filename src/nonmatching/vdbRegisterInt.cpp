@@ -1,0 +1,150 @@
+// NONMATCHING: AddEntry__Q27GtComms16CGtCommsDatabaseFPiPCcPCcPCciiii -- retail 126 / ours 126 instructions, 9 in changed runs
+// gaps1b: hand-drafted from the asm
+// Archived near-miss (not built, not counted): the logic is believed right, codegen still differs.
+
+// gaps1b (2026-11-02): hand-drafted from the retail asm (0x21BD80). Registers an int (type 1): t2 -> +8, t3 -> +4, the 9th (stack) argument ->
+// +0x1C; flag bit 0 when t2 or t3 is non-zero.
+// Name: the asm symbol, which came from a config/symbol_addrs.txt row marked "names are ours" (the earlier research repo, upstream)
+// -- not evidence. [L] research/retail_names.csv (high): GtComms::CGtCommsDatabase::AddEntry(int*,const char*,const char*,const char*,int,int,int,int).
+// TRACK: clean
+// EQUIV: [L] written from the retail asm: every branch, store and call accounted for
+
+// [C] a 32-byte registry entry (vdbRegister*: stores, Construct__Q27GtComms16CGtCommsDatabaseFPQ27GtComms21CGtCommsDatabaseEntryi's memset of cap * 32)
+struct UnkStruct_vdb_entry {
+    void * field_0;               // the registered variable
+    unsigned int field_4;         // float: max (f13), int: t3 [G meaning]
+    unsigned int field_8;         // float: min (f12), int: t2
+    const char * field_C;         // the three path parts, joined with '/' for the hash
+    const char * field_10;
+    const char * field_14;        // the variable's name (the vtable slot 0x14 argument)
+    int field_18;                 // CalculateHash__7CGtHashFPCc of the joined path
+    unsigned char field_1C;       // float / int: the last argument; SetDefaultElementValue__Q27GtComms20CGtCommsDatabaseGameFPQ27GtComms21CGtCommsDatabaseEntry: element count (>= 2 -> memcpy)
+    unsigned char field_1D;       // flags; bit 0: a range was given
+    unsigned char field_1E;       // type: 0 free, 1 int, 2 float, 3 bool, 5 vector
+    unsigned char field_1F;
+};
+// [C] the registry: vtable at +0 (slots called with a0 = it)
+struct UnkStruct_vdb_db {
+    virtual void vfunc_8(UnkStruct_vdb_entry *);
+    virtual void vfunc_C(UnkStruct_vdb_entry *);
+    virtual void vfunc_10(UnkStruct_vdb_entry *);
+    virtual unsigned char vfunc_14(const char *);
+    int field_4;                  // the next free slot to try
+    int field_8;                  // live entries
+    UnkStruct_vdb_entry * field_C;
+    int field_10;                 // capacity
+};
+// [C] the game database: the registry with 0x6C8 entries inline at +0xC20 (Construct__Q27GtComms20CGtCommsDatabaseGameFv) and a sorted (value, hash) table
+// built from the blob at +0xE530 (InitialiseDefaultValues__Q27GtComms20CGtCommsDatabaseGameFv)
+struct UnkStruct_vdb_rec { unsigned int field_0; int field_4; };
+struct UnkStruct_vdb_blob { int pad_0; int field_4; int pad_8; int field_C; int field_10; };
+struct UnkStruct_vdb_game : UnkStruct_vdb_db {
+    unsigned char pad_14[0xC14 - 0x14];
+    int field_C14;
+    int field_C18;
+    unsigned char field_C1C;
+    unsigned char pad_C1D[3];
+    UnkStruct_vdb_entry field_C20[0x6C8];
+    int field_E520;               // records in field_E524 (keyed by field_4)
+    UnkStruct_vdb_rec * field_E524;
+    int field_E528;               // records in field_E52C
+    UnkStruct_vdb_rec * field_E52C;
+    unsigned char field_E530[0x10];   // the loaded blob starts here
+};
+extern UnkStruct_vdb_db * mpToolBase__Q27GtComms16CGtCommsToolBase;   // [C] gp-relative
+extern int D_004E291C;
+extern unsigned int manHashTable__7CGtHash[];
+extern char D_004B9C88[];         // [C] "/"
+extern char D_004B9C90[];         // [C] "GtCommVa%04d"
+extern "C" unsigned int strlen(const char *);
+extern "C" char * strcpy(char *, const char *);
+extern "C" char * strcat(char *, const char *);
+extern "C" int sprintf(char *, const char *, ...);
+extern "C" void * memset(void *, int, unsigned int);
+extern "C" void * memcpy(void *, const void *, unsigned int);
+extern "C" int GtIDCompress__FPCc(char *);
+extern "C" int CalculateHash__7CGtHashFPCc(const char *);
+extern "C" void RemoveEntryCore__Q27GtComms16CGtCommsDatabaseFPQ27GtComms21CGtCommsDatabaseEntry(UnkStruct_vdb_db *, UnkStruct_vdb_entry *);
+extern "C" void Construct__Q27GtComms20CGtCommsDatabaseGameFv(UnkStruct_vdb_game *);
+extern "C" void Construct__Q27GtComms16CGtCommsDatabaseFPQ27GtComms21CGtCommsDatabaseEntryi(UnkStruct_vdb_db *, UnkStruct_vdb_entry *, int);
+
+// [G] the shared front half of the vdbRegister* entry points (inlined in each): hash the joined path, take the next
+// free slot from field_4 on (wrapping), name a scratch "GtCommVa%04d" with the slot (GtIDCompress__FPCc's result unused [C])
+static inline UnkStruct_vdb_entry * func_0021B9B0_inl1(UnkStruct_vdb_db * db, const char * a, const char * b,
+                                                       const char * name, int * hash)
+{
+    char path[0x200];
+    char tmp[0x10];
+    strcpy(path, a);
+    strcat(path, b);
+    if (path[strlen(path) - 1] != '/') {
+        strcat(path, D_004B9C88);
+    }
+    strcat(path, name);
+    *hash = CalculateHash__7CGtHashFPCc(path);
+    int i = db->field_4;
+    while (db->field_C[i].field_1E != 0) {
+        i++;
+        if (!(i < db->field_10)) {
+            i = 0;
+        }
+    }
+    db->field_4 = i;
+    sprintf(tmp, D_004B9C90, i);
+    GtIDCompress__FPCc(tmp);
+    return &db->field_C[i];
+}
+
+// [G] the shared tail: add, then keep it only if the name check (slot 0x14) returns 1
+static inline void func_0021B9B0_inl2(UnkStruct_vdb_db * db, UnkStruct_vdb_entry * e, const char * name)
+{
+    db->vfunc_10(e);
+    if (db->vfunc_14(name) != 1) {
+        e->field_1E = 0;
+        db->field_8--;
+        return;
+    }
+    db->vfunc_8(e);
+}
+
+// [G] binary search of the sorted records by key (field_4): hi = n, lo = -1, mid rounds toward zero
+static inline UnkStruct_vdb_rec * func_0024FFC0_inl1(UnkStruct_vdb_rec * t, int n, int key)
+{
+    int hi = n, lo = -1;
+    while (hi - lo >= 2) {
+        int mid = (hi + lo) / 2;
+        UnkStruct_vdb_rec * r = &t[mid];
+        if (r->field_4 == key) {
+            return r;
+        }
+        if (key < r->field_4) {
+            hi = mid;
+        } else {
+            lo = mid;
+        }
+    }
+    return 0;
+}
+
+// 0x0021BD80
+extern "C" void AddEntry__Q27GtComms16CGtCommsDatabaseFPiPCcPCcPCciiii(UnkStruct_vdb_db * db, void * var, const char * a, const char * b, const char * name,
+                               int flags, int t2, int t3, int last)
+{
+    int hash;
+    UnkStruct_vdb_entry * e = func_0021B9B0_inl1(db, a, b, name, &hash);
+    e->field_C = a;
+    e->field_10 = b;
+    e->field_14 = name;
+    e->field_18 = hash;
+    e->field_1D = (unsigned char)flags;
+    db->field_8++;
+    e->field_1E = 1;
+    e->field_0 = var;
+    e->field_1C = (unsigned char)last;
+    e->field_8 = t2;
+    e->field_4 = t3;
+    if (t3 != 0 || t2 != 0) {
+        e->field_1D |= 1;
+    }
+    func_0021B9B0_inl2(db, e, name);
+}

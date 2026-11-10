@@ -1,0 +1,475 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540">
+<rect width="1000" height="540" rx="10" fill="#0d1117"/>
+<rect x="0.0" y="0.0" width="182.4" height="184.3" fill="#2c833e" stroke="#0d1117" stroke-width="1.5"><title>? 0x3C0000: 118196 / 166444 bytes (71.0%)</title></rect>
+<text x="4.0" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">? 0x3C0000</text>
+<text x="4.0" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">71%</text>
+<rect x="0.0" y="184.3" width="182.4" height="183.1" fill="#2e6e3a" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficVehicle: 79816 / 165368 bytes (48.3%)</title></rect>
+<text x="4.0" y="198.3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3TrafficVehicle</text>
+<text x="4.0" y="213.3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">48%</text>
+<rect x="0.0" y="367.3" width="182.4" height="172.7" fill="#2a693a" stroke="#0d1117" stroke-width="1.5"><title>? 0x440000: 73056 / 155964 bytes (46.8%)</title></rect>
+<text x="4.0" y="381.3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">? 0x440000</text>
+<text x="4.0" y="396.3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">47%</text>
+<rect x="182.4" y="0.0" width="139.9" height="210.7" fill="#2a713b" stroke="#0d1117" stroke-width="1.5"><title>? 0x380000: 79152 / 145972 bytes (54.2%)</title></rect>
+<text x="186.4" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">? 0x380000</text>
+<text x="186.4" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">54%</text>
+<rect x="182.4" y="210.7" width="139.9" height="193.1" fill="#2b7e3d" stroke="#0d1117" stroke-width="1.5"><title>? 0x400000: 88168 / 133808 bytes (65.9%)</title></rect>
+<text x="186.4" y="224.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">? 0x400000</text>
+<text x="186.4" y="239.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">66%</text>
+<rect x="182.4" y="403.9" width="139.9" height="136.1" fill="#2c893f" stroke="#0d1117" stroke-width="1.5"><title>? 0x340000: 72900 / 94316 bytes (77.3%)</title></rect>
+<text x="186.4" y="417.9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">? 0x340000</text>
+<text x="186.4" y="432.9" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">77%</text>
+<rect x="322.3" y="0.0" width="105.5" height="115.6" fill="#2f4233" stroke="#0d1117" stroke-width="1.5"><title>B3VehicleDeform: 6260 / 60404 bytes (10.4%)</title></rect>
+<text x="326.3" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3VehicleDeform</text>
+<text x="326.3" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">10%</text>
+<rect x="322.3" y="115.6" width="105.5" height="102.6" fill="#2f3c32" stroke="#0d1117" stroke-width="1.5"><title>B3EffectsManager: 3568 / 53584 bytes (6.7%)</title></rect>
+<text x="326.3" y="129.6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3EffectsManag…</text>
+<text x="326.3" y="144.6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">7%</text>
+<rect x="322.3" y="218.2" width="105.5" height="89.7" fill="#2d9641" stroke="#0d1117" stroke-width="1.5"><title>? 0x140000: 42164 / 46880 bytes (89.9%)</title></rect>
+<text x="326.3" y="232.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">? 0x140000</text>
+<text x="326.3" y="247.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">90%</text>
+<rect x="322.3" y="308.0" width="105.5" height="85.8" fill="#2a713b" stroke="#0d1117" stroke-width="1.5"><title>? 0x200000: 24064 / 44820 bytes (53.7%)</title></rect>
+<text x="326.3" y="322.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">? 0x200000</text>
+<text x="326.3" y="337.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">54%</text>
+<rect x="322.3" y="393.8" width="105.5" height="73.6" fill="#284e35" stroke="#0d1117" stroke-width="1.5"><title>? 0x4C0000: 9004 / 38440 bytes (23.4%)</title></rect>
+<text x="326.3" y="407.8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">? 0x4C0000</text>
+<text x="326.3" y="422.8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">23%</text>
+<rect x="322.3" y="467.4" width="105.5" height="72.6" fill="#2c863e" stroke="#0d1117" stroke-width="1.5"><title>? 0x300000: 28000 / 37944 bytes (73.8%)</title></rect>
+<text x="326.3" y="481.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">? 0x300000</text>
+<text x="326.3" y="496.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">74%</text>
+<rect x="427.8" y="0.0" width="76.4" height="96.3" fill="#2e703a" stroke="#0d1117" stroke-width="1.5"><title>B3Score: 18160 / 36416 bytes (49.9%)</title></rect>
+<text x="431.8" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3Score</text>
+<text x="431.8" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">50%</text>
+<rect x="427.8" y="96.3" width="76.4" height="94.2" fill="#2f4934" stroke="#0d1117" stroke-width="1.5"><title>B3GraphicsManagerPS2: 5724 / 35620 bytes (16.1%)</title></rect>
+<text x="431.8" y="110.3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3Graphic…</text>
+<text x="431.8" y="125.3" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">16%</text>
+<rect x="427.8" y="190.4" width="76.4" height="94.1" fill="#2e7e3d" stroke="#0d1117" stroke-width="1.5"><title>B3SoundCrashManager: 22960 / 35592 bytes (64.5%)</title></rect>
+<text x="431.8" y="204.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">B3SoundCr…</text>
+<text x="431.8" y="219.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">65%</text>
+<rect x="427.8" y="284.5" width="76.4" height="89.3" fill="#2f3831" stroke="#0d1117" stroke-width="1.5"><title>B3RaceCarPhysics: 1372 / 33792 bytes (4.1%)</title></rect>
+<text x="431.8" y="298.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3RaceCar…</text>
+<text x="431.8" y="313.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">4%</text>
+<rect x="427.8" y="373.8" width="76.4" height="86.4" fill="#2f4b34" stroke="#0d1117" stroke-width="1.5"><title>B3PhysicsManager: 5660 / 32688 bytes (17.3%)</title></rect>
+<text x="431.8" y="387.8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3Physics…</text>
+<text x="431.8" y="402.8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">17%</text>
+<rect x="427.8" y="460.2" width="76.4" height="79.8" fill="#296439" stroke="#0d1117" stroke-width="1.5"><title>? 0x2C0000: 12672 / 30188 bytes (42.0%)</title></rect>
+<text x="431.8" y="474.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">? 0x2C0000</text>
+<text x="431.8" y="489.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">42%</text>
+<rect x="504.2" y="0.0" width="87.8" height="69.0" fill="#2f4233" stroke="#0d1117" stroke-width="1.5"><title>B3VehiclePhysics: 3084 / 29976 bytes (10.3%)</title></rect>
+<text x="508.2" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3VehiclePh…</text>
+<text x="508.2" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">10%</text>
+<rect x="591.9" y="0.0" width="81.1" height="69.0" fill="#2e9340" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineLobbyPage: 23880 / 27712 bytes (86.2%)</title></rect>
+<text x="595.9" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">B3OnlineLo…</text>
+<text x="595.9" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">86%</text>
+<rect x="673.1" y="0.0" width="78.8" height="69.0" fill="#2e9c42" stroke="#0d1117" stroke-width="1.5"><title>GtLobbyDirtySock: 25768 / 26924 bytes (95.7%)</title></rect>
+<text x="677.1" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117">GtLobbyDir…</text>
+<text x="677.1" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#0d1117" opacity="0.8">96%</text>
+<rect x="751.9" y="0.0" width="72.8" height="69.0" fill="#2f4a34" stroke="#0d1117" stroke-width="1.5"><title>B3SatNavComponent: 4020 / 24864 bytes (16.2%)</title></rect>
+<text x="755.9" y="14.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">B3SatNavC…</text>
+<text x="755.9" y="29.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3" opacity="0.8">16%</text>
+<rect x="824.7" y="0.0" width="60.8" height="69.0" fill="#2f4433" stroke="#0d1117" stroke-width="1.5"><title>B3CrashActionDirector: 2496 / 20776 bytes (12.0%)</title></rect>
+<text x="828.7" y="12.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3CrashAc…</text>
+<text x="828.7" y="25.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">12%</text>
+<rect x="885.5" y="0.0" width="57.8" height="69.0" fill="#2e8b3f" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkManager: 15280 / 19744 bytes (77.4%)</title></rect>
+<text x="889.5" y="12.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117">B3Networ…</text>
+<text x="889.5" y="25.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117" opacity="0.8">77%</text>
+<rect x="943.3" y="0.0" width="56.7" height="69.0" fill="#2f4d34" stroke="#0d1117" stroke-width="1.5"><title>B3AITarget: 3592 / 19364 bytes (18.5%)</title></rect>
+<text x="947.3" y="12.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3AITarg…</text>
+<text x="947.3" y="25.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">19%</text>
+<rect x="504.2" y="69.0" width="61.1" height="63.2" fill="#2f6138" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficSystem: 6980 / 19136 bytes (36.5%)</title></rect>
+<text x="508.2" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Traffic…</text>
+<text x="508.2" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">36%</text>
+<rect x="504.2" y="132.2" width="61.1" height="62.3" fill="#2f3330" stroke="#0d1117" stroke-width="1.5"><title>B3Globe2dObject: 284 / 18864 bytes (1.5%)</title></rect>
+<text x="508.2" y="144.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Globe2d…</text>
+<text x="508.2" y="157.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">2%</text>
+<rect x="504.2" y="194.5" width="61.1" height="61.1" fill="#2e6e3a" stroke="#0d1117" stroke-width="1.5"><title>B3OnScreenKeyboardComponent: 8904 / 18496 bytes (48.1%)</title></rect>
+<text x="508.2" y="206.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3OnScree…</text>
+<text x="508.2" y="219.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">48%</text>
+<rect x="504.2" y="255.7" width="61.1" height="58.5" fill="#2f4733" stroke="#0d1117" stroke-width="1.5"><title>B3HUDBoostBar: 2520 / 17692 bytes (14.2%)</title></rect>
+<text x="508.2" y="267.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3HUDBoos…</text>
+<text x="508.2" y="280.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">14%</text>
+<rect x="504.2" y="314.1" width="61.1" height="57.6" fill="#2f5937" stroke="#0d1117" stroke-width="1.5"><title>B3AIAvoidance: 5044 / 17424 bytes (28.9%)</title></rect>
+<text x="508.2" y="326.1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3AIAvoid…</text>
+<text x="508.2" y="339.1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">29%</text>
+<rect x="504.2" y="371.7" width="61.1" height="56.6" fill="#2f3430" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourFlyAround: 332 / 17116 bytes (1.9%)</title></rect>
+<text x="508.2" y="383.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Behavio…</text>
+<text x="508.2" y="396.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">2%</text>
+<rect x="504.2" y="428.2" width="61.1" height="56.1" fill="#2e6d3a" stroke="#0d1117" stroke-width="1.5"><title>B3Profile: 7988 / 16988 bytes (47.0%)</title></rect>
+<text x="508.2" y="440.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Profile</text>
+<text x="508.2" y="453.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">47%</text>
+<rect x="504.2" y="484.4" width="61.1" height="55.6" fill="#2f3931" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourCluster: 776 / 16836 bytes (4.6%)</title></rect>
+<text x="508.2" y="496.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Behavio…</text>
+<text x="508.2" y="509.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">5%</text>
+<rect x="565.3" y="69.0" width="61.6" height="53.7" fill="#2a713b" stroke="#0d1117" stroke-width="1.5"><title>? 0x240000: 8796 / 16388 bytes (53.7%)</title></rect>
+<text x="569.3" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">? 0x240000</text>
+<text x="569.3" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">54%</text>
+<rect x="626.9" y="69.0" width="59.4" height="53.7" fill="#2b823e" stroke="#0d1117" stroke-width="1.5"><title>? 0x100000: 11012 / 15788 bytes (69.7%)</title></rect>
+<text x="630.9" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117">? 0x1000…</text>
+<text x="630.9" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117" opacity="0.8">70%</text>
+<rect x="686.3" y="69.0" width="58.0" height="53.7" fill="#273b32" stroke="#0d1117" stroke-width="1.5"><title>? 0x180000: 1524 / 15432 bytes (9.9%)</title></rect>
+<text x="690.3" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">? 0x1800…</text>
+<text x="690.3" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">10%</text>
+<rect x="744.3" y="69.0" width="55.0" height="53.7" fill="#2f3130" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourTrackSide: 44 / 14628 bytes (0.3%)</title></rect>
+<text x="748.3" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Behavi…</text>
+<text x="748.3" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">0%</text>
+<rect x="799.3" y="69.0" width="54.2" height="53.7" fill="#2e743b" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineJoinGamePage: 7772 / 14412 bytes (53.9%)</title></rect>
+<text x="803.3" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Onlin…</text>
+<text x="803.3" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">54%</text>
+<rect x="853.5" y="69.0" width="50.2" height="53.7" fill="#2f6238" stroke="#0d1117" stroke-width="1.5"><title>B3PlayerCarPhysics: 4924 / 13344 bytes (36.9%)</title></rect>
+<text x="857.5" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Playe…</text>
+<text x="857.5" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">37%</text>
+<rect x="903.7" y="69.0" width="48.8" height="53.7" fill="#285236" stroke="#0d1117" stroke-width="1.5"><title>? 0x1C0000: 3504 / 12980 bytes (27.0%)</title></rect>
+<text x="907.7" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">? 0x1C…</text>
+<text x="907.7" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">27%</text>
+<rect x="952.5" y="69.0" width="47.5" height="53.7" fill="#2e9541" stroke="#0d1117" stroke-width="1.5"><title>GtSphereTree: 11104 / 12628 bytes (87.9%)</title></rect>
+<text x="956.5" y="81.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117">GtSphe…</text>
+<text x="956.5" y="94.0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117" opacity="0.8">88%</text>
+<rect x="565.3" y="122.7" width="49.7" height="50.5" fill="#2c893f" stroke="#0d1117" stroke-width="1.5"><title>? 0x280000: 9552 / 12428 bytes (76.9%)</title></rect>
+<text x="569.3" y="134.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117">? 0x280…</text>
+<text x="569.3" y="147.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117" opacity="0.8">77%</text>
+<rect x="565.3" y="173.2" width="49.7" height="49.4" fill="#2f5135" stroke="#0d1117" stroke-width="1.5"><title>B3AIAggressionBehaviour: 2644 / 12148 bytes (21.8%)</title></rect>
+<text x="569.3" y="185.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3AIAgg…</text>
+<text x="569.3" y="198.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">22%</text>
+<rect x="565.3" y="222.6" width="49.7" height="48.5" fill="#2e703a" stroke="#0d1117" stroke-width="1.5"><title>B3AILane: 5976 / 11932 bytes (50.1%)</title></rect>
+<text x="569.3" y="234.6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3AILane</text>
+<text x="569.3" y="247.6" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">50%</text>
+<rect x="565.3" y="271.2" width="49.7" height="47.2" fill="#2f5d37" stroke="#0d1117" stroke-width="1.5"><title>GtNATDataManager: 3788 / 11608 bytes (32.6%)</title></rect>
+<text x="569.3" y="283.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">GtNATDa…</text>
+<text x="569.3" y="296.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">33%</text>
+<rect x="565.3" y="318.4" width="49.7" height="47.0" fill="#2f6238" stroke="#0d1117" stroke-width="1.5"><title>Gt2dRendererPS2: 4300 / 11556 bytes (37.2%)</title></rect>
+<text x="569.3" y="330.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">Gt2dRen…</text>
+<text x="569.3" y="343.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">37%</text>
+<rect x="565.3" y="365.4" width="49.7" height="45.4" fill="#2e6c3a" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficParam: 5144 / 11156 bytes (46.1%)</title></rect>
+<text x="569.3" y="377.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Traff…</text>
+<text x="569.3" y="390.4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">46%</text>
+<rect x="565.3" y="410.7" width="49.7" height="43.5" fill="#2f3330" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourRaceCarFollow: 144 / 10696 bytes (1.3%)</title></rect>
+<text x="569.3" y="422.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Behav…</text>
+<text x="569.3" y="435.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">1%</text>
+<rect x="565.3" y="454.2" width="49.7" height="43.3" fill="#2e813d" stroke="#0d1117" stroke-width="1.5"><title>B3CrashCombo: 7116 / 10640 bytes (66.9%)</title></rect>
+<text x="569.3" y="466.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117">B3Crash…</text>
+<text x="569.3" y="479.2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#0d1117" opacity="0.8">67%</text>
+<rect x="565.3" y="497.5" width="49.7" height="42.5" fill="#2f3b31" stroke="#0d1117" stroke-width="1.5"><title>B3CarViewerGameMode: 600 / 10448 bytes (5.7%)</title></rect>
+<text x="569.3" y="509.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3CarVi…</text>
+<text x="569.3" y="522.5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">6%</text>
+<rect x="614.9" y="122.7" width="46.2" height="44.5" fill="#2f3e32" stroke="#0d1117" stroke-width="1.5"><title>B3CollidingBody: 768 / 10164 bytes (7.6%)</title></rect>
+<text x="618.9" y="134.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3">B3Coll…</text>
+<text x="618.9" y="147.7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#e6edf3" opacity="0.8">8%</text>
+<rect x="661.1" y="122.7" width="45.7" height="44.5" fill="#2f4a34" stroke="#0d1117" stroke-width="1.5"><title>B3Game: 1676 / 10064 bytes (16.7%)</title></rect>
+<rect x="706.8" y="122.7" width="44.4" height="44.5" fill="#2e6a39" stroke="#0d1117" stroke-width="1.5"><title>B3CrashCameraDirector: 4320 / 9780 bytes (44.2%)</title></rect>
+<rect x="751.3" y="122.7" width="43.3" height="44.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineBuddiesMenuPage: 9540 / 9540 bytes (100.0%)</title></rect>
+<rect x="794.6" y="122.7" width="42.9" height="44.5" fill="#2f5a37" stroke="#0d1117" stroke-width="1.5"><title>B3AICar: 2824 / 9452 bytes (29.9%)</title></rect>
+<rect x="837.5" y="122.7" width="41.8" height="44.5" fill="#2e6d3a" stroke="#0d1117" stroke-width="1.5"><title>B3RaceCar: 4336 / 9204 bytes (47.1%)</title></rect>
+<rect x="879.3" y="122.7" width="40.9" height="44.5" fill="#2f5b37" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficValve: 2760 / 8996 bytes (30.7%)</title></rect>
+<rect x="920.2" y="122.7" width="39.9" height="44.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineSelectLoginPage: 8792 / 8792 bytes (100.0%)</title></rect>
+<rect x="960.1" y="122.7" width="39.9" height="44.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundHUDManager: 8776 / 8776 bytes (100.0%)</title></rect>
+<rect x="614.9" y="167.1" width="39.1" height="45.0" fill="#2e9240" stroke="#0d1117" stroke-width="1.5"><title>B3HeadingComponent: 7432 / 8716 bytes (85.3%)</title></rect>
+<rect x="614.9" y="212.1" width="39.1" height="43.7" fill="#2f3931" stroke="#0d1117" stroke-width="1.5"><title>B3SunRendererPS2: 368 / 8472 bytes (4.3%)</title></rect>
+<rect x="614.9" y="255.8" width="39.1" height="43.0" fill="#2e6e3a" stroke="#0d1117" stroke-width="1.5"><title>B3SoundTrafficVehicle: 4060 / 8336 bytes (48.7%)</title></rect>
+<rect x="614.9" y="298.8" width="39.1" height="41.1" fill="#2e8e3f" stroke="#0d1117" stroke-width="1.5"><title>B3World: 6404 / 7960 bytes (80.5%)</title></rect>
+<rect x="614.9" y="339.9" width="39.1" height="41.0" fill="#2e7a3c" stroke="#0d1117" stroke-width="1.5"><title>B3StreamedTrack: 4768 / 7940 bytes (60.1%)</title></rect>
+<rect x="614.9" y="380.8" width="39.1" height="40.6" fill="#2f4032" stroke="#0d1117" stroke-width="1.5"><title>B3CameraUtils: 720 / 7872 bytes (9.1%)</title></rect>
+<rect x="614.9" y="421.5" width="39.1" height="40.3" fill="#2f5b37" stroke="#0d1117" stroke-width="1.5"><title>B3AIDriver: 2384 / 7808 bytes (30.5%)</title></rect>
+<rect x="614.9" y="461.7" width="39.1" height="39.2" fill="#2f3731" stroke="#0d1117" stroke-width="1.5"><title>B3WrongWayWall: 248 / 7592 bytes (3.3%)</title></rect>
+<rect x="614.9" y="500.9" width="39.1" height="39.1" fill="#2f5c37" stroke="#0d1117" stroke-width="1.5"><title>B3RaceCarPhysicsAttribs: 2364 / 7576 bytes (31.2%)</title></rect>
+<rect x="654.1" y="167.1" width="39.6" height="38.4" fill="#2f3e32" stroke="#0d1117" stroke-width="1.5"><title>B3ConvexHullCollide: 596 / 7532 bytes (7.9%)</title></rect>
+<rect x="693.7" y="167.1" width="39.5" height="38.4" fill="#2f4733" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficSystemLoadAndRender: 1056 / 7516 bytes (14.1%)</title></rect>
+<rect x="733.2" y="167.1" width="39.0" height="38.4" fill="#2e9741" stroke="#0d1117" stroke-width="1.5"><title>B3SoundRaceCarManager: 6760 / 7420 bytes (91.1%)</title></rect>
+<rect x="772.2" y="167.1" width="38.9" height="38.4" fill="#2e6839" stroke="#0d1117" stroke-width="1.5"><title>B3HUDScore: 3156 / 7404 bytes (42.6%)</title></rect>
+<rect x="811.1" y="167.1" width="38.4" height="38.4" fill="#2f5536" stroke="#0d1117" stroke-width="1.5"><title>B3MessageBoxComponent: 1872 / 7308 bytes (25.6%)</title></rect>
+<rect x="849.5" y="167.1" width="38.0" height="38.4" fill="#2e7e3d" stroke="#0d1117" stroke-width="1.5"><title>B3HUDManager: 4652 / 7228 bytes (64.4%)</title></rect>
+<rect x="887.5" y="167.1" width="38.0" height="38.4" fill="#2e9040" stroke="#0d1117" stroke-width="1.5"><title>B3PromptsComponent: 5996 / 7220 bytes (83.0%)</title></rect>
+<rect x="925.5" y="167.1" width="37.3" height="38.4" fill="#2f3831" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourEffect: 296 / 7092 bytes (4.2%)</title></rect>
+<rect x="962.8" y="167.1" width="37.2" height="38.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtNetworkPlayerManager: 7084 / 7084 bytes (100.0%)</title></rect>
+<rect x="654.1" y="205.5" width="35.1" height="39.2" fill="#2e723b" stroke="#0d1117" stroke-width="1.5"><title>B3TrackRendererRuntimePS2: 3552 / 6820 bytes (52.1%)</title></rect>
+<rect x="654.1" y="244.7" width="35.1" height="38.6" fill="#2e6f3a" stroke="#0d1117" stroke-width="1.5"><title>B3BuddyDisplayComponent: 3320 / 6712 bytes (49.5%)</title></rect>
+<rect x="654.1" y="283.3" width="35.1" height="37.5" fill="#2e7f3d" stroke="#0d1117" stroke-width="1.5"><title>B3SoundSkidModel: 4240 / 6524 bytes (65.0%)</title></rect>
+<rect x="654.1" y="320.8" width="35.1" height="37.1" fill="#2e823d" stroke="#0d1117" stroke-width="1.5"><title>B3StopJunction: 4380 / 6452 bytes (67.9%)</title></rect>
+<rect x="654.1" y="357.9" width="35.1" height="36.8" fill="#2e843e" stroke="#0d1117" stroke-width="1.5"><title>B3MenuChoices: 4520 / 6396 bytes (70.7%)</title></rect>
+<rect x="654.1" y="394.6" width="35.1" height="36.6" fill="#2e7d3d" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectTable: 4028 / 6372 bytes (63.2%)</title></rect>
+<rect x="654.1" y="431.2" width="35.1" height="36.3" fill="#2f5335" stroke="#0d1117" stroke-width="1.5"><title>B3RacePosition: 1496 / 6320 bytes (23.7%)</title></rect>
+<rect x="654.1" y="467.5" width="35.1" height="36.3" fill="#2f6438" stroke="#0d1117" stroke-width="1.5"><title>B3ConvexHull: 2468 / 6316 bytes (39.1%)</title></rect>
+<rect x="654.1" y="503.8" width="35.1" height="36.2" fill="#2e6b3a" stroke="#0d1117" stroke-width="1.5"><title>B3ParticleRendererPS2: 2844 / 6296 bytes (45.2%)</title></rect>
+<rect x="689.2" y="205.5" width="35.9" height="35.0" fill="#2e8d3f" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineStageLogic: 4992 / 6232 bytes (80.1%)</title></rect>
+<rect x="725.1" y="205.5" width="35.5" height="35.0" fill="#2f5336" stroke="#0d1117" stroke-width="1.5"><title>B3AICarPhysics: 1464 / 6164 bytes (23.8%)</title></rect>
+<rect x="760.6" y="205.5" width="35.3" height="35.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineSelectPersonaPage: 6132 / 6132 bytes (100.0%)</title></rect>
+<rect x="796.0" y="205.5" width="34.7" height="35.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundVirtualVoice: 6024 / 6024 bytes (100.0%)</title></rect>
+<rect x="830.7" y="205.5" width="34.6" height="35.0" fill="#2f5f38" stroke="#0d1117" stroke-width="1.5"><title>B3SparkRendererPS2: 2052 / 6012 bytes (34.1%)</title></rect>
+<rect x="865.3" y="205.5" width="34.1" height="35.0" fill="#2f5135" stroke="#0d1117" stroke-width="1.5"><title>B3VSelectComponent: 1328 / 5916 bytes (22.4%)</title></rect>
+<rect x="899.4" y="205.5" width="33.9" height="35.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>Gt2dFrameHierarchy: 5888 / 5888 bytes (100.0%)</title></rect>
+<rect x="933.3" y="205.5" width="33.4" height="35.0" fill="#2e6939" stroke="#0d1117" stroke-width="1.5"><title>B3EnvironmentManager: 2536 / 5804 bytes (43.7%)</title></rect>
+<rect x="966.8" y="205.5" width="33.2" height="35.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3InputManager: 5768 / 5768 bytes (100.0%)</title></rect>
+<rect x="689.2" y="240.6" width="33.2" height="34.2" fill="#2f3831" stroke="#0d1117" stroke-width="1.5"><title>GtCollisionKDTree: 224 / 5620 bytes (4.0%)</title></rect>
+<rect x="689.2" y="274.8" width="33.2" height="33.9" fill="#2f4b34" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkCarPhysics: 968 / 5572 bytes (17.4%)</title></rect>
+<rect x="689.2" y="308.6" width="33.2" height="33.8" fill="#2f5d37" stroke="#0d1117" stroke-width="1.5"><title>B3BodyPartPhysics: 1788 / 5560 bytes (32.2%)</title></rect>
+<rect x="689.2" y="342.4" width="33.2" height="33.7" fill="#2e7a3c" stroke="#0d1117" stroke-width="1.5"><title>B3HelpBarComponent: 3320 / 5540 bytes (59.9%)</title></rect>
+<rect x="689.2" y="376.1" width="33.2" height="33.5" fill="#2f5235" stroke="#0d1117" stroke-width="1.5"><title>B3VehicleRendererRuntime: 1264 / 5508 bytes (22.9%)</title></rect>
+<rect x="689.2" y="409.6" width="33.2" height="33.3" fill="#2e863e" stroke="#0d1117" stroke-width="1.5"><title>B3CrashAnalyser: 3964 / 5480 bytes (72.3%)</title></rect>
+<rect x="689.2" y="442.9" width="33.2" height="32.6" fill="#2e883f" stroke="#0d1117" stroke-width="1.5"><title>B3SoundTrafficManager: 4000 / 5356 bytes (74.7%)</title></rect>
+<rect x="689.2" y="475.4" width="33.2" height="32.5" fill="#2e843e" stroke="#0d1117" stroke-width="1.5"><title>B3ScoreBonus: 3764 / 5348 bytes (70.4%)</title></rect>
+<rect x="689.2" y="508.0" width="33.2" height="32.0" fill="#2e733b" stroke="#0d1117" stroke-width="1.5"><title>B3SoundGameModeManager: 2788 / 5272 bytes (52.9%)</title></rect>
+<rect x="722.4" y="240.6" width="32.9" height="31.9" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B3GlobeComponent: 0 / 5184 bytes (0.0%)</title></rect>
+<rect x="755.3" y="240.6" width="31.7" height="31.9" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtBuddiesPS2DirtySock: 5008 / 5008 bytes (100.0%)</title></rect>
+<rect x="787.0" y="240.6" width="31.6" height="31.9" fill="#2f5b37" stroke="#0d1117" stroke-width="1.5"><title>B3BackgroundComponent: 1544 / 4992 bytes (30.9%)</title></rect>
+<rect x="818.7" y="240.6" width="31.4" height="31.9" fill="#2e6f3a" stroke="#0d1117" stroke-width="1.5"><title>B3PhysicsManagerDebug: 2428 / 4956 bytes (49.0%)</title></rect>
+<rect x="850.1" y="240.6" width="30.9" height="31.9" fill="#2f5b37" stroke="#0d1117" stroke-width="1.5"><title>B3BloomPS2: 1492 / 4868 bytes (30.6%)</title></rect>
+<rect x="881.0" y="240.6" width="30.3" height="31.9" fill="#2e9741" stroke="#0d1117" stroke-width="1.5"><title>B3SoundESM: 4312 / 4788 bytes (90.1%)</title></rect>
+<rect x="911.3" y="240.6" width="30.0" height="31.9" fill="#2f3831" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficDebug: 192 / 4740 bytes (4.1%)</title></rect>
+<rect x="941.4" y="240.6" width="29.4" height="31.9" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GTMemoryDevicePS2_MC2: 4644 / 4644 bytes (100.0%)</title></rect>
+<rect x="970.8" y="240.6" width="29.2" height="31.9" fill="#2e813d" stroke="#0d1117" stroke-width="1.5"><title>B3SoundRaceCar: 3088 / 4608 bytes (67.0%)</title></rect>
+<rect x="722.4" y="272.4" width="29.6" height="31.3" fill="#2f3c32" stroke="#0d1117" stroke-width="1.5"><title>GtIntersectionPS2: 300 / 4592 bytes (6.5%)</title></rect>
+<rect x="722.4" y="303.7" width="29.6" height="30.7" fill="#2f5235" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficPhysics: 1024 / 4508 bytes (22.7%)</title></rect>
+<rect x="722.4" y="334.4" width="29.6" height="30.7" fill="#2e9841" stroke="#0d1117" stroke-width="1.5"><title>B3TableComponent: 4132 / 4508 bytes (91.7%)</title></rect>
+<rect x="722.4" y="365.2" width="29.6" height="30.6" fill="#2e723b" stroke="#0d1117" stroke-width="1.5"><title>B3StreamedTrackPS2: 2344 / 4492 bytes (52.2%)</title></rect>
+<rect x="722.4" y="395.8" width="29.6" height="29.7" fill="#2f6639" stroke="#0d1117" stroke-width="1.5"><title>B3MemoryManager: 1784 / 4356 bytes (41.0%)</title></rect>
+<rect x="722.4" y="425.4" width="29.6" height="29.2" fill="#2f3130" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourRotate: 16 / 4288 bytes (0.4%)</title></rect>
+<rect x="722.4" y="454.6" width="29.6" height="29.0" fill="#2e6939" stroke="#0d1117" stroke-width="1.5"><title>GtMalloc: 1860 / 4260 bytes (43.7%)</title></rect>
+<rect x="722.4" y="483.7" width="29.6" height="28.9" fill="#2e8d3f" stroke="#0d1117" stroke-width="1.5"><title>B3SoundDistPS2: 3404 / 4240 bytes (80.3%)</title></rect>
+<rect x="722.4" y="512.6" width="29.6" height="27.4" fill="#2f4533" stroke="#0d1117" stroke-width="1.5"><title>B3DirectionalBlurPS2: 500 / 4028 bytes (12.4%)</title></rect>
+<rect x="752.1" y="272.4" width="28.4" height="28.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3AIAttribs: 4016 / 4016 bytes (100.0%)</title></rect>
+<rect x="780.5" y="272.4" width="28.4" height="28.5" fill="#2f5836" stroke="#0d1117" stroke-width="1.5"><title>B3DebrisRendererPS2: 1124 / 4016 bytes (28.0%)</title></rect>
+<rect x="808.9" y="272.4" width="28.0" height="28.5" fill="#2f4c34" stroke="#0d1117" stroke-width="1.5"><title>B3RadialBlurPS2: 724 / 3960 bytes (18.3%)</title></rect>
+<rect x="836.9" y="272.4" width="28.0" height="28.5" fill="#2f4834" stroke="#0d1117" stroke-width="1.5"><title>GtUnicode: 588 / 3952 bytes (14.9%)</title></rect>
+<rect x="864.9" y="272.4" width="27.8" height="28.5" fill="#2e9441" stroke="#0d1117" stroke-width="1.5"><title>B3PlayerCameraManager: 3424 / 3928 bytes (87.2%)</title></rect>
+<rect x="892.6" y="272.4" width="27.3" height="28.5" fill="#2e9240" stroke="#0d1117" stroke-width="1.5"><title>B3Im3DPS2: 3292 / 3864 bytes (85.2%)</title></rect>
+<rect x="920.0" y="272.4" width="26.8" height="28.5" fill="#2f3430" stroke="#0d1117" stroke-width="1.5"><title>B3ConvexHullMaker: 72 / 3792 bytes (1.9%)</title></rect>
+<rect x="946.8" y="272.4" width="26.7" height="28.5" fill="#2e753b" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectItalicText: 2076 / 3776 bytes (55.0%)</title></rect>
+<rect x="973.5" y="272.4" width="26.5" height="28.5" fill="#2f4433" stroke="#0d1117" stroke-width="1.5"><title>GtVideoDecoderPS2: 440 / 3744 bytes (11.8%)</title></rect>
+<rect x="752.1" y="301.0" width="26.1" height="28.2" fill="#2f4633" stroke="#0d1117" stroke-width="1.5"><title>B3FrontEnd: 480 / 3656 bytes (13.1%)</title></rect>
+<rect x="752.1" y="329.2" width="26.1" height="27.9" fill="#2f5c37" stroke="#0d1117" stroke-width="1.5"><title>B3MenuPageManager: 1144 / 3612 bytes (31.7%)</title></rect>
+<rect x="752.1" y="357.1" width="26.1" height="27.7" fill="#2e793c" stroke="#0d1117" stroke-width="1.5"><title>GtTextureCachePS2: 2128 / 3588 bytes (59.3%)</title></rect>
+<rect x="752.1" y="384.8" width="26.1" height="27.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3CameraAttribs: 3540 / 3540 bytes (100.0%)</title></rect>
+<rect x="752.1" y="412.2" width="26.1" height="26.1" fill="#2f3731" stroke="#0d1117" stroke-width="1.5"><title>B3CrashPickup: 108 / 3384 bytes (3.2%)</title></rect>
+<rect x="752.1" y="438.3" width="26.1" height="25.8" fill="#2e8b3f" stroke="#0d1117" stroke-width="1.5"><title>B3SFIOCallbacksPS2: 2580 / 3340 bytes (77.2%)</title></rect>
+<rect x="752.1" y="464.1" width="26.1" height="25.5" fill="#2f4132" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourOffset: 316 / 3296 bytes (9.6%)</title></rect>
+<rect x="752.1" y="489.6" width="26.1" height="25.4" fill="#2e7d3d" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectText: 2076 / 3284 bytes (63.2%)</title></rect>
+<rect x="752.1" y="514.9" width="26.1" height="25.1" fill="#2f5536" stroke="#0d1117" stroke-width="1.5"><title>B3FogPS2: 824 / 3244 bytes (25.4%)</title></rect>
+<rect x="778.2" y="301.0" width="25.5" height="24.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundRealVoice: 3116 / 3116 bytes (100.0%)</title></rect>
+<rect x="803.7" y="301.0" width="25.0" height="24.7" fill="#2e883e" stroke="#0d1117" stroke-width="1.5"><title>B3HUDComponent: 2272 / 3060 bytes (74.2%)</title></rect>
+<rect x="828.8" y="301.0" width="25.0" height="24.7" fill="#2e743b" stroke="#0d1117" stroke-width="1.5"><title>B3SoundPlayerCar: 1660 / 3060 bytes (54.2%)</title></rect>
+<rect x="853.8" y="301.0" width="24.6" height="24.7" fill="#2e763b" stroke="#0d1117" stroke-width="1.5"><title>B3DebugManager: 1680 / 3000 bytes (56.0%)</title></rect>
+<rect x="878.4" y="301.0" width="24.6" height="24.7" fill="#2f5736" stroke="#0d1117" stroke-width="1.5"><title>B3VehicleRendererRuntimePS2: 820 / 3000 bytes (27.3%)</title></rect>
+<rect x="902.9" y="301.0" width="24.6" height="24.7" fill="#2e6a39" stroke="#0d1117" stroke-width="1.5"><title>B3SoundCrashedTraffic: 1332 / 3000 bytes (44.4%)</title></rect>
+<rect x="927.5" y="301.0" width="24.3" height="24.7" fill="#2e7e3d" stroke="#0d1117" stroke-width="1.5"><title>B3OfflineStageLogic: 1904 / 2968 bytes (64.2%)</title></rect>
+<rect x="951.7" y="301.0" width="24.2" height="24.7" fill="#2f5f38" stroke="#0d1117" stroke-width="1.5"><title>B3BehaviourInterpolate: 1004 / 2952 bytes (34.0%)</title></rect>
+<rect x="975.9" y="301.0" width="24.1" height="24.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ChatDisplayComponent: 2944 / 2944 bytes (100.0%)</title></rect>
+<rect x="778.2" y="325.7" width="24.2" height="24.5" fill="#2e9140" stroke="#0d1117" stroke-width="1.5"><title>GtNetworkHeadset: 2460 / 2936 bytes (83.8%)</title></rect>
+<rect x="778.2" y="350.1" width="24.2" height="24.2" fill="#2e9441" stroke="#0d1117" stroke-width="1.5"><title>B3SkyDomeRendererPS2: 2544 / 2908 bytes (87.5%)</title></rect>
+<rect x="778.2" y="374.4" width="24.2" height="24.2" fill="#2f4f35" stroke="#0d1117" stroke-width="1.5"><title>B3BoostEffectParams: 604 / 2900 bytes (20.8%)</title></rect>
+<rect x="778.2" y="398.5" width="24.2" height="23.9" fill="#2f6238" stroke="#0d1117" stroke-width="1.5"><title>B3PopcornRendererPS2: 1052 / 2864 bytes (36.7%)</title></rect>
+<rect x="778.2" y="422.4" width="24.2" height="23.7" fill="#2f4a34" stroke="#0d1117" stroke-width="1.5"><title>B3HUDPrimaryMessageHandler: 480 / 2848 bytes (16.9%)</title></rect>
+<rect x="778.2" y="446.1" width="24.2" height="23.7" fill="#2e8f40" stroke="#0d1117" stroke-width="1.5"><title>GtPS2LibNet: 2340 / 2840 bytes (82.4%)</title></rect>
+<rect x="778.2" y="469.8" width="24.2" height="23.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtFileSystemPS2DVD: 2828 / 2828 bytes (100.0%)</title></rect>
+<rect x="778.2" y="493.3" width="24.2" height="23.5" fill="#2e743b" stroke="#0d1117" stroke-width="1.5"><title>B3CoronaRendererPS2: 1528 / 2824 bytes (54.1%)</title></rect>
+<rect x="778.2" y="516.9" width="24.2" height="23.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineTurnBasedCrashLogic: 2776 / 2776 bytes (100.0%)</title></rect>
+<rect x="802.5" y="325.7" width="23.2" height="24.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficLane: 2752 / 2752 bytes (100.0%)</title></rect>
+<rect x="825.6" y="325.7" width="22.6" height="24.0" fill="#2e723b" stroke="#0d1117" stroke-width="1.5"><title>B3TrailSystem: 1412 / 2688 bytes (52.5%)</title></rect>
+<rect x="848.3" y="325.7" width="22.4" height="24.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3WorldPS2: 2660 / 2660 bytes (100.0%)</title></rect>
+<rect x="870.6" y="325.7" width="22.3" height="24.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3GraphicsManager: 2644 / 2644 bytes (100.0%)</title></rect>
+<rect x="892.9" y="325.7" width="21.7" height="24.0" fill="#2e753b" stroke="#0d1117" stroke-width="1.5"><title>B3OnePlayerStage: 1416 / 2576 bytes (55.0%)</title></rect>
+<rect x="914.6" y="325.7" width="21.7" height="24.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundStream: 2576 / 2576 bytes (100.0%)</title></rect>
+<rect x="936.3" y="325.7" width="21.6" height="24.0" fill="#2f3e32" stroke="#0d1117" stroke-width="1.5"><title>B3PropPhysics: 204 / 2564 bytes (8.0%)</title></rect>
+<rect x="957.8" y="325.7" width="21.3" height="24.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3Burn: 2536 / 2536 bytes (100.0%)</title></rect>
+<rect x="979.2" y="325.7" width="20.8" height="24.0" fill="#2f3530" stroke="#0d1117" stroke-width="1.5"><title>B3DirectionalBlur: 56 / 2472 bytes (2.3%)</title></rect>
+<rect x="802.5" y="349.7" width="22.9" height="21.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundManager: 2464 / 2464 bytes (100.0%)</title></rect>
+<rect x="802.5" y="371.4" width="22.9" height="21.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundVoiceManager: 2452 / 2452 bytes (100.0%)</title></rect>
+<rect x="802.5" y="393.0" width="22.9" height="21.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtInputDevicePS2DualShock2: 2448 / 2448 bytes (100.0%)</title></rect>
+<rect x="802.5" y="414.5" width="22.9" height="21.4" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B3BoundingBox: 0 / 2428 bytes (0.0%)</title></rect>
+<rect x="802.5" y="435.9" width="22.9" height="21.1" fill="#2f4a34" stroke="#0d1117" stroke-width="1.5"><title>B3MemoryManagerPS2: 392 / 2400 bytes (16.3%)</title></rect>
+<rect x="802.5" y="457.0" width="22.9" height="21.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HardCodedRaceStageList: 2384 / 2384 bytes (100.0%)</title></rect>
+<rect x="802.5" y="478.0" width="22.9" height="20.7" fill="#2e893f" stroke="#0d1117" stroke-width="1.5"><title>B3CrashScore: 1780 / 2352 bytes (75.7%)</title></rect>
+<rect x="802.5" y="498.7" width="22.9" height="20.7" fill="#2e703a" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineSelNetConfigPage: 1180 / 2348 bytes (50.3%)</title></rect>
+<rect x="802.5" y="519.4" width="22.9" height="20.6" fill="#2f5736" stroke="#0d1117" stroke-width="1.5"><title>GtViewport: 632 / 2336 bytes (27.1%)</title></rect>
+<rect x="825.4" y="349.7" width="22.4" height="20.2" fill="#2f6438" stroke="#0d1117" stroke-width="1.5"><title>B3TitleScreenComponent: 872 / 2236 bytes (39.0%)</title></rect>
+<rect x="847.7" y="349.7" width="22.4" height="20.2" fill="#2f3230" stroke="#0d1117" stroke-width="1.5"><title>B3CrashRamp: 24 / 2236 bytes (1.1%)</title></rect>
+<rect x="870.1" y="349.7" width="22.3" height="20.2" fill="#2f4b34" stroke="#0d1117" stroke-width="1.5"><title>B3SoundTrafficPass: 392 / 2232 bytes (17.6%)</title></rect>
+<rect x="892.4" y="349.7" width="22.3" height="20.2" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineConnectingPage: 2232 / 2232 bytes (100.0%)</title></rect>
+<rect x="914.7" y="349.7" width="22.1" height="20.2" fill="#2e7c3c" stroke="#0d1117" stroke-width="1.5"><title>B3SoundESMStruct: 1372 / 2212 bytes (62.0%)</title></rect>
+<rect x="936.8" y="349.7" width="21.1" height="20.2" fill="#2e6e3a" stroke="#0d1117" stroke-width="1.5"><title>B3StageLogic: 1020 / 2112 bytes (48.3%)</title></rect>
+<rect x="957.9" y="349.7" width="21.1" height="20.2" fill="#2e743b" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficAxle: 1132 / 2108 bytes (53.7%)</title></rect>
+<rect x="979.0" y="349.7" width="21.0" height="20.2" fill="#2f4834" stroke="#0d1117" stroke-width="1.5"><title>Gt2dBezierCurve: 308 / 2100 bytes (14.7%)</title></rect>
+<rect x="825.4" y="369.9" width="19.5" height="21.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundAICar: 2096 / 2096 bytes (100.0%)</title></rect>
+<rect x="825.4" y="391.6" width="19.5" height="21.7" fill="#2e843e" stroke="#0d1117" stroke-width="1.5"><title>GtFileSystem: 1460 / 2088 bytes (69.9%)</title></rect>
+<rect x="825.4" y="413.3" width="19.5" height="21.6" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B3Shadows: 0 / 2084 bytes (0.0%)</title></rect>
+<rect x="825.4" y="434.9" width="19.5" height="21.5" fill="#2f4633" stroke="#0d1117" stroke-width="1.5"><title>B3SoundListener: 276 / 2072 bytes (13.3%)</title></rect>
+<rect x="825.4" y="456.4" width="19.5" height="21.2" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3AIArbitrator: 2048 / 2048 bytes (100.0%)</title></rect>
+<rect x="825.4" y="477.6" width="19.5" height="21.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3StaticTrackData: 2028 / 2028 bytes (100.0%)</title></rect>
+<rect x="825.4" y="498.6" width="19.5" height="20.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OfflineRoadRageLogic: 2008 / 2008 bytes (100.0%)</title></rect>
+<rect x="825.4" y="519.5" width="19.5" height="20.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>Gt2dFont: 1980 / 1980 bytes (100.0%)</title></rect>
+<rect x="844.9" y="369.9" width="20.0" height="19.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineBuddiesState: 1936 / 1936 bytes (100.0%)</title></rect>
+<rect x="864.8" y="369.9" width="19.9" height="19.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3DataLists: 1932 / 1932 bytes (100.0%)</title></rect>
+<rect x="884.7" y="369.9" width="19.8" height="19.6" fill="#2f5636" stroke="#0d1117" stroke-width="1.5"><title>B3HUDPrimaryMessage: 500 / 1916 bytes (26.1%)</title></rect>
+<rect x="904.5" y="369.9" width="19.7" height="19.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3StaticTrack: 1912 / 1912 bytes (100.0%)</title></rect>
+<rect x="924.2" y="369.9" width="19.6" height="19.6" fill="#2e6f3a" stroke="#0d1117" stroke-width="1.5"><title>B3GamePS2: 932 / 1896 bytes (49.2%)</title></rect>
+<rect x="943.8" y="369.9" width="18.9" height="19.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3InputManagerPS2: 1836 / 1836 bytes (100.0%)</title></rect>
+<rect x="962.7" y="369.9" width="18.9" height="19.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PageTextComponent: 1832 / 1832 bytes (100.0%)</title></rect>
+<rect x="981.6" y="369.9" width="18.4" height="19.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineRoadRageRaceLogic: 1784 / 1784 bytes (100.0%)</title></rect>
+<rect x="844.9" y="389.4" width="18.4" height="19.4" fill="#2e883f" stroke="#0d1117" stroke-width="1.5"><title>B3AsyncDataLoader: 1316 / 1764 bytes (74.6%)</title></rect>
+<rect x="844.9" y="408.8" width="18.4" height="19.1" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectVignette: 0 / 1744 bytes (0.0%)</title></rect>
+<rect x="844.9" y="427.9" width="18.4" height="19.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PropManager: 1744 / 1744 bytes (100.0%)</title></rect>
+<rect x="844.9" y="447.1" width="18.4" height="18.9" fill="#2f4d34" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineStage: 324 / 1720 bytes (18.8%)</title></rect>
+<rect x="844.9" y="465.9" width="18.4" height="18.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PlayerCar: 1704 / 1704 bytes (100.0%)</title></rect>
+<rect x="844.9" y="484.6" width="18.4" height="18.5" fill="#2f4133" stroke="#0d1117" stroke-width="1.5"><title>GtIntersection: 168 / 1684 bytes (10.0%)</title></rect>
+<rect x="844.9" y="503.1" width="18.4" height="18.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineLoginToLobbyState: 1684 / 1684 bytes (100.0%)</title></rect>
+<rect x="844.9" y="521.6" width="18.4" height="18.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ControllerMappingPS2: 1680 / 1680 bytes (100.0%)</title></rect>
+<rect x="863.3" y="389.4" width="17.6" height="19.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtInputManagerPS2Pad2: 1668 / 1668 bytes (100.0%)</title></rect>
+<rect x="880.9" y="389.4" width="17.6" height="19.1" fill="#2f3631" stroke="#0d1117" stroke-width="1.5"><title>GtCommsDatabase: 48 / 1660 bytes (2.9%)</title></rect>
+<rect x="898.5" y="389.4" width="17.3" height="19.1" fill="#2e883f" stroke="#0d1117" stroke-width="1.5"><title>B3SoundDSPBlock: 1216 / 1632 bytes (74.5%)</title></rect>
+<rect x="915.7" y="389.4" width="17.1" height="19.1" fill="#2e6d3a" stroke="#0d1117" stroke-width="1.5"><title>B3HUDTakedowns: 768 / 1616 bytes (47.5%)</title></rect>
+<rect x="932.8" y="389.4" width="16.9" height="19.1" fill="#2e6939" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectVideoImage: 692 / 1600 bytes (43.2%)</title></rect>
+<rect x="949.8" y="389.4" width="16.8" height="19.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficLight: 1588 / 1588 bytes (100.0%)</title></rect>
+<rect x="966.6" y="389.4" width="16.8" height="19.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtLogitechHeadset: 1584 / 1584 bytes (100.0%)</title></rect>
+<rect x="983.3" y="389.4" width="16.7" height="19.1" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B32dObjectGradient: 0 / 1576 bytes (0.0%)</title></rect>
+<rect x="863.3" y="408.5" width="18.5" height="17.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtInputDevicePS2DualShock: 1568 / 1568 bytes (100.0%)</title></rect>
+<rect x="863.3" y="425.6" width="18.5" height="17.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3BuddyReadMailComponent: 1568 / 1568 bytes (100.0%)</title></rect>
+<rect x="863.3" y="442.8" width="18.5" height="16.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineLobbyState: 1540 / 1540 bytes (100.0%)</title></rect>
+<rect x="863.3" y="459.6" width="18.5" height="16.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3StaticTrackPS2: 1512 / 1512 bytes (100.0%)</title></rect>
+<rect x="863.3" y="476.1" width="18.5" height="16.3" fill="#2f5e37" stroke="#0d1117" stroke-width="1.5"><title>B3ConnectionAnimationComponent: 500 / 1496 bytes (33.4%)</title></rect>
+<rect x="863.3" y="492.4" width="18.5" height="16.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineGameCreateState: 1464 / 1464 bytes (100.0%)</title></rect>
+<rect x="863.3" y="508.4" width="18.5" height="16.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundBankManager: 1464 / 1464 bytes (100.0%)</title></rect>
+<rect x="863.3" y="524.4" width="18.5" height="15.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HardCodedCrashStageList: 1432 / 1432 bytes (100.0%)</title></rect>
+<rect x="881.8" y="408.5" width="17.4" height="16.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3RewardImageComponent: 1420 / 1420 bytes (100.0%)</title></rect>
+<rect x="899.1" y="408.5" width="17.2" height="16.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineGameCreatePage: 1408 / 1408 bytes (100.0%)</title></rect>
+<rect x="916.4" y="408.5" width="17.0" height="16.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PlayerCameraStateCrashMode: 1392 / 1392 bytes (100.0%)</title></rect>
+<rect x="933.4" y="408.5" width="16.7" height="16.5" fill="#2e803d" stroke="#0d1117" stroke-width="1.5"><title>B3ShadowRendererPS2: 912 / 1368 bytes (66.7%)</title></rect>
+<rect x="950.2" y="408.5" width="16.6" height="16.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TextComponent: 1360 / 1360 bytes (100.0%)</title></rect>
+<rect x="966.8" y="408.5" width="16.6" height="16.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3DNASPage: 1360 / 1360 bytes (100.0%)</title></rect>
+<rect x="983.5" y="408.5" width="16.5" height="16.5" fill="#2e833e" stroke="#0d1117" stroke-width="1.5"><title>B3TrailRenderPS2: 932 / 1352 bytes (68.9%)</title></rect>
+<rect x="881.8" y="425.0" width="15.7" height="17.2" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PauseState: 1336 / 1336 bytes (100.0%)</title></rect>
+<rect x="881.8" y="442.3" width="15.7" height="16.5" fill="#2f3430" stroke="#0d1117" stroke-width="1.5"><title>B3SoundStaticPassManager: 24 / 1280 bytes (1.9%)</title></rect>
+<rect x="881.8" y="458.8" width="15.7" height="16.4" fill="#2e6e3a" stroke="#0d1117" stroke-width="1.5"><title>B3HUDTimer: 608 / 1272 bytes (47.8%)</title></rect>
+<rect x="881.8" y="475.2" width="15.7" height="16.4" fill="#2f6238" stroke="#0d1117" stroke-width="1.5"><title>Gt2dScene: 464 / 1268 bytes (36.6%)</title></rect>
+<rect x="881.8" y="491.5" width="15.7" height="16.4" fill="#2f4934" stroke="#0d1117" stroke-width="1.5"><title>B3FlashText2dObject: 204 / 1268 bytes (16.1%)</title></rect>
+<rect x="881.8" y="507.9" width="15.7" height="16.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MenuInput: 1244 / 1244 bytes (100.0%)</title></rect>
+<rect x="881.8" y="524.0" width="15.7" height="16.0" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectParagraph: 0 / 1244 bytes (0.0%)</title></rect>
+<rect x="897.4" y="425.0" width="14.9" height="16.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3VehiclePhysicsAttribs: 1236 / 1236 bytes (100.0%)</title></rect>
+<rect x="912.3" y="425.0" width="14.9" height="16.7" fill="#2e8d3f" stroke="#0d1117" stroke-width="1.5"><title>B3ScrapeSystem: 980 / 1236 bytes (79.3%)</title></rect>
+<rect x="927.3" y="425.0" width="14.8" height="16.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3StreamManager: 1224 / 1224 bytes (100.0%)</title></rect>
+<rect x="942.1" y="425.0" width="14.6" height="16.7" fill="#2f5035" stroke="#0d1117" stroke-width="1.5"><title>GtCamera: 256 / 1212 bytes (21.1%)</title></rect>
+<rect x="956.7" y="425.0" width="14.6" height="16.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineMenuState: 1208 / 1208 bytes (100.0%)</title></rect>
+<rect x="971.3" y="425.0" width="14.4" height="16.7" fill="#2e833e" stroke="#0d1117" stroke-width="1.5"><title>GtSoundListener: 824 / 1192 bytes (69.1%)</title></rect>
+<rect x="985.7" y="425.0" width="14.3" height="16.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtID: 1184 / 1184 bytes (100.0%)</title></rect>
+<rect x="897.4" y="441.7" width="16.3" height="14.7" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B3HUDCrashStyle: 0 / 1184 bytes (0.0%)</title></rect>
+<rect x="897.4" y="456.4" width="16.3" height="14.4" fill="#2e7f3d" stroke="#0d1117" stroke-width="1.5"><title>B3ReplaySystem: 760 / 1164 bytes (65.3%)</title></rect>
+<rect x="897.4" y="470.8" width="16.3" height="14.0" fill="#2e893f" stroke="#0d1117" stroke-width="1.5"><title>GtSoundStreamManager: 856 / 1132 bytes (75.6%)</title></rect>
+<rect x="897.4" y="484.8" width="16.3" height="14.0" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>GtFrustumBuilder: 0 / 1128 bytes (0.0%)</title></rect>
+<rect x="897.4" y="498.8" width="16.3" height="13.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundBank: 1116 / 1116 bytes (100.0%)</title></rect>
+<rect x="897.4" y="512.6" width="16.3" height="13.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MyBurnoutRewardsHeadlinesPage: 1116 / 1116 bytes (100.0%)</title></rect>
+<rect x="897.4" y="526.4" width="16.3" height="13.6" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B3CrashStandingsPage: 0 / 1096 bytes (0.0%)</title></rect>
+<rect x="913.7" y="441.7" width="15.0" height="14.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundTurboModel: 1092 / 1092 bytes (100.0%)</title></rect>
+<rect x="928.7" y="441.7" width="14.7" height="14.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ReplaySymbolComponent: 1068 / 1068 bytes (100.0%)</title></rect>
+<rect x="943.4" y="441.7" width="14.5" height="14.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OfflineSingleRaceLogic: 1056 / 1056 bytes (100.0%)</title></rect>
+<rect x="957.9" y="441.7" width="14.3" height="14.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineJoinGameState: 1040 / 1040 bytes (100.0%)</title></rect>
+<rect x="972.1" y="441.7" width="13.9" height="14.7" fill="#2e6d3a" stroke="#0d1117" stroke-width="1.5"><title>B3SoundDoppler: 480 / 1016 bytes (47.2%)</title></rect>
+<rect x="986.1" y="441.7" width="13.9" height="14.7" fill="#2e853e" stroke="#0d1117" stroke-width="1.5"><title>GtSoundListenerManager: 728 / 1016 bytes (71.7%)</title></rect>
+<rect x="913.7" y="456.5" width="13.4" height="14.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundUtils: 956 / 956 bytes (100.0%)</title></rect>
+<rect x="913.7" y="470.8" width="13.4" height="14.3" fill="#2f5a37" stroke="#0d1117" stroke-width="1.5"><title>B3SplitTimeCheckpoint: 280 / 952 bytes (29.4%)</title></rect>
+<rect x="913.7" y="485.1" width="13.4" height="14.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundManager: 940 / 940 bytes (100.0%)</title></rect>
+<rect x="913.7" y="499.3" width="13.4" height="13.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtScreenCentre: 912 / 912 bytes (100.0%)</title></rect>
+<rect x="913.7" y="513.0" width="13.4" height="13.7" fill="#2f3631" stroke="#0d1117" stroke-width="1.5"><title>B3HUDScoreList: 28 / 908 bytes (3.1%)</title></rect>
+<rect x="913.7" y="526.6" width="13.4" height="13.4" fill="#2f6438" stroke="#0d1117" stroke-width="1.5"><title>GtFreeList: 348 / 888 bytes (39.2%)</title></rect>
+<rect x="927.2" y="456.5" width="13.0" height="13.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3CameraEditor: 888 / 888 bytes (100.0%)</title></rect>
+<rect x="940.2" y="456.5" width="12.8" height="13.8" fill="#2f5636" stroke="#0d1117" stroke-width="1.5"><title>B3ScrapeRenderPS2: 228 / 872 bytes (26.1%)</title></rect>
+<rect x="952.9" y="456.5" width="12.5" height="13.8" fill="#2f3f32" stroke="#0d1117" stroke-width="1.5"><title>GtCommsDatabaseGame: 72 / 852 bytes (8.5%)</title></rect>
+<rect x="965.4" y="456.5" width="12.0" height="13.8" fill="#2f5836" stroke="#0d1117" stroke-width="1.5"><title>B3GameMode: 228 / 820 bytes (27.8%)</title></rect>
+<rect x="977.4" y="456.5" width="11.3" height="13.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtTimer: 772 / 772 bytes (100.0%)</title></rect>
+<rect x="988.7" y="456.5" width="11.3" height="13.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtFramerateManager: 772 / 772 bytes (100.0%)</title></rect>
+<rect x="927.2" y="470.3" width="12.2" height="12.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MyBurnoutPage: 756 / 756 bytes (100.0%)</title></rect>
+<rect x="927.2" y="482.7" width="12.2" height="12.2" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ReplayFrame: 740 / 740 bytes (100.0%)</title></rect>
+<rect x="927.2" y="495.0" width="12.2" height="11.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineMenuPage: 716 / 716 bytes (100.0%)</title></rect>
+<rect x="927.2" y="506.8" width="12.2" height="11.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HardCodedTrackRegionList: 708 / 708 bytes (100.0%)</title></rect>
+<rect x="927.2" y="518.5" width="12.2" height="11.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineOpenConnectionState: 664 / 664 bytes (100.0%)</title></rect>
+<rect x="927.2" y="529.5" width="12.2" height="10.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtThreadMgrPS2: 636 / 636 bytes (100.0%)</title></rect>
+<rect x="939.4" y="470.3" width="11.2" height="11.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HUDCrashTimer: 628 / 628 bytes (100.0%)</title></rect>
+<rect x="950.6" y="470.3" width="11.0" height="11.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ErrorPage: 616 / 616 bytes (100.0%)</title></rect>
+<rect x="961.6" y="470.3" width="10.7" height="11.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineReadMailMenuPage: 600 / 600 bytes (100.0%)</title></rect>
+<rect x="972.3" y="470.3" width="9.7" height="11.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtFSM: 544 / 544 bytes (100.0%)</title></rect>
+<rect x="982.0" y="470.3" width="9.1" height="11.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtByteStream: 512 / 512 bytes (100.0%)</title></rect>
+<rect x="991.1" y="470.3" width="8.9" height="11.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TableSelectComponent: 496 / 496 bytes (100.0%)</title></rect>
+<rect x="939.4" y="481.6" width="9.4" height="10.4" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B3ExplosionManager: 0 / 488 bytes (0.0%)</title></rect>
+<rect x="939.4" y="492.0" width="9.4" height="9.9" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineNewsState: 464 / 464 bytes (100.0%)</title></rect>
+<rect x="939.4" y="501.9" width="9.4" height="9.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineLoginToLobbyPage: 448 / 448 bytes (100.0%)</title></rect>
+<rect x="939.4" y="511.5" width="9.4" height="9.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkReplayMessage: 448 / 448 bytes (100.0%)</title></rect>
+<rect x="939.4" y="521.1" width="9.4" height="9.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficDataStruct: 444 / 444 bytes (100.0%)</title></rect>
+<rect x="939.4" y="530.6" width="9.4" height="9.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineBuddiesSearchMenuPage: 440 / 440 bytes (100.0%)</title></rect>
+<rect x="948.8" y="481.6" width="8.9" height="10.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PromptBarComponent: 440 / 440 bytes (100.0%)</title></rect>
+<rect x="957.7" y="481.6" width="8.6" height="10.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PlayerCameraStateInactive: 428 / 428 bytes (100.0%)</title></rect>
+<rect x="966.3" y="481.6" width="8.5" height="10.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtLinearMalloc: 420 / 420 bytes (100.0%)</title></rect>
+<rect x="974.8" y="481.6" width="8.5" height="10.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HUDCrashCombo: 420 / 420 bytes (100.0%)</title></rect>
+<rect x="983.2" y="481.6" width="8.4" height="10.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectImage: 416 / 416 bytes (100.0%)</title></rect>
+<rect x="991.6" y="481.6" width="8.4" height="10.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MenuImages: 416 / 416 bytes (100.0%)</title></rect>
+<rect x="948.8" y="491.6" width="8.5" height="9.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3StreamedTrackData: 412 / 412 bytes (100.0%)</title></rect>
+<rect x="948.8" y="501.4" width="8.5" height="9.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3Panel2dObject: 412 / 412 bytes (100.0%)</title></rect>
+<rect x="948.8" y="511.2" width="8.5" height="9.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PlayerCameraStateDebug: 408 / 408 bytes (100.0%)</title></rect>
+<rect x="948.8" y="520.9" width="8.5" height="9.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MyBurnoutRewardsState: 404 / 404 bytes (100.0%)</title></rect>
+<rect x="948.8" y="530.5" width="8.5" height="9.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HUDEscapeDistance: 400 / 400 bytes (100.0%)</title></rect>
+<rect x="957.3" y="491.6" width="9.0" height="8.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MenuComponents: 380 / 380 bytes (100.0%)</title></rect>
+<rect x="966.3" y="491.6" width="8.7" height="8.5" fill="#2f6238" stroke="#0d1117" stroke-width="1.5"><title>B3RadialBlur2dObject: 136 / 368 bytes (37.0%)</title></rect>
+<rect x="975.1" y="491.6" width="8.7" height="8.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PlayerCameraStatePlayer: 364 / 364 bytes (100.0%)</title></rect>
+<rect x="983.7" y="491.6" width="8.2" height="8.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TriggerStruct: 344 / 344 bytes (100.0%)</title></rect>
+<rect x="991.9" y="491.6" width="8.1" height="8.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TextureCollectionPS2: 340 / 340 bytes (100.0%)</title></rect>
+<rect x="957.3" y="500.1" width="7.6" height="8.9" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>B3SpatialTrigger: 0 / 336 bytes (0.0%)</title></rect>
+<rect x="957.3" y="509.0" width="7.6" height="8.6" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtHiResSystemTimerPS2: 324 / 324 bytes (100.0%)</title></rect>
+<rect x="957.3" y="517.6" width="7.6" height="7.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundWave: 292 / 292 bytes (100.0%)</title></rect>
+<rect x="957.3" y="525.3" width="7.6" height="7.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundESMManager: 280 / 280 bytes (100.0%)</title></rect>
+<rect x="957.3" y="532.8" width="7.6" height="7.2" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtWideLine: 272 / 272 bytes (100.0%)</title></rect>
+<rect x="964.9" y="500.1" width="7.3" height="7.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3StartFinishLine: 268 / 268 bytes (100.0%)</title></rect>
+<rect x="972.2" y="500.1" width="7.2" height="7.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObjectBox: 264 / 264 bytes (100.0%)</title></rect>
+<rect x="979.4" y="500.1" width="7.0" height="7.4" fill="#303030" stroke="#0d1117" stroke-width="1.5"><title>GtSimpleOrientedBox: 0 / 256 bytes (0.0%)</title></rect>
+<rect x="986.4" y="500.1" width="6.9" height="7.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HSelectComponent: 252 / 252 bytes (100.0%)</title></rect>
+<rect x="993.2" y="500.1" width="6.8" height="7.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HUDBackground2dObject: 248 / 248 bytes (100.0%)</title></rect>
+<rect x="964.9" y="507.5" width="7.2" height="6.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtInputDevicePS2Keyboard: 244 / 244 bytes (100.0%)</title></rect>
+<rect x="964.9" y="514.3" width="7.2" height="6.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3LoadingScreenPage: 240 / 240 bytes (100.0%)</title></rect>
+<rect x="964.9" y="521.0" width="7.2" height="6.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HUDImpactTime: 240 / 240 bytes (100.0%)</title></rect>
+<rect x="964.9" y="527.7" width="7.2" height="6.5" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtBuddies: 232 / 232 bytes (100.0%)</title></rect>
+<rect x="964.9" y="534.2" width="7.2" height="5.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ProgressionDataStruct: 208 / 208 bytes (100.0%)</title></rect>
+<rect x="972.1" y="507.5" width="5.8" height="6.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtCommsToolBase: 192 / 192 bytes (100.0%)</title></rect>
+<rect x="977.9" y="507.5" width="5.8" height="6.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3RoundedPanel2dObject: 192 / 192 bytes (100.0%)</title></rect>
+<rect x="983.7" y="507.5" width="5.5" height="6.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3PromptBarPanel2dObject: 184 / 184 bytes (100.0%)</title></rect>
+<rect x="989.3" y="507.5" width="5.4" height="6.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HardCodedTrackList: 180 / 180 bytes (100.0%)</title></rect>
+<rect x="994.7" y="507.5" width="5.3" height="6.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3Player: 176 / 176 bytes (100.0%)</title></rect>
+<rect x="972.1" y="514.2" width="6.3" height="5.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineRetrieveConfigsPage: 168 / 168 bytes (100.0%)</title></rect>
+<rect x="972.1" y="519.6" width="6.3" height="5.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkMessage: 164 / 164 bytes (100.0%)</title></rect>
+<rect x="972.1" y="524.8" width="6.3" height="5.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3VListComponent: 160 / 160 bytes (100.0%)</title></rect>
+<rect x="972.1" y="530.0" width="6.3" height="5.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>Gt2dObject: 156 / 156 bytes (100.0%)</title></rect>
+<rect x="972.1" y="535.0" width="6.3" height="5.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundScrape: 156 / 156 bytes (100.0%)</title></rect>
+<rect x="978.4" y="514.2" width="5.8" height="5.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3HUDDPad2dObject: 144 / 144 bytes (100.0%)</title></rect>
+<rect x="984.2" y="514.2" width="5.4" height="5.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ReplayPage: 136 / 136 bytes (100.0%)</title></rect>
+<rect x="989.6" y="514.2" width="5.3" height="5.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficLaneStruct: 132 / 132 bytes (100.0%)</title></rect>
+<rect x="994.9" y="514.2" width="5.1" height="5.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundManagerPS2: 128 / 128 bytes (100.0%)</title></rect>
+<rect x="978.4" y="519.2" width="4.6" height="5.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtUnicodeUtils: 124 / 124 bytes (100.0%)</title></rect>
+<rect x="978.4" y="524.7" width="4.6" height="5.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3ScrollBarComponent: 124 / 124 bytes (100.0%)</title></rect>
+<rect x="978.4" y="530.1" width="4.6" height="5.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkHasHeadsetMessage: 116 / 116 bytes (100.0%)</title></rect>
+<rect x="978.4" y="535.1" width="4.6" height="4.9" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtHash: 112 / 112 bytes (100.0%)</title></rect>
+<rect x="983.1" y="519.2" width="4.5" height="4.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkPlayerStartCountdownMessage: 108 / 108 bytes (100.0%)</title></rect>
+<rect x="987.6" y="519.2" width="4.4" height="4.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3Viewport: 104 / 104 bytes (100.0%)</title></rect>
+<rect x="992.0" y="519.2" width="4.0" height="4.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrackMaterialPS2: 96 / 96 bytes (100.0%)</title></rect>
+<rect x="996.0" y="519.2" width="4.0" height="4.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtSoundVoice: 96 / 96 bytes (100.0%)</title></rect>
+<rect x="983.1" y="524.1" width="4.4" height="4.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MemoryCardController: 96 / 96 bytes (100.0%)</title></rect>
+<rect x="983.1" y="528.5" width="4.4" height="4.1" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3DebugMipMaps: 88 / 88 bytes (100.0%)</title></rect>
+<rect x="983.1" y="532.6" width="4.4" height="3.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtArray: 80 / 80 bytes (100.0%)</title></rect>
+<rect x="983.1" y="536.3" width="4.4" height="3.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3Strings: 80 / 80 bytes (100.0%)</title></rect>
+<rect x="987.4" y="524.1" width="4.4" height="3.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtDictionary: 72 / 72 bytes (100.0%)</title></rect>
+<rect x="991.8" y="524.1" width="4.1" height="3.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3AIControlData: 68 / 68 bytes (100.0%)</title></rect>
+<rect x="995.9" y="524.1" width="4.1" height="3.3" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficValveStruct: 68 / 68 bytes (100.0%)</title></rect>
+<rect x="987.4" y="527.4" width="3.3" height="3.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MenuStringBuffer: 60 / 60 bytes (100.0%)</title></rect>
+<rect x="990.7" y="527.4" width="3.3" height="3.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkGameModeStatusMessage: 60 / 60 bytes (100.0%)</title></rect>
+<rect x="993.9" y="527.4" width="3.0" height="3.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtPolygonSoup: 56 / 56 bytes (100.0%)</title></rect>
+<rect x="997.0" y="527.4" width="3.0" height="3.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MenuComponentBase: 56 / 56 bytes (100.0%)</title></rect>
+<rect x="987.4" y="531.1" width="3.6" height="3.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficLightStruct: 52 / 52 bytes (100.0%)</title></rect>
+<rect x="987.4" y="534.1" width="3.6" height="3.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3CPUMonitors: 52 / 52 bytes (100.0%)</title></rect>
+<rect x="987.4" y="537.0" width="3.6" height="3.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3EventFinishedComponent: 52 / 52 bytes (100.0%)</title></rect>
+<rect x="991.0" y="531.1" width="3.0" height="3.2" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MenuPageBase: 48 / 48 bytes (100.0%)</title></rect>
+<rect x="991.0" y="534.4" width="3.0" height="3.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3OnlineOpenLobbyPage: 44 / 44 bytes (100.0%)</title></rect>
+<rect x="991.0" y="537.3" width="3.0" height="2.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3AIDebug: 40 / 40 bytes (100.0%)</title></rect>
+<rect x="994.0" y="531.1" width="3.0" height="2.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrafficHullStruct: 40 / 40 bytes (100.0%)</title></rect>
+<rect x="997.0" y="531.1" width="3.0" height="2.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3CameraBehaviour: 40 / 40 bytes (100.0%)</title></rect>
+<rect x="994.0" y="533.8" width="3.0" height="2.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3StartPoint: 36 / 36 bytes (100.0%)</title></rect>
+<rect x="997.0" y="533.8" width="3.0" height="2.4" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3MenuFlowFSM: 36 / 36 bytes (100.0%)</title></rect>
+<rect x="994.0" y="536.2" width="2.8" height="2.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3TrackDataStruct: 28 / 28 bytes (100.0%)</title></rect>
+<rect x="994.0" y="538.3" width="2.8" height="1.7" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkVoIPManagerPS2: 24 / 24 bytes (100.0%)</title></rect>
+<rect x="996.8" y="536.2" width="1.8" height="1.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3CrashTrafficGenerationStruct: 16 / 16 bytes (100.0%)</title></rect>
+<rect x="998.6" y="536.2" width="1.4" height="1.8" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3NetworkRaceReadyMessage: 12 / 12 bytes (100.0%)</title></rect>
+<rect x="996.8" y="538.0" width="1.6" height="1.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtCameraBehaviour: 8 / 8 bytes (100.0%)</title></rect>
+<rect x="996.8" y="539.0" width="1.6" height="1.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3Settings: 8 / 8 bytes (100.0%)</title></rect>
+<rect x="998.4" y="538.0" width="1.6" height="1.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>GtPerfMon: 8 / 8 bytes (100.0%)</title></rect>
+<rect x="998.4" y="539.0" width="1.6" height="1.0" fill="#3fb950" stroke="#0d1117" stroke-width="1.5"><title>B3SoundCustomSoundTrackPS2: 8 / 8 bytes (100.0%)</title></rect>
+</svg>

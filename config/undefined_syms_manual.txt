@@ -1,0 +1,69 @@
+/* Hand-added linker symbol definitions (tracked; build/undefined_syms_auto.txt is generated and git-ignored).
+ * Passed to mips-linux-gnu-ld after build/undefined_syms_auto.txt by tools/wire_in_full_check.sh and
+ * tools/fresh_asm_baseline.sh. Every entry must link in BOTH the all-asm build and the build with all C units
+ * wired in, so aliases from a placeholder name to a real name only C defines are written as absolute
+ * PROVIDEs (used only when no object defines the placeholder).
+ */
+
+/* N46: asm callers use the placeholder; CB3RaceCarPhysicsAttribs::Release (B3RaceCarPhysicsAttribs.cpp). */
+PROVIDE(func_00254090 = 0x00254090);
+
+/* N58: C calls CGt2dObjectItalicText::Prepare by its recovered name; the body is still asm (func_0033D4E0). */
+Prepare__21CGt2dObjectItalicTextFRCQ29GtMathPs26CGtV2dRCQ29GtMathPs26CGtV2dfQ29GtMathPs26CGtV4dPC9CGt2dFontPCUsRCQ29GtMathPs26CGtV2dQ221CGt2dObjectItalicText9ETextType = func_0033D4E0;
+
+/* N66: 10 asm callers use func_00319C80 = CB3HeadingComponent::Prepare(EGlobalStrings, EHeadingType). */
+PROVIDE(func_00319C80 = 0x00319C80);
+
+/* N66: C calls CB3Strings::GetString by name; the body is still asm (func_00271A00). */
+GetString__10CB3StringsFi = func_00271A00;
+
+/* N70: retail .sdata byte table (E-map name), defined by game/unit_0030E340's data as D_004E1D1A..D_004E1D1E. */
+kan8HeadingAwardIconImages = 0x004E1D20;
+
+/* N104: C calls CGt2dObjectText::Prepare by its (completed) name; the body is still asm (func_001D6C40). */
+Prepare__15CGt2dObjectTextFRCQ29GtMathPs26CGtV2dRCQ29GtMathPs26CGtV2dfQ29GtMathPs26CGtV4dPC9CGt2dFontPCUs = func_001D6C40;
+
+/* N104: labels inside B3PromptsComponent_004D8100.cpp's objects that asm references (the CGtV2d constants' .y halves,
+ * element 3 of D_004C52E0); the C object defines only the objects themselves. */
+PROVIDE(D_004C52DC = 0x004C52DC);
+PROVIDE(D_004C52EC = 0x004C52EC);
+PROVIDE(D_004C5344 = 0x004C5344);
+PROVIDE(D_004C534C = 0x004C534C);
+PROVIDE(D_004C5354 = 0x004C5354);
+PROVIDE(D_004C535C = 0x004C535C);
+PROVIDE(D_004C5364 = 0x004C5364);
+
+/* N106: labels inside B3BackgroundComponent_004D7EC0.cpp's 16-byte objects that asm references (their second halves);
+ * the C object defines only the objects themselves. */
+PROVIDE(D_004C5218 = 0x004C5218);
+PROVIDE(D_004C5228 = 0x004C5228);
+PROVIDE(D_01EA3198 = 0x01EA3198);
+PROVIDE(D_01EA31A8 = 0x01EA31A8);
+PROVIDE(D_01EA31B8 = 0x01EA31B8);
+
+/* N107: the .y half of B3VSelectComponent_004D81A0.cpp's D_004C5388, which asm references by its own label. */
+PROVIDE(D_004C538C = 0x004C538C);
+
+/* N110: retail's CB3RoundedPanel2dObject::Prepare takes one more argument than the table label (E's signature) encodes;
+ * C calls it by the 5-parameter name, aliased to the label (body still asm). */
+Prepare__23CB3RoundedPanel2dObjectFRCQ29GtMathPs26CGtV2dRCQ29GtMathPs26CGtV2dRCQ29GtMathPs26CGtV2dUiUi = Prepare__23CB3RoundedPanel2dObjectFRCQ29GtMathPs26CGtV2dRCQ29GtMathPs26CGtV2dRCQ29GtMathPs26CGtV2dUi;
+
+/* N112: retail's CB3MenuPageManager::StartLeadOut takes a bool after the event (E's name doesn't); C calls the 2-parameter
+ * name, aliased to the label (body still asm). */
+StartLeadOut__18CB3MenuPageManagerF20EB3MenuFlowFSMEventsb = StartLeadOut__18CB3MenuPageManagerF20EB3MenuFlowFSMEvents;
+
+/* tidy1 (2026-11-01): the .uv half at +8 of the 16-byte bss object D_01EA4800 (sinit_004D81D0 initialises it as one
+ * CB3MenuImageUVs-style UV pair); SetupTableData__18CB3OnlineLobbyPageFv's C reads it by its own label (retail lwc1 0x4808). */
+PROVIDE(D_01EA4808 = 0x01EA4808);
+
+/* lead (2026-11-07), for the port's decomp2host (it reads only `Name = func_X;` / `= 0x...;` / PROVIDE lines here).
+ * CB3VSelectComponent's main Prepare at 0x003210D0, by the retail-signature name our C calls (N104: one more float and a
+ * trailing bool than the E-signature label Prepare__19CB3VSelectComponentFbffff...). [C] target: B3VSelectComponent_00321430's
+ * tail jumps `j 0x003210D0` at 0x00321460 and 0x003214A4 (08 0C 84 34). The matching build never references this name
+ * (tools/compile_vselectcomponent_00321430.sh renames it to the label), so the PROVIDE is inert there. */
+PROVIDE(Prepare__19CB3VSelectComponentFbfffffPC29CB3MenuComponentSelectionDataP28CB3VSelectComponentEntryDatab = 0x003210D0);
+
+/* lead (2026-11-07): CB3HeadingComponent::Prepare(EGlobalStrings, EHeadingType) by its mangled name (N66: the table labels
+ * it func_00319C80). [C] target: func_00321500's `jal 0x00319C80` at 0x003215D0 (0C 0C 67 20). Defined by
+ * B3HeadingComponent_00319C80.cpp's object in the wired build, so the PROVIDE only applies when that object is absent. */
+PROVIDE(Prepare__19CB3HeadingComponentF14EGlobalStringsQ219CB3HeadingComponent12EHeadingType = 0x00319C80);

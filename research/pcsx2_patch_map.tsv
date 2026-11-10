@@ -1,0 +1,126 @@
+section	addr	type	value	kind	where	confidence	retail_word	patch_comment
+Widescreen 16:9	0x665ECD	byte	01	data	gGraphicsManager +0x1 (.bss, size 3376)	conflict	(bss/cave)	enables widescreen FOV values
+Widescreen 16:9	0x4E0A38	extended	3FAAAAAB	data	(no data symbol)		3F99999A	FOV (Single Player) // 16:9 = 1.33333
+Widescreen 16:9	0x4E0C70	extended	3FE38E39	data	(no data symbol)		3FE38E39	Aspect Ratio (Single Player) // 16:9 = 1.77778
+Widescreen 16:9	0x4E0C7C	extended	3FE38E39	data	(no data symbol)		3FCF5C29	FOV (Multiplayer) // 16:9 = 1.77778
+Widescreen 16:9	0x4E0C80	extended	40638E39	data	(no data symbol)		40638E39	Aspect Ratio (Multiplayer) // 16:9 = 3.55556
+Widescreen 16:9	0x4E105C	extended	3A99999A	data	(no data symbol)		3ACCCCCD	HUD Width // 16:9 = 0.00117188
+Widescreen 16:9	0x6682B0	extended	42A00000	data	(no data symbol)		(bss/cave)	HUD X Pos // 16:9 = +80 (Player 1)
+Widescreen 16:9	0x669B30	extended	42A00000	data	(no data symbol)		(bss/cave)	HUD X Pos // 16:9 = +80 (Player 2)
+Widescreen 16:9	0x4B7688	extended	3F9947AE	data	(no data symbol)		00000000	HUD Top Right X Pos // 16:9 = +0.1975
+Widescreen 16:9	0x4B7678	extended	3F9947AE	data	(no data symbol)		00000000	HUD Bottom Right X Pos // 16:9 = +0.1975
+Widescreen 16:9	0x4B7658	extended	BE4A3D71	data	(no data symbol)		00000000	HUD Top Left X Pos // 16:9 = -0.1975
+Widescreen 16:9	0x4B7668	extended	BE4A3D71	data	(no data symbol)		00000000	HUD Bottom Left X Pos // 16:9 = -0.1975
+Widescreen 16:9	0x4CA660	extended	44555555	data	(no data symbol)		00000000	Crash Cam Border Width
+Widescreen 16:9	0x4CA640	extended	44555555	data	(no data symbol)		00000000	Crash Cam Border Width
+Widescreen 16:9	0x4CA650	extended	44555555	data	(no data symbol)		00000000	Crash Cam Border Width
+Widescreen 16:9	0x4CA638	extended	C2D70000	data	(no data symbol)		00000000	Crash Cam Border X Pos // 16:9 = -0.107.5
+Widescreen 16:9	0x4CA658	extended	C2D70000	data	(no data symbol)		00000000	Crash Cam Border X Pos // 16:9 = -0.107.5
+Widescreen 16:9	0x3D7238	extended	3C024456	code	CB3HUDCrashCombo::Prepare(int,EHUDAlign,int) +0xA8	high	3C024420	Crash Cam List Backing Width // only change the last four bytes // 16:9 = 854
+Widescreen 16:9	0x3D70BC	extended	08121630	code	func_003D6FE0 +0xDC	unnamed	C7A10070	jumps to code cave
+Widescreen 16:9	0x4858C0	extended	3C08C2D7	data	(no data symbol)		00000000	Crash Cam List Backing X Pos // only change the last four bytes // 16:9 = -0.107.5
+Widescreen 16:9	0x4858C4	extended	44880800	data	(no data symbol)		00000000	moves new x pos value
+Widescreen 16:9	0x4858C8	extended	080F5C30	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x3D72F4	extended	08121633	code	CB3HUDCrashCombo::Prepare(int,EHUDAlign,int) +0x164	high	C7A20050	jumps to code cave
+Widescreen 16:9	0x4858CC	extended	3C19C2D7	data	(no data symbol)		00000000	Crash Cam List Text X Pos // -0.107.5 for 16:9; only change the last four bytes
+Widescreen 16:9	0x4858D0	extended	44991000	data	(no data symbol)		00000000	moves new x pos value
+Widescreen 16:9	0x4858D4	extended	080F5CBE	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x1A176C	short	4456	code	CB3HUDManager::Prepare() +0x4BC	high	3C024420	HUD Render Width (Player 1) // 16:9 = 854
+Widescreen 16:9	0x1A17D0	short	4456	code	CB3HUDManager::Prepare() +0x520	high	3C024420	HUD Render Width (Player 2) // 16:9 = 854
+Widescreen 16:9	0x1A1774	extended	08121672	code	CB3HUDManager::Prepare() +0x4C4	high	AFA200A0	jumps to code cave
+Widescreen 16:9	0x4859C8	extended	AFA200A0	data	(no data symbol)		00000000	saves width value
+Widescreen 16:9	0x4859CC	extended	3C02C2D7	data	(no data symbol)		00000000	HUD Render X Pos (Player 1) // only change the last four bytes // 16:9 = -0.107.5
+Widescreen 16:9	0x4859D0	extended	AFA200A8	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x4859D4	extended	080685DE	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x1A17D8	extended	08121676	code	CB3HUDManager::Prepare() +0x528	high	AFA20090	jumps to code cave
+Widescreen 16:9	0x4859D8	extended	AFA20090	data	(no data symbol)		00000000	saves width value
+Widescreen 16:9	0x4859DC	extended	3C02C2D7	data	(no data symbol)		00000000	HUD Render X Pos (Player 2) // only change the last four bytes // 16:9 = -0.107.5
+Widescreen 16:9	0x4859E0	extended	AFA20098	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x4859E4	extended	080685F7	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x134F2C	short	4456	code	func_00134DF0 +0x13C	unnamed	3C024420	"Get Ready! GO" Width // 16:9 = 854
+Widescreen 16:9	0x134F74	extended	0812166E	code	func_00134DF0 +0x184	unnamed	AFA20174	jumps to code cave
+Widescreen 16:9	0x4859B8	extended	AFA20174	data	(no data symbol)		00000000	saves y pos value
+Widescreen 16:9	0x4859BC	extended	3C023EC0	data	(no data symbol)		00000000	"Get Ready! GO" X Pos // only change the last four bytes // 16:9 = 0.375
+Widescreen 16:9	0x4859C0	extended	AFA20168	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x4859C4	extended	0804D3DE	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x30D7E4	short	43F0	code	func_0030D7C0 +0x24	unnamed	3C034420	Menu Width // 16:9 = 480
+Widescreen 16:9	0x30D834	extended	08121636	code	func_0030D7C0 +0x74	unnamed	E4830008	jumps to code cave
+Widescreen 16:9	0x4858D8	extended	E4830008	data	(no data symbol)		00000000	saves width value
+Widescreen 16:9	0x4858DC	extended	3C1942A0	data	(no data symbol)		00000000	Menu X Pos // only change the last four bytes // 16:9 = +80
+Widescreen 16:9	0x4858E0	extended	44991800	data	(no data symbol)		00000000	moves new x pos value
+Widescreen 16:9	0x4858E4	extended	E4830000	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x4858E8	extended	080C360E	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x4D1570	extended	44555555	data	(no data symbol)		00000000	Car Select Overlay Width  // 16:9 = 853.3
+Widescreen 16:9	0x4D1568	extended	C2D70000	data	(no data symbol)		00000000	Car Select Overlay X Pos  // 16:9 = -107.5
+Widescreen 16:9	0x31B180	short	4456	code	CHeadingBar2dObject::_Render(const CGt2dObject::CGt2dObjectSpace&,const void*) +0x50	high	3C034420	Top Border Width // 16:9 = 854
+Widescreen 16:9	0x31B1F4	extended	0812163B	code	CHeadingBar2dObject::_Render(const CGt2dObject::CGt2dObjectSpace&,const void*) +0xC4	high	C4850004	jumps to code cave
+Widescreen 16:9	0x4858EC	extended	3C190000	data	(no data symbol)		00000000	Top Border X Pos // only change the last four bytes // 16:9 = 0 (4:3 = 80)
+Widescreen 16:9	0x4858F0	extended	44993800	data	(no data symbol)		00000000	moves new x pos value
+Widescreen 16:9	0x4858F4	extended	E4870000	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x4858F8	extended	C4850004	data	(no data symbol)		00000000	original code
+Widescreen 16:9	0x4858FC	extended	080C6C7E	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x38AE00	short	4456	code	CB3PromptBarComponent::Prepare() +0x80	high	3C024420	Bottom Border Width // 16:9 = 854
+Widescreen 16:9	0x38AE38	short	4456	code	CB3PromptBarComponent::Prepare() +0xB8	high	3C024420	Bottom Border Width // 16:9 = 854
+Widescreen 16:9	0x38AE4C	extended	08121640	code	CB3PromptBarComponent::Prepare() +0xCC	high	AFA00068	jumps to code cave
+Widescreen 16:9	0x485900	extended	3C19C2D7	data	(no data symbol)		00000000	Bottom Border X Pos // only change the last four bytes // 16:9 = -107.5
+Widescreen 16:9	0x485904	extended	AFB90068	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x485908	extended	080E2B94	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x38AE04	extended	08121643	code	CB3PromptBarComponent::Prepare() +0x84	high	AFA00078	jumps to code cave
+Widescreen 16:9	0x48590C	extended	3C193E00	data	(no data symbol)		00000000	Bottom Border X Pos // only change the last four bytes // 16:9 = 0.125
+Widescreen 16:9	0x485910	extended	AFB90078	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x485914	extended	080E2B82	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x31D6E4	short	4456	code	CB3BackgroundComponent::PrepareBorders(float) +0x84	high	3C024420	Checkerboard Width // 16:9 = 854
+Widescreen 16:9	0x31D73C	short	4456	code	CB3BackgroundComponent::PrepareBorders(float) +0xDC	high	3C024420	Checkerboard Width // 16:9 = 854
+Widescreen 16:9	0x31D7E8	short	4456	code	CB3BackgroundComponent::PrepareBorders(float) +0x188	high	3C024420	Checkerboard Width // 16:9 = 854
+Widescreen 16:9	0x31D790	short	4456	code	CB3BackgroundComponent::PrepareBorders(float) +0x130	high	3C024420	Checkerboard Width // 16:9 = 854
+Widescreen 16:9	0x31D840	short	4456	code	CB3BackgroundComponent::PrepareBorders(float) +0x1E0	high	3C024420	Checkerboard Width // 16:9 = 854
+Widescreen 16:9	0x31D6F8	extended	08121646	code	CB3BackgroundComponent::PrepareBorders(float) +0x98	high	AFA00110	jumps to code cave
+Widescreen 16:9	0x485918	extended	3C193E00	data	(no data symbol)		00000000	Middle Checkerboard X Pos // only change the last four bytes // 16:9 = 0.125
+Widescreen 16:9	0x48591C	extended	AFB90110	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x485920	extended	080C75BF	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x31D750	extended	08121649	code	CB3BackgroundComponent::PrepareBorders(float) +0xF0	high	AFA000F8	jumps to code cave
+Widescreen 16:9	0x485924	extended	3C193E00	data	(no data symbol)		00000000	Top Checkerboard X Pos // only change the last four bytes // 16:9 = 0.125
+Widescreen 16:9	0x485928	extended	AFB900F8	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x48592C	extended	080C75D5	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x31D7FC	extended	0812164C	code	CB3BackgroundComponent::PrepareBorders(float) +0x19C	high	AFA000C8	jumps to code cave
+Widescreen 16:9	0x485930	extended	3C193E00	data	(no data symbol)		00000000	Top Middle Checkerboard X Pos // only change the last four bytes // 16:9 = 0.125
+Widescreen 16:9	0x485934	extended	AFB900C8	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x485938	extended	080C7600	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x31D7A4	extended	0812164F	code	CB3BackgroundComponent::PrepareBorders(float) +0x144	high	AFA000E0	jumps to code cave
+Widescreen 16:9	0x48593C	extended	3C193E00	data	(no data symbol)		00000000	Bottom Checkerboard X Pos // only change the last four bytes // 16:9 = 0.125
+Widescreen 16:9	0x485940	extended	AFB900E0	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x485944	extended	080C75EA	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x31D854	extended	08121652	code	CB3BackgroundComponent::PrepareBorders(float) +0x1F4	high	AFA000B0	jumps to code cave
+Widescreen 16:9	0x485948	extended	3C193E00	data	(no data symbol)		00000000	Bottom Middle Checkerboard X Pos // only change the last four bytes // 16:9 = 0.125
+Widescreen 16:9	0x48594C	extended	AFB900B0	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x485950	extended	080C7616	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x31DA20	short	4456	code	CB3BackgroundComponent::Prepare(EB3BackgroundType) +0xF0	high	3C024420	Loading Background Width // 16:9 = 854
+Widescreen 16:9	0x31DA40	extended	08121655	code	CB3BackgroundComponent::Prepare(EB3BackgroundType) +0x110	high	AFA001D8	jumps to code cave
+Widescreen 16:9	0x485954	extended	3C19C2D7	data	(no data symbol)		00000000	Loading Background X Pos // only change the last four bytes // 16:9 = -107.5
+Widescreen 16:9	0x485958	extended	AFB901D8	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x48595C	extended	080C7691	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x3A6984	short	4456	code	func_003A6900 +0x84	unnamed	3C024420	Replay Top Bar Width // 16:9 = 854
+Widescreen 16:9	0x3A6998	extended	08121668	code	func_003A6900 +0x98	unnamed	AFA00078	jumps to code cave
+Widescreen 16:9	0x4859A0	extended	3C19C2D7	data	(no data symbol)		00000000	Replay Top Bar X Pos // only change the last four bytes // 16:9 = -107.5
+Widescreen 16:9	0x4859A4	extended	AFB90078	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x4859A8	extended	080E9A67	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x3A69C8	short	4456	code	func_003A6900 +0xC8	unnamed	3C024420	Replay Bottom Bar Width // 16:9 = 854
+Widescreen 16:9	0x3A69DC	extended	0812166B	code	func_003A6900 +0xDC	unnamed	AFA00060	jumps to code cave
+Widescreen 16:9	0x4859AC	extended	3C19C2D7	data	(no data symbol)		00000000	Replay Bottom Bar X Pos // only change the last four bytes // 16:9 = -107.5
+Widescreen 16:9	0x4859B0	extended	AFB90060	data	(no data symbol)		00000000	saves new x pos value
+Widescreen 16:9	0x4859B4	extended	080E9A78	data	(no data symbol)		00000000	jumps back
+Widescreen 16:9	0x4E0C3C	extended	3FE38E39	data	(no data symbol)		3FAAAAAB	Globe Aspect Ratio // 16:9 = 1.777777791
+Widescreen 16:9	0x4E0A94	extended	3FB8E38F	data	(no data symbol)		3F8AAAAB	Globe Glow Aspect Ratio // 16:9 = 1.444444537
+Disable Motion Blur	0x665F2A	byte	00000000	data	gGraphicsManager +0x5A (.bss, size 3376)	conflict	(bss/cave)	00000001 // Disable Motion blur
+Disable Bloom	0x665F28	byte	00000000	data	gGraphicsManager +0x58 (.bss, size 3376)	conflict	(bss/cave)	00000001 // Disable Bloom
+60 FPS for Menus	0x1D3F2C	extended	1000000A	code	CB3Game::SetFrontendFrameRate(bool) +0x4C	high	10A0000A	
+60 FPS for Menus	0x130DD8	extended	C7958074	code	func_00130D50 +0x88	unnamed	8382A2A0	
+60 FPS for Menus	0x130DDC	extended	3C084000	code	func_00130D50 +0x8C	unnamed	10400005	
+60 FPS for Menus	0x130DE0	extended	4488A000	code	func_00130D50 +0x90	unnamed	00000000	
+60 FPS for Menus	0x130DE4	extended	4614AD03	code	func_00130D50 +0x94	unnamed	C7958074	
+60 FPS for Menus	0x130DE8	extended	00000000	code	func_00130D50 +0x98	unnamed	C7948070	
+60 FPS for Crashes	0x1320D8	extended	1000004B	code	func_00132090 +0x48	unnamed	1464003F	
+Progressive Scan	0x437758	extended	100000F1	code	func_004376F0 +0x68	unnamed	108200F1	
+MPH to KPH	0x1A3BA0	extended	000082F0	code	func_001A3B30 +0x70	unnamed	C7808128	
+MPH to KPH	0x1A3D78	extended	000007D7	code	func_001A3C70 +0x108	unnamed	240507D8	
+Extra Particles While Driving	0x261E6C	extended	24120001	code	CB3EffectsManager::RenderPostFogEffects(int) +0x6C	high	9052C63A	
